@@ -388,6 +388,38 @@ fade[: int(0.003 * SR)] = np.linspace(0, 1, int(0.003 * SR))
 mix *= fade
 mix /= np.max(np.abs(mix)) / 10 ** (-1 / 20)
 
+# Voice-over (scripts/make_voiceover.py): the bed ducks under it, then the
+# voice sits on top, dry in the centre with a touch of room.
+VO_PATH = os.path.join(ROOT, "public", "audio", "vo.wav")
+if os.path.exists(VO_PATH):
+    from scipy.io import wavfile as _wf
+
+    _sr, vo = _wf.read(VO_PATH)
+    vo = vo.astype(np.float64) / 32767
+    if vo.ndim > 1:
+        vo = vo.mean(1)
+    vo = np.pad(vo, (0, max(0, N - len(vo))))[:N]
+    # Ducking envelope: fast attack (15 ms), slow release (220 ms).
+    level = np.abs(vo)
+    env = np.zeros(N)
+    a_att, a_rel = np.exp(-1 / (0.015 * SR)), np.exp(-1 / (0.22 * SR))
+    e = 0.0
+    for i in range(N):
+        x = level[i]
+        e = a_att * e + (1 - a_att) * x if x > e else a_rel * e + (1 - a_rel) * x
+        env[i] = e
+    duck = 1 - 0.7 * np.clip(env / 0.05, 0, 1)  # up to about -10.5 dB
+    mix *= duck
+    room = signal.fftconvolve(vo, ir_l)[:N] * 0.06
+    vo_gain = 0.95
+    mix += np.stack([vo + room, vo + room]) * vo_gain
+    tail = np.ones(N)
+    tail[-int(0.06 * SR) :] = np.linspace(1, 0, int(0.06 * SR))
+    mix *= tail
+    mix = np.tanh(mix * 1.05) / np.tanh(1.05)
+    mix /= np.max(np.abs(mix)) / 10 ** (-1 / 20)
+    print("voice-over mixed in")
+
 os.makedirs(os.path.dirname(OUT), exist_ok=True)
 from scipy.io import wavfile  # noqa: E402
 

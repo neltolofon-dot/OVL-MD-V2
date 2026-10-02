@@ -42,6 +42,26 @@ Every sound effect sits on the frame of its visual event:
 - glints on the light sweeps
 - a final can-opening *pssht* on "OPENING!"
 
+### French voice-over
+
+`scripts/make_voiceover.py` → `public/audio/vo.wav`. The voice is Kokoro
+(open-weight neural TTS, run locally), French voice `ff_siwis`. Each line is
+placed on its visual beat, and the bed ducks by about 10 dB under the voice.
+The copy only uses claims printed on the can.
+
+| t | Line | On screen |
+|---|---|---|
+| 0.55 s | « Secouez bien. » | SHAKE WELL |
+| 3.35 s | « Fruita Ananas, pur jus. » | the can lands |
+| 5.40 s | « Rien que le fruit. » | macro on the label |
+| 7.10 s | « Cent pour cent ananas. » | 100% |
+| 9.00 s | « Sans produits chimiques ajoutés. » | NO ADDED CHEMICALS |
+| 11.20 s | « Fruita. » | hero drop |
+| 12.75 s | « Secouez bien… avant d'ouvrir ! » | tagline, "OPENING!" at 14.0 s |
+
+For a commercial release, have a professional voice actor record the same
+script to these timings and drop the take in as `public/audio/vo.wav`.
+
 The track is normalised to −14 LUFS.
 
 ## Build
