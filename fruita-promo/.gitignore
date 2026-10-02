@@ -1,0 +1,4 @@
+node_modules/
+out/*
+!out/fruita.mp4
+!out/keyvisual.png
