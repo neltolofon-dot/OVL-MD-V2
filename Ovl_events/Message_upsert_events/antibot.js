@@ -1,1 +1,127 @@
-function _0x34c5(){const _0xf09741=['lcbSzxmGyM90CYbUzsbZB250ihbHCYbHDxrVCMLZW6LZigLJAs4','y291BNq','zMLUze9Uzq','BKfevgu','vNPoC2G','rxjYzxvYigrHBNmGBguGC3LZDmoOBwuGqw50As1cB3qGoG','C2vHCMnO','mJm2nZGYmNnyt21Nua','CMvTB3zL','ndm5nde0neXgr0LlzG','odC5mteXyvj3uvfh','ndfbBeLQB2G','z3jVDxbqyxj0AwnPCgfUDhnvCgrHDgu','DhLWzq','r0DVENq','C3rHCNrZv2L0Aa','C2vUze1LC3nHz2u','DKP4sKm','y0HRufe','nZbIA0XewLu','mJuZnJaYmgjoC1DHsG','yMHmz0m','lcbHDMvYDgLZC2vTzw50ideVmYbWB3vYihv0AwXPC2f0Aw9UigrLigjVDc4','kcGOlISPkYKRksSK','zxjYB3i','qKffnq','y29UC3rYDwn0B3i','B3vP','A2v5','ngfVCgLrta','igeGW6L0W6KGCMv0AxldQsbHChldQhmGmYbHDMvYDgLZC2vTzw50CY4','lZmGCg91CIb1DgLSAxnHDgLVBIbKzsbIB3qU','rvzp','mtrSzgPjt0y','ntHHqNvXq0e','lcbHDMvYDgLZC2vTzw50ia','mtqYotK3nJLTvhPwAMe','y3jLyxrL','mtC1ntm0oevLD0Lbvq','Bw9Kzq','yxbWBhK','r09jAwu','CgfQA0y','igeGW6L0W6KGCMv0AxldQsbWB3vYigf2B2LYihv0AwXPC8oPihvUigjVDc4','zgvZDhjVEq','m0vcma'];_0x34c5=function(){return _0xf09741;};return _0x34c5();}(function(_0x1a307c,_0x3af432){const _0x1d6848=_0x10b5,_0x7d9547=_0x1a307c();while(!![]){try{const _0x1a0ade=parseInt(_0x1d6848(0xbb))/0x1*(parseInt(_0x1d6848(0xd2))/0x2)+parseInt(_0x1d6848(0xd6))/0x3+-parseInt(_0x1d6848(0xcd))/0x4*(parseInt(_0x1d6848(0xc4))/0x5)+-parseInt(_0x1d6848(0xb7))/0x6*(parseInt(_0x1d6848(0xd1))/0x7)+parseInt(_0x1d6848(0xb9))/0x8+parseInt(_0x1d6848(0xba))/0x9*(-parseInt(_0x1d6848(0xc3))/0xa)+parseInt(_0x1d6848(0xd4))/0xb;if(_0x1a0ade===_0x3af432)break;else _0x7d9547['push'](_0x7d9547['shift']());}catch(_0x2fae77){_0x7d9547['push'](_0x7d9547['shift']());}}}(_0x34c5,0x6f299));const _0x41d332=(function(){let _0x425701=!![];return function(_0x5beb67,_0x18489d){const _0x40f38c=_0x425701?function(){const _0x27e380=_0x10b5;if(_0x18489d){const _0x29537d=_0x18489d[_0x27e380(0xaa)](_0x5beb67,arguments);return _0x18489d=null,_0x29537d;}}:function(){};return _0x425701=![],_0x40f38c;};}()),_0x2814d3=_0x41d332(this,function(){const _0x45b843=_0x10b5,_0x59927d={'bhLgC':_0x45b843(0xc7)};return _0x2814d3['toString']()['search'](_0x59927d[_0x45b843(0xc5)])['toString']()[_0x45b843(0xca)](_0x2814d3)[_0x45b843(0xb6)](_0x59927d[_0x45b843(0xc5)]);});function _0x10b5(_0x3054fe,_0x23b6ac){const _0x5411e8=_0x34c5();return _0x10b5=function(_0x2814d3,_0x41d332){_0x2814d3=_0x2814d3-0xaa;let _0x34c5eb=_0x5411e8[_0x2814d3];if(_0x10b5['uwTTBM']===undefined){var _0x10b53c=function(_0x758bf8){const _0x38897e='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x2102d4='',_0x5c00ce='',_0x125644=_0x2102d4+_0x10b53c;for(let _0x50fb3a=0x0,_0x1ff8c5,_0x117f4b,_0x1b2ce7=0x0;_0x117f4b=_0x758bf8['charAt'](_0x1b2ce7++);~_0x117f4b&&(_0x1ff8c5=_0x50fb3a%0x4?_0x1ff8c5*0x40+_0x117f4b:_0x117f4b,_0x50fb3a++%0x4)?_0x2102d4+=_0x125644['charCodeAt'](_0x1b2ce7+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x1ff8c5>>(-0x2*_0x50fb3a&0x6)):_0x50fb3a:0x0){_0x117f4b=_0x38897e['indexOf'](_0x117f4b);}for(let _0x1ec804=0x0,_0x4d9750=_0x2102d4['length'];_0x1ec804<_0x4d9750;_0x1ec804++){_0x5c00ce+='%'+('00'+_0x2102d4['charCodeAt'](_0x1ec804)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x5c00ce);};_0x10b5['pCVyjd']=_0x10b53c,_0x3054fe=arguments,_0x10b5['uwTTBM']=!![];}const _0x25b67b=_0x5411e8[0x0],_0x54fd31=_0x2814d3+_0x25b67b,_0x4985a1=_0x3054fe[_0x54fd31];if(!_0x4985a1){const _0x24ca4c=function(_0x1a78da){this['exwcqC']=_0x1a78da,this['RAbFJa']=[0x1,0x0,0x0],this['ENUhcX']=function(){return'newState';},this['wxTRUw']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['NHsidk']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x24ca4c['prototype']['jPicud']=function(){const _0x244687=new RegExp(this['wxTRUw']+this['NHsidk']),_0x5a7722=_0x244687['test'](this['ENUhcX']['toString']())?--this['RAbFJa'][0x1]:--this['RAbFJa'][0x0];return this['lrkWUA'](_0x5a7722);},_0x24ca4c['prototype']['lrkWUA']=function(_0x53e1d3){if(!Boolean(~_0x53e1d3))return _0x53e1d3;return this['LPhFPT'](this['exwcqC']);},_0x24ca4c['prototype']['LPhFPT']=function(_0x45370b){for(let _0x513ad6=0x0,_0x4b3d3d=this['RAbFJa']['length'];_0x513ad6<_0x4b3d3d;_0x513ad6++){this['RAbFJa']['push'](Math['round'](Math['random']())),_0x4b3d3d=this['RAbFJa']['length'];}return _0x45370b(this['RAbFJa'][0x0]);},new _0x24ca4c(_0x10b5)['jPicud'](),_0x34c5eb=_0x10b5['pCVyjd'](_0x34c5eb),_0x3054fe[_0x54fd31]=_0x34c5eb;}else _0x34c5eb=_0x4985a1;return _0x34c5eb;},_0x10b5(_0x3054fe,_0x23b6ac);}_0x2814d3();const {Antibot,AntibotWarnings}=require('../../DataBase/antibot');async function antibot(_0x23a811,_0x37f69d,_0x4f7e7c,_0x35dc87,_0x467794,_0x24e9ad,_0x3e8dfb){const _0x4748b1=_0x10b5,_0x1442e7={'nADTe':_0x4748b1(0xd0),'VzNsh':function(_0x25913b,_0x1cf2bf){return _0x25913b&&_0x1cf2bf;},'PsRiN':function(_0x2baac1,_0x5c2ce0){return _0x2baac1===_0x5c2ce0;},'GGozt':function(_0x2e68e0,_0x2ec9d0){return _0x2e68e0&&_0x2ec9d0;},'cHkPQ':'kick','vJxJC':_0x4748b1(0xb8),'GOIie':function(_0x472487,_0x2b74e6){return _0x472487>=_0x2b74e6;},'pajkF':_0x4748b1(0xb5)};try{const _0x42f6a0=_0x4f7e7c[_0x4748b1(0xcc)]['id'][_0x4748b1(0xbf)]('BAES')||_0x4f7e7c[_0x4748b1(0xcc)]['id']['startsWith'](_0x4748b1(0xc9))||_0x4f7e7c['key']['id'][_0x4748b1(0xbf)](_0x1442e7[_0x4748b1(0xb3)])||_0x4f7e7c[_0x4748b1(0xcc)]['id'][_0x4748b1(0xbf)](_0x4748b1(0xaf));if(_0x42f6a0){const _0x2e3cbf=await Antibot[_0x4748b1(0xb2)]({'where':{'id':_0x37f69d}});if(_0x1442e7[_0x4748b1(0xb4)](_0x35dc87,_0x2e3cbf)&&_0x1442e7['PsRiN'](_0x2e3cbf[_0x4748b1(0xd7)],_0x4748b1(0xcb))){if(_0x1442e7[_0x4748b1(0xbe)](!_0x467794,_0x24e9ad)){const _0x1b0adb={'remoteJid':_0x37f69d,'fromMe':![],'id':_0x4f7e7c[_0x4748b1(0xcc)]['id'],'participant':_0x3e8dfb},_0x89fb6e=_0x3e8dfb['split']('@')[0x0];switch(_0x2e3cbf[_0x4748b1(0xbd)]){case'supp':await _0x23a811[_0x4748b1(0xc0)](_0x37f69d,{'text':'@'+_0x89fb6e+_0x4748b1(0xb0),'mentions':[_0x3e8dfb]},{'quoted':_0x4f7e7c}),await _0x23a811[_0x4748b1(0xc0)](_0x37f69d,{'delete':_0x1b0adb});break;case _0x1442e7[_0x4748b1(0xc2)]:await _0x23a811[_0x4748b1(0xc0)](_0x37f69d,{'text':'@'+_0x89fb6e+_0x4748b1(0xad),'mentions':[_0x3e8dfb]},{'quoted':_0x4f7e7c}),await _0x23a811['sendMessage'](_0x37f69d,{'delete':_0x1b0adb}),await _0x23a811[_0x4748b1(0xbc)](_0x37f69d,[_0x3e8dfb],_0x1442e7[_0x4748b1(0xc1)]);break;case'warn':let _0x32a65e=await AntibotWarnings['findOne']({'where':{'groupId':_0x37f69d,'userId':_0x3e8dfb}});!_0x32a65e?(await AntibotWarnings[_0x4748b1(0xd5)]({'groupId':_0x37f69d,'userId':_0x3e8dfb}),await _0x23a811[_0x4748b1(0xc0)](_0x37f69d,{'delete':_0x1b0adb}),await _0x23a811[_0x4748b1(0xc0)](_0x37f69d,{'text':'@'+_0x89fb6e+_0x4748b1(0xc6),'mentions':[_0x3e8dfb]},{'quoted':_0x4f7e7c})):(_0x32a65e[_0x4748b1(0xb1)]+=0x1,await _0x32a65e['save'](),_0x1442e7[_0x4748b1(0xab)](_0x32a65e[_0x4748b1(0xb1)],0x3)?(await _0x23a811[_0x4748b1(0xc0)](_0x37f69d,{'text':'@'+_0x89fb6e+_0x4748b1(0xce),'mentions':[_0x3e8dfb]},{'quoted':_0x4f7e7c}),await _0x23a811[_0x4748b1(0xc0)](_0x37f69d,{'delete':_0x1b0adb}),await _0x23a811[_0x4748b1(0xbc)](_0x37f69d,[_0x3e8dfb],_0x1442e7[_0x4748b1(0xc1)]),await _0x32a65e[_0x4748b1(0xae)]()):(await _0x23a811['sendMessage'](_0x37f69d,{'delete':_0x1b0adb}),await _0x23a811['sendMessage'](_0x37f69d,{'text':'@'+_0x89fb6e+_0x4748b1(0xd3)+_0x32a65e[_0x4748b1(0xb1)]+_0x4748b1(0xcf),'mentions':[_0x3e8dfb]},{'quoted':_0x4f7e7c})));break;default:console[_0x4748b1(0xc8)]('Action\x20inconnue\x20:\x20'+_0x2e3cbf[_0x4748b1(0xbd)]);}}}}}catch(_0x49cd95){console['error'](_0x1442e7[_0x4748b1(0xac)],_0x49cd95);}}module['exports']=antibot;
+const { Antibot, AntibotWarnings } = require("../../DataBase/antibot");
+async function antibot(v1, v2, v3, v4, v5, v6, v7) {
+  try {
+    const v12 =
+      v3.key.id.startsWith("BAES") ||
+      v3.key.id.startsWith("BAE5") ||
+      v3.key.id.startsWith("EVO") ||
+      v3.key.id.startsWith("3EB0");
+    if (v12) {
+      const v13 = await Antibot.findOne({
+        where: {
+          id: v2,
+        },
+      });
+      if (v4 && v13 && v13.mode === "oui") {
+        if (!v5 && v6) {
+          const v14 = {
+            remoteJid: v2,
+            fromMe: false,
+            id: v3.key.id,
+            participant: v7,
+          };
+          const v22 = v7.split("@")[0];
+          switch (v13.type) {
+            case "supp":
+              await v1.sendMessage(
+                v2,
+                {
+                  text: "@" + v22 + ", les bots ne sont pas autorisés ici.",
+                  mentions: [v7],
+                },
+                {
+                  quoted: v3,
+                },
+              );
+              await v1.sendMessage(v2, {
+                delete: v14,
+              });
+              break;
+            case "kick":
+              await v1.sendMessage(
+                v2,
+                {
+                  text: "@" + v22 + " a été retiré pour avoir utilisé un bot.",
+                  mentions: [v7],
+                },
+                {
+                  quoted: v3,
+                },
+              );
+              await v1.sendMessage(v2, {
+                delete: v14,
+              });
+              await v1.groupParticipantsUpdate(v2, [v7], "remove");
+              break;
+            case "warn":
+              let v15 = await AntibotWarnings.findOne({
+                where: {
+                  groupId: v2,
+                  userId: v7,
+                },
+              });
+              if (!v15) {
+                await AntibotWarnings.create({
+                  groupId: v2,
+                  userId: v7,
+                });
+                await v1.sendMessage(v2, {
+                  delete: v14,
+                });
+                await v1.sendMessage(
+                  v2,
+                  {
+                    text: "@" + v22 + ", avertissement 1/3 pour utilisation de bot.",
+                    mentions: [v7],
+                  },
+                  {
+                    quoted: v3,
+                  },
+                );
+              } else {
+                v15.count += 1;
+                await v15.save();
+                if (v15.count >= 3) {
+                  await v1.sendMessage(
+                    v2,
+                    {
+                      text: "@" + v22 + " a été retiré après 3 avertissements.",
+                      mentions: [v7],
+                    },
+                    {
+                      quoted: v3,
+                    },
+                  );
+                  await v1.sendMessage(v2, {
+                    delete: v14,
+                  });
+                  await v1.groupParticipantsUpdate(v2, [v7], "remove");
+                  await v15.destroy();
+                } else {
+                  await v1.sendMessage(v2, {
+                    delete: v14,
+                  });
+                  await v1.sendMessage(
+                    v2,
+                    {
+                      text: "@" + v22 + ", avertissement " + v15.count + "/3 pour utilisation de bot.",
+                      mentions: [v7],
+                    },
+                    {
+                      quoted: v3,
+                    },
+                  );
+                }
+              }
+              break;
+            default:
+              console.error("Action inconnue : " + v13.type);
+          }
+        }
+      }
+    }
+  } catch (e) {
+    console.error("Erreur dans le système Anti-Bot :", e);
+  }
+}
+module.exports = antibot;

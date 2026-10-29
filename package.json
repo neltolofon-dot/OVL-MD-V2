@@ -6,16 +6,25 @@
   "type": "commonjs",
   "scripts": {
     "start": "pm2 start Ovl.js --attach --name ovl",
+    "dev": "node Ovl.js",
+    "pair": "node pair.js",
     "stop": "pm2 stop all",
+    "logs": "pm2 logs ovl",
     "Ovl": "pm2 start Ovl.js --attach --name ovl"
   },
-  "keywords": ["Ainz", "OVL-MD-V2", "Whatsapp", "Baileys", "Muti-device"],
+  "keywords": [
+    "Ainz",
+    "OVL-MD-V2",
+    "Whatsapp",
+    "Baileys",
+    "Muti-device"
+  ],
   "author": "Ainz-devs",
   "license": "MIT",
   "dependencies": {
     "@vitalets/google-translate-api": "^9.2.1",
     "@whiskeysockets/baileys": "^6.7.21",
-    "acrcloud":"^1.4.0",
+    "acrcloud": "^1.4.0",
     "adm-zip": "^0.5.16",
     "axios": "^1.8.4",
     "cheerio": "^1.1.0",
@@ -29,13 +38,15 @@
     "pg": "^8.16.3",
     "pino": "^9.7.0",
     "pm2": "^6.0.8",
-    "sqlite3": "^5.1.7",
-    "tempmail.lol": "^4.4.0",
+    "qrcode-terminal": "^0.12.0",
     "sequelize": "^6.37.7",
     "simple-git": "^3.28.0",
+    "sqlite3": "^5.1.7",
+    "tempmail.lol": "^4.4.0",
     "wa-sticker-formatter": "^4.4.4",
     "wikipedia": "^2.1.2"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }
-
-

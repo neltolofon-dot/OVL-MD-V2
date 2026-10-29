@@ -1,1 +1,60 @@
-const _0x413d54=_0x2e0a;(function(_0x7662e3,_0x54474e){const _0x11912c=_0x2e0a,_0x1382e8=_0x7662e3();while(!![]){try{const _0x3533ed=-parseInt(_0x11912c(0x10f))/0x1*(parseInt(_0x11912c(0x111))/0x2)+parseInt(_0x11912c(0x108))/0x3*(parseInt(_0x11912c(0x100))/0x4)+-parseInt(_0x11912c(0x10d))/0x5+parseInt(_0x11912c(0xf9))/0x6*(-parseInt(_0x11912c(0x116))/0x7)+-parseInt(_0x11912c(0x105))/0x8*(parseInt(_0x11912c(0x101))/0x9)+parseInt(_0x11912c(0xfe))/0xa*(-parseInt(_0x11912c(0x102))/0xb)+parseInt(_0x11912c(0x104))/0xc;if(_0x3533ed===_0x54474e)break;else _0x1382e8['push'](_0x1382e8['shift']());}catch(_0x527fbd){_0x1382e8['push'](_0x1382e8['shift']());}}}(_0x5487,0xc64e6));const _0x4410e5=(function(){let _0x507596=!![];return function(_0x502b8e,_0x3a2a8c){const _0x2496bf=_0x507596?function(){const _0x32b99a=_0x2e0a;if(_0x3a2a8c){const _0x79b337=_0x3a2a8c[_0x32b99a(0x103)](_0x502b8e,arguments);return _0x3a2a8c=null,_0x79b337;}}:function(){};return _0x507596=![],_0x2496bf;};}()),_0x1f0a75=_0x4410e5(this,function(){const _0x22318e=_0x2e0a,_0x4b53b1={'ocKPL':_0x22318e(0xfd)};return _0x1f0a75[_0x22318e(0xff)]()['search'](_0x4b53b1['ocKPL'])['toString']()[_0x22318e(0x10c)](_0x1f0a75)[_0x22318e(0x10b)](_0x4b53b1[_0x22318e(0x110)]);});_0x1f0a75();function _0x2e0a(_0x41746f,_0x4d1f9a){const _0x188948=_0x5487();return _0x2e0a=function(_0x1f0a75,_0x4410e5){_0x1f0a75=_0x1f0a75-0xf7;let _0x5487e8=_0x188948[_0x1f0a75];if(_0x2e0a['fgEYDq']===undefined){var _0x2e0a37=function(_0x3217f4){const _0x1ffde3='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x3803cd='',_0x29ae4a='',_0x1919d2=_0x3803cd+_0x2e0a37;for(let _0x1e31a6=0x0,_0x47ef09,_0x5c757c,_0x5a198f=0x0;_0x5c757c=_0x3217f4['charAt'](_0x5a198f++);~_0x5c757c&&(_0x47ef09=_0x1e31a6%0x4?_0x47ef09*0x40+_0x5c757c:_0x5c757c,_0x1e31a6++%0x4)?_0x3803cd+=_0x1919d2['charCodeAt'](_0x5a198f+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x47ef09>>(-0x2*_0x1e31a6&0x6)):_0x1e31a6:0x0){_0x5c757c=_0x1ffde3['indexOf'](_0x5c757c);}for(let _0x336f06=0x0,_0xdb30c2=_0x3803cd['length'];_0x336f06<_0xdb30c2;_0x336f06++){_0x29ae4a+='%'+('00'+_0x3803cd['charCodeAt'](_0x336f06)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x29ae4a);};_0x2e0a['xBBBwl']=_0x2e0a37,_0x41746f=arguments,_0x2e0a['fgEYDq']=!![];}const _0x194965=_0x188948[0x0],_0x42f0a8=_0x1f0a75+_0x194965,_0x2ac754=_0x41746f[_0x42f0a8];if(!_0x2ac754){const _0x5bf3c5=function(_0x4673c8){this['AjShCv']=_0x4673c8,this['kmOuTD']=[0x1,0x0,0x0],this['yiVdPf']=function(){return'newState';},this['eulkhL']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['nEhOue']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x5bf3c5['prototype']['UVfCEM']=function(){const _0x2cedf0=new RegExp(this['eulkhL']+this['nEhOue']),_0x5c7bcb=_0x2cedf0['test'](this['yiVdPf']['toString']())?--this['kmOuTD'][0x1]:--this['kmOuTD'][0x0];return this['eXcZkD'](_0x5c7bcb);},_0x5bf3c5['prototype']['eXcZkD']=function(_0x32f502){if(!Boolean(~_0x32f502))return _0x32f502;return this['gHzzkL'](this['AjShCv']);},_0x5bf3c5['prototype']['gHzzkL']=function(_0x1ce34d){for(let _0x187dd=0x0,_0x2a2a2a=this['kmOuTD']['length'];_0x187dd<_0x2a2a2a;_0x187dd++){this['kmOuTD']['push'](Math['round'](Math['random']())),_0x2a2a2a=this['kmOuTD']['length'];}return _0x1ce34d(this['kmOuTD'][0x0]);},new _0x5bf3c5(_0x2e0a)['UVfCEM'](),_0x5487e8=_0x2e0a['xBBBwl'](_0x5487e8),_0x41746f[_0x42f0a8]=_0x5487e8;}else _0x5487e8=_0x2ac754;return _0x5487e8;},_0x2e0a(_0x41746f,_0x4d1f9a);}const {Sequelize,DataTypes}=require(_0x413d54(0x10e)),config=require(_0x413d54(0xfb)),db=config['DATABASE'];function _0x5487(){const _0x1423d5=['m3rgywHRCq','Bgv2zwX1Ca','tgv2zwX1Ca','C2vHCMnO','y29UC3rYDwn0B3i','nJu5otaWswLbzezw','C2vXDwvSAxPL','mJy3nJjjswPvz3C','B2nlueW','mZrIzwXHzgG','u1rssu5h','lI9KyxrHyMfZzs5KyG','C3fSAxrL','C3LUyW','otm0oteZy2n5zezL','zgvMAw5L','CMfUA3m','ntr1zwj4D2u','uMfUA3m','lI4VC2v0','BM9U','kcGOlISPkYKRksSK','ndyWrKHpuuDW','Dg9tDhjPBMC','mtGWnty0oeXVALfRAW','mZqXmw5dBuvera','mZC4mde1AKDRvKjl','yxbWBhK','nJiXotK3ndrfBhbhA1K','mZa2nJrWzM9NrNa','Cg9ZDgDYzxm','su5uruDfuG'];_0x5487=function(){return _0x1423d5;};return _0x5487();}let sequelize;!db?sequelize=new Sequelize({'dialect':_0x413d54(0x114),'storage':_0x413d54(0x113),'logging':![]}):sequelize=new Sequelize(db,{'dialect':_0x413d54(0x106),'ssl':!![],'protocol':_0x413d54(0x106),'dialectOptions':{'native':!![],'ssl':{'require':!![],'rejectUnauthorized':![]}},'logging':![]});const Ranks=sequelize[_0x413d54(0xf7)](_0x413d54(0xfa),{'id':{'type':DataTypes[_0x413d54(0x112)],'primaryKey':!![]},'name':{'type':DataTypes[_0x413d54(0x112)],'allowNull':![]},'level':{'type':DataTypes[_0x413d54(0x107)],'defaultValue':0x0},'exp':{'type':DataTypes[_0x413d54(0x107)],'defaultValue':0x0},'messages':{'type':DataTypes[_0x413d54(0x107)],'defaultValue':0x0}},{'tableName':_0x413d54(0xf8),'timestamps':![]}),Levelup=sequelize[_0x413d54(0xf7)](_0x413d54(0x10a),{'id':{'type':DataTypes[_0x413d54(0x107)],'autoIncrement':!![],'primaryKey':!![]},'levelup':{'type':DataTypes['TEXT'],'allowNull':![],'defaultValue':_0x413d54(0xfc)}},{'tableName':_0x413d54(0x109),'timestamps':![]});((async()=>{const _0x497850=_0x413d54;await Ranks['sync'](),await Levelup[_0x497850(0x115)]();})()),module['exports']={'Ranks':Ranks,'Levelup':Levelup};
+const { DataTypes } = require("sequelize");
+const sequelize = require("./db");
+const Ranks = sequelize.define(
+  "Ranks",
+  {
+    id: {
+      type: DataTypes.STRING,
+      primaryKey: true,
+    },
+    name: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    level: {
+      type: DataTypes.INTEGER,
+      defaultValue: 0,
+    },
+    exp: {
+      type: DataTypes.INTEGER,
+      defaultValue: 0,
+    },
+    messages: {
+      type: DataTypes.INTEGER,
+      defaultValue: 0,
+    },
+  },
+  {
+    tableName: "ranks",
+    timestamps: false,
+  },
+);
+const Levelup = sequelize.define(
+  "Levelup",
+  {
+    id: {
+      type: DataTypes.INTEGER,
+      autoIncrement: true,
+      primaryKey: true,
+    },
+    levelup: {
+      type: DataTypes.TEXT,
+      allowNull: false,
+      defaultValue: "non",
+    },
+  },
+  {
+    tableName: "levelup",
+    timestamps: false,
+  },
+);
+(async () => {
+  await Ranks.sync();
+  await Levelup.sync();
+})().catch(e =>
+  console.error("❌ Synchronisation de la base impossible (rank.js) :", e.message),
+);
+module.exports = {
+  Ranks,
+  Levelup,
+};

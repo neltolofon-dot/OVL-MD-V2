@@ -1,1 +1,92 @@
-const _0x1ac3a3=_0x396d;(function(_0x3a553b,_0x346b01){const _0x350e6e=_0x396d,_0x2d3807=_0x3a553b();while(!![]){try{const _0x1b9f61=parseInt(_0x350e6e(0x1ed))/0x1+parseInt(_0x350e6e(0x1e4))/0x2+parseInt(_0x350e6e(0x1eb))/0x3+-parseInt(_0x350e6e(0x1dc))/0x4+parseInt(_0x350e6e(0x211))/0x5*(-parseInt(_0x350e6e(0x1dd))/0x6)+-parseInt(_0x350e6e(0x20c))/0x7+-parseInt(_0x350e6e(0x1fb))/0x8*(-parseInt(_0x350e6e(0x1f4))/0x9);if(_0x1b9f61===_0x346b01)break;else _0x2d3807['push'](_0x2d3807['shift']());}catch(_0x38ffb6){_0x2d3807['push'](_0x2d3807['shift']());}}}(_0x5e61,0x6b100));const {ovlcmd}=require(_0x1ac3a3(0x209)),axios=require('axios'),FormData=require('form-data'),effetsCanvacord=[_0x1ac3a3(0x202),_0x1ac3a3(0x1f2),'wanted','trigger',_0x1ac3a3(0x205),'rip','sepia',_0x1ac3a3(0x200),_0x1ac3a3(0x1e8),_0x1ac3a3(0x1e2),_0x1ac3a3(0x1fe),_0x1ac3a3(0x1e6),_0x1ac3a3(0x207),_0x1ac3a3(0x20b),_0x1ac3a3(0x1d9),'facepalm',_0x1ac3a3(0x215),_0x1ac3a3(0x1f1),'delete_image',_0x1ac3a3(0x208),_0x1ac3a3(0x1ef),'threshold',_0x1ac3a3(0x1f3)];function _0x5e61(){const _0x54d2d4=['AgL0BgvY','Aw1Hz2u','zNjVBq','mtaYmdCYmfDLAhz1sq','Ahr0Chm6lY9MAwXLCY5JyxrIB3GUBw9Ll3vSD3f0CI5QCgC','nZCZmti5A1vsBNH2','z2v0','y29SB3jMEq','BwvZC2fNzq','AM9Rzw92zxjOzwfK','D2fZDgvK','CgL4zwXHDgu','mtG5yKPLtuDf','sw1Hz2vFrwrPDhm','yxjYyxLIDwzMzxi','Aw1Hz2vnzxnZywDL','qxbWBgLXDwuGBcDLzMzLDca','Aw5JBhvKzxm','zMLSzq','mJKXodGWtKXtD29w','uwTeC0W','kcGOlISPkYKRksSK','AMfPBa','CMvWBgfJzq','CMfPBMjVDW','qgXPza','C2HPDa','C2vUze1LC3nHz2u','u2fQuu4','DhjHC2G','rxjYzxvYigf2zwmGBgeGy29TBwfUzguGiG','yMvHDxrPzNvS','zgfYA25LC3m','lI4VBgLIl292BgnTza','ihzPysbSj0fqsq','yMX1CG','nta4odqXmMLure5ZrG','ChjVzMLSzvbPy3r1CMvvCMW','Dg9tDhjPBMC','zgf0yq','DwXurMO','mta5ody1nufeshjwrq','zfPzEue','zgXFC2f2zv9TzwrPyv9TCW','yxbWzw5K','z3jLExnJywXL','Ahr0Chm6lY9HCgKTB3zSlMTVEwvIlMfWCc9PBwCTzwzMzwn0lW','y2LYy2XLmq','yxbWBhK','yxvzD0W','mZq4mtiXmK5zAKfJua','nNvMu0TYuG','zxjYB3i','DeTlD1a','DK9zAMi','C2vHCMnO','Aw52zxj0mq','C3rHCNrZv2L0Aa','nZuXodq4CMzdBxjt','Ahr0Ca','ywzMzwn0','z2v0sgvHzgvYCW'];_0x5e61=function(){return _0x54d2d4;};return _0x5e61();}function _0x396d(_0xb3eaa8,_0x5d8702){const _0x2a644a=_0x5e61();return _0x396d=function(_0x49d88e,_0x26d028){_0x49d88e=_0x49d88e-0x1d9;let _0x5e61ee=_0x2a644a[_0x49d88e];if(_0x396d['qMaqxg']===undefined){var _0x396d62=function(_0x4f2304){const _0x12470c='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x47690e='',_0x5015f6='',_0x5b8847=_0x47690e+_0x396d62;for(let _0x514779=0x0,_0x27ee15,_0x202a4a,_0xfa6475=0x0;_0x202a4a=_0x4f2304['charAt'](_0xfa6475++);~_0x202a4a&&(_0x27ee15=_0x514779%0x4?_0x27ee15*0x40+_0x202a4a:_0x202a4a,_0x514779++%0x4)?_0x47690e+=_0x5b8847['charCodeAt'](_0xfa6475+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x27ee15>>(-0x2*_0x514779&0x6)):_0x514779:0x0){_0x202a4a=_0x12470c['indexOf'](_0x202a4a);}for(let _0x1f066b=0x0,_0x5082b1=_0x47690e['length'];_0x1f066b<_0x5082b1;_0x1f066b++){_0x5015f6+='%'+('00'+_0x47690e['charCodeAt'](_0x1f066b)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x5015f6);};_0x396d['MJtQbh']=_0x396d62,_0xb3eaa8=arguments,_0x396d['qMaqxg']=!![];}const _0x2f73d3=_0x2a644a[0x0],_0x2044c3=_0x49d88e+_0x2f73d3,_0x44479d=_0xb3eaa8[_0x2044c3];if(!_0x44479d){const _0xa943bd=function(_0x46b797){this['MaGkqY']=_0x46b797,this['ySXGbI']=[0x1,0x0,0x0],this['xyaegP']=function(){return'newState';},this['oAQigX']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['ILCJjL']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0xa943bd['prototype']['ntAnVt']=function(){const _0x24095c=new RegExp(this['oAQigX']+this['ILCJjL']),_0x4fa44f=_0x24095c['test'](this['xyaegP']['toString']())?--this['ySXGbI'][0x1]:--this['ySXGbI'][0x0];return this['NtmsQE'](_0x4fa44f);},_0xa943bd['prototype']['NtmsQE']=function(_0x20eccd){if(!Boolean(~_0x20eccd))return _0x20eccd;return this['YfThXO'](this['MaGkqY']);},_0xa943bd['prototype']['YfThXO']=function(_0x55c354){for(let _0x19b39f=0x0,_0x50d18d=this['ySXGbI']['length'];_0x19b39f<_0x50d18d;_0x19b39f++){this['ySXGbI']['push'](Math['round'](Math['random']())),_0x50d18d=this['ySXGbI']['length'];}return _0x55c354(this['ySXGbI'][0x0]);},new _0xa943bd(_0x396d)['ntAnVt'](),_0x5e61ee=_0x396d['MJtQbh'](_0x5e61ee),_0xb3eaa8[_0x2044c3]=_0x5e61ee;}else _0x5e61ee=_0x44479d;return _0x5e61ee;},_0x396d(_0xb3eaa8,_0x5d8702);}function genererCommandeCanvacord(_0x2282a5){const _0x1183b9=_0x1ac3a3,_0x3ef8fb={'ulTFj':_0x1183b9(0x1fd),'vOYjb':function(_0x3a858c,_0x4ca62f,_0x3a48dd,_0x2fa7d5){return _0x3a858c(_0x4ca62f,_0x3a48dd,_0x2fa7d5);},'YSiyN':_0x1183b9(0x1fa),'SajQN':function(_0x248c62,_0xf08489){return _0x248c62(_0xf08489);},'QkDsL':_0x1183b9(0x1f6),'dZYyA':function(_0x5b31e1){return _0x5b31e1();},'auYwL':function(_0xeae3e6,_0x1eb6a4,_0x244980){return _0xeae3e6(_0x1eb6a4,_0x244980);},'tKKwP':_0x1183b9(0x1f5)},_0x480bcb=(function(){let _0x450e44=!![];return function(_0xc37753,_0x35ff78){const _0x1cb3af=_0x450e44?function(){const _0x20f7ca=_0x396d;if(_0x35ff78){const _0x622aff=_0x35ff78[_0x20f7ca(0x1da)](_0xc37753,arguments);return _0x35ff78=null,_0x622aff;}}:function(){};return _0x450e44=![],_0x1cb3af;};}()),_0x3db265=_0x480bcb(this,function(){const _0x4e8307=_0x1183b9;return _0x3db265[_0x4e8307(0x20e)]()[_0x4e8307(0x1e1)](_0x3ef8fb[_0x4e8307(0x210)])[_0x4e8307(0x20e)]()['constructor'](_0x3db265)[_0x4e8307(0x1e1)](_0x3ef8fb[_0x4e8307(0x210)]);});_0x3ef8fb[_0x1183b9(0x212)](_0x3db265),_0x3ef8fb[_0x1183b9(0x1db)](ovlcmd,{'nom_cmd':_0x2282a5,'classe':_0x3ef8fb[_0x1183b9(0x1df)],'react':'🎨','desc':_0x1183b9(0x1f8)+_0x2282a5+_0x1183b9(0x20a)},async(_0x4ae359,_0x58a271,_0x9fe1bf)=>{const _0x3d4a9e=_0x1183b9,{arg:_0x2a2ce9,ms:_0x53c199,getJid:_0xb06291,auteur_Msg_Repondu:_0x573659,msg_Repondu:_0x5caf07,auteur_Message:_0x12278c}=_0x9fe1bf;try{const _0x21233a=_0x5caf07||_0x53c199[_0x3d4a9e(0x1f0)];let _0x44602d,_0x35ab12=![];if(_0x21233a?.[_0x3d4a9e(0x1f7)]){const _0x4b6454=await _0x58a271[_0x3d4a9e(0x213)](_0x21233a[_0x3d4a9e(0x1f7)]);_0x44602d=_0x4b6454,_0x35ab12=!![];}else{if(_0x2a2ce9[0x0]?.[_0x3d4a9e(0x1e3)](_0x3d4a9e(0x1e5)))_0x44602d=_0x2a2ce9[0x0];else{const _0x118ddd=_0x573659||_0x2a2ce9[0x0]?.[_0x3d4a9e(0x1f9)]('@')&&_0x2a2ce9[0x0][_0x3d4a9e(0x1ff)]('@','')+_0x3d4a9e(0x201)||_0x12278c,_0x2182b7=await _0x3ef8fb[_0x3d4a9e(0x1e0)](_0xb06291,_0x118ddd,_0x4ae359,_0x58a271);try{_0x44602d=await _0x58a271[_0x3d4a9e(0x20d)](_0x2182b7,_0x3d4a9e(0x1e9));}catch{_0x44602d=_0x3d4a9e(0x1ec);}}}let _0x565e20;if(_0x35ab12){const _0x5c0872=new FormData();_0x5c0872[_0x3d4a9e(0x214)](_0x3ef8fb['YSiyN'],_0x3ef8fb[_0x3d4a9e(0x204)](require,'fs')['createReadStream'](_0x44602d)),_0x565e20=await axios['post'](_0x3d4a9e(0x216)+_0x2282a5,_0x5c0872,{'headers':_0x5c0872[_0x3d4a9e(0x1e7)](),'responseType':_0x3ef8fb['QkDsL']});}else _0x565e20=await axios[_0x3d4a9e(0x1ee)](_0x3d4a9e(0x216)+_0x2282a5+'?url='+_0x3ef8fb[_0x3d4a9e(0x204)](encodeURIComponent,_0x44602d),{'responseType':_0x3ef8fb[_0x3d4a9e(0x1fc)]});await _0x58a271[_0x3d4a9e(0x203)](_0x4ae359,{'image':Buffer[_0x3d4a9e(0x1ea)](_0x565e20[_0x3d4a9e(0x20f)])},{'quoted':_0x53c199});}catch(_0x40703a){console[_0x3d4a9e(0x1de)](_0x3d4a9e(0x206)+_0x2282a5+'\x22:',_0x40703a);}});}effetsCanvacord['forEach'](_0x1fa633=>genererCommandeCanvacord(_0x1fa633));
+const { ovlcmd } = require("../lib/ovlcmd");
+const axios = require("axios");
+const FormData = require("form-data");
+const effetsCanvacord = [
+  "shit",
+  "wasted",
+  "wanted",
+  "trigger",
+  "trash",
+  "rip",
+  "sepia",
+  "rainbow",
+  "hitler",
+  "invert1",
+  "jail",
+  "affect",
+  "beautiful",
+  "blur",
+  "circle1",
+  "facepalm",
+  "greyscale",
+  "jokeoverhead",
+  "delete_image",
+  "darkness",
+  "colorfy",
+  "threshold",
+  "pixelate",
+];
+function genererCommandeCanvacord(v1) {
+  ovlcmd(
+    {
+      nom_cmd: v1,
+      classe: "Image_Edits",
+      react: "🎨",
+      desc: "Applique l'effet " + v1 + " via l'API",
+    },
+    async (dest, ovl, ctx) => {
+      const { arg, ms, getJid, auteur_Msg_Repondu, msg_Repondu, auteur_Message } = ctx;
+      try {
+        const v12 = msg_Repondu || ms.message;
+        let v2;
+        let v3 = false;
+        if (v12?.imageMessage) {
+          const v13 = await ovl.dl_save_media_ms(v12.imageMessage);
+          v2 = v13;
+          v3 = true;
+        } else if (arg[0]?.startsWith("http")) {
+          v2 = arg[0];
+        } else {
+          const v13 =
+            auteur_Msg_Repondu ||
+            (arg[0]?.includes("@") && arg[0].replace("@", "") + "@lid") ||
+            auteur_Message;
+          const v22 = await getJid(v13, dest, ovl);
+          try {
+            v2 = await ovl.profilePictureUrl(v22, "image");
+          } catch {
+            v2 = "https://files.catbox.moe/ulwqtr.jpg";
+          }
+        }
+        let v4;
+        if (v3) {
+          const v13 = new FormData();
+          v13.append("file", require("fs").createReadStream(v2));
+          v4 = await axios.post("https://api-ovl.koyeb.app/img-effect/" + v1, v13, {
+            headers: v13.getHeaders(),
+            responseType: "arraybuffer",
+          });
+        } else {
+          v4 = await axios.get(
+            "https://api-ovl.koyeb.app/img-effect/" + v1 + "?url=" + encodeURIComponent(v2),
+            {
+              responseType: "arraybuffer",
+            },
+          );
+        }
+        await ovl.sendMessage(
+          dest,
+          {
+            image: Buffer.from(v4.data),
+          },
+          {
+            quoted: ms,
+          },
+        );
+      } catch (e) {
+        console.error('Erreur avec la commande "' + v1 + '":', e);
+      }
+    },
+  );
+}
+effetsCanvacord.forEach(v1 => genererCommandeCanvacord(v1));

@@ -1,1 +1,54 @@
-function _0x169e(_0x450f6b,_0x50d719){const _0x1317f8=_0xc90a();return _0x169e=function(_0x54a53d,_0x35135e){_0x54a53d=_0x54a53d-0x13c;let _0xc90a6b=_0x1317f8[_0x54a53d];if(_0x169e['rHHaeJ']===undefined){var _0x169ef2=function(_0x5d6e16){const _0x5b5a53='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x5d89d6='',_0x21f476='',_0x515627=_0x5d89d6+_0x169ef2;for(let _0x4c445c=0x0,_0x57b7da,_0x2559d0,_0x22672b=0x0;_0x2559d0=_0x5d6e16['charAt'](_0x22672b++);~_0x2559d0&&(_0x57b7da=_0x4c445c%0x4?_0x57b7da*0x40+_0x2559d0:_0x2559d0,_0x4c445c++%0x4)?_0x5d89d6+=_0x515627['charCodeAt'](_0x22672b+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x57b7da>>(-0x2*_0x4c445c&0x6)):_0x4c445c:0x0){_0x2559d0=_0x5b5a53['indexOf'](_0x2559d0);}for(let _0x322703=0x0,_0x1a9af6=_0x5d89d6['length'];_0x322703<_0x1a9af6;_0x322703++){_0x21f476+='%'+('00'+_0x5d89d6['charCodeAt'](_0x322703)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x21f476);};_0x169e['pdPFLI']=_0x169ef2,_0x450f6b=arguments,_0x169e['rHHaeJ']=!![];}const _0x466c5e=_0x1317f8[0x0],_0x51971a=_0x54a53d+_0x466c5e,_0x1a564e=_0x450f6b[_0x51971a];if(!_0x1a564e){const _0x1ed570=function(_0x3841be){this['bztKgp']=_0x3841be,this['DWuHxs']=[0x1,0x0,0x0],this['HaJYsI']=function(){return'newState';},this['tCAFss']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['kkiqHD']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x1ed570['prototype']['CzEszU']=function(){const _0x12c3a9=new RegExp(this['tCAFss']+this['kkiqHD']),_0x8bd23b=_0x12c3a9['test'](this['HaJYsI']['toString']())?--this['DWuHxs'][0x1]:--this['DWuHxs'][0x0];return this['dunUcE'](_0x8bd23b);},_0x1ed570['prototype']['dunUcE']=function(_0x20e440){if(!Boolean(~_0x20e440))return _0x20e440;return this['pWeYaT'](this['bztKgp']);},_0x1ed570['prototype']['pWeYaT']=function(_0x24d433){for(let _0x38870=0x0,_0x5d5df5=this['DWuHxs']['length'];_0x38870<_0x5d5df5;_0x38870++){this['DWuHxs']['push'](Math['round'](Math['random']())),_0x5d5df5=this['DWuHxs']['length'];}return _0x24d433(this['DWuHxs'][0x0]);},new _0x1ed570(_0x169e)['CzEszU'](),_0xc90a6b=_0x169e['pdPFLI'](_0xc90a6b),_0x450f6b[_0x51971a]=_0xc90a6b;}else _0xc90a6b=_0x1a564e;return _0xc90a6b;},_0x169e(_0x450f6b,_0x50d719);}const _0x381c9e=_0x169e;(function(_0x5cb7d1,_0x1c17af){const _0x523deb=_0x169e,_0x44fa97=_0x5cb7d1();while(!![]){try{const _0x431efd=parseInt(_0x523deb(0x153))/0x1+parseInt(_0x523deb(0x159))/0x2*(-parseInt(_0x523deb(0x158))/0x3)+parseInt(_0x523deb(0x156))/0x4*(-parseInt(_0x523deb(0x13f))/0x5)+-parseInt(_0x523deb(0x15d))/0x6+parseInt(_0x523deb(0x155))/0x7+parseInt(_0x523deb(0x141))/0x8*(parseInt(_0x523deb(0x152))/0x9)+parseInt(_0x523deb(0x13e))/0xa*(parseInt(_0x523deb(0x13d))/0xb);if(_0x431efd===_0x1c17af)break;else _0x44fa97['push'](_0x44fa97['shift']());}catch(_0x32d35f){_0x44fa97['push'](_0x44fa97['shift']());}}}(_0xc90a,0xc8e12));const _0x35135e=(function(){let _0x18b829=!![];return function(_0x5b296f,_0x6f71d4){const _0x103151=_0x18b829?function(){const _0x5a6be8=_0x169e;if(_0x6f71d4){const _0x4a6256=_0x6f71d4[_0x5a6be8(0x14b)](_0x5b296f,arguments);return _0x6f71d4=null,_0x4a6256;}}:function(){};return _0x18b829=![],_0x103151;};}()),_0x54a53d=_0x35135e(this,function(){const _0xed3c7f=_0x169e,_0x4cf52e={'lhGIV':_0xed3c7f(0x144)};return _0x54a53d[_0xed3c7f(0x145)]()['search'](_0x4cf52e[_0xed3c7f(0x15a)])['toString']()['constructor'](_0x54a53d)[_0xed3c7f(0x147)](_0x4cf52e[_0xed3c7f(0x15a)]);});function _0xc90a(){const _0x3d19a9=['C2vHCMnO','yw50Aw1LBNrPB24','zxHWB3j0CW','zgvMAw5L','yxbWBhK','C3fSAxrL','yw50Aw1LBNrPB25FD2fYBMLUz3m','C2vXDwvSAxPL','qw50Aw1LBNrPB24','lI9KyxrHyMfZzs5KyG','ru5vtq','owLxwuXVsq','nJi2nJm3t21wwxHb','refuqujbu0u','nZG1mZe2mfvbrLPhtG','nJa0ndeYofLAwKr0qW','Cg9ZDgDYzxm','ndu1otK2n3rkCen5va','mLnTwMXczW','BgHhsvy','A2LJAW','lI4VC2v0','nJq1nJi5nfnOrffwsq','C3LUyW','su5uruDfuG','nde4ugnpufrA','ndu5ndeWCfDqwuvy','nxvyy1Pnza','qw50Aw1LBNrPB25FD2fYBMLUz3m','mte0odq3nZzHr091zgq','u1rssu5h','C3vWCa','kcGOlISPkYKRksSK','Dg9tDhjPBMC','D2fYBG'];_0xc90a=function(){return _0x3d19a9;};return _0xc90a();}_0x54a53d();const {Sequelize,DataTypes}=require(_0x381c9e(0x14e)),config=require(_0x381c9e(0x15c)),db=config[_0x381c9e(0x154)];let sequelize;!db?sequelize=new Sequelize({'dialect':_0x381c9e(0x14c),'storage':_0x381c9e(0x150),'logging':![]}):sequelize=new Sequelize(db,{'dialect':_0x381c9e(0x157),'ssl':!![],'protocol':'postgres','dialectOptions':{'native':!![],'ssl':{'require':!![],'rejectUnauthorized':![]}},'logging':![]});const Antimention=sequelize[_0x381c9e(0x14a)](_0x381c9e(0x14f),{'id':{'type':DataTypes[_0x381c9e(0x142)],'primaryKey':!![]},'mode':{'type':DataTypes[_0x381c9e(0x142)],'defaultValue':'non'},'type':{'type':DataTypes[_0x381c9e(0x151)](_0x381c9e(0x143),_0x381c9e(0x146),_0x381c9e(0x15b)),'defaultValue':_0x381c9e(0x143)}},{'tableName':_0x381c9e(0x148),'timestamps':![]}),Antimention_warnings=sequelize[_0x381c9e(0x14a)](_0x381c9e(0x140),{'groupId':{'type':DataTypes[_0x381c9e(0x142)],'allowNull':![]},'userId':{'type':DataTypes[_0x381c9e(0x142)],'allowNull':![]},'count':{'type':DataTypes[_0x381c9e(0x13c)],'defaultValue':0x1}},{'tableName':_0x381c9e(0x14d),'timestamps':![]});((async()=>{const _0x4c66b0=_0x381c9e;await Antimention['sync'](),await Antimention_warnings[_0x4c66b0(0x15e)]();})()),module[_0x381c9e(0x149)]={'Antimention':Antimention,'Antimention_warnings':Antimention_warnings};
+const { DataTypes } = require("sequelize");
+const sequelize = require("./db");
+const Antimention = sequelize.define(
+  "Antimention",
+  {
+    id: {
+      type: DataTypes.STRING,
+      primaryKey: true,
+    },
+    mode: {
+      type: DataTypes.STRING,
+      defaultValue: "non",
+    },
+    type: {
+      type: DataTypes.ENUM("supp", "warn", "kick"),
+      defaultValue: "supp",
+    },
+  },
+  {
+    tableName: "antimention",
+    timestamps: false,
+  },
+);
+const Antimention_warnings = sequelize.define(
+  "Antimention_warnings",
+  {
+    groupId: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    userId: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    count: {
+      type: DataTypes.INTEGER,
+      defaultValue: 1,
+    },
+  },
+  {
+    tableName: "antimention_warnings",
+    timestamps: false,
+  },
+);
+(async () => {
+  await Antimention.sync();
+  await Antimention_warnings.sync();
+})().catch(e =>
+  console.error("❌ Synchronisation de la base impossible (antimention.js) :", e.message),
+);
+module.exports = {
+  Antimention,
+  Antimention_warnings,
+};

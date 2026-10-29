@@ -1,1 +1,92 @@
-const _0x5358d8=_0xf206;function _0xf206(_0x3c2d31,_0x390037){const _0x5c690c=_0x19e7();return _0xf206=function(_0x3617e3,_0x16db13){_0x3617e3=_0x3617e3-0x8c;let _0x19e7e5=_0x5c690c[_0x3617e3];if(_0xf206['bnYvnE']===undefined){var _0xf2068a=function(_0x2c7ba5){const _0x339172='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x36f15a='',_0x24efef='',_0x54d1bf=_0x36f15a+_0xf2068a;for(let _0x208983=0x0,_0x37eb38,_0x306e73,_0x118659=0x0;_0x306e73=_0x2c7ba5['charAt'](_0x118659++);~_0x306e73&&(_0x37eb38=_0x208983%0x4?_0x37eb38*0x40+_0x306e73:_0x306e73,_0x208983++%0x4)?_0x36f15a+=_0x54d1bf['charCodeAt'](_0x118659+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x37eb38>>(-0x2*_0x208983&0x6)):_0x208983:0x0){_0x306e73=_0x339172['indexOf'](_0x306e73);}for(let _0x50ffc4=0x0,_0x20618b=_0x36f15a['length'];_0x50ffc4<_0x20618b;_0x50ffc4++){_0x24efef+='%'+('00'+_0x36f15a['charCodeAt'](_0x50ffc4)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x24efef);};_0xf206['iMjzej']=_0xf2068a,_0x3c2d31=arguments,_0xf206['bnYvnE']=!![];}const _0x5ef4d3=_0x5c690c[0x0],_0x2647d8=_0x3617e3+_0x5ef4d3,_0x15a7c2=_0x3c2d31[_0x2647d8];if(!_0x15a7c2){const _0x2b57f6=function(_0x2bace2){this['tGculF']=_0x2bace2,this['wsGFJk']=[0x1,0x0,0x0],this['wSGwLO']=function(){return'newState';},this['sVXVSu']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['rLncYc']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x2b57f6['prototype']['rZuqet']=function(){const _0x215a91=new RegExp(this['sVXVSu']+this['rLncYc']),_0x4a6e9c=_0x215a91['test'](this['wSGwLO']['toString']())?--this['wsGFJk'][0x1]:--this['wsGFJk'][0x0];return this['yAXzha'](_0x4a6e9c);},_0x2b57f6['prototype']['yAXzha']=function(_0x46d3bc){if(!Boolean(~_0x46d3bc))return _0x46d3bc;return this['CRWoRS'](this['tGculF']);},_0x2b57f6['prototype']['CRWoRS']=function(_0x18698f){for(let _0x19ea9e=0x0,_0x4766af=this['wsGFJk']['length'];_0x19ea9e<_0x4766af;_0x19ea9e++){this['wsGFJk']['push'](Math['round'](Math['random']())),_0x4766af=this['wsGFJk']['length'];}return _0x18698f(this['wsGFJk'][0x0]);},new _0x2b57f6(_0xf206)['rZuqet'](),_0x19e7e5=_0xf206['iMjzej'](_0x19e7e5),_0x3c2d31[_0x2647d8]=_0x19e7e5;}else _0x19e7e5=_0x15a7c2;return _0x19e7e5;},_0xf206(_0x3c2d31,_0x390037);}(function(_0x3d759c,_0x21f651){const _0x3652c6=_0xf206,_0x1547c1=_0x3d759c();while(!![]){try{const _0x1cb8dd=parseInt(_0x3652c6(0x9a))/0x1+parseInt(_0x3652c6(0xad))/0x2+-parseInt(_0x3652c6(0xa7))/0x3+parseInt(_0x3652c6(0x92))/0x4+-parseInt(_0x3652c6(0x95))/0x5+parseInt(_0x3652c6(0x8c))/0x6*(parseInt(_0x3652c6(0x8f))/0x7)+parseInt(_0x3652c6(0xa6))/0x8*(-parseInt(_0x3652c6(0x99))/0x9);if(_0x1cb8dd===_0x21f651)break;else _0x1547c1['push'](_0x1547c1['shift']());}catch(_0x48b70d){_0x1547c1['push'](_0x1547c1['shift']());}}}(_0x19e7,0xeee5c));const _0x16db13=(function(){let _0x3a919c=!![];return function(_0x15f0fb,_0x4eb4bb){const _0x4d8bee=_0x3a919c?function(){const _0x5403e4=_0xf206;if(_0x4eb4bb){const _0x551678=_0x4eb4bb[_0x5403e4(0xaa)](_0x15f0fb,arguments);return _0x4eb4bb=null,_0x551678;}}:function(){};return _0x3a919c=![],_0x4d8bee;};}()),_0x3617e3=_0x16db13(this,function(){const _0x57f2df=_0xf206,_0x5cb686={'wHtka':_0x57f2df(0x8d)};return _0x3617e3[_0x57f2df(0xa1)]()[_0x57f2df(0xaf)](_0x57f2df(0x8d))['toString']()[_0x57f2df(0x9b)](_0x3617e3)[_0x57f2df(0xaf)](_0x5cb686[_0x57f2df(0xa0)]);});_0x3617e3();const fs=require('fs'),path=require(_0x5358d8(0xa3)),axios=require(_0x5358d8(0x90));function _0x19e7(){const _0x5362a8=['AM9PBG','lMPZB24','C3rHDhvZ','mZq1mZKZyKHwDujA','mta5ndu2nKv3EMLtuq','y29UC3rYDwn0B3i','y3jLzhm','zxHWB3j0CW','z2v0','BgvUz3rO','D0H0A2e','Dg9tDhjPBMC','zxHPC3rZu3LUyW','Cgf0Aa','DejcAM0','CMvZCg9UC2u','mtuYshfsCuHV','mty0oti5mKHYwLHiDG','BKDrt1e','zgf0yq','yxbWBhK','D3jPDgvgAwXLu3LUyW','y3jLzhmUANnVBG','mZeYnZeXog1ev3DMDa','BwTKAxjtEw5J','C2vHCMnO','mJC2te5gyxfU','kcGOlISPkYKRksSK','Ahr0Chm6lY9VDMWTD2vIlMTVEwvIlMfWCc9NzxrZzxnZAw9Up2LKpq','mZu1odHACxHxrfe','yxHPB3m','BLbtBwK','mJmWmty0sw1hBNP1','A2v5CW','C3rYAw5NAwz5','mZq2mdm5nwDVEfvIuG'];_0x19e7=function(){return _0x5362a8;};return _0x19e7();}async function get_session(_0x174886){const _0x2ef964=_0x5358d8,_0x138bad={'nPSmi':function(_0x3a221b,_0x177293){return _0x3a221b===_0x177293;}};if(!_0x174886)throw new Error('ID\x20requis');const _0x2ad7e3=_0x2ef964(0x8e)+_0x174886;try{const _0x44e7cb=await axios[_0x2ef964(0x9e)](_0x2ad7e3);if(!_0x44e7cb[_0x2ef964(0xa9)])return null;return{'creds':_0x44e7cb['data'][_0x2ef964(0x9c)],'keys':_0x44e7cb[_0x2ef964(0xa9)][_0x2ef964(0x93)]};}catch(_0x1b6f05){if(_0x1b6f05[_0x2ef964(0xa5)]&&_0x138bad[_0x2ef964(0x91)](_0x1b6f05['response'][_0x2ef964(0x98)],0x194))return null;throw new Error('Erreur\x20API:\x20'+_0x1b6f05['message']);}}async function restaureAuth(_0x3d3101,_0x4e1cbe,_0x3a9273){const _0x15f19b=_0x5358d8,_0x106ff8={'nGQOQ':'../auth','tBBjm':function(_0x391d9c,_0x12cc73){return _0x391d9c>_0x12cc73;}},_0x3d5f4d=path[_0x15f19b(0x96)](__dirname,_0x106ff8[_0x15f19b(0xa8)]);if(!fs[_0x15f19b(0xa2)](_0x3d5f4d))fs[_0x15f19b(0xae)](_0x3d5f4d,{'recursive':!![]});const _0x26e46e=path[_0x15f19b(0x96)](_0x3d5f4d,_0x3d3101);if(!fs[_0x15f19b(0xa2)](_0x26e46e))fs[_0x15f19b(0xae)](_0x26e46e,{'recursive':!![]});fs[_0x15f19b(0xab)](path[_0x15f19b(0x96)](_0x26e46e,_0x15f19b(0xac)),JSON[_0x15f19b(0x94)](_0x4e1cbe));if(_0x3a9273&&_0x106ff8[_0x15f19b(0xa4)](Object['keys'](_0x3a9273)[_0x15f19b(0x9f)],0x0))for(const _0x509dfd in _0x3a9273){fs[_0x15f19b(0xab)](path[_0x15f19b(0x96)](_0x26e46e,_0x509dfd+_0x15f19b(0x97)),JSON['stringify'](_0x3a9273[_0x509dfd]));}}module[_0x5358d8(0x9d)]={'get_session':get_session,'restaureAuth':restaureAuth};
+const fs = require("fs");
+const path = require("path");
+const axios = require("axios");
+
+const DOSSIER_AUTH = path.join(__dirname, "../auth");
+
+// Service par défaut qui héberge les sessions générées sur https://ovl-web.koyeb.app/.
+// Attention : vos identifiants WhatsApp transitent par ce service. Vous pouvez
+// pointer SESSION_API vers votre propre instance, ou vous en passer complètement
+// en déposant vos identifiants dans auth/principale/creds.json.
+const SESSION_API = process.env.SESSION_API || "https://ovl-web.koyeb.app/getsession?id=";
+
+/** Vrai si la session dispose déjà d'identifiants locaux utilisables. */
+function authLocaleExiste(nomSession) {
+  try {
+    const creds = path.join(DOSSIER_AUTH, nomSession, "creds.json");
+    if (!fs.existsSync(creds)) return false;
+    const contenu = JSON.parse(fs.readFileSync(creds, "utf8"));
+    return !!contenu?.me?.id || !!contenu?.noiseKey;
+  } catch {
+    return false;
+  }
+}
+
+/** Tente de lire un SESSION_ID qui contiendrait directement les creds. */
+function litSessionLocale(sessionId) {
+  const essais = [sessionId];
+  if (/^[A-Za-z0-9+/=]+$/.test(sessionId) && sessionId.length > 80) {
+    try {
+      essais.push(Buffer.from(sessionId, "base64").toString("utf8"));
+    } catch {
+      /* ignoré : ce n'était pas du base64 valide */
+    }
+  }
+  for (const candidat of essais) {
+    if (typeof candidat !== "string" || !candidat.trim().startsWith("{")) continue;
+    try {
+      const parsed = JSON.parse(candidat);
+      if (parsed?.creds) return { creds: parsed.creds, keys: parsed.keys };
+      if (parsed?.noiseKey || parsed?.me) return { creds: parsed, keys: undefined };
+    } catch {
+      /* ignoré : ce n'était pas du JSON de session */
+    }
+  }
+  return null;
+}
+
+/**
+ * Récupère les identifiants d'une session.
+ * Accepte un SESSION_ID du service distant, ou directement du JSON de creds
+ * (brut ou encodé en base64), ce qui évite tout appel réseau.
+ */
+async function get_session(sessionId) {
+  if (!sessionId) throw new Error("SESSION_ID requis");
+
+  const local = litSessionLocale(sessionId);
+  if (local) return local;
+
+  const url = SESSION_API + encodeURIComponent(sessionId);
+  try {
+    const reponse = await axios.get(url, { timeout: 20000 });
+    if (!reponse.data) return null;
+    return { creds: reponse.data.creds, keys: reponse.data.keys };
+  } catch (e) {
+    if (e.response && e.response.status === 404) return null;
+    throw new Error("Erreur API session : " + e.message);
+  }
+}
+
+/** Écrit les identifiants dans auth/<nomSession>/ au format attendu par Baileys. */
+async function restaureAuth(nomSession, creds, keys) {
+  if (!creds) throw new Error("Identifiants de session absents");
+
+  if (!fs.existsSync(DOSSIER_AUTH)) fs.mkdirSync(DOSSIER_AUTH, { recursive: true });
+  const dossier = path.join(DOSSIER_AUTH, nomSession);
+  if (!fs.existsSync(dossier)) fs.mkdirSync(dossier, { recursive: true });
+
+  const credsObjet = typeof creds === "string" ? JSON.parse(creds) : creds;
+  fs.writeFileSync(path.join(dossier, "creds.json"), JSON.stringify(credsObjet));
+
+  if (keys && Object.keys(keys).length > 0) {
+    for (const nomFichier of Object.keys(keys)) {
+      // Un nom de clé venant d'une réponse distante ne doit pas pouvoir
+      // s'échapper du dossier (traversée de chemin).
+      const sain = path.basename(String(nomFichier)).replace(/[^A-Za-z0-9._-]/g, "_");
+      if (!sain || sain === "." || sain === "..") continue;
+      fs.writeFileSync(path.join(dossier, sain + ".json"), JSON.stringify(keys[nomFichier]));
+    }
+  }
+}
+
+module.exports = { get_session, restaureAuth, authLocaleExiste };

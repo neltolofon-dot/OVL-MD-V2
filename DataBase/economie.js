@@ -1,1 +1,176 @@
-const _0x3fb500=_0x1ae8;(function(_0x4122ed,_0x11e660){const _0xd83927=_0x1ae8,_0x41f71d=_0x4122ed();while(!![]){try{const _0x3f33b0=-parseInt(_0xd83927(0xea))/0x1+-parseInt(_0xd83927(0xe5))/0x2+parseInt(_0xd83927(0xf1))/0x3+parseInt(_0xd83927(0xd1))/0x4+-parseInt(_0xd83927(0xcb))/0x5*(parseInt(_0xd83927(0xef))/0x6)+parseInt(_0xd83927(0xd5))/0x7+parseInt(_0xd83927(0xdc))/0x8;if(_0x3f33b0===_0x11e660)break;else _0x41f71d['push'](_0x41f71d['shift']());}catch(_0x4ddf8d){_0x41f71d['push'](_0x41f71d['shift']());}}}(_0xccb2,0x25592));const _0x30c810=(function(){let _0x195449=!![];return function(_0x533710,_0x818b23){const _0x166c83=_0x195449?function(){const _0x3faa65=_0x1ae8;if(_0x818b23){const _0x4c733b=_0x818b23[_0x3faa65(0xee)](_0x533710,arguments);return _0x818b23=null,_0x4c733b;}}:function(){};return _0x195449=![],_0x166c83;};}()),_0x3992ba=_0x30c810(this,function(){const _0x3bb58c=_0x1ae8,_0x4dcd56={'PsRUo':_0x3bb58c(0xca)};return _0x3992ba[_0x3bb58c(0xde)]()[_0x3bb58c(0xf0)](_0x4dcd56[_0x3bb58c(0xe1)])[_0x3bb58c(0xde)]()[_0x3bb58c(0xc6)](_0x3992ba)[_0x3bb58c(0xf0)](_0x4dcd56[_0x3bb58c(0xe1)]);});_0x3992ba();const {Sequelize,DataTypes}=require(_0x3fb500(0xcc)),config=require(_0x3fb500(0xdd)),db=config['DATABASE'];let sequelize;!db?sequelize=new Sequelize({'dialect':_0x3fb500(0xdb),'storage':_0x3fb500(0xc4),'logging':![]}):sequelize=new Sequelize(db,{'dialect':'postgres','ssl':!![],'protocol':'postgres','dialectOptions':{'native':!![],'ssl':{'require':!![],'rejectUnauthorized':![]}},'logging':![]});const ECONOMIE=sequelize['define'](_0x3fb500(0xe4),{'id':{'type':DataTypes[_0x3fb500(0xc3)],'primaryKey':!![]},'pseudo':{'type':DataTypes[_0x3fb500(0xc3)],'defaultValue':'Utilisateur'},'portefeuille':{'type':DataTypes[_0x3fb500(0xe8)],'defaultValue':0x0},'banque':{'type':DataTypes[_0x3fb500(0xe8)],'defaultValue':0x0},'capacite_banque':{'type':DataTypes[_0x3fb500(0xe8)],'defaultValue':0x2710},'last_bonus':{'type':DataTypes[_0x3fb500(0xe8)],'defaultValue':0x0}},{'tableName':'economie','timestamps':![]});((async()=>{const _0x4e9fcb=_0x3fb500;await ECONOMIE[_0x4e9fcb(0xed)]();})());function _0xccb2(){const _0xf1674=['yxbWBhK','nZG2tvjXDg9e','C2vHCMnO','odm5mJe3sfPTwgrQ','zNzjuwu','u1rssu5h','lI9KyxrHyMfZzs5KyG','u2Ley2W','y29UC3rYDwn0B3i','rffwEu0','zMLUze9Uzq','y2fWywnPDgvFyMfUCxvL','kcGOlISPkYKRksSK','mZq1nujis2nswa','C2vXDwvSAxPL','vxrPBgLZyxrLDxi','ChnLDwrV','zMLUze9Yq3jLyxrL','AfrXsKG','oty1nJHJEKnOreK','zgf0yvzHBhvLCW','EgPtz1u','zMLUzefSBa','mtuZmda4mwnAANrbua','BwfW','revtqW','vhLWzsbKzsbZB2XKzsbPBNzHBgLKzs4GvxrPBgLZzsaNCg9YDgvMzxvPBgXLjYbVDsaNyMfUCxvLjY4','C2f2zq','Aw5JBhvKzxm','C3fSAxrL','nZK3mdrcwKDzDhm','lI4VC2v0','Dg9tDhjPBMC','D2fSBgv0','yMfUCxvL','uhnsvw8','rxjYzxvYigXVCNmGzguGBgeGCSoPy3vWW6LYyxrPB24GzhuGDg9WigjHBNf1zsa6','ywjZ','runptK9nsuu','mJuXntaYwgD3zeTN','Bwf4','tvLOqui','qKLhsu5u','Cg9YDgvMzxvPBgXL','mtyZmtC3qKvfs2vg','C0TeBuG','Cxfpv00','C3LUyW'];_0xccb2=function(){return _0xf1674;};return _0xccb2();}async function ajouterUtilisateur(_0x296ba4,_0x55eaac=_0x3fb500(0xcd)){const _0x14444e=_0x3fb500;return await ECONOMIE[_0x14444e(0xcf)]({'where':{'id':_0x296ba4},'defaults':{'pseudo':_0x55eaac,'portefeuille':0x0,'banque':0x0,'capacite_banque':0x3e8,'last_bonus':0x0}});}async function supprimerUtilisateur(_0x1499f0){return await ECONOMIE['destroy']({'where':{'id':_0x1499f0}});}function _0x1ae8(_0x4a4033,_0x31b4bc){const _0x56e828=_0xccb2();return _0x1ae8=function(_0x3992ba,_0x30c810){_0x3992ba=_0x3992ba-0xc2;let _0xccb210=_0x56e828[_0x3992ba];if(_0x1ae8['WxYNai']===undefined){var _0x1ae83e=function(_0x379992){const _0xdde885='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x36006f='',_0x1aa944='',_0x5c9b03=_0x36006f+_0x1ae83e;for(let _0x2d5ff9=0x0,_0x677f82,_0x2a2d97,_0x1b1525=0x0;_0x2a2d97=_0x379992['charAt'](_0x1b1525++);~_0x2a2d97&&(_0x677f82=_0x2d5ff9%0x4?_0x677f82*0x40+_0x2a2d97:_0x2a2d97,_0x2d5ff9++%0x4)?_0x36006f+=_0x5c9b03['charCodeAt'](_0x1b1525+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x677f82>>(-0x2*_0x2d5ff9&0x6)):_0x2d5ff9:0x0){_0x2a2d97=_0xdde885['indexOf'](_0x2a2d97);}for(let _0x10ee06=0x0,_0x15389c=_0x36006f['length'];_0x10ee06<_0x15389c;_0x10ee06++){_0x1aa944+='%'+('00'+_0x36006f['charCodeAt'](_0x10ee06)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x1aa944);};_0x1ae8['TmheEl']=_0x1ae83e,_0x4a4033=arguments,_0x1ae8['WxYNai']=!![];}const _0x3cd2cd=_0x56e828[0x0],_0x366103=_0x3992ba+_0x3cd2cd,_0x255797=_0x4a4033[_0x366103];if(!_0x255797){const _0x2bf146=function(_0x5448fd){this['CFMxzn']=_0x5448fd,this['uuGJjb']=[0x1,0x0,0x0],this['alwqUH']=function(){return'newState';},this['jhJDzW']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['OlZRxa']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x2bf146['prototype']['QuYTkn']=function(){const _0x4deb83=new RegExp(this['jhJDzW']+this['OlZRxa']),_0x35b159=_0x4deb83['test'](this['alwqUH']['toString']())?--this['uuGJjb'][0x1]:--this['uuGJjb'][0x0];return this['AeXIoJ'](_0x35b159);},_0x2bf146['prototype']['AeXIoJ']=function(_0x58ef07){if(!Boolean(~_0x58ef07))return _0x58ef07;return this['jSwXCB'](this['CFMxzn']);},_0x2bf146['prototype']['jSwXCB']=function(_0x509643){for(let _0x5ba2db=0x0,_0x280f4c=this['uuGJjb']['length'];_0x5ba2db<_0x280f4c;_0x5ba2db++){this['uuGJjb']['push'](Math['round'](Math['random']())),_0x280f4c=this['uuGJjb']['length'];}return _0x509643(this['uuGJjb'][0x0]);},new _0x2bf146(_0x1ae8)['QuYTkn'](),_0xccb210=_0x1ae8['TmheEl'](_0xccb210),_0x4a4033[_0x366103]=_0xccb210;}else _0xccb210=_0x255797;return _0xccb210;},_0x1ae8(_0x4a4033,_0x31b4bc);}async function getInfosUtilisateur(_0x1b5a8c){const _0x47c987=_0x3fb500,_0xda957c=await ECONOMIE[_0x47c987(0xc8)]({'where':{'id':_0x1b5a8c}});if(!_0xda957c)return null;return _0xda957c['dataValues'];}async function modifierSolde(_0x39318a,_0x5581d3='portefeuille',_0x5e7672=0x0){const _0x4856b8=_0x3fb500,_0x4cf4f6={'bnNJH':_0x4856b8(0xe9),'hTqJH':'banque','fvIQe':_0x4856b8(0xd8),'sKDmH':function(_0x384863,_0xf3e988){return _0x384863(_0xf3e988);},'TOisY':function(_0x33621b,_0xe1488a){return _0x33621b(_0xe1488a);},'LjGVf':function(_0x1caaee,_0x1c4386){return _0x1caaee<_0x1c4386;},'SiDcl':function(_0x1dc6e4,_0x48f709){return _0x1dc6e4+_0x48f709;}},_0x40c2a9=await ECONOMIE[_0x4856b8(0xc8)]({'where':{'id':_0x39318a}});if(!_0x40c2a9)return null;if(![_0x4cf4f6['bnNJH'],_0x4cf4f6[_0x4856b8(0xd0)]][_0x4856b8(0xda)](_0x5581d3))throw new Error(_0x4cf4f6[_0x4856b8(0xc2)]);const _0x5c7043=_0x4cf4f6[_0x4856b8(0xeb)](Number,_0x40c2a9[_0x5581d3]),_0x262a5c=Math[_0x4856b8(0xe3)](_0x4cf4f6['TOisY'](Number,_0x5e7672)),_0x217dd4=_0x4cf4f6['LjGVf'](_0x5e7672,0x0)?Math[_0x4856b8(0xe6)](_0x5c7043-_0x262a5c,0x0):_0x4cf4f6[_0x4856b8(0xc5)](_0x5c7043,_0x262a5c);return _0x40c2a9[_0x5581d3]=_0x217dd4,await _0x40c2a9['save'](),{'nouveauSolde':_0x217dd4};}async function mettreAJourCapaciteBanque(_0x124093,_0x5c1c9a){const _0x594e57=_0x3fb500,_0xfabde3=await ECONOMIE[_0x594e57(0xc8)]({'where':{'id':_0x124093}});if(!_0xfabde3)return null;return _0xfabde3[_0x594e57(0xc9)]=_0x5c1c9a,await _0xfabde3[_0x594e57(0xd9)](),_0xfabde3['capacite_banque'];}async function changerPseudo(_0x425732,_0xfe5bf1){const _0x26126f=_0x3fb500,_0x2e645f=await ECONOMIE[_0x26126f(0xc8)]({'where':{'id':_0x425732}});if(!_0x2e645f)return null;return _0x2e645f['pseudo']=_0xfe5bf1,await _0x2e645f[_0x26126f(0xd9)](),_0x2e645f[_0x26126f(0xce)];}async function resetEconomie(_0x329f18,_0x3d6aa9={'wallet':![],'banque':![],'capacite':![]}){const _0x4af74f=_0x3fb500,_0x21e4f8=await ECONOMIE['findOne']({'where':{'id':_0x329f18}});if(!_0x21e4f8)return null;if(_0x3d6aa9[_0x4af74f(0xdf)])_0x21e4f8[_0x4af74f(0xe9)]=0x0;if(_0x3d6aa9[_0x4af74f(0xe0)])_0x21e4f8[_0x4af74f(0xe0)]=0x0;if(_0x3d6aa9['capacite'])_0x21e4f8[_0x4af74f(0xc9)]=0x2710;return await _0x21e4f8['save'](),_0x21e4f8[_0x4af74f(0xd2)];}async function TopBanque(){const _0x254507=_0x3fb500,_0x14fe7b={'xjSgU':_0x254507(0xe0),'MYhAB':_0x254507(0xd7),'qqOWM':'portefeuille','kXOIR':'capacite','DQVyM':_0x254507(0xe2)};try{const _0x25cde3=await ECONOMIE[_0x254507(0xd4)]({'order':[[_0x14fe7b['xjSgU'],_0x14fe7b[_0x254507(0xe7)]]],'limit':0xa,'attributes':['id',_0x14fe7b[_0x254507(0xec)],_0x14fe7b[_0x254507(0xd3)],_0x14fe7b['kXOIR']]});return _0x25cde3[_0x254507(0xd6)](_0x2450a1=>({'id':_0x2450a1['id'],'portefeuille':_0x2450a1['portefeuille'],'banque':_0x2450a1[_0x254507(0xe0)],'capacite':_0x2450a1['capacite']}));}catch(_0x2cc6ce){return console['error'](_0x14fe7b[_0x254507(0xc7)],_0x2cc6ce),[];}}module['exports']={'TopBanque':TopBanque,'ECONOMIE':ECONOMIE,'ajouterUtilisateur':ajouterUtilisateur,'supprimerUtilisateur':supprimerUtilisateur,'getInfosUtilisateur':getInfosUtilisateur,'modifierSolde':modifierSolde,'mettreAJourCapaciteBanque':mettreAJourCapaciteBanque,'changerPseudo':changerPseudo,'resetEconomie':resetEconomie};
+const { DataTypes } = require("sequelize");
+const sequelize = require("./db");
+const ECONOMIE = sequelize.define(
+  "ECONOMIE",
+  {
+    id: {
+      type: DataTypes.STRING,
+      primaryKey: true,
+    },
+    pseudo: {
+      type: DataTypes.STRING,
+      defaultValue: "Utilisateur",
+    },
+    portefeuille: {
+      type: DataTypes.BIGINT,
+      defaultValue: 0,
+    },
+    banque: {
+      type: DataTypes.BIGINT,
+      defaultValue: 0,
+    },
+    capacite_banque: {
+      type: DataTypes.BIGINT,
+      defaultValue: 10000,
+    },
+    last_bonus: {
+      type: DataTypes.BIGINT,
+      defaultValue: 0,
+    },
+  },
+  {
+    tableName: "economie",
+    timestamps: false,
+  },
+);
+(async () => {
+  await ECONOMIE.sync();
+})().catch(e =>
+  console.error("❌ Synchronisation de la base impossible (economie.js) :", e.message),
+);
+async function ajouterUtilisateur(v1, v2 = "Utilisateur") {
+  return await ECONOMIE.findOrCreate({
+    where: {
+      id: v1,
+    },
+    defaults: {
+      pseudo: v2,
+      portefeuille: 0,
+      banque: 0,
+      capacite_banque: 1000,
+      last_bonus: 0,
+    },
+  });
+}
+async function supprimerUtilisateur(v1) {
+  return await ECONOMIE.destroy({
+    where: {
+      id: v1,
+    },
+  });
+}
+async function getInfosUtilisateur(v1) {
+  const v2 = await ECONOMIE.findOne({
+    where: {
+      id: v1,
+    },
+  });
+  if (!v2) {
+    return null;
+  }
+  return v2.dataValues;
+}
+async function modifierSolde(v1, v2 = "portefeuille", v3 = 0) {
+  const v4 = await ECONOMIE.findOne({
+    where: {
+      id: v1,
+    },
+  });
+  if (!v4) {
+    return null;
+  }
+  if (!["portefeuille", "banque"].includes(v2)) {
+    throw new Error("Type de solde invalide. Utilise 'portefeuille' ou 'banque'.");
+  }
+  const v5 = Number(v4[v2]);
+  const v6 = Math.abs(Number(v3));
+  const v7 = v3 < 0 ? Math.max(v5 - v6, 0) : v5 + v6;
+  v4[v2] = v7;
+  await v4.save();
+  return {
+    nouveauSolde: v7,
+  };
+}
+async function mettreAJourCapaciteBanque(v1, v2) {
+  const v3 = await ECONOMIE.findOne({
+    where: {
+      id: v1,
+    },
+  });
+  if (!v3) {
+    return null;
+  }
+  v3.capacite_banque = v2;
+  await v3.save();
+  return v3.capacite_banque;
+}
+async function changerPseudo(v1, v2) {
+  const v3 = await ECONOMIE.findOne({
+    where: {
+      id: v1,
+    },
+  });
+  if (!v3) {
+    return null;
+  }
+  v3.pseudo = v2;
+  await v3.save();
+  return v3.pseudo;
+}
+async function resetEconomie(
+  v1,
+  v2 = {
+    wallet: false,
+    banque: false,
+    capacite: false,
+  },
+) {
+  const v3 = await ECONOMIE.findOne({
+    where: {
+      id: v1,
+    },
+  });
+  if (!v3) {
+    return null;
+  }
+  if (v2.wallet) {
+    v3.portefeuille = 0;
+  }
+  if (v2.banque) {
+    v3.banque = 0;
+  }
+  if (v2.capacite) {
+    v3.capacite_banque = 10000;
+  }
+  await v3.save();
+  return v3.dataValues;
+}
+async function TopBanque() {
+  try {
+    const v1 = await ECONOMIE.findAll({
+      order: [["banque", "DESC"]],
+      limit: 10,
+      attributes: ["id", "portefeuille", "banque", "capacite"],
+    });
+    return v1.map(v12 => ({
+      id: v12.id,
+      portefeuille: v12.portefeuille,
+      banque: v12.banque,
+      capacite: v12.capacite,
+    }));
+  } catch (e) {
+    console.error("Erreur lors de la récupération du top banque :", e);
+    return [];
+  }
+}
+module.exports = {
+  TopBanque,
+  ECONOMIE,
+  ajouterUtilisateur,
+  supprimerUtilisateur,
+  getInfosUtilisateur,
+  modifierSolde,
+  mettreAJourCapaciteBanque,
+  changerPseudo,
+  resetEconomie,
+};

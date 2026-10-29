@@ -1,0 +1,52 @@
+[Unit]
+# Service systemd pour faire tourner OVL-MD-V2 en permanence sur un VPS.
+#
+# Installation :
+#   sudo cp deploy/ovl-md.service /etc/systemd/system/
+#   sudo nano /etc/systemd/system/ovl-md.service   # ajustez User et WorkingDirectory
+#   sudo systemctl daemon-reload
+#   sudo systemctl enable --now ovl-md
+#
+# Journaux :  journalctl -u ovl-md -f
+# Redémarrer : sudo systemctl restart ovl-md
+Description=OVL-MD-V2 WhatsApp bot
+Documentation=https://github.com/neltolofon-dot/OVL-MD-V2
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+
+# À adapter : l'utilisateur et le dossier où vous avez cloné le dépôt.
+# N'utilisez pas root.
+User=ovl
+Group=ovl
+WorkingDirectory=/home/ovl/OVL-MD-V2
+
+# Chemin absolu vers node : `which node` pour le vérifier.
+# Avec nvm, c'est plutôt /home/ovl/.nvm/versions/node/vXX.X.X/bin/node
+ExecStart=/usr/bin/node Ovl.js
+
+Environment=NODE_ENV=production
+EnvironmentFile=/home/ovl/OVL-MD-V2/.env
+
+# Redémarrage automatique, avec une limite pour ne pas boucler indéfiniment
+# si la configuration est cassée.
+Restart=always
+RestartSec=10
+StartLimitBurst=5
+StartLimitIntervalSec=300
+
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=ovl-md
+
+# Durcissement : le service ne peut écrire que dans son propre dossier.
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=full
+ProtectHome=read-only
+ReadWritePaths=/home/ovl/OVL-MD-V2
+
+[Install]
+WantedBy=multi-user.target

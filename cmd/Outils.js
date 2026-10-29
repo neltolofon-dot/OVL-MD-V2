@@ -1,1 +1,1640 @@
-const _0xf8e4d6=_0x2dae;(function(_0x1bbfe9,_0x13561d){const _0x5922e0=_0x2dae,_0x3433cd=_0x1bbfe9();while(!![]){try{const _0x12ea6c=-parseInt(_0x5922e0(0x239))/0x1+-parseInt(_0x5922e0(0x1f8))/0x2*(-parseInt(_0x5922e0(0x2c0))/0x3)+parseInt(_0x5922e0(0x30c))/0x4*(-parseInt(_0x5922e0(0x21e))/0x5)+-parseInt(_0x5922e0(0x29a))/0x6+-parseInt(_0x5922e0(0x1f0))/0x7*(parseInt(_0x5922e0(0x20e))/0x8)+-parseInt(_0x5922e0(0x330))/0x9+parseInt(_0x5922e0(0x270))/0xa;if(_0x12ea6c===_0x13561d)break;else _0x3433cd['push'](_0x3433cd['shift']());}catch(_0x4082d2){_0x3433cd['push'](_0x3433cd['shift']());}}}(_0x5abf,0xaa80f));function _0x2dae(_0x424659,_0x33ed7e){const _0x48602c=_0x5abf();return _0x2dae=function(_0x204d1f,_0x22ffb0){_0x204d1f=_0x204d1f-0x17d;let _0x5abf04=_0x48602c[_0x204d1f];if(_0x2dae['cOdVbs']===undefined){var _0x2daebd=function(_0x4c97c0){const _0x24f4c1='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0xed1be2='',_0x519b42='',_0x1751f9=_0xed1be2+_0x2daebd;for(let _0x6a8ab8=0x0,_0x1cf448,_0x26c2f0,_0x3a0a30=0x0;_0x26c2f0=_0x4c97c0['charAt'](_0x3a0a30++);~_0x26c2f0&&(_0x1cf448=_0x6a8ab8%0x4?_0x1cf448*0x40+_0x26c2f0:_0x26c2f0,_0x6a8ab8++%0x4)?_0xed1be2+=_0x1751f9['charCodeAt'](_0x3a0a30+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x1cf448>>(-0x2*_0x6a8ab8&0x6)):_0x6a8ab8:0x0){_0x26c2f0=_0x24f4c1['indexOf'](_0x26c2f0);}for(let _0x44c17b=0x0,_0x5d4975=_0xed1be2['length'];_0x44c17b<_0x5d4975;_0x44c17b++){_0x519b42+='%'+('00'+_0xed1be2['charCodeAt'](_0x44c17b)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x519b42);};_0x2dae['vzsFKR']=_0x2daebd,_0x424659=arguments,_0x2dae['cOdVbs']=!![];}const _0x4ad997=_0x48602c[0x0],_0x192eeb=_0x204d1f+_0x4ad997,_0x56e11c=_0x424659[_0x192eeb];if(!_0x56e11c){const _0x1ccbbe=function(_0x3e6547){this['oETtXp']=_0x3e6547,this['SoVsfP']=[0x1,0x0,0x0],this['qXUUmt']=function(){return'newState';},this['cpVfQg']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['mcVzRk']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x1ccbbe['prototype']['rDnPEj']=function(){const _0x338012=new RegExp(this['cpVfQg']+this['mcVzRk']),_0x37363c=_0x338012['test'](this['qXUUmt']['toString']())?--this['SoVsfP'][0x1]:--this['SoVsfP'][0x0];return this['zZvjCk'](_0x37363c);},_0x1ccbbe['prototype']['zZvjCk']=function(_0x3b3ae2){if(!Boolean(~_0x3b3ae2))return _0x3b3ae2;return this['uvSpJg'](this['oETtXp']);},_0x1ccbbe['prototype']['uvSpJg']=function(_0x117543){for(let _0x1d427f=0x0,_0xc67759=this['SoVsfP']['length'];_0x1d427f<_0xc67759;_0x1d427f++){this['SoVsfP']['push'](Math['round'](Math['random']())),_0xc67759=this['SoVsfP']['length'];}return _0x117543(this['SoVsfP'][0x0]);},new _0x1ccbbe(_0x2dae)['rDnPEj'](),_0x5abf04=_0x2dae['vzsFKR'](_0x5abf04),_0x424659[_0x192eeb]=_0x5abf04;}else _0x5abf04=_0x56e11c;return _0x5abf04;},_0x2dae(_0x424659,_0x33ed7e);}const _0x22ffb0=(function(){let _0x1370a1=!![];return function(_0x4d3672,_0x256c29){const _0x359b72=_0x1370a1?function(){const _0x31c159=_0x2dae;if(_0x256c29){const _0x17a8f0=_0x256c29[_0x31c159(0x2bc)](_0x4d3672,arguments);return _0x256c29=null,_0x17a8f0;}}:function(){};return _0x1370a1=![],_0x359b72;};}()),_0x204d1f=_0x22ffb0(this,function(){const _0x302b20=_0x2dae;return _0x204d1f[_0x302b20(0x21c)]()[_0x302b20(0x1ca)](_0x302b20(0x2b8))[_0x302b20(0x21c)]()['constructor'](_0x204d1f)[_0x302b20(0x1ca)](_0x302b20(0x2b8));});_0x204d1f();const {ovlcmd,cmd}=require(_0xf8e4d6(0x290)),config=require(_0xf8e4d6(0x2ba)),{translate}=require(_0xf8e4d6(0x2b0)),prefixe=config['PREFIXE'],axios=require(_0xf8e4d6(0x233)),fs=require('fs'),path=require(_0xf8e4d6(0x201)),{WA_CONF}=require(_0xf8e4d6(0x2af)),{TempMail}=require(_0xf8e4d6(0x218)),JavaScriptObfuscator=require(_0xf8e4d6(0x236)),{exec}=require(_0xf8e4d6(0x2c2)),AdmZip=require(_0xf8e4d6(0x2f9)),os=require('os'),pkg=require('../package');function stylize(_0x4a3360){const _0xc41485=_0xf8e4d6,_0x54971e={'xhPav':'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789','LIutm':function(_0x5ed25c,_0x466549){return _0x5ed25c+_0x466549;},'ltXvJ':'ᴀʙᴄᴅᴇғɢʜɪᴊᴋʟᴍɴᴏᴘǫʀsᴛᴜᴠᴡxʏᴢ','wITkU':_0xc41485(0x28f)},_0x42be0d=_0x54971e['xhPav'],_0x44a951=_0x54971e[_0xc41485(0x338)](_0x54971e[_0xc41485(0x27f)],_0xc41485(0x1f5))+_0x54971e[_0xc41485(0x297)];return _0x4a3360['split']('')[_0xc41485(0x244)](_0x35c4b7=>{const _0x32e0dd=_0xc41485,_0x302638=_0x42be0d[_0x32e0dd(0x329)](_0x35c4b7);return _0x302638!==-0x1?_0x44a951[_0x302638]:_0x35c4b7;})[_0xc41485(0x269)]('');}const contextInfo={'forwardingScore':0x1,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':'120363371282577847@newsletter','newsletterName':'ᴏᴠʟ-ᴍᴅ-ᴠ𝟸'}};ovlcmd({'nom_cmd':_0xf8e4d6(0x2e0),'classe':_0xf8e4d6(0x2df),'react':'🌟','desc':_0xf8e4d6(0x259)},async(_0x18a284,_0x2f6fb7,{ms:_0x5d5b66,repondre:_0x3c5714,arg:_0x4d0b52})=>{const _0x3668ee=_0xf8e4d6,_0x325dfb={'mwVkb':'utf8','gpktS':function(_0x4183c6,_0x4b543b){return _0x4183c6*_0x4b543b;},'kmxCj':_0x3668ee(0x316),'UoOFe':_0x3668ee(0x1c2),'ubLly':function(_0x414f98,_0x293926){return _0x414f98*_0x293926;},'sXQXL':_0x3668ee(0x32c),'AVXke':function(_0x138189,_0x30a634){return _0x138189(_0x30a634);},'XntBl':'Erreur\x20dans\x20test:','tnaYj':function(_0x170c9a,_0x2eda10){return _0x170c9a(_0x2eda10);}};try{const _0x363b1f='./lib/theme.json',_0x17652a=fs['readFileSync'](_0x363b1f,_0x325dfb['mwVkb']),_0x14c8d9=JSON[_0x3668ee(0x262)](_0x17652a),[_0x3e5882]=await WA_CONF['findOrCreate']({'where':{'id':'1'},'defaults':{'id':'1','mention':'1'}}),_0x1f7228='🌐\x20Bienvenue\x20sur\x20*OVL-MD-V2*,\x20votre\x20bot\x20WhatsApp\x20multi-device.\x0a🔍\x20Tapez\x20*'+config[_0x3668ee(0x2bd)]+_0x3668ee(0x328);let _0x2cbc12;if(_0x3e5882['mention'][_0x3668ee(0x1ee)]('[')){const _0xb97021=JSON[_0x3668ee(0x262)](_0x3e5882[_0x3668ee(0x18d)]);_0x2cbc12=_0xb97021[Math[_0x3668ee(0x26b)](_0x325dfb[_0x3668ee(0x216)](Math[_0x3668ee(0x1b7)](),_0xb97021['length']))];}else{if(_0x3e5882[_0x3668ee(0x18d)][_0x3668ee(0x1ee)](_0x325dfb[_0x3668ee(0x1f2)])||_0x3e5882[_0x3668ee(0x18d)]['startsWith']('https://')){const _0x96f4f=JSON['parse'](_0x3e5882[_0x3668ee(0x18d)]);_0x2cbc12=_0x96f4f[Math['floor'](_0x325dfb['gpktS'](Math[_0x3668ee(0x1b7)](),_0x96f4f['length']))];}else{const _0x3aba34=_0x14c8d9['find'](_0x4c60fa=>_0x4c60fa['id']===_0x3e5882[_0x3668ee(0x18d)]);if(!_0x3aba34)throw new Error(_0x325dfb[_0x3668ee(0x199)]);_0x2cbc12=_0x3aba34['theme'][Math[_0x3668ee(0x26b)](_0x325dfb[_0x3668ee(0x219)](Math[_0x3668ee(0x1b7)](),_0x3aba34[_0x3668ee(0x320)][_0x3668ee(0x327)]))];}}_0x2cbc12['endsWith'](_0x325dfb[_0x3668ee(0x342)])?await _0x2f6fb7[_0x3668ee(0x305)](_0x18a284,{'video':{'url':_0x2cbc12},'caption':_0x325dfb['AVXke'](stylize,_0x1f7228),'gifPlayback':!![]},{'quoted':_0x5d5b66}):await _0x2f6fb7['sendMessage'](_0x18a284,{'image':{'url':_0x2cbc12},'caption':stylize(_0x1f7228)},{'quoted':_0x5d5b66});}catch(_0x482c2e){console['error'](_0x325dfb['XntBl'],_0x482c2e);const _0x1d66ae='🌐\x20Bienvenue\x20sur\x20*OVL-MD-V2*,\x20votre\x20bot\x20WhatsApp\x20multi-device.\x0a🔍\x20Tapez\x20*'+config[_0x3668ee(0x2bd)]+_0x3668ee(0x208);await _0x2f6fb7['sendMessage'](_0x18a284,{'text':_0x325dfb[_0x3668ee(0x287)](stylize,_0x1d66ae)},{'quoted':_0x5d5b66});}}),ovlcmd({'nom_cmd':'description','classe':_0xf8e4d6(0x2df),'desc':_0xf8e4d6(0x1ed),'alias':[_0xf8e4d6(0x1ae),'help']},async(_0x1d038c,_0xb0a873,_0x8893b1)=>{const _0x212b7a=_0xf8e4d6,_0x581086={'QgjKO':function(_0x1dcb59,_0xb0ccfd){return _0x1dcb59===_0xb0ccfd;},'SsgKm':_0x212b7a(0x24d),'hCrFE':_0x212b7a(0x28d),'ooZyX':function(_0x4525c5,_0x2c8d78){return _0x4525c5+_0x2c8d78;},'WxmNT':function(_0x335a1f,_0x1c2cc1){return _0x335a1f+_0x1c2cc1;},'znOhg':function(_0x3c68f7,_0x593da0){return _0x3c68f7+_0x593da0;},'tMpTP':function(_0x3da0b3,_0x3e309d){return _0x3da0b3+_0x3e309d;},'IXawB':function(_0x115893,_0x29f240){return _0x115893+_0x29f240;},'DObSk':_0x212b7a(0x30f),'gBKYC':'❌\x20Une\x20erreur\x20s’est\x20produite\x20dans\x20le\x20menu\x20description.'};try{const {arg:_0xa03b21,ms:_0x6c4c8f}=_0x8893b1,_0xbef77f=cmd;if(_0xa03b21[_0x212b7a(0x327)]){const _0x180442=_0xa03b21[0x0]['toLowerCase']();if(_0x581086[_0x212b7a(0x221)](_0x180442,_0x581086[_0x212b7a(0x1fd)])){let _0x4ab901=_0x212b7a(0x240);return _0xbef77f['forEach'](_0x140e54=>{const _0x4a4b2e=_0x212b7a;_0x4ab901+=_0x4a4b2e(0x1b2)+_0x140e54[_0x4a4b2e(0x190)]+_0x4a4b2e(0x27d)+_0x140e54[_0x4a4b2e(0x1ae)]+'_\x0aAlias\x20:\x20['+_0x140e54[_0x4a4b2e(0x206)][_0x4a4b2e(0x269)](',\x20')+_0x4a4b2e(0x1f4)+_0x140e54['classe']+'\x0a\x0a';}),await _0xb0a873['sendMessage'](_0x1d038c,{'text':_0x4ab901},{'quoted':_0x6c4c8f});}if(_0x581086[_0x212b7a(0x221)](_0x180442,_0x212b7a(0x2e5))){const _0x13c7e6=[...new Set(_0xbef77f[_0x212b7a(0x244)](_0x2a84b8=>_0x2a84b8[_0x212b7a(0x228)]))];let _0x328dde=_0x212b7a(0x1ff);return _0x13c7e6[_0x212b7a(0x203)](_0x4803cf=>{const _0x89a5ad=_0x212b7a,_0x4f2e41=_0xbef77f[_0x89a5ad(0x186)](_0x38bbd2=>_0x38bbd2['classe']===_0x4803cf);_0x328dde+=_0x89a5ad(0x264)+_0x4803cf+_0x89a5ad(0x1eb)+_0x4f2e41[_0x89a5ad(0x327)]+')\x0a',_0x4f2e41[_0x89a5ad(0x203)](_0x47734b=>{const _0x1f34a6=_0x89a5ad;_0x328dde+=_0x1f34a6(0x1af)+_0x47734b[_0x1f34a6(0x190)]+_0x1f34a6(0x27d)+_0x47734b[_0x1f34a6(0x1ae)]+'_\x0a';}),_0x328dde+='\x0a';}),await _0xb0a873[_0x212b7a(0x305)](_0x1d038c,{'text':_0x328dde},{'quoted':_0x6c4c8f});}if(_0x180442[_0x212b7a(0x1ee)](_0x581086[_0x212b7a(0x184)])){const _0xa06291=_0x180442[_0x212b7a(0x335)]('cat=')[0x1][_0x212b7a(0x17d)](),_0x20938f=[...new Set(_0xbef77f[_0x212b7a(0x244)](_0x1f702d=>_0x1f702d['classe'][_0x212b7a(0x17d)]()))];if(!_0x20938f['includes'](_0xa06291))return await _0xb0a873['sendMessage'](_0x1d038c,{'text':_0x212b7a(0x1f1)+_0xa06291+_0x212b7a(0x1c3)},{'quoted':_0x6c4c8f});const _0x5dd096=_0xbef77f[_0x212b7a(0x186)](_0x4ef360=>_0x4ef360[_0x212b7a(0x228)]['toLowerCase']()===_0xa06291);let _0x3f063a='📁\x20*Commandes\x20de\x20la\x20catégorie\x20\x22'+_0xa06291+_0x212b7a(0x286)+_0x5dd096[_0x212b7a(0x327)]+_0x212b7a(0x274);return _0x5dd096['forEach'](_0x1515db=>{const _0x71acf1=_0x212b7a;_0x3f063a+=_0x71acf1(0x1b0)+_0x1515db['nom_cmd']+_0x71acf1(0x27d)+_0x1515db['desc']+'_\x0aAlias\x20:\x20['+_0x1515db[_0x71acf1(0x206)]['join'](',\x20')+_0x71acf1(0x2eb);}),await _0xb0a873[_0x212b7a(0x305)](_0x1d038c,{'text':_0x3f063a},{'quoted':_0x6c4c8f});}const _0x6bdc8e=_0xbef77f[_0x212b7a(0x2f5)](_0x472644=>_0x472644['nom_cmd']['toLowerCase']()===_0x180442||_0x472644[_0x212b7a(0x206)][_0x212b7a(0x244)](_0x1c5cf2=>_0x1c5cf2[_0x212b7a(0x17d)]())[_0x212b7a(0x28c)](_0x180442));if(_0x6bdc8e){const _0xcf0dc8=_0x581086[_0x212b7a(0x193)](_0x581086[_0x212b7a(0x23c)](_0x581086[_0x212b7a(0x193)](_0x581086[_0x212b7a(0x23c)]('🧩\x20*Détails\x20de\x20la\x20commande\x20:*\x0a\x0a',_0x212b7a(0x1bf)+_0x6bdc8e[_0x212b7a(0x190)]+'\x0a'),_0x212b7a(0x188)+_0x6bdc8e['alias'][_0x212b7a(0x269)](',\x20')+']\x0a'),_0x212b7a(0x211)+_0x6bdc8e[_0x212b7a(0x228)]+'\x0a'),_0x212b7a(0x29b)+_0x6bdc8e[_0x212b7a(0x1ae)]);return await _0xb0a873[_0x212b7a(0x305)](_0x1d038c,{'text':_0xcf0dc8},{'quoted':_0x6c4c8f});}else return await _0xb0a873[_0x212b7a(0x305)](_0x1d038c,{'text':_0x212b7a(0x31b)+_0x180442+_0x212b7a(0x322)},{'quoted':_0x6c4c8f});}const _0x5a2f90=_0x581086['znOhg'](_0x581086[_0x212b7a(0x193)](_0x581086[_0x212b7a(0x2da)](_0x581086[_0x212b7a(0x2da)](_0x581086[_0x212b7a(0x22e)](_0x212b7a(0x25c),'📌\x20*desc\x20all*\x20→\x20Toutes\x20les\x20commandes\x0a'),_0x212b7a(0x2d2)),_0x212b7a(0x32f)),'Exemples\x20:\x0a'),'•\x20desc\x20all\x0a')+_0x212b7a(0x2a9)+_0x212b7a(0x250);await _0xb0a873[_0x212b7a(0x305)](_0x1d038c,{'text':_0x5a2f90},{'quoted':_0x6c4c8f});}catch(_0xf7aedb){console['error'](_0x581086[_0x212b7a(0x32d)],_0xf7aedb),await _0xb0a873[_0x212b7a(0x305)](_0x1d038c,{'text':_0x581086['gBKYC']},{'quoted':_0x8893b1['ms']});}}),ovlcmd({'nom_cmd':_0xf8e4d6(0x320),'classe':'Outils','react':'🎨','desc':_0xf8e4d6(0x18b)},async(_0x3fb8a0,_0x37e54b,_0x55610f)=>{const _0x9a1065=_0xf8e4d6,_0x2be434={'ElwpQ':function(_0x3c0d7a,_0x519bad){return _0x3c0d7a+_0x519bad;},'ETyAJ':function(_0x32dd1f,_0x32b2f2){return _0x32dd1f+_0x32b2f2;},'CrmIM':_0x9a1065(0x26d),'ZTlda':_0x9a1065(0x315),'ThvxC':function(_0x3daf04,_0x1ce9a8){return _0x3daf04===_0x1ce9a8;},'LTTMp':function(_0x4f1cbe){return _0x4f1cbe();},'KwTrv':function(_0x170607,_0x182f71){return _0x170607===_0x182f71;},'CNQGj':_0x9a1065(0x312),'EBeZw':'https://files.catbox.moe/6xlk10.jpg','raKKL':_0x9a1065(0x33b),'HZLSm':function(_0x434e47,_0x396612){return _0x434e47(_0x396612);},'ieNiV':function(_0x15bf4d,_0xd7456d,_0x1a13ac){return _0x15bf4d(_0xd7456d,_0x1a13ac);},'ViCYb':function(_0x298beb,_0x244f75){return _0x298beb<_0x244f75;},'Qmend':function(_0x505e47,_0x219c77){return _0x505e47>_0x219c77;},'KTfQK':function(_0x57e58e,_0x414d1a){return _0x57e58e-_0x414d1a;},'RIGJh':_0x9a1065(0x2bb),'ASIyG':_0x9a1065(0x19d)},{arg:_0x43dc0a,ms:_0x5260db,repondre:_0x35f095,prenium_id:_0x5b9b6f}=_0x55610f;try{if(!_0x5b9b6f)return _0x35f095(_0x2be434[_0x9a1065(0x2fe)]);const _0x52a7b6=_0x2be434[_0x9a1065(0x33c)],_0x4134b4=fs['readFileSync'](_0x52a7b6,_0x9a1065(0x198)),_0x2e76cf=JSON[_0x9a1065(0x262)](_0x4134b4),[_0x554f10]=await WA_CONF['findOrCreate']({'where':{'id':'1'},'defaults':{'id':'1','mention':'1'}}),_0x36751b=()=>{const _0x3d6e34=_0x9a1065,_0x5a0eba=config['PREFIXE']+_0x3d6e34(0x249),_0x74441a=config[_0x3d6e34(0x2bd)]+_0x3d6e34(0x1d3);return _0x37e54b['sendMessage'](_0x3fb8a0,{'text':_0x2be434[_0x3d6e34(0x296)](_0x2be434[_0x3d6e34(0x296)](_0x2be434['ElwpQ'](_0x2be434[_0x3d6e34(0x296)](_0x2be434[_0x3d6e34(0x31a)]('🎨\x20*Utilisation\x20de\x20la\x20commande\x20thème\x20:*\x0a\x0a'+(_0x3d6e34(0x277)+config['PREFIXE']+_0x3d6e34(0x263)),_0x3d6e34(0x277)+config[_0x3d6e34(0x2bd)]+_0x3d6e34(0x20b)),_0x3d6e34(0x277)+config[_0x3d6e34(0x2bd)]+_0x3d6e34(0x2fb)),'📌\x20*Exemples\x20:*\x0a'),'-\x20'+_0x5a0eba+'\x0a'),'-\x20'+_0x74441a)},{'quoted':_0x5260db});};if(_0x2be434['ThvxC'](_0x43dc0a[_0x9a1065(0x327)],0x0))return _0x2be434[_0x9a1065(0x202)](_0x36751b);const _0x3f8abb=_0x43dc0a['join']('\x20')['toLowerCase']();if(_0x2be434['KwTrv'](_0x3f8abb,_0x9a1065(0x1d2))){let _0x4d84a1=_0x2be434[_0x9a1065(0x241)];return _0x2e76cf[_0x9a1065(0x203)]((_0x16b3e8,_0x488db1)=>{const _0x15ca64=_0x9a1065;_0x4d84a1+=_0x488db1+0x1+'.\x20'+_0x16b3e8[_0x15ca64(0x17f)]+'\x0a';}),_0x37e54b[_0x9a1065(0x305)](_0x3fb8a0,{'image':{'url':_0x2be434[_0x9a1065(0x2c6)]},'caption':_0x4d84a1},{'quoted':_0x5260db});}if(_0x3f8abb[_0x9a1065(0x1ee)](_0x9a1065(0x316))||_0x3f8abb[_0x9a1065(0x1ee)](_0x2be434[_0x9a1065(0x334)])){const _0x2b315d=_0x43dc0a[_0x9a1065(0x269)]('\x20')[_0x9a1065(0x335)](';')[_0x9a1065(0x244)](_0x44e284=>_0x44e284['trim']())[_0x9a1065(0x186)](_0x5b7151=>_0x5b7151[_0x9a1065(0x327)]>0x0),_0x5e2c8a=/^https?:\/\/.+/i;for(const _0x33002e of _0x2b315d){if(!_0x5e2c8a[_0x9a1065(0x2e0)](_0x33002e))return _0x2be434[_0x9a1065(0x2ee)](_0x35f095,_0x9a1065(0x26c)+_0x33002e);}return _0x554f10[_0x9a1065(0x18d)]=JSON['stringify'](_0x2b315d),await _0x554f10[_0x9a1065(0x1ba)](),_0x37e54b[_0x9a1065(0x305)](_0x3fb8a0,{'text':'✅\x20'+_0x2b315d['length']+_0x9a1065(0x205)},{'quoted':_0x5260db});}const _0x50df90=_0x2be434[_0x9a1065(0x1fe)](parseInt,_0x3f8abb,0xa);if(_0x2be434['HZLSm'](isNaN,_0x50df90)||_0x2be434[_0x9a1065(0x325)](_0x50df90,0x1)||_0x2be434[_0x9a1065(0x2ab)](_0x50df90,_0x2e76cf[_0x9a1065(0x327)]))return _0x37e54b['sendMessage'](_0x3fb8a0,{'text':'❌\x20Numéro\x20invalide.\x0a📌\x20Utilise\x20*'+config['PREFIXE']+_0x9a1065(0x2b3)},{'quoted':_0x5260db});const _0x29e386=_0x2e76cf[_0x2be434[_0x9a1065(0x22b)](_0x50df90,0x1)],_0x12aa99=_0x29e386['id'];return _0x554f10[_0x9a1065(0x18d)]=_0x12aa99,await _0x554f10['save'](),_0x37e54b[_0x9a1065(0x305)](_0x3fb8a0,{'text':_0x9a1065(0x234)+_0x29e386['nom']+_0x9a1065(0x29c)},{'quoted':_0x5260db});}catch(_0x2f7008){return console['error'](_0x2be434[_0x9a1065(0x254)],_0x2f7008),_0x37e54b['sendMessage'](_0x3fb8a0,{'text':_0x2be434[_0x9a1065(0x1d6)]},{'quoted':_0x5260db});}}),ovlcmd({'nom_cmd':_0xf8e4d6(0x1c5),'classe':_0xf8e4d6(0x2df),'react':'🔅','desc':_0xf8e4d6(0x20a)},async(_0x1dfc2d,_0x4ca996,_0x54c0f2)=>{const _0x26b943=_0xf8e4d6,_0xe326e={'dfiiM':function(_0x552b9f,_0x1ebcb5){return _0x552b9f+_0x1ebcb5;},'DsHRh':function(_0x1010f9,_0x25b2f1){return _0x1010f9/_0x25b2f1;},'DomRR':function(_0x3928ab,_0x439a1a){return _0x3928ab%_0x439a1a;},'RRgru':function(_0xfaf902,_0x110ba5){return _0xfaf902/_0x110ba5;},'CTfVQ':function(_0x238268,_0x405d57){return _0x238268%_0x405d57;},'sGtqZ':function(_0x1f77fc,_0x241e2c){return _0x1f77fc>_0x241e2c;},'ygNYs':function(_0x2e480f,_0x5347f2){return _0x2e480f>_0x5347f2;},'GaJMB':_0x26b943(0x22f),'CSqUt':function(_0x142bbd,_0x750695){return _0x142bbd===_0x750695;},'uTNfp':_0x26b943(0x20c),'RDCOu':'╰───────────────────╯\x0a','ohxCH':_0x26b943(0x1f9),'CwJBd':function(_0x3524bb,_0xb464b8){return _0x3524bb===_0xb464b8;},'ivOKl':'╰───────────────────────────╯\x0a','ZaTeE':function(_0x3ce53b,_0xf1182a,_0x389dc5){return _0x3ce53b(_0xf1182a,_0x389dc5);},'Ormbt':function(_0x3315b8,_0x24663a){return _0x3315b8(_0x24663a);},'RaJUB':function(_0x283f14,_0x45e504){return _0x283f14>_0x45e504;},'VhCti':function(_0x2fedf7,_0x21f6f9){return _0x2fedf7-_0x21f6f9;},'LJIoD':_0x26b943(0x315),'FeIUd':_0x26b943(0x198),'GMIvI':function(_0x97333c,_0xf3348f){return _0x97333c*_0xf3348f;},'vwRLp':function(_0x12a96b,_0x350920){return _0x12a96b*_0x350920;},'iCdEQ':'.mp4','ChgbK':function(_0x4cba2a,_0x467d5f){return _0x4cba2a(_0x467d5f);},'zZBge':function(_0x4ece25,_0x35069c){return _0x4ece25(_0x35069c);},'mTALd':_0x26b943(0x1ea)},{ms:_0x4975a1,arg:_0x4a451f}=_0x54c0f2;try{const _0x12aad0=process[_0x26b943(0x1cd)](),_0x34005f=Math[_0x26b943(0x26b)](_0xe326e[_0x26b943(0x1cf)](_0x12aad0,0x15180)),_0x13b79e=Math[_0x26b943(0x26b)](_0xe326e[_0x26b943(0x1c8)](_0xe326e['RRgru'](_0x12aad0,0xe10),0x18)),_0x1fa77d=Math[_0x26b943(0x26b)](_0xe326e[_0x26b943(0x317)](_0xe326e['DomRR'](_0x12aad0,0xe10),0x3c)),_0x4635fc=Math[_0x26b943(0x26b)](_0xe326e[_0x26b943(0x2a6)](_0x12aad0,0x3c));let _0x707c1c='';if(_0xe326e[_0x26b943(0x20d)](_0x34005f,0x0))_0x707c1c+=_0x34005f+'J\x20';if(_0xe326e[_0x26b943(0x314)](_0x13b79e,0x0))_0x707c1c+=_0x13b79e+'H\x20';if(_0xe326e[_0x26b943(0x20d)](_0x1fa77d,0x0))_0x707c1c+=_0x1fa77d+'M\x20';if(_0xe326e[_0x26b943(0x20d)](_0x4635fc,0x0))_0x707c1c+=_0x4635fc+'S';const _0x3113f9=new Date(),_0x999514=_0x3113f9[_0x26b943(0x26a)](_0x26b943(0x22f)),_0x5a5de6=_0x3113f9[_0x26b943(0x1f7)](_0xe326e[_0x26b943(0x1e6)]),_0x1ceb30=process['platform'],_0x116412=cmd,_0x41f58a={};_0x116412['forEach'](_0xa8eaa4=>{const _0x307997=_0x26b943;if(!_0x41f58a[_0xa8eaa4['classe']])_0x41f58a[_0xa8eaa4['classe']]=[];_0x41f58a[_0xa8eaa4['classe']][_0x307997(0x31c)](_0xa8eaa4);});const _0xa7c208=Object[_0x26b943(0x2d6)](_0x41f58a)['sort']((_0x340aac,_0x183fd5)=>_0x340aac[_0x26b943(0x2c1)](_0x183fd5,undefined,{'sensitivity':_0x26b943(0x2ec)}));_0xa7c208[_0x26b943(0x203)](_0x5404f0=>{const _0x33e99e=_0x26b943;_0x41f58a[_0x5404f0][_0x33e99e(0x2db)]((_0x333b87,_0x219be2)=>_0x333b87[_0x33e99e(0x190)][_0x33e99e(0x2c1)](_0x219be2['nom_cmd'],undefined,{'numeric':!![]}));});let _0x173d85='';if(_0xe326e[_0x26b943(0x2ea)](_0x4a451f[_0x26b943(0x327)],0x0)){const _0x3bd61b=_0xe326e[_0x26b943(0x2b4)][_0x26b943(0x335)]('|');let _0x3ef75f=0x0;while(!![]){switch(_0x3bd61b[_0x3ef75f++]){case'0':_0x173d85+=_0x26b943(0x1b1)+config[_0x26b943(0x2bd)]+_0x26b943(0x289)+config['PREFIXE']+_0x26b943(0x196)+config[_0x26b943(0x2bd)]+_0x26b943(0x2ff)+config[_0x26b943(0x2bd)]+_0x26b943(0x332)+config['PREFIXE']+_0x26b943(0x260);continue;case'1':_0x173d85+=_0x26b943(0x1b8)+config[_0x26b943(0x304)]+_0x26b943(0x27c)+config[_0x26b943(0x2bd)]+'\x0a├\x20߷\x20Owner\x20\x20\x20\x20\x20\x20\x20\x20\x20:\x20'+config['NOM_OWNER']+_0x26b943(0x1de)+_0x116412[_0x26b943(0x327)]+_0x26b943(0x2f8)+_0x707c1c[_0x26b943(0x1df)]()+'\x0a├\x20߷\x20Date\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20:\x20'+_0x999514+_0x26b943(0x1b9)+_0x5a5de6+'\x0a├\x20߷\x20Plateforme\x20\x20\x20\x20:\x20'+_0x1ceb30+'\x0a├\x20߷\x20Développeur\x20\x20\x20:\x20AINZ\x0a├\x20߷\x20Version\x20\x20\x20\x20\x20\x20\x20:\x20'+pkg['version']+_0x26b943(0x298);continue;case'2':_0x173d85+=_0xe326e[_0x26b943(0x1a9)];continue;case'3':_0x173d85+=_0xe326e[_0x26b943(0x2c8)];continue;case'4':_0xa7c208['forEach']((_0x35f6aa,_0x31e610)=>{const _0x27d067=_0x26b943;_0x173d85+=_0x27d067(0x2d3)+_0xe326e[_0x27d067(0x1e3)](_0x31e610,0x1)+_0x27d067(0x242)+_0x35f6aa+'\x0a';});continue;}break;}}else{if(_0xe326e[_0x26b943(0x29f)](_0x4a451f[0x0][_0x26b943(0x17d)](),_0x26b943(0x1bb)))_0x173d85+='╭──⟪\x20Toutes\x20les\x20commandes\x20⟫──╮\x0a',_0x116412[_0x26b943(0x203)](_0x381e32=>{const _0x2e804e=_0x26b943;_0x173d85+=_0x2e804e(0x213)+_0x381e32[_0x2e804e(0x228)]+']\x20'+_0x381e32[_0x2e804e(0x190)]+'\x0a';}),_0x173d85+=_0xe326e['ivOKl'];else{const _0x392008=_0x4a451f[_0x26b943(0x269)]('\x20')['toLowerCase']();let _0x26a9b6=null;const _0x21a19c=_0xe326e['ZaTeE'](parseInt,_0x392008,0xa);if(!_0xe326e['Ormbt'](isNaN,_0x21a19c)){if(_0x21a19c<0x1||_0xe326e[_0x26b943(0x231)](_0x21a19c,_0xa7c208[_0x26b943(0x327)]))return _0x4ca996[_0x26b943(0x305)](_0x1dfc2d,{'text':_0x26b943(0x256)+_0x4a451f[0x0]},{'quoted':_0x4975a1});_0x26a9b6=_0xa7c208[_0xe326e[_0x26b943(0x2e8)](_0x21a19c,0x1)];}else{_0x26a9b6=_0xa7c208[_0x26b943(0x2f5)](_0x31ffa7=>_0x31ffa7[_0x26b943(0x17d)]()===_0x392008);if(!_0x26a9b6)return _0x4ca996['sendMessage'](_0x1dfc2d,{'text':'Catégorie\x20introuvable\x20:\x20'+_0x4a451f['join']('\x20')},{'quoted':_0x4975a1});}_0x173d85+=_0x26b943(0x220)+_0x26a9b6[_0x26b943(0x2a4)]()+'\x20⟫────╮\x0a',_0x41f58a[_0x26a9b6][_0x26b943(0x203)](_0x595437=>{const _0x464842=_0x26b943;_0x173d85+=_0x464842(0x2d3)+_0x595437[_0x464842(0x190)]+'\x0a';}),_0x173d85+=_0x26b943(0x23e)+config[_0x26b943(0x2bd)]+_0x26b943(0x246);}}const [_0x83ef23]=await WA_CONF[_0x26b943(0x31e)]({'where':{'id':'1'},'defaults':{'id':'1','mention':'1'}}),_0x3de890=_0xe326e[_0x26b943(0x2ac)],_0x241134=fs[_0x26b943(0x1c6)](_0x3de890,_0xe326e[_0x26b943(0x2e2)]),_0xe9f1e1=JSON[_0x26b943(0x262)](_0x241134);let _0x5bd943;if(_0x83ef23['mention'][_0x26b943(0x1ee)]('[')){const _0x2a90c3=JSON[_0x26b943(0x262)](_0x83ef23[_0x26b943(0x18d)]);_0x5bd943=_0x2a90c3[Math[_0x26b943(0x26b)](_0xe326e[_0x26b943(0x276)](Math['random'](),_0x2a90c3[_0x26b943(0x327)]))];}else{if(_0x83ef23['mention'][_0x26b943(0x1ee)](_0x26b943(0x1cc))){const _0x30fc97=JSON[_0x26b943(0x262)](_0x83ef23[_0x26b943(0x18d)]);_0x5bd943=_0x30fc97[Math[_0x26b943(0x26b)](_0xe326e[_0x26b943(0x276)](Math[_0x26b943(0x1b7)](),_0x30fc97[_0x26b943(0x327)]))];}else{const _0x34a121=_0xe9f1e1[_0x26b943(0x2f5)](_0x2874a1=>_0x2874a1['id']===_0x83ef23[_0x26b943(0x18d)]);if(!_0x34a121)throw new Error();_0x5bd943=_0x34a121[_0x26b943(0x320)][Math['floor'](_0xe326e[_0x26b943(0x293)](Math[_0x26b943(0x1b7)](),_0x34a121[_0x26b943(0x320)][_0x26b943(0x327)]))];}}try{if(_0x5bd943&&_0x5bd943['endsWith'](_0xe326e[_0x26b943(0x326)]))await _0x4ca996['sendMessage'](_0x1dfc2d,{'video':{'url':_0x5bd943},'caption':stylize(_0x173d85),'gifPlayback':!![]},{'quoted':_0x4975a1});else{if(_0x5bd943)await _0x4ca996['sendMessage'](_0x1dfc2d,{'image':{'url':_0x5bd943},'caption':_0xe326e[_0x26b943(0x212)](stylize,_0x173d85)},{'quoted':_0x4975a1});else throw new Error();}}catch{await _0x4ca996[_0x26b943(0x305)](_0x1dfc2d,{'text':_0xe326e[_0x26b943(0x1fa)](stylize,_0x173d85)},{'quoted':_0x4975a1});}}catch{await _0x4ca996['sendMessage'](_0x1dfc2d,{'text':_0xe326e[_0x26b943(0x1db)]},{'quoted':_0x4975a1});}}),ovlcmd({'nom_cmd':_0xf8e4d6(0x1bb),'classe':_0xf8e4d6(0x2df),'react':'📜','desc':_0xf8e4d6(0x1a7)},async(_0x36d150,_0x26d2c2,_0x129043)=>{const _0x4b086d=_0xf8e4d6,_0x5d8dda={'OfOjE':function(_0x5d90ca,_0x5b9430){return _0x5d90ca/_0x5b9430;},'VmYah':function(_0x153e55,_0x3bff96){return _0x153e55%_0x3bff96;},'qWDgW':function(_0x59ce42,_0x3a9c23){return _0x59ce42>_0x3a9c23;},'KctIv':function(_0x82623c,_0x4f4382){return _0x82623c>_0x4f4382;},'GGCtH':_0x4b086d(0x22f),'ZoocN':_0x4b086d(0x315),'fYiXZ':function(_0x49b771,_0x20e812){return _0x49b771*_0x20e812;},'aQXYv':_0x4b086d(0x33b),'WqZMa':_0x4b086d(0x1c2),'bVDzc':function(_0x55fb60,_0x3f9612){return _0x55fb60*_0x3f9612;},'tzrgc':function(_0x44491f,_0x5a682d){return _0x44491f(_0x5a682d);},'JXcha':_0x4b086d(0x2cf),'yWRru':_0x4b086d(0x283)},{ms:_0x36ef2d}=_0x129043;try{const _0x5d62b0=process[_0x4b086d(0x1cd)](),_0x1cacdf=Math[_0x4b086d(0x26b)](_0x5d8dda[_0x4b086d(0x238)](_0x5d62b0,0x15180)),_0x40e16d=Math['floor'](_0x5d8dda[_0x4b086d(0x2ad)](_0x5d8dda['OfOjE'](_0x5d62b0,0xe10),0x18)),_0x38c3f8=Math[_0x4b086d(0x26b)](_0x5d62b0%0xe10/0x3c),_0x5075d6=Math[_0x4b086d(0x26b)](_0x5d8dda[_0x4b086d(0x2ad)](_0x5d62b0,0x3c));let _0x48c250='';if(_0x5d8dda[_0x4b086d(0x2cc)](_0x1cacdf,0x0))_0x48c250+=_0x1cacdf+'J\x20';if(_0x5d8dda[_0x4b086d(0x2cc)](_0x40e16d,0x0))_0x48c250+=_0x40e16d+'H\x20';if(_0x5d8dda[_0x4b086d(0x2cc)](_0x38c3f8,0x0))_0x48c250+=_0x38c3f8+'M\x20';if(_0x5d8dda[_0x4b086d(0x2dd)](_0x5075d6,0x0))_0x48c250+=_0x5075d6+'S';const _0x55fee3=new Date(),_0x3dede3=_0x55fee3[_0x4b086d(0x26a)](_0x5d8dda[_0x4b086d(0x2be)]),_0x4d0cbf=_0x55fee3['toLocaleTimeString'](_0x5d8dda[_0x4b086d(0x2be)]),_0xf95fc6=process[_0x4b086d(0x19e)],_0x32d389=cmd,_0x1420e3={};_0x32d389['forEach'](_0x2968cc=>{const _0x28e7fe=_0x4b086d;if(!_0x1420e3[_0x2968cc['classe']])_0x1420e3[_0x2968cc['classe']]=[];_0x1420e3[_0x2968cc[_0x28e7fe(0x228)]]['push'](_0x2968cc);});const _0x56c0af=Object[_0x4b086d(0x2d6)](_0x1420e3)[_0x4b086d(0x2db)]((_0x5b4443,_0x3c7d4a)=>_0x5b4443['localeCompare'](_0x3c7d4a));for(const _0x4503bd of _0x56c0af){_0x1420e3[_0x4503bd]['sort']((_0x259ec4,_0xed4ab9)=>_0x259ec4[_0x4b086d(0x190)][_0x4b086d(0x2c1)](_0xed4ab9[_0x4b086d(0x190)],undefined,{'numeric':!![]}));}let _0x25ec0c='╭──⟪\x20'+config[_0x4b086d(0x304)]+'\x20⟫──╮\x0a├\x20߷\x20Préfixe\x20\x20\x20\x20\x20\x20\x20:\x20'+config['PREFIXE']+_0x4b086d(0x33a)+config[_0x4b086d(0x1b3)]+'\x0a├\x20߷\x20Commandes\x20\x20:\x20'+_0x32d389[_0x4b086d(0x327)]+_0x4b086d(0x2f8)+_0x48c250[_0x4b086d(0x1df)]()+_0x4b086d(0x2d5)+_0x3dede3+_0x4b086d(0x2b1)+_0x4d0cbf+_0x4b086d(0x215)+_0xf95fc6+_0x4b086d(0x187)+pkg[_0x4b086d(0x245)]+_0x4b086d(0x298);for(const _0x5af55d of _0x56c0af){_0x25ec0c+=_0x4b086d(0x1b8)+_0x5af55d[_0x4b086d(0x2a4)]()+'\x20⟫──╮\x0a',_0x1420e3[_0x5af55d][_0x4b086d(0x203)](_0x2a64fa=>{const _0x5306be=_0x4b086d;_0x25ec0c+='├\x20߷\x20'+_0x2a64fa[_0x5306be(0x190)]+'\x0a';}),_0x25ec0c+=_0x4b086d(0x301);}_0x25ec0c+=_0x4b086d(0x309);const [_0x1aec49]=await WA_CONF[_0x4b086d(0x31e)]({'where':{'id':'1'},'defaults':{'id':'1','mention':'1'}}),_0x10fead=_0x1aec49[_0x4b086d(0x18d)],_0x478d6c=_0x5d8dda[_0x4b086d(0x308)],_0xeb0bc1=fs[_0x4b086d(0x1c6)](_0x478d6c,_0x4b086d(0x198)),_0x16cc6b=JSON[_0x4b086d(0x262)](_0xeb0bc1);let _0x3a43a9;if(_0x1aec49[_0x4b086d(0x18d)][_0x4b086d(0x1ee)]('[')){const _0x2ea625=JSON[_0x4b086d(0x262)](_0x1aec49['mention']);_0x3a43a9=_0x2ea625[Math[_0x4b086d(0x26b)](_0x5d8dda[_0x4b086d(0x281)](Math[_0x4b086d(0x1b7)](),_0x2ea625[_0x4b086d(0x327)]))];}else{if(_0x1aec49[_0x4b086d(0x18d)][_0x4b086d(0x1ee)](_0x4b086d(0x316))||_0x1aec49[_0x4b086d(0x18d)][_0x4b086d(0x1ee)](_0x5d8dda[_0x4b086d(0x24e)])){const _0x124cd9=JSON[_0x4b086d(0x262)](_0x1aec49[_0x4b086d(0x18d)]);_0x3a43a9=_0x124cd9[Math[_0x4b086d(0x26b)](_0x5d8dda['fYiXZ'](Math['random'](),_0x124cd9[_0x4b086d(0x327)]))];}else{const _0x44608d=_0x16cc6b['find'](_0xa64975=>_0xa64975['id']===_0x1aec49[_0x4b086d(0x18d)]);if(!_0x44608d)throw new Error(_0x5d8dda[_0x4b086d(0x1aa)]);_0x3a43a9=_0x44608d[_0x4b086d(0x320)][Math[_0x4b086d(0x26b)](_0x5d8dda['bVDzc'](Math[_0x4b086d(0x1b7)](),_0x44608d[_0x4b086d(0x320)][_0x4b086d(0x327)]))];}}try{if(_0x3a43a9&&_0x3a43a9[_0x4b086d(0x282)](_0x4b086d(0x32c)))await _0x26d2c2[_0x4b086d(0x305)](_0x36d150,{'video':{'url':_0x3a43a9},'caption':_0x5d8dda[_0x4b086d(0x252)](stylize,_0x25ec0c),'gifPlayback':!![]},{'quoted':_0x36ef2d});else{if(_0x3a43a9)await _0x26d2c2['sendMessage'](_0x36d150,{'image':{'url':_0x3a43a9},'caption':_0x5d8dda['tzrgc'](stylize,_0x25ec0c)},{'quoted':_0x36ef2d});else throw new Error(_0x5d8dda['JXcha']);}}catch(_0x594f38){await _0x26d2c2[_0x4b086d(0x305)](_0x36d150,{'text':stylize(_0x25ec0c)},{'quoted':_0x36ef2d});}}catch(_0x447620){await _0x26d2c2[_0x4b086d(0x305)](_0x36d150,{'text':_0x5d8dda[_0x4b086d(0x2ca)]},{'quoted':_0x36ef2d});}}),ovlcmd({'nom_cmd':'vv','classe':_0xf8e4d6(0x2df),'react':'👀','desc':_0xf8e4d6(0x2f7)},async(_0xdd9d7a,_0x2ce86c,_0x418c5f)=>{const _0x3c332f=_0xf8e4d6,_0x471b97={'txccP':function(_0x2becf3,_0x390d49){return _0x2becf3(_0x390d49);},'zRRNJ':_0x3c332f(0x18f),'lbzzq':function(_0x9a0c7d,_0x4ff125){return _0x9a0c7d!==_0x4ff125;},'rBZiw':function(_0x59cfe8,_0x54f8f4){return _0x59cfe8!==_0x54f8f4;},'JXHAe':_0x3c332f(0x2b2),'AhuRN':_0x3c332f(0x1a3),'zRjgU':_0x3c332f(0x1a4),'BJUwy':_0x3c332f(0x306)},{ms:_0x4da190,msg_Repondu:_0x430205,repondre:_0x34a436}=_0x418c5f;if(!_0x430205)return _0x471b97['txccP'](_0x34a436,_0x471b97[_0x3c332f(0x29e)]);let _0x4b69a7=Object[_0x3c332f(0x2d6)](_0x430205)[_0x3c332f(0x2f5)](_0x59da1a=>_0x59da1a['startsWith'](_0x3c332f(0x183))),_0x3fc23d=_0x430205;_0x4b69a7&&(_0x3fc23d=_0x430205[_0x4b69a7][_0x3c332f(0x1f3)]);if(_0x3fc23d){if(_0x3fc23d[_0x3c332f(0x340)]&&_0x471b97[_0x3c332f(0x23d)](_0x3fc23d[_0x3c332f(0x340)]['viewOnce'],!![])||_0x3fc23d['videoMessage']&&_0x471b97[_0x3c332f(0x2d0)](_0x3fc23d['videoMessage'][_0x3c332f(0x32a)],!![])||_0x3fc23d['audioMessage']&&_0x3fc23d[_0x3c332f(0x17e)][_0x3c332f(0x32a)]!==!![])return _0x34a436(_0x471b97[_0x3c332f(0x2d7)]);}try{let _0x1b156b,_0x4adf53={'quoted':_0x4da190};if(_0x3fc23d[_0x3c332f(0x340)])_0x1b156b=await _0x2ce86c[_0x3c332f(0x1d8)](_0x3fc23d[_0x3c332f(0x340)]),await _0x2ce86c[_0x3c332f(0x305)](_0xdd9d7a,{'image':{'url':_0x1b156b},'caption':_0x3fc23d[_0x3c332f(0x340)][_0x3c332f(0x230)]||''},_0x4adf53);else{if(_0x3fc23d[_0x3c332f(0x217)])_0x1b156b=await _0x2ce86c[_0x3c332f(0x1d8)](_0x3fc23d[_0x3c332f(0x217)]),await _0x2ce86c[_0x3c332f(0x305)](_0xdd9d7a,{'video':{'url':_0x1b156b},'caption':_0x3fc23d[_0x3c332f(0x217)][_0x3c332f(0x230)]||''},_0x4adf53);else{if(_0x3fc23d[_0x3c332f(0x17e)])_0x1b156b=await _0x2ce86c['dl_save_media_ms'](_0x3fc23d[_0x3c332f(0x17e)]),await _0x2ce86c['sendMessage'](_0xdd9d7a,{'audio':{'url':_0x1b156b},'mimetype':_0x471b97['AhuRN'],'ptt':![]},_0x4adf53);else return _0x34a436(_0x3c332f(0x32b));}}}catch(_0x5679d4){return console['error'](_0x471b97['zRjgU'],_0x5679d4[_0x3c332f(0x1f3)]||_0x5679d4),_0x471b97[_0x3c332f(0x27b)](_0x34a436,_0x471b97[_0x3c332f(0x2c5)]);}}),ovlcmd({'nom_cmd':_0xf8e4d6(0x1fc),'classe':_0xf8e4d6(0x2df),'react':'👀','desc':_0xf8e4d6(0x2fc)},async(_0x5199b0,_0x224123,_0x57bdc2)=>{const _0x52412e=_0xf8e4d6,_0x5c191f={'uIiFX':function(_0x2f91ff,_0x490923){return _0x2f91ff(_0x490923);},'LLNOx':'Veuillez\x20mentionner\x20un\x20message\x20en\x20vue\x20unique.','rAmOp':function(_0x598b36,_0x9852b3){return _0x598b36!==_0x9852b3;},'VwoNG':function(_0xa55010,_0x45f984){return _0xa55010!==_0x45f984;},'xVbgl':function(_0x3a1170,_0x3b8f9d){return _0x3a1170(_0x3b8f9d);},'mpwYW':'Ce\x20type\x20de\x20message\x20en\x20vue\x20unique\x20n\x27est\x20pas\x20pris\x20en\x20charge.','SQPWH':function(_0x4cdeb9,_0x197c7e){return _0x4cdeb9(_0x197c7e);}},{ms:_0x164f23,id_Bot:_0x1b0994,msg_Repondu:_0x4599d4,repondre:_0x46b4ef}=_0x57bdc2;if(!_0x4599d4)return _0x5c191f['uIiFX'](_0x46b4ef,_0x5c191f[_0x52412e(0x1f6)]);let _0x4f6028=Object[_0x52412e(0x2d6)](_0x4599d4)[_0x52412e(0x2f5)](_0x4a597b=>_0x4a597b['startsWith'](_0x52412e(0x183))),_0x42110e=_0x4599d4;_0x4f6028&&(_0x42110e=_0x4599d4[_0x4f6028][_0x52412e(0x1f3)]);if(_0x42110e){if(_0x42110e[_0x52412e(0x340)]&&_0x5c191f['rAmOp'](_0x42110e[_0x52412e(0x340)][_0x52412e(0x32a)],!![])||_0x42110e[_0x52412e(0x217)]&&_0x5c191f[_0x52412e(0x19b)](_0x42110e[_0x52412e(0x217)]['viewOnce'],!![])||_0x42110e[_0x52412e(0x17e)]&&_0x5c191f['VwoNG'](_0x42110e[_0x52412e(0x17e)][_0x52412e(0x32a)],!![]))return _0x5c191f[_0x52412e(0x1a5)](_0x46b4ef,_0x52412e(0x2b2));}try{let _0x216ecd,_0x31ccf3={'quoted':_0x164f23};if(_0x42110e['imageMessage'])_0x216ecd=await _0x224123[_0x52412e(0x1d8)](_0x42110e[_0x52412e(0x340)]),await _0x224123[_0x52412e(0x305)](_0x1b0994,{'image':{'url':_0x216ecd},'caption':_0x42110e[_0x52412e(0x340)]['caption']||''},_0x31ccf3);else{if(_0x42110e['videoMessage'])_0x216ecd=await _0x224123[_0x52412e(0x1d8)](_0x42110e[_0x52412e(0x217)]),await _0x224123['sendMessage'](_0x1b0994,{'video':{'url':_0x216ecd},'caption':_0x42110e[_0x52412e(0x217)][_0x52412e(0x230)]||''},_0x31ccf3);else{if(_0x42110e['audioMessage'])_0x216ecd=await _0x224123[_0x52412e(0x1d8)](_0x42110e[_0x52412e(0x17e)]),await _0x224123[_0x52412e(0x305)](_0x1b0994,{'audio':{'url':_0x216ecd},'mimetype':'audio/mp4','ptt':![]},_0x31ccf3);else return _0x5c191f[_0x52412e(0x1a5)](_0x46b4ef,_0x5c191f[_0x52412e(0x324)]);}}}catch(_0x472529){return console['error'](_0x52412e(0x1a4),_0x472529[_0x52412e(0x1f3)]||_0x472529),_0x5c191f['SQPWH'](_0x46b4ef,_0x52412e(0x306));}}),ovlcmd({'nom_cmd':_0xf8e4d6(0x268),'classe':'Outils','react':'🏓','desc':'Mesure\x20la\x20latence\x20du\x20bot.'},async(_0x428779,_0x35074e,_0x37ed65)=>{const _0x310384=_0xf8e4d6,_0x4d4e07={'CpAnB':_0x310384(0x265),'zQkFU':function(_0x1f5a68,_0x55d000){return _0x1f5a68-_0x55d000;}},_0x3cfb1c=Date['now'](),_0x5b2bf0=await _0x35074e[_0x310384(0x305)](_0x428779,{'text':_0x4d4e07[_0x310384(0x280)]},{'quoted':_0x37ed65['ms']}),_0x27a32b=Date[_0x310384(0x321)](),_0xe3d768=_0x4d4e07[_0x310384(0x284)](_0x27a32b,_0x3cfb1c);await _0x35074e['sendMessage'](_0x428779,{'edit':_0x5b2bf0['key'],'text':_0x310384(0x1a2)+_0xe3d768+_0x310384(0x21a)});}),ovlcmd({'nom_cmd':'uptime','classe':_0xf8e4d6(0x2df),'react':'⏱️','desc':_0xf8e4d6(0x18e),'alias':[_0xf8e4d6(0x2e6)]},async(_0x10a471,_0x1ae69a,_0x20a457)=>{const _0x2afbe0=_0xf8e4d6,_0x3601ff={'VHjtT':function(_0x3d2b29,_0xe169da){return _0x3d2b29%_0xe169da;},'cIwAn':function(_0x51491f,_0x55b0e7){return _0x51491f/_0x55b0e7;},'PUfPp':function(_0x1958aa,_0x2638a4){return _0x1958aa%_0x2638a4;},'SyOQo':function(_0x34e5d1,_0x501444){return _0x34e5d1%_0x501444;},'ASFTd':function(_0x34c91c,_0x3e2e8f){return _0x34c91c>_0x3e2e8f;},'qLpEY':function(_0x4ad486,_0x4278f0){return _0x4ad486>_0x4278f0;}},_0x35d78d=process[_0x2afbe0(0x1cd)](),_0x3622fd=Math['floor'](_0x35d78d/0x15180),_0x46567f=Math['floor'](_0x3601ff[_0x2afbe0(0x191)](_0x3601ff[_0x2afbe0(0x30d)](_0x35d78d,0xe10),0x18)),_0x21e01a=Math[_0x2afbe0(0x26b)](_0x3601ff['cIwAn'](_0x3601ff[_0x2afbe0(0x18a)](_0x35d78d,0xe10),0x3c)),_0xb1b3b0=Math[_0x2afbe0(0x26b)](_0x3601ff['SyOQo'](_0x35d78d,0x3c));let _0x25f0e7='';if(_0x3601ff[_0x2afbe0(0x2a5)](_0x3622fd,0x0))_0x25f0e7+=_0x3622fd+'J\x20';if(_0x3601ff['ASFTd'](_0x46567f,0x0))_0x25f0e7+=_0x46567f+'H\x20';if(_0x21e01a>0x0)_0x25f0e7+=_0x21e01a+'M\x20';if(_0x3601ff[_0x2afbe0(0x2a7)](_0xb1b3b0,0x0))_0x25f0e7+=_0xb1b3b0+'S';await _0x1ae69a['sendMessage'](_0x10a471,{'text':_0x2afbe0(0x2ae)+_0x25f0e7},{'quoted':_0x20a457['ms']});}),ovlcmd({'nom_cmd':'translate','classe':_0xf8e4d6(0x2df),'react':'🌍','desc':_0xf8e4d6(0x2e1),'alias':[_0xf8e4d6(0x1c7)]},async(_0x3b2a25,_0x38ed80,_0x4df680)=>{const _0x21102f=_0xf8e4d6,_0x4dc0e3={'hpFHo':function(_0x3ebf19,_0x265dfd){return _0x3ebf19===_0x265dfd;},'GTWfD':function(_0x47fd44,_0x1c7740){return _0x47fd44>=_0x1c7740;},'nbIpz':function(_0x22e45d,_0x3e3efb,_0x5704a5){return _0x22e45d(_0x3e3efb,_0x5704a5);},'DlKfv':_0x21102f(0x2fa),'iJSqt':_0x21102f(0x22c)},{arg:_0x13b790,ms:_0x3e1af6,msg_Repondu:_0x252e38}=_0x4df680;let _0x338a79,_0x30013d;if(_0x252e38&&_0x4dc0e3['hpFHo'](_0x13b790[_0x21102f(0x327)],0x1))_0x338a79=_0x13b790[0x0],_0x30013d=_0x252e38[_0x21102f(0x31f)]||_0x252e38['extendedTextMessage']?.['text'];else{if(_0x4dc0e3[_0x21102f(0x271)](_0x13b790[_0x21102f(0x327)],0x2))_0x338a79=_0x13b790[0x0],_0x30013d=_0x13b790[_0x21102f(0x214)](0x1)[_0x21102f(0x269)]('\x20');else return await _0x38ed80[_0x21102f(0x305)](_0x3b2a25,{'text':_0x21102f(0x1c9)+prefixe+_0x21102f(0x295)+prefixe+_0x21102f(0x2cb)},{'quoted':_0x3e1af6});}try{const _0x8f1e5=await _0x4dc0e3[_0x21102f(0x1b5)](translate,_0x30013d,{'to':_0x338a79});await _0x38ed80[_0x21102f(0x305)](_0x3b2a25,{'text':_0x21102f(0x22d)+_0x338a79+_0x21102f(0x319)+_0x8f1e5[_0x21102f(0x2a0)]},{'quoted':_0x3e1af6});}catch(_0x2b2be1){console['error'](_0x4dc0e3[_0x21102f(0x226)],_0x2b2be1),await _0x38ed80[_0x21102f(0x305)](_0x3b2a25,{'text':_0x4dc0e3[_0x21102f(0x2b7)]},{'quoted':_0x3e1af6});}}),ovlcmd({'nom_cmd':'capture','classe':'Outils','react':'📸','desc':'Prend\x20une\x20capture\x20d\x27écran\x20d\x27un\x20site\x20web.'},async(_0x5199cf,_0x2b6bed,{arg:_0x48dac6,ms:_0x1c249d})=>{const _0x53d1c2=_0xf8e4d6,_0x29f074={'CAyqR':_0x53d1c2(0x2a3)};if(!_0x48dac6[0x0])return _0x2b6bed[_0x53d1c2(0x305)](_0x5199cf,{'text':'Entrez\x20un\x20lien'},{'quoted':_0x1c249d});const _0x2b3c8b=_0x48dac6[0x0];try{const _0x34de17=await axios[_0x53d1c2(0x2f0)](_0x53d1c2(0x237)+encodeURIComponent(_0x2b3c8b),{'responseType':_0x53d1c2(0x18c)});await _0x2b6bed['sendMessage'](_0x5199cf,{'image':_0x34de17[_0x53d1c2(0x30b)],'caption':_0x53d1c2(0x2e7)+_0x2b3c8b},{'quoted':_0x1c249d});}catch(_0x2882be){console[_0x53d1c2(0x1a0)](_0x29f074['CAyqR'],_0x2882be[_0x53d1c2(0x1f3)]),await _0x2b6bed['sendMessage'](_0x5199cf,{'text':_0x53d1c2(0x1ab)},{'quoted':_0x1c249d});}}),ovlcmd({'nom_cmd':_0xf8e4d6(0x2a1),'classe':_0xf8e4d6(0x2df),'react':'🖥️','desc':_0xf8e4d6(0x27e)},async(_0xc1e182,_0x1899b5,_0x43d6a4)=>{const _0x2a37ff=_0xf8e4d6,_0x3dadec={'Wvrbf':function(_0x401407,_0x2a9bad){return _0x401407-_0x2a9bad;},'eKeXz':function(_0x306324,_0x133765){return _0x306324*_0x133765;},'gDuAp':function(_0x45cca5,_0x4563cc){return _0x45cca5+_0x4563cc;},'tTHyi':function(_0x284311,_0x49902f){return _0x284311*_0x49902f;},'Qkfln':function(_0x2e9608,_0x550747){return _0x2e9608/_0x550747;},'fcBhc':function(_0x5b4baa,_0x4aeee7){return _0x5b4baa%_0x4aeee7;},'gkNzM':function(_0x1e0a7c,_0x56e59d){return _0x1e0a7c%_0x56e59d;},'XPNgB':function(_0x5c4806,_0x54a756){return _0x5c4806>_0x54a756;},'rVmJX':function(_0x13e544,_0x3d4460){return _0x13e544*_0x3d4460;},'WOgJB':function(_0x45a077,_0x1f8457){return _0x45a077+_0x1f8457;},'EmMrc':function(_0x4618b1,_0x48a688){return _0x4618b1+_0x48a688;},'rnfNR':function(_0x4a3cb1,_0x4ef66a){return _0x4a3cb1+_0x4ef66a;},'iJFxw':function(_0x5dd447,_0x451ff2){return _0x5dd447+_0x451ff2;}},_0x5d35c5=os['platform'](),_0x10992d=os['arch'](),_0x7207d5=os[_0x2a37ff(0x288)](),_0x19003c=(os['totalmem']()/_0x3dadec['eKeXz'](_0x3dadec[_0x2a37ff(0x25d)](0x400,0x400),0x400))[_0x2a37ff(0x337)](0x2),_0x299591=(os['freemem']()/_0x3dadec['eKeXz'](_0x3dadec[_0x2a37ff(0x33d)](0x400,0x400),0x400))[_0x2a37ff(0x337)](0x2),_0x303d96=os[_0x2a37ff(0x331)](),_0x4f78b3=os[_0x2a37ff(0x333)](),_0x996649=os['uptime'](),_0x515937=Math[_0x2a37ff(0x26b)](_0x996649/0x15180),_0x1a591f=Math[_0x2a37ff(0x26b)](_0x996649/0xe10%0x18),_0x353483=Math[_0x2a37ff(0x26b)](_0x3dadec[_0x2a37ff(0x1d0)](_0x3dadec[_0x2a37ff(0x24b)](_0x996649,0xe10),0x3c)),_0x14707a=Math[_0x2a37ff(0x26b)](_0x3dadec[_0x2a37ff(0x279)](_0x996649,0x3c));let _0x87ed0e='';if(_0x3dadec['XPNgB'](_0x515937,0x0))_0x87ed0e+=_0x515937+'J\x20';if(_0x3dadec[_0x2a37ff(0x2ed)](_0x1a591f,0x0))_0x87ed0e+=_0x1a591f+'H\x20';if(_0x3dadec['XPNgB'](_0x353483,0x0))_0x87ed0e+=_0x353483+'M\x20';if(_0x3dadec[_0x2a37ff(0x2ed)](_0x14707a,0x0))_0x87ed0e+=_0x14707a+'S';const _0x567a87=_0x7207d5[_0x2a37ff(0x244)](_0x326605=>{const _0x37848b=_0x2a37ff;let _0x3c31be=0x0;for(type in _0x326605[_0x37848b(0x253)]){_0x3c31be+=_0x326605[_0x37848b(0x253)][type];}const _0x2b3c2b=_0x3dadec[_0x37848b(0x339)](0x64,_0x3dadec[_0x37848b(0x25d)](_0x326605[_0x37848b(0x253)]['idle']/_0x3c31be,0x64))[_0x37848b(0x337)](0x2);return _0x3dadec[_0x37848b(0x195)](_0x2b3c2b,'%');})[_0x2a37ff(0x269)](',\x20'),_0x5d35e9=_0x3dadec[_0x2a37ff(0x339)](0x64,_0x3dadec[_0x2a37ff(0x1d0)](_0x3dadec['rVmJX'](_0x4f78b3[0x0],0x64),_0x7207d5[_0x2a37ff(0x327)]))[_0x2a37ff(0x337)](0x2);await _0x1899b5[_0x2a37ff(0x305)](_0xc1e182,{'text':_0x3dadec[_0x2a37ff(0x195)](_0x3dadec[_0x2a37ff(0x23b)](_0x3dadec[_0x2a37ff(0x23a)](_0x3dadec[_0x2a37ff(0x195)](_0x3dadec[_0x2a37ff(0x1b6)](_0x3dadec[_0x2a37ff(0x29d)](_0x3dadec['iJFxw'](_0x3dadec['rnfNR'](_0x2a37ff(0x336),'⚡\x20*Vitesse\x20du\x20serveur*:\x20'+_0x5d35e9+_0x2a37ff(0x1e4))+(_0x2a37ff(0x189)+_0x4f78b3['map'](_0x4cb289=>_0x4cb289[_0x2a37ff(0x337)](0x2))[_0x2a37ff(0x269)](',\x20')+'\x0a'),_0x2a37ff(0x299)+_0x87ed0e[_0x2a37ff(0x1df)]()+'\x0a'),_0x2a37ff(0x1ad)+_0x5d35c5+'\x0a'),_0x2a37ff(0x2ef)+_0x10992d+'\x0a'),_0x2a37ff(0x267)+_0x7207d5[_0x2a37ff(0x327)]+_0x2a37ff(0x243)+_0x567a87+')\x0a'),_0x2a37ff(0x1d9)+_0x19003c+'\x20GB\x0a'),_0x2a37ff(0x1fb)+_0x299591+_0x2a37ff(0x209)),_0x2a37ff(0x25f)+_0x303d96+'\x0a')+(_0x2a37ff(0x24c)+pkg[_0x2a37ff(0x245)])},{'quoted':_0x43d6a4['ms']});}),ovlcmd({'nom_cmd':_0xf8e4d6(0x255),'classe':'Outils','react':'📧','desc':'Crée\x20un\x20email\x20temporaire.'},async(_0x1207c2,_0x29b781,_0x2a70b6)=>{const _0xc3252f=_0xf8e4d6,_0x548cfc={'LDWZI':_0xc3252f(0x1d5)},{ms:_0x5cf737}=_0x2a70b6;try{const _0x21e953=new TempMail(),_0x334307=await _0x21e953['createInbox'](),_0x3ebdb4=_0xc3252f(0x2cd)+_0x334307[_0xc3252f(0x28a)]+'\x0a\x0aVotre\x20token\x20est\x20:\x20'+_0x334307[_0xc3252f(0x1dd)]+_0xc3252f(0x27a);await _0x29b781['sendMessage'](_0x1207c2,{'text':_0x3ebdb4},{'quoted':_0x5cf737});}catch(_0xac36e3){return console[_0xc3252f(0x1a0)](_0xac36e3),_0x29b781[_0xc3252f(0x305)](_0x1207c2,{'text':_0x548cfc[_0xc3252f(0x1bd)]},{'quoted':_0x5cf737});}}),ovlcmd({'nom_cmd':_0xf8e4d6(0x25b),'classe':'Outils','react':'📩','desc':'Récupère\x20les\x20messages\x20d\x27un\x20email\x20temporaire.'},async(_0x35df77,_0x243e51,_0x1b097e)=>{const _0x2b841c=_0xf8e4d6,_0x143f14={'YBtPs':_0x2b841c(0x291),'YKKau':_0x2b841c(0x2c4),'QHsAa':function(_0x48140c,_0x32783b){return _0x48140c<_0x32783b;},'QHynh':_0x2b841c(0x2e3)},{arg:_0x3ea006,ms:_0x5453c9}=_0x1b097e;if(!_0x3ea006[0x0])return _0x243e51[_0x2b841c(0x305)](_0x35df77,{'text':_0x143f14[_0x2b841c(0x2d9)]});try{const _0x49908d=new TempMail(),_0xac85cb=await _0x49908d['checkInbox'](_0x3ea006[0x0]);if(!_0xac85cb||_0xac85cb[_0x2b841c(0x327)]===0x0)return _0x243e51[_0x2b841c(0x305)](_0x35df77,{'text':_0x143f14[_0x2b841c(0x20f)]},{'quoted':_0x5453c9});for(let _0x59909a=0x0;_0x143f14['QHsAa'](_0x59909a,_0xac85cb[_0x2b841c(0x327)]);_0x59909a++){const _0x30af31=_0xac85cb[_0x59909a],_0x1e8228=_0x30af31[_0x2b841c(0x261)],_0x5bb968=_0x30af31['subject'],_0x25b8d6=new Date(_0x30af31[_0x2b841c(0x294)])[_0x2b841c(0x232)](),_0x279319=_0x30af31[_0x2b841c(0x311)],_0x2cda57=_0x2b841c(0x2f2)+_0x1e8228+_0x2b841c(0x21f)+_0x5bb968+_0x2b841c(0x1d1)+_0x25b8d6+_0x2b841c(0x275)+_0x279319;await _0x243e51[_0x2b841c(0x305)](_0x35df77,{'text':_0x2cda57},{'quoted':_0x5453c9});}}catch(_0x55de48){return console[_0x2b841c(0x1a0)](_0x55de48),_0x243e51['sendMessage'](_0x35df77,{'text':_0x143f14[_0x2b841c(0x345)]},{'quoted':_0x5453c9});}}),ovlcmd({'nom_cmd':_0xf8e4d6(0x235),'classe':_0xf8e4d6(0x2df),'react':'📥','desc':_0xf8e4d6(0x1e1),'alias':[_0xf8e4d6(0x2a2)]},async(_0x497dd1,_0x2de4b2,_0x3f1416)=>{const _0x5efa6a=_0xf8e4d6,_0x4169c6={'qMUiQ':function(_0x58e787,_0x115902){return _0x58e787===_0x115902;},'Arpxt':function(_0x1bb18a,_0xc888){return _0x1bb18a(_0xc888);},'VxeHc':_0x5efa6a(0x182),'jkQXB':function(_0x430832,_0x556299){return _0x430832(_0x556299);},'nMivx':_0x5efa6a(0x207),'EgCxz':_0x5efa6a(0x2f6),'zSHbT':'obfuscate.js','QcBXZ':function(_0x26b237,_0x50b04b){return _0x26b237(_0x50b04b);},'STrQM':_0x5efa6a(0x2d4)},{arg:_0x2797b4,repondre:_0x265c7f,ms:_0x4263ad}=_0x3f1416;if(!_0x2797b4||_0x4169c6[_0x5efa6a(0x1ec)](_0x2797b4[_0x5efa6a(0x327)],0x0))return _0x4169c6['Arpxt'](_0x265c7f,_0x4169c6[_0x5efa6a(0x2e9)]);const _0x5714a1=_0x2797b4[_0x5efa6a(0x269)]('\x20');try{_0x4169c6['jkQXB'](_0x265c7f,_0x4169c6['nMivx']);const _0x14e153=JavaScriptObfuscator['obfuscate'](_0x5714a1,{'compact':!![],'controlFlowFlattening':!![]})[_0x5efa6a(0x2f1)](),_0xcecca4=path[_0x5efa6a(0x269)](__dirname,_0x5efa6a(0x343));fs[_0x5efa6a(0x227)](_0xcecca4,_0x14e153),await _0x2de4b2[_0x5efa6a(0x305)](_0x497dd1,{'document':{'url':_0xcecca4},'mimetype':_0x4169c6[_0x5efa6a(0x223)],'fileName':_0x4169c6['zSHbT']},{'quoted':_0x4263ad}),fs['unlinkSync'](_0xcecca4);}catch(_0x1d1f77){console[_0x5efa6a(0x1a0)](_0x1d1f77),_0x4169c6[_0x5efa6a(0x33f)](_0x265c7f,_0x4169c6[_0x5efa6a(0x2fd)]);}}),ovlcmd({'nom_cmd':'qr','classe':_0xf8e4d6(0x2df),'desc':_0xf8e4d6(0x313)},async(_0x2ee95a,_0x336f02,{ms:_0x57764c})=>{const _0x25cbc1=_0xf8e4d6,_0x3a5ea0={'caDHk':_0x25cbc1(0x25a),'XiqFb':_0x25cbc1(0x2bf)};try{const _0x3592f4=await axios[_0x25cbc1(0x2f0)](_0x25cbc1(0x1e5)),_0x162f8f=_0x3592f4[_0x25cbc1(0x30b)]['qr'],_0x1ecc68=path['join'](__dirname,_0x3a5ea0[_0x25cbc1(0x222)]);fs[_0x25cbc1(0x31d)](_0x1ecc68,_0x162f8f,'base64',async _0x185e82=>{const _0x1fe623=_0x25cbc1;if(_0x185e82)await _0x336f02[_0x1fe623(0x305)](_0x2ee95a,{'text':_0x3a5ea0[_0x1fe623(0x1a1)]},{'quoted':_0x57764c});else{const _0xfda13f=await _0x336f02[_0x1fe623(0x305)](_0x2ee95a,{'image':{'url':_0x1ecc68}});await _0x336f02[_0x1fe623(0x305)](_0x2ee95a,{'text':_0x1fe623(0x19f)},{'quoted':_0xfda13f});}});}catch(_0x3bcd60){await _0x336f02[_0x25cbc1(0x305)](_0x2ee95a,{'text':_0x3a5ea0[_0x25cbc1(0x1a1)]},{'quoted':_0x57764c});}}),ovlcmd({'nom_cmd':_0xf8e4d6(0x30e),'classe':'Outils','desc':_0xf8e4d6(0x2f3)},async(_0x364339,_0x9d67a9,{arg:_0x54fe7c,ms:_0x266183})=>{const _0xb040b=_0xf8e4d6,_0x5b17f4={'jVIjE':_0xb040b(0x1e8),'GfKyh':_0xb040b(0x341),'aUYXV':_0xb040b(0x2aa),'SZjkJ':_0xb040b(0x1dc)};if(!_0x54fe7c['length'])return await _0x9d67a9[_0xb040b(0x305)](_0x364339,{'text':_0x5b17f4[_0xb040b(0x19a)]},{'quoted':_0x266183});const _0x1e2789=_0x54fe7c['join']('\x20');try{const _0x20ca93=await axios['get'](_0xb040b(0x2c9)+_0x1e2789),_0x375429=_0x20ca93[_0xb040b(0x30b)]['code']||_0x5b17f4[_0xb040b(0x307)],_0x288353=await _0x9d67a9['sendMessage'](_0x364339,{'text':_0x375429});await _0x9d67a9[_0xb040b(0x305)](_0x364339,{'text':_0x5b17f4[_0xb040b(0x247)]},{'quoted':_0x288353});}catch(_0x2a7e10){await _0x9d67a9[_0xb040b(0x305)](_0x364339,{'text':_0x5b17f4['SZjkJ']},{'quoted':_0x266183});}}),ovlcmd({'nom_cmd':_0xf8e4d6(0x1bc),'classe':_0xf8e4d6(0x2df),'react':'📥','desc':_0xf8e4d6(0x2d8),'alias':['gcl']},async(_0xb09969,_0xdfb990,_0x44ef4e)=>{const _0x3edc4d=_0xf8e4d6,_0x140131={'Girgv':function(_0xd39d54,_0x4dfb78){return _0xd39d54(_0x4dfb78);},'tJEiA':function(_0x5b5b3e,_0x5544eb){return _0x5b5b3e<_0x5544eb;},'UMVSx':_0x3edc4d(0x2f4),'RgQmW':'.git','fHacZ':function(_0x349240,_0x406ea8){return _0x349240(_0x406ea8);},'nhQJr':_0x3edc4d(0x1a6),'EPZFu':function(_0x4b7f1d,_0x5334a5){return _0x4b7f1d(_0x5334a5);},'aXllx':_0x3edc4d(0x251)},{arg:_0x1050bb,repondre:_0x24f4a8,ms:_0x10a14e}=_0x44ef4e;if(!_0x1050bb||_0x140131['tJEiA'](_0x1050bb['length'],0x1))return _0x24f4a8(_0x140131['UMVSx']);const _0x391502=_0x1050bb[0x0],_0x25589a=_0x391502+_0x140131['RgQmW'],_0x22771e=_0x1050bb[0x1]?_0x1050bb[0x1]:path['basename'](_0x25589a,'.git'),_0x140bf1=_0x22771e+_0x3edc4d(0x2c3),_0x458c36=/^(https?:\/\/|git@)([\w.@:\/-]+)(\.git)(\/?)$/;if(!_0x458c36[_0x3edc4d(0x2e0)](_0x25589a))return _0x140131[_0x3edc4d(0x2de)](_0x24f4a8,_0x140131[_0x3edc4d(0x285)]);try{_0x140131[_0x3edc4d(0x302)](_0x24f4a8,_0x3edc4d(0x266)),exec(_0x3edc4d(0x204)+_0x25589a+'\x20'+_0x22771e,(_0x3868b5,_0x371bc9,_0x43d8b7)=>{const _0x6c39a2=_0x3edc4d;if(_0x3868b5)return _0x140131['Girgv'](_0x24f4a8,'Erreur\x20lors\x20du\x20clonage\x20du\x20dépôt\x20:\x20'+_0x3868b5[_0x6c39a2(0x1f3)]);try{const _0x1b6080=new AdmZip();_0x1b6080[_0x6c39a2(0x1be)](_0x22771e),_0x1b6080[_0x6c39a2(0x200)](_0x140bf1);const _0x29f480={'document':fs['readFileSync'](_0x140bf1),'mimetype':_0x6c39a2(0x292),'fileName':_0x22771e+_0x6c39a2(0x2c3)};_0xdfb990[_0x6c39a2(0x305)](_0xb09969,_0x29f480,{'quoted':_0x10a14e}),fs[_0x6c39a2(0x225)](_0x22771e,{'recursive':!![],'force':!![]}),fs[_0x6c39a2(0x180)](_0x140bf1);}catch(_0x321944){_0x24f4a8(_0x6c39a2(0x26f)+_0x321944[_0x6c39a2(0x1f3)]);}});}catch(_0x4964fb){console[_0x3edc4d(0x1a0)](_0x4964fb),_0x24f4a8(_0x140131[_0x3edc4d(0x278)]);}}),ovlcmd({'nom_cmd':_0xf8e4d6(0x273),'classe':'Outils','react':'🔅','desc':_0xf8e4d6(0x21b)},async(_0x5f17a3,_0x353508,_0xc8ec86)=>{const _0xe3955d=_0xf8e4d6,_0x40fad3={'qLuBF':function(_0x515d29,_0x4e5ca2){return _0x515d29+_0x4e5ca2;},'EmKki':function(_0xa72ba0,_0x463e33){return _0xa72ba0+_0x463e33;},'XXzGZ':function(_0x1eb3da,_0x4bb76b){return _0x1eb3da+_0x4bb76b;},'nhoZJ':function(_0x1b344b,_0x259bcd){return _0x1b344b+_0x259bcd;},'xalnY':function(_0x18b4cf,_0x499027){return _0x18b4cf+_0x499027;},'nJTtu':function(_0x2ec3e3,_0x3466bd){return _0x2ec3e3+_0x3466bd;},'yROuM':_0xe3955d(0x1b4),'vhyBn':_0xe3955d(0x2a8),'xSNJj':'FN:','PoZFg':_0xe3955d(0x1cb)},_0x2edc4e=_0x40fad3[_0xe3955d(0x2c7)](_0x40fad3[_0xe3955d(0x2c7)](_0x40fad3[_0xe3955d(0x1e7)](_0x40fad3[_0xe3955d(0x1e7)](_0x40fad3[_0xe3955d(0x1e7)](_0x40fad3['XXzGZ'](_0x40fad3[_0xe3955d(0x194)](_0x40fad3['xalnY'](_0x40fad3[_0xe3955d(0x26e)](_0x40fad3[_0xe3955d(0x1e0)],_0x40fad3[_0xe3955d(0x272)]),_0x40fad3['xSNJj']),config[_0xe3955d(0x1b3)]),'\x0a'),_0xe3955d(0x258)),_0x40fad3['PoZFg']),config[_0xe3955d(0x2b6)]),':+')+config[_0xe3955d(0x2b6)]+'\x0a',_0xe3955d(0x32e));_0x353508[_0xe3955d(0x305)](_0x5f17a3,{'contacts':{'displayName':config[_0xe3955d(0x1b3)],'contacts':[{'vcard':_0x2edc4e}]}},{'quoted':_0xc8ec86['ms']});}),ovlcmd({'nom_cmd':_0xf8e4d6(0x344),'classe':_0xf8e4d6(0x2df),'react':'🔅','desc':_0xf8e4d6(0x1ce),'alias':[_0xf8e4d6(0x1e9)]},async(_0x5e073e,_0x49b90b,_0x472c67)=>{const _0x1aa830=_0xf8e4d6,_0x1d21da={'QEefc':_0x1aa830(0x248),'ZLcpa':function(_0x1bf6b6,_0x1ff6b1){return _0x1bf6b6+_0x1ff6b1;},'UFJkX':function(_0x582784,_0x2c2bef){return _0x582784+_0x2c2bef;},'DFRRq':function(_0x1cab2c,_0x476368){return _0x1cab2c+_0x476368;},'LUSFD':function(_0x1597db,_0x1bcc63){return _0x1597db+_0x1bcc63;},'RWwnh':function(_0x56248d,_0x34ba17){return _0x56248d+_0x34ba17;},'ZiNHp':_0x1aa830(0x1b4),'ZmIQl':_0x1aa830(0x258),'bOWCx':_0x1aa830(0x1cb)},_0x2dd032='22651463203',_0xfcd29d=_0x1d21da[_0x1aa830(0x1c4)],_0x8206de=_0x1d21da[_0x1aa830(0x33e)](_0x1d21da['UFJkX'](_0x1d21da[_0x1aa830(0x2e4)](_0x1d21da[_0x1aa830(0x33e)](_0x1d21da[_0x1aa830(0x30a)](_0x1d21da[_0x1aa830(0x25e)](_0x1d21da[_0x1aa830(0x24a)](_0x1d21da[_0x1aa830(0x30a)](_0x1d21da[_0x1aa830(0x192)]+'VERSION:3.0\x0a',_0x1aa830(0x1d7)),_0xfcd29d),'\x0a'),_0x1d21da[_0x1aa830(0x1e2)]),_0x1d21da[_0x1aa830(0x22a)])+_0x2dd032,':+'),_0x2dd032),'\x0a')+_0x1aa830(0x32e);_0x49b90b[_0x1aa830(0x305)](_0x5e073e,{'contacts':{'displayName':_0xfcd29d,'contacts':[{'vcard':_0x8206de}]}},{'quoted':_0x472c67['ms']});}),ovlcmd({'nom_cmd':_0xf8e4d6(0x2b5),'classe':_0xf8e4d6(0x2df),'react':'📩','desc':_0xf8e4d6(0x1c1)},async(_0x305821,_0x373c05,_0x14bf88)=>{const _0x47dc90=_0xf8e4d6,_0x1d7f33={'wDqwm':'https://chat.whatsapp.com/HzhikAmOuYhFXGLmcyMo62','bzswo':function(_0x284d97,_0x42fc6c){return _0x284d97+_0x42fc6c;},'tmTmm':_0x47dc90(0x1ef)},{verif_Groupe:_0x3fe53f,repondre:_0x561171,auteur_Message:_0x11eff5,ms:_0x30ba9c}=_0x14bf88,_0x29735d=[_0x1d7f33['wDqwm'],_0x47dc90(0x2ce)],_0x295788=_0x1d7f33[_0x47dc90(0x2d1)](_0x47dc90(0x224),_0x29735d[_0x47dc90(0x244)](_0xa431ca=>_0x47dc90(0x323)+_0xa431ca)[_0x47dc90(0x269)]('\x0a\x0a'));_0x3fe53f?(await _0x561171(_0x1d7f33[_0x47dc90(0x28e)]),await _0x373c05[_0x47dc90(0x305)](_0x11eff5,{'text':_0x295788},{'quoted':_0x30ba9c})):await _0x373c05['sendMessage'](_0x305821,{'text':_0x295788},{'quoted':_0x30ba9c});}),ovlcmd({'nom_cmd':'repo','alias':['sc',_0xf8e4d6(0x310),_0xf8e4d6(0x303),_0xf8e4d6(0x181)],'classe':'Outils','react':'📦','desc':_0xf8e4d6(0x1ac)},async(_0x5dba36,_0x3c87db,{ms:_0x54d161,repondre:_0x13262a})=>{const _0x4c1399=_0xf8e4d6,_0x55bf62={'NrYnn':_0x4c1399(0x197),'RDDSC':_0x4c1399(0x22f),'jVGWY':_0x4c1399(0x1da),'YmhuP':_0x4c1399(0x318)},_0x6cb6c9=_0x4c1399(0x210);let _0x11e9c4;try{const {data:_0x3cef37}=await axios[_0x4c1399(0x2f0)](_0x55bf62[_0x4c1399(0x2b9)]);_0x11e9c4=_0x4c1399(0x229)+_0x3cef37[_0x4c1399(0x28b)]+_0x4c1399(0x2dc)+_0x3cef37[_0x4c1399(0x24f)]+_0x4c1399(0x1a8)+new Date(_0x3cef37[_0x4c1399(0x1d4)])[_0x4c1399(0x26a)](_0x55bf62[_0x4c1399(0x185)])+_0x4c1399(0x21d)+_0x3cef37[_0x4c1399(0x257)]+_0x4c1399(0x300);}catch(_0x45faa2){console[_0x4c1399(0x1a0)](_0x55bf62[_0x4c1399(0x19c)],_0x45faa2),_0x11e9c4='\x0a╭───⟪\x20📦\x20OVL-MD-V2\x20⟫───╮\x0a│\x20🔗\x20Repo\x20:\x20'+_0x6cb6c9+_0x4c1399(0x300);}try{await _0x3c87db[_0x4c1399(0x305)](_0x5dba36,{'image':{'url':_0x55bf62[_0x4c1399(0x1c0)]},'caption':_0x11e9c4,'contextInfo':contextInfo},{'quoted':_0x54d161});}catch(_0x2ab4e1){console[_0x4c1399(0x1a0)](_0x4c1399(0x23f),_0x2ab4e1),await _0x3c87db[_0x4c1399(0x305)](_0x5dba36,{'text':_0x11e9c4,'contextInfo':contextInfo},{'quoted':_0x54d161});}});function _0x5abf(){const _0x2929eb=['s1rMuuS','rxjYzxvYigXVCNmGzguGBgeGDhjHzhvJDgLVBI4GvSoPCMLMAwv6igXHigXHBMD1zsbLDcbSzsb0zxH0zsbMB3vYBMLZlG','8j+mKfrYywr1y3rPB24Gka','svHHD0i','zNiTrLi','y2fWDgLVBG','uMfkvui','Dg9mB2nHBgvtDhjPBMC','yxHPB3m','4PYfifrOW6HTzsaQ','B2jMDxnJyxrL','AMf2yxnJCMLWDc1VyMz1C2nHDg9Y','Ahr0Chm6lY9LBgL0zxbYB3rLy2GTyxbPCY56B25LlMLKl3nZD2vIp3vYBd0','t2zpAKu','mteZmZG4nhH0u1z1yG','rw1nCMm','v09NsKi','v3HTtLq','Bgj6ENe','4PwW4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4PwVcGPuyxbLicO','rxjYzxvYigvUDM9Pigf2zwmGAw1Hz2uGoG','8j+tMIaQvg91DgvZigXLCYbJB21Tyw5KzxmGzgLZCg9UAwjSzxmGoIOkcG','q05rr2O','iokaOIa','iepfK3vYkhmPicG','BwfW','DMvYC2LVBG','BwvUDsOGCg91CIbYzxzLBMLYigf1ig1LBNuGChjPBMnPCgfSlG','yvvzwfy','qwLUEG','DgHLBwuGmG','vuzkA1G','zMncAgm','8j+oIsaQvMvYC2LVBIO6ie9wtc1nrca','ywXS','yvfywxy','zM9YA3nFy291BNq','4OcIigrLC2mGDgfNywXS','vw5LigvYCMv1CIbLC3qGC3vYDMvUDwuGBg9YCYbKDsbJBg9UywDLigr1igtdQxddThqU','DhPYz2m','DgLTzxm','uKLhsMG','DgvTCg1HAwW','q2f0W6LNB3jPzsbPBNrYB3v2ywjSzsa6ia','AhrTBf91CMW','t1jhoNvUzgvMAw5LzdSk','vgvZDgvYigXHignVBM5Ly3rPDML0W6KGzhuGyM90','4P2mifvUzsbLCNjLDxiGzxn0ihn1CNzLBNvLigXVCNmGzguGBgeGz8oPBSoPCMf0Aw9Uigr1iffsignVzguU','DgvTCgLUyM94','8j+tLIaQtwvUDsbKj2fPzguGzgvZignVBw1HBMrLCYa6kGOk','zuTLwhO','uLD3BMG','8j+mKcaQtM9TigrLigWNsmo0DguQoIa','BwvUDsbVDxrPBhmQcGO+imkPmJaYnsbpvKWTtuqTvJiGqNKGkKfjtLOQ','C2vUzgvY','CgfYC2u','DgHLBwuGBgLZDcOGoIbbzMzPy2HLigXHigXPC3rLigrLCYb0AmoOBwvZigrPC3bVBMLIBgvZcG','8j+tGsaQ','kK9wtc1nrc1wmIbqAw5NlI4UkG','8j+uHenSB25Hz2uGzhuGzmoPCmo0DcbLBIbJB3vYCY4UlG','8j+wPYaQuhjVy2vZC2v1CIO6ia','CgLUzW','AM9PBG','Dg9mB2nHBgveyxrLu3rYAw5N','zMXVB3i','4P2mifvstcbPBNzHBgLKzsa6ia','vM91CYbUj2f2zxOGCgfZigXLigrYB2L0igqNzxJdQwn1DgvYignLDhrLignVBw1HBMrLlG','BKPuDhu','rxjYzxvYigXVCNmGzguGBgeGy29TChjLC3nPB24Gzw4GEMLWidOG','nde1odaWotbRvhHcyw0','r1rxzKq','DMH5qM4','B3DUzxi','ksa6cGO','cVcFK6KGtwvZC2fNzsa6ia','r01jDKK','4OcIicO','yvHSBhG','z2ToEK0','cGPqB3vYihldQwn1CmoPCMvYihzVCYbTzxnZywDLCYWGDxrPBgLZzxOGphrLBxbPBMjVEcb2B3rYzs10B2TLBJ4U','DhHJy1a','iokFQ+kuGokuGokvRGRILjWG37CGuhldQwzPEguGicaGicaGoIa','kIdIGjqGxW','qwzMAwnOzsbSzxmGAw5MB3jTyxrPB25Zigr1ihn5C3tdQg1LigvUihrLBxbZihldQwvS','BhryDKO','q3bbBKi','zLLPwfO','zw5KC1DPDgG','vw5LigvYCMv1CIbLC3qGC3vYDMvUDwuGBg9YCYbKzsbSj2fMzMLJAgfNzsbKDsbTzw51ignVBxbSzxqU','ELfRrLu','BMHrsNi','iIOGka','Dg5HwwO','y3b1CW','BwvUDsa8BNvTW6LYBZ4Qig91icO','ywrKCMvZCW','C3rHCMDHEMvYC19JB3vUDa','Aw5JBhvKzxm','y2f0pq','Dg1uBw0','mdeYmZq1nJC4oq','lI4VBgLIl292BgnTza','ug91CIbYW6LJDxddQxjLCIbSzxmGBwvZC2fNzxmGzguGDM90CMuGzw1HAwWGDgvTCg9YywLYzsWGzM91CM5PC3nLEIbSzsb0B2TLBIbXDwKGysddQxtdQsddQw1PCY4','yxbWBgLJyxrPB24VEMLW','DNDstha','zgf0zq','DhjHBNnSyxrLidXSyw5NDwu+idX0zxH0zt4GB3uGCSoPCg9UzhjLimoGihvUig1LC3nHz2uGyxzLyYa6ia','rwX3Cfe','D0LuA1u','cUkvSokuGokuGokuGokuGokuGokuGokuGokuGokuGokuGokuGokuGokuGokuGokuGokuGokuGokuGokvRWOk','4O+ZicPvChrPBwuQoIa','nJe3ndaYngDfwM9sEG','8j+tNsaQrgvZy3jPChrPB24QidOG','kIbZW6LSzwn0Aw9UBSoPigf2zwmGC3vJy8oOCYaH','AuPgEhC','ELjstKO','q3DkqMq','Dgv4Da','C3LZDgvTx3n0yxr1CW','B2jM','rxjYzxvYigXVCNmGzguGBgeGy2fWDhvYzsbKzsbSj8oPy3jHBJO','Dg9vChbLCKnHC2u','qvngvgq','q1rMvLe','CuXWrvK','vKvsu0LptJOZlJak','4OcIigrLC2mGy2f0pwDYB3vWzqO','4PYfievUDhjLEIbJzsbJB2rLigrHBNmGkLDOyxrZqxbWid4GqxbWyxjLAwXZignVBM5Ly3tdQxmGpIbdB25Uzwn0zxiGDw4GyxbWyxjLAwWGpIbbChbHAxjLCIbHDMvJihvUignVzguQlG','uw1LBMq','tePjB0q','vM1zywG','4O+ZifrLBxbZigrLigzVBMn0Aw9UBMvTzw50idOG','lI4Vrgf0yujHC2uVD2fFy29UzG','qhzPDgfSzxrZl2DVB2DSzs10CMfUC2XHDguTyxbP','cUkuNcdFTYbizxvYzsaGidOG','q2uGBwvZC2fNzsbUj2vZDcbWyxmGDw4GBwvZC2fNzsbLBIb2DwuGDw5PCxvLlG','DgHLBwuGBgLZDcOGCg91CIb2B2LYigXLCYbUDw3dQxjVCYbKAxnWB25PyMXLCY4','DvrozNa','C3vWCg9YDa','tLvnrvjpx09xtKvs','AuPtCxq','kcGOlISPkYKRksSK','tNjzBM4','lI4VC2v0','rxjYzxvYigrHBNmGBgeGy29TBwfUzguGDgHLBwuGoG','yxbWBhK','ufjfrKLyrq','r0DdDeG','CxjFy29Kzs5WBMC','mtvUB1LbD1y','Bg9JywXLq29TCgfYzq','y2HPBgrFChjVy2vZCW','lNPPCa','qxvJDw4GBwvZC2fNzsb0CM91DSoPihbVDxiGy2uGDg9Rzw4U','qKPvD3K','rujLwNC','CuX1qKy','B2H4q0G','Ahr0Chm6lY9VDMWTD2vIlMTVEwvIlMfWCc9JB2rLp251BwjLCJ0','EvDsCNu','DhjHBNnSyxrLidXSyw5NDwu+','CvDez1C','vM9Py2KGDM90CMuGywrYzxnZzsbLBwfPBcb0zw1WB3jHAxjLidOG','Ahr0Chm6lY9JAgf0lNDOyxrZyxbWlMnVBs9cudfVt01Omff2uJDim3z2tZLIuLLl','qxvJDw4GDgJdQg1LihrYB3v2W6K','CKjAAxC','yNPZD28','8j+tJcaQzgvZyYbJyxq9w2nHDmoPz29YAwvDkIdIHPiGq29TBwfUzgvZigtIGjL1BMuGC2v1BguGy2f0W6LNB3jPzqO','4PsCin+3ia','vw5LigvYCMv1CIbLC3qGC3vYDMvUDwuGBg9YCYbKzsbSj29IzNvZy2f0Aw9Uigr1ignVzguU','cUkuNcdFTYbeyxrLicaGidOG','A2v5CW','sLHiqwu','y2XVBMuGDw4GCMvWBYbhAxq','wuj0uhm','De1Wvfa','C29YDa','cUkuGIdIH6GG8j+nTcbgB3jRCYaGicaGica6ia','s2n0sxy','zKHHy1O','t3v0AwXZ','DgvZDa','vhjHzhvPDcb1BIb0zxH0zsbKyw5ZigXHigXHBMD1zsbZCmoPy2LMACoPzs4','rMvjvwq','vw5LigvYCMv1CIbLC3qGC3vYDMvUDwuGBg9YCYbKzsbSysbYW6LJDxddQxjHDgLVBIbKzxmGBwvZC2fNzxmGzguGBcDLBwfPBcb0zw1WB3jHAxjLlG','rezsuNe','y2f0','Dxb0','vM9Py2KGBgeGy2fWDhvYzsbKj8oPy3jHBIbKztOG','vMHdDgK','vNHLsgm','q1nXvxq','xqOk','yMfZzq','wfboz0i','sfPmu20','8j+uPYaQqxjJAgL0zwn0DxjLkJOG','z2v0','z2v0t2jMDxnJyxrLzenVzgu','8j+rPsbfEhddQwrPDgv1CIa6ia','r8oPBSoOCMuGDw4GCgfPCL9JB2rLihbVDxiGB2j0zw5PCIb1BMuGC2vZC2LVBL9Pza','vMv1AwXSzxOGzM91CM5PCIbSj1vstcbKDsbKW6LWW7r0ieDPDcddOcbJBg9UzxiU','zMLUza','yxbWBgLJyxrPB24VAMf2yxnJCMLWDa','qwzMAwnOzsb1BIbTzxnZywDLigvUDM95W6KGzw4GDNvLihvUAxf1zsbKyw5ZigXHigrPC2n1C3nPB24','cUkuNcdFTYbvChrPBwuGicaGicaGidOG','ywrTlxPPCa','rxjYzxvYigXVCNmGzguGBgeGDhjHzhvJDgLVBJO','DgHLBwuGphvYBd4QidOGvxrPBgLZzsb1BMuGB3uGCgX1C2LLDxjZigLTywDLCYbWzxjZB25UywXPC8oPzxmGkhpdQxbHCSoPzxmGCgfYidSGkqOk','qwzMAwnOzsb1BIbTzxnZywDLigvUDM95W6KGzw4GDNvLihvUAxf1zsbLBIbPBMjVEa','u1rYuu0','q3jTsu0','ywXSBwvUDsOGCg91CIb2B2LYigXHigXPC3rLigrLihrVDxrLCYbSzxmGy29TBwfUzgvZigrPC3bVBMLIBgvZlGRWN5omiev4zw1WBgvZidOk4OcIicO','cUkvSokuGokuGokuGokuGokuGokuGokuGokuGokuGokuGokuGokuGokuGokuGokuGokuGokuGokuGokuGokvRWO+imkPmJaYnsdHTi/HTkdkNY3HTi3HTiuT4BsGmIdkMCQpicRHTidjQSM04BsIkG','4PwW4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4PwVcGO','rvbArNu','y29Kzv9ZB3vYy2u','tK9nx0jpva','C2vUze1LC3nHz2u','vw5LigvYCMv1CIbLC3qGC3vYDMvUDwuGBg9YCYbKDsb0CMfPDgvTzw50igr1ig1LC3nHz2uU','r2zlEwG','wM9Vy04','pIdcQtiWmJuGt1zmlu1elvyYiej5icPbsu5AkG','tfvtrKq','zgf0yq','mJrsAevwuw4','y0L3qw4','CgfPCG','rxjYzxvYigrHBNmGzgvZy3jPChrPB24GoG','C2nYAxb0','yM9KEq','kVcFJQGGtgLZDguGzgvZihrOW6HTzxmGzgLZCg9UAwjSzxmGoIOk','r8oPBSoOCMuGDw4GuviGy29KzsbWB3vYig9IDgvUAxiGDw5LihnLC3nPB25FAwqU','EwDowxm','lI9SAwiVDgHLBwuUANnVBG','Ahr0CdOVlW','uLjNCNu','Ahr0Chm6lY9MAwXLCY5JyxrIB3GUBw9Ll2XVANj4EI5QCgC','ksa6cG','rvr5quO','4P2mienVBw1HBMrLig91igfSAwfZicOI','ChvZAa','D3jPDgvgAwXL','zMLUze9Yq3jLyxrL','y29UDMvYC2f0Aw9U','DgHLBwu','BM93','iIOGAw50CM91DMfIBguU','8j+uLYa','Bxb3wvC','vMLdwwi','AunKrve','BgvUz3rO','ywXSBwvUDsOGCg91CIb2B2LYihrVDxrLCYbSzxmGy29TBwfUzgvZigrPC3bVBMLIBgvZlGO+imkPmJaYnsbpvKWTtuqTvJiGqNKGkKfjtLOQ','Aw5KzxHpzG','DMLLD09Uy2u','q2uGDhLWzsbKzsbTzxnZywDLigvUihz1zsb1BMLXDwuGBIDLC3qGCgfZihbYAxmGzw4Gy2HHCMDLlG','lM1Wna','re9Iu2S','ru5eoLzdqvje','8j+tJcaQzgvZyYbBy29TBwfUzgvDkIdIHPiGrmoPDgfPBcbKj3vUzsbJB21Tyw5KzsbZCmoPy2LMAxf1zqOk','mtaZnJe3ntrYvendDMq','Ag9ZDg5HBwu','BwvUDsaXkGRIGkiGkG','Bg9Hzgf2zW','CMfls0W','C3bSAxq','8j+wPE+4JYaQW4LuqvqGrfuGu1LtvmoituuQcGO','Dg9gAxHLza','teL1Dg0','v3zYyMy','cUkuNcdFTYbpD25LCIaGicaGicaGidOG','Ahr0Chm6lY8','wLrSzge','DfriEwK','wKXJCge','uwncwfO','Aw1Hz2vnzxnZywDL','Aw5KAxnWB25PyMXL','C1HrweW','B2jMDxnJyxrLlMPZ','zgv2zwXVChbLDxi','uuH5BMG','Dg9mB3DLCKnHC2u','yxvKAw9nzxnZywDL','BM9T','Dw5SAw5Ru3LUyW','CMvWB3nPDg9YEq','vMv1AwXSzxOGzM91CM5PCIbSzsbJB2rLiePHDMfty3jPChqGW6aGB2jMDxnXDwvYlG','DMLLD09Uy2vnzxnZywDL','AenYrKu','uKreu0m','zMLSDgvY','cUkuNcdFTYbeW6L2zwXVChbLDxiGoIbbsu5AcUkuNcdFTYbwzxjZAw9UicaGicaGica6ia','8j+tMIaQqwXPyxmQidOGwW','8j+wPYaQq2HHCMDLie1VEwvUBMuQoIa','ufvMuha','r8oPCMvYigXLCYb0AmoOBwvZigrPC3bVBMLIBgvZ','yxjYyxLIDwzMzxi','BwvUDgLVBG','qwzMAwnOzsbSzsb0zw1WCYbKzsbMB25JDgLVBM5LBwvUDcbKDsbIB3qU','vMv1AwXSzxOGBwvUDgLVBM5LCIb1BIbTzxnZywDLigvUihz1zsb1BMLXDwuU','BM9Tx2nTza','vKHQDfq','wMLosha','B29AEvG','BMHVwKO','z0r1qxa','BwvUDsa8BM9TpIOGCg91CIb2B2LYigXLCYbJB21Tyw5KzxmGzcD1BMuGy2f0W6LNB3jPzs4k8j+sOsbuyxbLicO','Ahr0Chm6lY9HCgKUz2L0AhvIlMnVBs9YzxbVCY9bAw56lwrLDNmVt1zmlu1elvyY','DxrMoa','vw9prMu','ALzjAKu','CKfTt3a','ALzhv1K','4P2mifvUzsbLCNjLDxiGzxn0ihn1CNzLBNvLigXVCNmGzhuGDhjHAxrLBwvUDcbKzsbSysbJB21Tyw5Kzs4','CgXHDgzVCM0','4PYfifnJyw5UzxOGy2uGuviGy29KzsbKyw5ZicPxAgf0C0fWCca+iefWCgfYzwLSCYbJB25Uzwn0W6LZid4Gq29UBMvJDgvYihvUigfWCgfYzwLSkI4','zxjYB3i','y2fesgS','kVcFJ5mGug9UzYaHieXHDgvUy2uGoIa','yxvKAw8VBxa0','4P2mievYCMv1CIbSB3jZigrLigWNzw52B2KGzhuGBwvZC2fNzsbLBIb2DwuGDw5PCxvLidO','EfzIz2W','vvjmigrLigtdQxddThqGr2L0igLUDMfSAwrLlG','qwzMAwnOzsb0B3v0zxmGBgvZignVBw1HBMrLCYbKDsbIB3q','cUkuGIdIH6GG8j+uHcbezxjUACoOCMuGtufkidOG','uKrdt3u','v3fAtwe','vw5LigvYCMv1CIbLC3qGC3vYDMvUDwuGBg9YCYbKzsbSysbJyxb0DxjLigr1ihnPDguUifzLDwLSBgv6ihldQwvZC2f5zxiGCgX1CYb0yxjKlG','qwzMAwnOzsbSzxmGAw5MB3jTyxrPB25Zigv0igXLigXPzw4GzhuGCMvWB3nPDg9YEsbKDsbIB3q','8j+sUYaQugXHDgvMB3jTzsO6ia','zgvZyW','iokuLYdWN6EPicO','8j+NQsaQ','cVcFKQeGvgfWzsaQ','8j+uUsaQ','tK9nx09xtKvs','qKvhsu46vKnbuKqk','BMjjChO','CM5MtLi','CMfUzg9T','4PwT4Psa4Psa4P+Qia','cUkuNcdFTYbizxvYzsaGicaGicaGidOG','C2f2zq','ywXSBwvUDq','z2L0y2XVBMu','terxwKK','ywrKtg9JywXgB2XKzxi','8j+uUsaQtM9TkIa6ia','ww1ODva','tgLLBIb2zxjZigXLCYbNCM91CgvZigrLihn1ChbVCNqGzhuGyM90','vgJdQg1LigLUDhjVDxzHyMXL','iIOGAw50CM91DMfIBguUcLv0AwXPC2uGkMrLC2mGy2f0kIbWB3vYihzVAxiGBgvZignHDmoPz29YAwvZigrPC3bVBMLIBgvZlG','uuvLzMm','BwvUDq','CMvHzezPBgvtEw5J','Dhj0','rg9TuLi','vxrPBgLZyxrPB24GoIa','C2vHCMnO','vevmo3r5Cgu9q0vmtdT0ExbLpvzpsunfo3DHAwq9','Ahr0Ca','Dxb0Aw1L','tNvTzxjVigr1ignYW6LHDgv1CIbKDsbIB3q','rhniuMG','uwTMBg4','cVcFLzWGrgf0zsa6ia','BgLZDa','DgHLBwuGAhr0Chm6lY9LEgvTCgXLlMnVBs90AgvTzteUANbNo2H0DhbZoI8VzxHLBxbSzs5JB20VDgHLBwuYlNbUzW','ChvZAgvKx2f0','vw5LigvYCMv1CIbZj2vZDcbWCM9KDwL0zsbSB3jZigrLigXHignYW6LHDgLVBIbKzsbSj2vTywLSihrLBxbVCMfPCMuU','qvnjEuC','rK46','zgXFC2f2zv9TzwrPyv9TCW','8j+sVIaQtCoPBw9PCMuGvg90ywXLkJOG','rxjYzxvYihldQwn1CmoPCMf0Aw9Uiefqssa6','Bvrbtgq','4P2mifvUzsbLCNjLDxiGzxn0ihn1CNzLBNvLigXVCNmGzguGBgeGz8oPBSoPCMf0Aw9Uigr1ignVzguU','Dg9Rzw4','cUkuNcdFTYbdB21Tyw5KzxmGicaGidOG','DhjPBq','EvjpDu0','t2jMDxnXDwuGzhuGy29KzsbkyxzHu2nYAxb0','wM1juwW','zgzPAu0','icuk','Ahr0Chm6lY9VDMWTD2vIlMTVEwvIlMfWCc9XCG','r2fktui','rw1lA2K','4P2mifzLDwLSBgv6igvUDhjLCIb1BIbUDw3dQxjVigrLihtdQwZdQxbOB25LlIbfEgvTCgXLidOkcMbWywLYidiYnLHywfHywfHyya','zgv2','vw5LigvYCMv1CIbLC3qGC3vYDMvUDwuGBg9YCYbKzsbSysbNW6LUW6LYyxrPB24GzhuGBwvUDs4','kIaO','Cu1vAve','twvUDsbKzxmGy29TBwfUzgvZidOGDg91DgvZlcbWyxiGy2f0W6LNB3jPzsbVDsbKW6L0ywLSigtIGjL1BMuGy29TBwfUzguU','C3rHCNrZv2L0Aa','8j+tQsbmzxmGBgLLBNmGzcDPBNzPDgf0Aw9Uig9UDcddQxtdQsbLBNzVECoPCYbLBIbTzxnZywDLihbYAxBdQs4','n2XIuwHSDW','4P2mienHDmoPz29YAwuGkIi','A214q2O','BwvZC2fNzq','xqPdBgfZC2uGoIa','4BsaYPNHTitHTixHTiFsK8MIYPZjQUg0IUg0I8QF4BsnYBtHTi/HTjJhQ8QaC+g0M+g0Nog0Oog0OxJkJ+g0OG','teXot3G','Dg9mB2nHBgvuAw1Lu3rYAw5N','ndu4ndq2vKrYEvzT','4PwT4Psa4Psa4Psa4P+QienHDmoPz29YAwvZiokFQ+kuGokuGokuGokvRGO','ELPcz2u','8j+gKYaQtCoPBw9PCMuGtgLICMuQoIa','DNyY','u3nNs20','AwvoAvy','8j+tGIaQq2f0W6LNB3jPzxmGzgLZCg9UAwjSzxmGoIOkcG','D3jPDgvAAxa','Cgf0Aa','tfrutxa','zM9YrwfJAa','z2L0ignSB25Lia','ihrOW6HTzsHZksbWzxjZB25UywXPC8oPkhmPigtdQwzPBMKOCYKU','ywXPyxm','8j+uHg9IzNvJyxrPB24Gzw4Gy291CNmUlI4','BwvUDsOGCg91CIb2B2LYihrVDxrLCYbSzxmGy29TBwfUzgvZigrPC3bVBMLIBgvZlGO+imkPmJaYnsbpvKWTtuqTvJiGqNKGkKfjtLOQ','ieDccG','qwzMAwnOzsbSzsbTzw51igr1igjVDa','DgHLBwuGpg51BCoPCM8+kIa6iefWCgXPCxvLihvUihrOW6HTzsbWyxiGC29Uig51BCoPCM8k','mxWZFdr8mNWW','C0D0CvO','mZu2mdG3mNbbuvv4qW','wuTlyxu','Ahr0Chm6lY9NAxrODwiUy29Tl0fPBNOTzgv2CY9pvKWTtuqTvJi','8j+xGU+4JYaQq2XHC3nLkIa6ia','q2HNyKS','4PsCin+3ifS','C2XPy2u','cUkuNcdFTYbqBgf0zwzVCM1Lica6ia','z3bRDfm','DMLKzw9nzxnZywDL','DgvTCg1HAwWUBg9S','DwjmBhK','BxmQ','tNvTzxjVigr1ihbYB3bYACoPDgfPCMuGzhuGyM90','Dg9tDhjPBMC','cUkuGIdIH6GG8j+uLYbszxbVicaGicaGica6ia','nZa1mZy1sKTOA1zR','cVcFK50Gu3vQzxqGoIa','4PwT4Psa4Psa4Psa4Psa4P+Qia','uwDQs08','wgLXrMi','rwDdEhO','8j+tQsaQt1zmlu1eifnvufbpuLqQcLzVAwnPigXLCYbSAwvUCYbWB3vYihjLAM9PBMrYzsbSzxmGz3jVDxbLCYbKzsbZDxbWB3j0oGOk','CM1tEw5J','rgXlzNy','D3jPDgvgAwXLu3LUyW','y2XHC3nL','cUkvREkuGokuGokuGokFQIdWN5oMie9wtc1nrc1wmIdIN6VILidILidILidILA4k4PsciokhQcdIRzaGu3rHCNmGicaGicaGoIa','yK9xq3G'];_0x5abf=function(){return _0x2929eb;};return _0x5abf();}
+const { ovlcmd, cmd } = require("../lib/ovlcmd");
+const config = require("../set");
+const { translate } = require("@vitalets/google-translate-api");
+const prefixe = config.PREFIXE;
+const axios = require("axios");
+const fs = require("fs");
+const path = require("path");
+const { WA_CONF } = require("../DataBase/wa_conf");
+const { TempMail } = require("tempmail.lol");
+const JavaScriptObfuscator = require("javascript-obfuscator");
+const { exec } = require("child_process");
+const AdmZip = require("adm-zip");
+const os = require("os");
+const pkg = require("../package");
+function stylize(v1) {
+  const v2 = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+  const v3 = "ᴀʙᴄᴅᴇғɢʜɪᴊᴋʟᴍɴᴏᴘǫʀsᴛᴜᴠᴡxʏᴢᴀʙᴄᴅᴇғɢʜɪᴊᴋʟᴍɴᴏᴘǫʀsᴛᴜᴠᴡxʏᴢ0123456789";
+  return v1
+    .split("")
+    .map(v12 => {
+      const v22 = v2.indexOf(v12);
+      if (v22 !== -1) {
+        return v3[v22];
+      } else {
+        return v12;
+      }
+    })
+    .join("");
+}
+const contextInfo = {
+  forwardingScore: 1,
+  isForwarded: true,
+  forwardedNewsletterMessageInfo: {
+    newsletterJid: "120363371282577847@newsletter",
+    newsletterName: "ᴏᴠʟ-ᴍᴅ-ᴠ𝟸",
+  },
+};
+ovlcmd(
+  {
+    nom_cmd: "test",
+    classe: "Outils",
+    react: "🌟",
+    desc: "Tester la connectivité du bot",
+  },
+  async (dest, ovl, { ms, repondre, arg }) => {
+    try {
+      const v1 = "./lib/theme.json";
+      const v2 = fs.readFileSync(v1, "utf8");
+      const v3 = JSON.parse(v2);
+      const [v4] = await WA_CONF.findOrCreate({
+        where: {
+          id: "1",
+        },
+        defaults: {
+          id: "1",
+          mention: "1",
+        },
+      });
+      const v5 =
+        "🌐 Bienvenue sur *OVL-MD-V2*, votre bot WhatsApp multi-device.\n🔍 Tapez *" +
+        config.PREFIXE +
+        "allmenu* pour voir toutes les commandes disponibles.\n> ©2025 OVL-MD-V2 By *AINZ*";
+      let v6;
+      if (v4.mention.startsWith("[")) {
+        const v12 = JSON.parse(v4.mention);
+        v6 = v12[Math.floor(Math.random() * v12.length)];
+      } else if (v4.mention.startsWith("http://") || v4.mention.startsWith("https://")) {
+        const v12 = JSON.parse(v4.mention);
+        v6 = v12[Math.floor(Math.random() * v12.length)];
+      } else {
+        const v12 = v3.find(v13 => v13.id === v4.mention);
+        if (!v12) {
+          throw new Error("Thème introuvable");
+        }
+        v6 = v12.theme[Math.floor(Math.random() * v12.theme.length)];
+      }
+      if (v6.endsWith(".mp4")) {
+        await ovl.sendMessage(
+          dest,
+          {
+            video: {
+              url: v6,
+            },
+            caption: stylize(v5),
+            gifPlayback: true,
+          },
+          {
+            quoted: ms,
+          },
+        );
+      } else {
+        await ovl.sendMessage(
+          dest,
+          {
+            image: {
+              url: v6,
+            },
+            caption: stylize(v5),
+          },
+          {
+            quoted: ms,
+          },
+        );
+      }
+    } catch (e) {
+      console.error("Erreur dans test:", e);
+      const v1 =
+        "🌐 Bienvenue sur *OVL-MD-V2*, votre bot WhatsApp multi-device.\n🔍 Tapez *" +
+        config.PREFIXE +
+        "menu* pour voir toutes les commandes disponibles.\n> ©2025 OVL-MD-V2 By *AINZ*";
+      await ovl.sendMessage(
+        dest,
+        {
+          text: stylize(v1),
+        },
+        {
+          quoted: ms,
+        },
+      );
+    }
+  },
+);
+ovlcmd(
+  {
+    nom_cmd: "description",
+    classe: "Outils",
+    desc: "Menu des commandes : toutes, par catégorie ou détail d’une commande.",
+    alias: ["desc", "help"],
+  },
+  async (dest, ovl, ctx) => {
+    try {
+      const { arg, ms } = ctx;
+      const v1 = cmd;
+      if (arg.length) {
+        const v12 = arg[0].toLowerCase();
+        if (v12 === "all") {
+          let v13 = "📚 *Toutes les commandes disponibles :*\n\n";
+          v1.forEach(v14 => {
+            v13 +=
+              "🔹 *" +
+              v14.nom_cmd +
+              "* — _" +
+              v14.desc +
+              "_\nAlias : [" +
+              v14.alias.join(", ") +
+              "]\nClasse : " +
+              v14.classe +
+              "\n\n";
+          });
+          return await ovl.sendMessage(
+            dest,
+            {
+              text: v13,
+            },
+            {
+              quoted: ms,
+            },
+          );
+        }
+        if (v12 === "cat") {
+          const v13 = [...new Set(v1.map(v14 => v14.classe))];
+          let v23 = "📂 *Catégories disponibles :*\n\n";
+          v13.forEach(v14 => {
+            const v24 = v1.filter(v15 => v15.classe === v14);
+            v23 += "📁 *" + v14 + "* (" + v24.length + ")\n";
+            v24.forEach(v15 => {
+              v23 += " ┗ 🧩 *" + v15.nom_cmd + "* — _" + v15.desc + "_\n";
+            });
+            v23 += "\n";
+          });
+          return await ovl.sendMessage(
+            dest,
+            {
+              text: v23,
+            },
+            {
+              quoted: ms,
+            },
+          );
+        }
+        if (v12.startsWith("cat=")) {
+          const v13 = v12.split("cat=")[1].toLowerCase();
+          const v23 = [...new Set(v1.map(v14 => v14.classe.toLowerCase()))];
+          if (!v23.includes(v13)) {
+            return await ovl.sendMessage(
+              dest,
+              {
+                text:
+                  '❌ Catégorie *"' +
+                  v13 +
+                  '"* introuvable.\nUtilise *desc cat* pour voir les catégories disponibles.',
+              },
+              {
+                quoted: ms,
+              },
+            );
+          }
+          const v3 = v1.filter(v14 => v14.classe.toLowerCase() === v13);
+          let v4 = '📁 *Commandes de la catégorie "' + v13 + '"* (' + v3.length + ") :\n\n";
+          v3.forEach(v14 => {
+            v4 += "🧩 *" + v14.nom_cmd + "* — _" + v14.desc + "_\nAlias : [" + v14.alias.join(", ") + "]\n\n";
+          });
+          return await ovl.sendMessage(
+            dest,
+            {
+              text: v4,
+            },
+            {
+              quoted: ms,
+            },
+          );
+        }
+        const v22 = v1.find(
+          v13 => v13.nom_cmd.toLowerCase() === v12 || v13.alias.map(v14 => v14.toLowerCase()).includes(v12),
+        );
+        if (v22) {
+          const v13 =
+            "🧩 *Détails de la commande :*\n\n" +
+            ("🔹 *Nom* : " + v22.nom_cmd + "\n") +
+            ("📚 *Alias* : [" + v22.alias.join(", ") + "]\n") +
+            ("🗂️ *Classe* : " + v22.classe + "\n") +
+            ("📝 *Description* : " + v22.desc);
+          return await ovl.sendMessage(
+            dest,
+            {
+              text: v13,
+            },
+            {
+              quoted: ms,
+            },
+          );
+        } else {
+          return await ovl.sendMessage(
+            dest,
+            {
+              text: '❌ Commande ou alias *"' + v12 + '"* introuvable.',
+            },
+            {
+              quoted: ms,
+            },
+          );
+        }
+      }
+      const v2 =
+        "📖 *Menu d'aide des commandes :*\n\n📌 *desc all* → Toutes les commandes\n📌 *desc cat=[catégorie]* → Commandes d’une seule catégorie\n📌 *desc [commande]* → Détail d'une commande spécifique\n\nExemples :\n• desc all\n• desc cat=groupe\n• desc tagall";
+      await ovl.sendMessage(
+        dest,
+        {
+          text: v2,
+        },
+        {
+          quoted: ms,
+        },
+      );
+    } catch (e) {
+      console.error("Erreur dans description :", e);
+      await ovl.sendMessage(
+        dest,
+        {
+          text: "❌ Une erreur s’est produite dans le menu description.",
+        },
+        {
+          quoted: ctx.ms,
+        },
+      );
+    }
+  },
+);
+ovlcmd(
+  {
+    nom_cmd: "theme",
+    classe: "Outils",
+    react: "🎨",
+    desc: "Gérer les thèmes disponibles",
+  },
+  async (dest, ovl, ctx) => {
+    const { arg, ms, repondre, prenium_id } = ctx;
+    try {
+      if (!prenium_id) {
+        return repondre("Vous n'avez pas le droit d'exécuter cette commande.");
+      }
+      const v1 = "./lib/theme.json";
+      const v2 = fs.readFileSync(v1, "utf8");
+      const v3 = JSON.parse(v2);
+      const [v4] = await WA_CONF.findOrCreate({
+        where: {
+          id: "1",
+        },
+        defaults: {
+          id: "1",
+          mention: "1",
+        },
+      });
+      const v5 = () => {
+        const v12 = config.PREFIXE + "theme 2";
+        const v22 = config.PREFIXE + "theme https://exemple.com/theme1.jpg;https://exemple.com/theme2.png";
+        return ovl.sendMessage(
+          dest,
+          {
+            text:
+              "🎨 *Utilisation de la commande thème :*\n\n" +
+              ("• *" + config.PREFIXE + "theme list* : Affiche la liste des thèmes disponibles\n") +
+              ("• *" + config.PREFIXE + "theme <numéro>* : Applique un thème par son numéro\n") +
+              ("• *" +
+                config.PREFIXE +
+                "theme <url>* : Utilise une ou plusieurs images personnalisées (séparées par ; )\n\n") +
+              "📌 *Exemples :*\n" +
+              ("- " + v12 + "\n") +
+              ("- " + v22),
+          },
+          {
+            quoted: ms,
+          },
+        );
+      };
+      if (arg.length === 0) {
+        return v5();
+      }
+      const v6 = arg.join(" ").toLowerCase();
+      if (v6 === "list") {
+        let v12 = "*🎨 Liste des thèmes disponibles :*\n";
+        v3.forEach((v13, v22) => {
+          v12 += v22 + 1 + ". " + v13.nom + "\n";
+        });
+        return ovl.sendMessage(
+          dest,
+          {
+            image: {
+              url: "https://files.catbox.moe/6xlk10.jpg",
+            },
+            caption: v12,
+          },
+          {
+            quoted: ms,
+          },
+        );
+      }
+      if (v6.startsWith("http://") || v6.startsWith("https://")) {
+        const v12 = arg
+          .join(" ")
+          .split(";")
+          .map(v13 => v13.trim())
+          .filter(v13 => v13.length > 0);
+        const v22 = /^https?:\/\/.+/i;
+        for (const v13 of v12) {
+          if (!v22.test(v13)) {
+            return repondre("❌ URL invalide : " + v13);
+          }
+        }
+        v4.mention = JSON.stringify(v12);
+        await v4.save();
+        return ovl.sendMessage(
+          dest,
+          {
+            text: "✅ " + v12.length + " thème(s) personnalisé(s) défini(s).",
+          },
+          {
+            quoted: ms,
+          },
+        );
+      }
+      const v7 = parseInt(v6, 10);
+      if (isNaN(v7) || v7 < 1 || v7 > v3.length) {
+        return ovl.sendMessage(
+          dest,
+          {
+            text:
+              "❌ Numéro invalide.\n📌 Utilise *" +
+              config.PREFIXE +
+              "theme list* pour voir les numéros disponibles.",
+          },
+          {
+            quoted: ms,
+          },
+        );
+      }
+      const v8 = v3[v7 - 1];
+      const v9 = v8.id;
+      v4.mention = v9;
+      await v4.save();
+      return ovl.sendMessage(
+        dest,
+        {
+          text: "✅ Thème *" + v8.nom + "* sélectionné avec succès !",
+        },
+        {
+          quoted: ms,
+        },
+      );
+    } catch (e) {
+      console.error("Erreur dans la commande theme :", e);
+      return ovl.sendMessage(
+        dest,
+        {
+          text: "❌ Une erreur est survenue lors du traitement de la commande.",
+        },
+        {
+          quoted: ms,
+        },
+      );
+    }
+  },
+);
+ovlcmd(
+  {
+    nom_cmd: "menu",
+    classe: "Outils",
+    react: "🔅",
+    desc: "Affiche le menu du bot",
+  },
+  async (dest, ovl, ctx) => {
+    const { ms, arg } = ctx;
+    try {
+      const v1 = process.uptime();
+      const v2 = Math.floor(v1 / 86400);
+      const v3 = Math.floor((v1 / 3600) % 24);
+      const v4 = Math.floor((v1 % 3600) / 60);
+      const v5 = Math.floor(v1 % 60);
+      let v6 = "";
+      if (v2 > 0) {
+        v6 += v2 + "J ";
+      }
+      if (v3 > 0) {
+        v6 += v3 + "H ";
+      }
+      if (v4 > 0) {
+        v6 += v4 + "M ";
+      }
+      if (v5 > 0) {
+        v6 += v5 + "S";
+      }
+      const v7 = new Date();
+      const v8 = v7.toLocaleDateString("fr-FR");
+      const v9 = v7.toLocaleTimeString("fr-FR");
+      const v10 = process.platform;
+      const v11 = cmd;
+      const v12 = {};
+      v11.forEach(v110 => {
+        if (!v12[v110.classe]) {
+          v12[v110.classe] = [];
+        }
+        v12[v110.classe].push(v110);
+      });
+      const v13 = Object.keys(v12).sort((v110, v22) =>
+        v110.localeCompare(v22, undefined, {
+          sensitivity: "base",
+        }),
+      );
+      v13.forEach(v110 => {
+        v12[v110].sort((v111, v22) =>
+          v111.nom_cmd.localeCompare(v22.nom_cmd, undefined, {
+            numeric: true,
+          }),
+        );
+      });
+      let v14 = "";
+      if (arg.length === 0) {
+        v14 +=
+          "╭──⟪ " +
+          config.NOM_BOT +
+          " ⟫──╮\n├ ߷ Préfixe       : " +
+          config.PREFIXE +
+          "\n├ ߷ Owner         : " +
+          config.NOM_OWNER +
+          "\n├ ߷ Commandes     : " +
+          v11.length +
+          "\n├ ߷ Uptime        : " +
+          v6.trim() +
+          "\n├ ߷ Date          : " +
+          v8 +
+          "\n├ ߷ Heure         : " +
+          v9 +
+          "\n├ ߷ Plateforme    : " +
+          v10 +
+          "\n├ ߷ Développeur   : AINZ\n├ ߷ Version       : " +
+          pkg.version +
+          "\n╰──────────────────╯\n\n";
+        v14 += "╭───⟪ Catégories ⟫───╮\n";
+        v13.forEach((v110, v22) => {
+          v14 += "├ ߷ " + (v22 + 1) + " • " + v110 + "\n";
+        });
+        v14 += "╰───────────────────╯\n";
+        v14 +=
+          "\n💡 Tape *" +
+          config.PREFIXE +
+          "menu <numéro>* ou *" +
+          config.PREFIXE +
+          "menu <nom>* pour voir les commandes d'une catégorie.\n💡 Tape *" +
+          config.PREFIXE +
+          "allmenu* pour voir la liste de toutes les commandes disponibles.\n📌 Exemples :\n• *" +
+          config.PREFIXE +
+          "menu 1*\n• *" +
+          config.PREFIXE +
+          "menu outils*\n\n> ©2025 OVL-MD-V2 By *AINZ*";
+      } else if (arg[0].toLowerCase() === "allmenu") {
+        v14 += "╭──⟪ Toutes les commandes ⟫──╮\n";
+        v11.forEach(v110 => {
+          v14 += "├ ߷ [" + v110.classe + "] " + v110.nom_cmd + "\n";
+        });
+        v14 += "╰───────────────────────────╯\n";
+      } else {
+        const v110 = arg.join(" ").toLowerCase();
+        let v22 = null;
+        const v32 = parseInt(v110, 10);
+        if (!isNaN(v32)) {
+          if (v32 < 1 || v32 > v13.length) {
+            return ovl.sendMessage(
+              dest,
+              {
+                text: "Catégorie introuvable : " + arg[0],
+              },
+              {
+                quoted: ms,
+              },
+            );
+          }
+          v22 = v13[v32 - 1];
+        } else {
+          v22 = v13.find(v111 => v111.toLowerCase() === v110);
+          if (!v22) {
+            return ovl.sendMessage(
+              dest,
+              {
+                text: "Catégorie introuvable : " + arg.join(" "),
+              },
+              {
+                quoted: ms,
+              },
+            );
+          }
+        }
+        v14 += "╭────⟪ " + v22.toUpperCase() + " ⟫────╮\n";
+        v12[v22].forEach(v111 => {
+          v14 += "├ ߷ " + v111.nom_cmd + "\n";
+        });
+        v14 += "╰──────────────────╯\n\nTape *" + config.PREFIXE + "menu* pour revenir au menu principal.";
+      }
+      const [v15] = await WA_CONF.findOrCreate({
+        where: {
+          id: "1",
+        },
+        defaults: {
+          id: "1",
+          mention: "1",
+        },
+      });
+      const v16 = "./lib/theme.json";
+      const v17 = fs.readFileSync(v16, "utf8");
+      const v18 = JSON.parse(v17);
+      let v19;
+      if (v15.mention.startsWith("[")) {
+        const v110 = JSON.parse(v15.mention);
+        v19 = v110[Math.floor(Math.random() * v110.length)];
+      } else if (v15.mention.startsWith("http")) {
+        const v110 = JSON.parse(v15.mention);
+        v19 = v110[Math.floor(Math.random() * v110.length)];
+      } else {
+        const v110 = v18.find(v111 => v111.id === v15.mention);
+        if (!v110) {
+          throw new Error();
+        }
+        v19 = v110.theme[Math.floor(Math.random() * v110.theme.length)];
+      }
+      try {
+        if (v19 && v19.endsWith(".mp4")) {
+          await ovl.sendMessage(
+            dest,
+            {
+              video: {
+                url: v19,
+              },
+              caption: stylize(v14),
+              gifPlayback: true,
+            },
+            {
+              quoted: ms,
+            },
+          );
+        } else if (v19) {
+          await ovl.sendMessage(
+            dest,
+            {
+              image: {
+                url: v19,
+              },
+              caption: stylize(v14),
+            },
+            {
+              quoted: ms,
+            },
+          );
+        } else {
+          throw new Error();
+        }
+      } catch {
+        await ovl.sendMessage(
+          dest,
+          {
+            text: stylize(v14),
+          },
+          {
+            quoted: ms,
+          },
+        );
+      }
+    } catch {
+      await ovl.sendMessage(
+        dest,
+        {
+          text: "Une erreur est survenue lors de la génération du menu.",
+        },
+        {
+          quoted: ms,
+        },
+      );
+    }
+  },
+);
+ovlcmd(
+  {
+    nom_cmd: "allmenu",
+    classe: "Outils",
+    react: "📜",
+    desc: "Affiche toutes les commandes du bot",
+  },
+  async (dest, ovl, ctx) => {
+    const { ms } = ctx;
+    try {
+      const v1 = process.uptime();
+      const v2 = Math.floor(v1 / 86400);
+      const v3 = Math.floor((v1 / 3600) % 24);
+      const v4 = Math.floor((v1 % 3600) / 60);
+      const v5 = Math.floor(v1 % 60);
+      let v6 = "";
+      if (v2 > 0) {
+        v6 += v2 + "J ";
+      }
+      if (v3 > 0) {
+        v6 += v3 + "H ";
+      }
+      if (v4 > 0) {
+        v6 += v4 + "M ";
+      }
+      if (v5 > 0) {
+        v6 += v5 + "S";
+      }
+      const v7 = new Date();
+      const v8 = v7.toLocaleDateString("fr-FR");
+      const v9 = v7.toLocaleTimeString("fr-FR");
+      const v10 = process.platform;
+      const v11 = cmd;
+      const v12 = {};
+      v11.forEach(v110 => {
+        if (!v12[v110.classe]) {
+          v12[v110.classe] = [];
+        }
+        v12[v110.classe].push(v110);
+      });
+      const v13 = Object.keys(v12).sort((v110, v22) => v110.localeCompare(v22));
+      for (const v110 of v13) {
+        v12[v110].sort((v111, v22) =>
+          v111.nom_cmd.localeCompare(v22.nom_cmd, undefined, {
+            numeric: true,
+          }),
+        );
+      }
+      let v14 =
+        "╭──⟪ " +
+        config.NOM_BOT +
+        " ⟫──╮\n├ ߷ Préfixe       : " +
+        config.PREFIXE +
+        "\n├ ߷ Owner         : " +
+        config.NOM_OWNER +
+        "\n├ ߷ Commandes  : " +
+        v11.length +
+        "\n├ ߷ Uptime        : " +
+        v6.trim() +
+        "\n├ ߷ Date    : " +
+        v8 +
+        "\n├ ߷ Heure   : " +
+        v9 +
+        "\n├ ߷ Plateforme  : " +
+        v10 +
+        "\n├ ߷ Développeur : AINZ\n├ ߷ Version        : " +
+        pkg.version +
+        "\n╰──────────────────╯\n\n";
+      for (const v110 of v13) {
+        v14 += "╭──⟪ " + v110.toUpperCase() + " ⟫──╮\n";
+        v12[v110].forEach(v111 => {
+          v14 += "├ ߷ " + v111.nom_cmd + "\n";
+        });
+        v14 += "╰──────────────────╯\n\n";
+      }
+      v14 += "> ©2025 OVL-MD-V2 By *AINZ*";
+      const [v15] = await WA_CONF.findOrCreate({
+        where: {
+          id: "1",
+        },
+        defaults: {
+          id: "1",
+          mention: "1",
+        },
+      });
+      const v16 = v15.mention;
+      const v17 = "./lib/theme.json";
+      const v18 = fs.readFileSync(v17, "utf8");
+      const v19 = JSON.parse(v18);
+      let v20;
+      if (v15.mention.startsWith("[")) {
+        const v110 = JSON.parse(v15.mention);
+        v20 = v110[Math.floor(Math.random() * v110.length)];
+      } else if (v15.mention.startsWith("http://") || v15.mention.startsWith("https://")) {
+        const v110 = JSON.parse(v15.mention);
+        v20 = v110[Math.floor(Math.random() * v110.length)];
+      } else {
+        const v110 = v19.find(v111 => v111.id === v15.mention);
+        if (!v110) {
+          throw new Error("Thème introuvable");
+        }
+        v20 = v110.theme[Math.floor(Math.random() * v110.theme.length)];
+      }
+      try {
+        if (v20 && v20.endsWith(".mp4")) {
+          await ovl.sendMessage(
+            dest,
+            {
+              video: {
+                url: v20,
+              },
+              caption: stylize(v14),
+              gifPlayback: true,
+            },
+            {
+              quoted: ms,
+            },
+          );
+        } else if (v20) {
+          await ovl.sendMessage(
+            dest,
+            {
+              image: {
+                url: v20,
+              },
+              caption: stylize(v14),
+            },
+            {
+              quoted: ms,
+            },
+          );
+        } else {
+          throw new Error("Aucun thème trouvé");
+        }
+      } catch (e) {
+        await ovl.sendMessage(
+          dest,
+          {
+            text: stylize(v14),
+          },
+          {
+            quoted: ms,
+          },
+        );
+      }
+    } catch (e) {
+      await ovl.sendMessage(
+        dest,
+        {
+          text: "Une erreur est survenue lors de l'affichage du menu complet.",
+        },
+        {
+          quoted: ms,
+        },
+      );
+    }
+  },
+);
+ovlcmd(
+  {
+    nom_cmd: "vv",
+    classe: "Outils",
+    react: "👀",
+    desc: "Affiche un message envoyé en vue unique dans la discussion",
+  },
+  async (dest, ovl, ctx) => {
+    const { ms, msg_Repondu, repondre } = ctx;
+    if (!msg_Repondu) {
+      return repondre("Veuillez mentionner un message en vue unique.");
+    }
+    let v1 = Object.keys(msg_Repondu).find(v12 => v12.startsWith("viewOnceMessage"));
+    let v2 = msg_Repondu;
+    if (v1) {
+      v2 = msg_Repondu[v1].message;
+    }
+    if (v2) {
+      if (
+        (v2.imageMessage && v2.imageMessage.viewOnce !== true) ||
+        (v2.videoMessage && v2.videoMessage.viewOnce !== true) ||
+        (v2.audioMessage && v2.audioMessage.viewOnce !== true)
+      ) {
+        return repondre("Ce message n'est pas un message en vue unique.");
+      }
+    }
+    try {
+      let v12;
+      let v22 = {
+        quoted: ms,
+      };
+      if (v2.imageMessage) {
+        v12 = await ovl.dl_save_media_ms(v2.imageMessage);
+        await ovl.sendMessage(
+          dest,
+          {
+            image: {
+              url: v12,
+            },
+            caption: v2.imageMessage.caption || "",
+          },
+          v22,
+        );
+      } else if (v2.videoMessage) {
+        v12 = await ovl.dl_save_media_ms(v2.videoMessage);
+        await ovl.sendMessage(
+          dest,
+          {
+            video: {
+              url: v12,
+            },
+            caption: v2.videoMessage.caption || "",
+          },
+          v22,
+        );
+      } else if (v2.audioMessage) {
+        v12 = await ovl.dl_save_media_ms(v2.audioMessage);
+        await ovl.sendMessage(
+          dest,
+          {
+            audio: {
+              url: v12,
+            },
+            mimetype: "audio/mp4",
+            ptt: false,
+          },
+          v22,
+        );
+      } else {
+        return repondre("Ce type de message en vue unique n'est pas pris en charge.");
+      }
+    } catch (e) {
+      console.error("❌ Erreur lors de l'envoi du message en vue unique :", e.message || e);
+      return repondre("Une erreur est survenue lors du traitement du message.");
+    }
+  },
+);
+ovlcmd(
+  {
+    nom_cmd: "vv2",
+    classe: "Outils",
+    react: "👀",
+    desc: "Affiche un message envoyé en vue unique en inbox",
+  },
+  async (dest, ovl, ctx) => {
+    const { ms, id_Bot, msg_Repondu, repondre } = ctx;
+    if (!msg_Repondu) {
+      return repondre("Veuillez mentionner un message en vue unique.");
+    }
+    let v1 = Object.keys(msg_Repondu).find(v12 => v12.startsWith("viewOnceMessage"));
+    let v2 = msg_Repondu;
+    if (v1) {
+      v2 = msg_Repondu[v1].message;
+    }
+    if (v2) {
+      if (
+        (v2.imageMessage && v2.imageMessage.viewOnce !== true) ||
+        (v2.videoMessage && v2.videoMessage.viewOnce !== true) ||
+        (v2.audioMessage && v2.audioMessage.viewOnce !== true)
+      ) {
+        return repondre("Ce message n'est pas un message en vue unique.");
+      }
+    }
+    try {
+      let v12;
+      let v22 = {
+        quoted: ms,
+      };
+      if (v2.imageMessage) {
+        v12 = await ovl.dl_save_media_ms(v2.imageMessage);
+        await ovl.sendMessage(
+          id_Bot,
+          {
+            image: {
+              url: v12,
+            },
+            caption: v2.imageMessage.caption || "",
+          },
+          v22,
+        );
+      } else if (v2.videoMessage) {
+        v12 = await ovl.dl_save_media_ms(v2.videoMessage);
+        await ovl.sendMessage(
+          id_Bot,
+          {
+            video: {
+              url: v12,
+            },
+            caption: v2.videoMessage.caption || "",
+          },
+          v22,
+        );
+      } else if (v2.audioMessage) {
+        v12 = await ovl.dl_save_media_ms(v2.audioMessage);
+        await ovl.sendMessage(
+          id_Bot,
+          {
+            audio: {
+              url: v12,
+            },
+            mimetype: "audio/mp4",
+            ptt: false,
+          },
+          v22,
+        );
+      } else {
+        return repondre("Ce type de message en vue unique n'est pas pris en charge.");
+      }
+    } catch (e) {
+      console.error("❌ Erreur lors de l'envoi du message en vue unique :", e.message || e);
+      return repondre("Une erreur est survenue lors du traitement du message.");
+    }
+  },
+);
+ovlcmd(
+  {
+    nom_cmd: "ping",
+    classe: "Outils",
+    react: "🏓",
+    desc: "Mesure la latence du bot.",
+  },
+  async (dest, ovl, ctx) => {
+    const v1 = Date.now();
+    const v2 = await ovl.sendMessage(
+      dest,
+      {
+        text: "*OVL-MD-V2 Ping...*",
+      },
+      {
+        quoted: ctx.ms,
+      },
+    );
+    const v3 = Date.now();
+    const v4 = v3 - v1;
+    await ovl.sendMessage(dest, {
+      edit: v2.key,
+      text: "*🏓 Pong ! Latence : " + v4 + "ms*",
+    });
+  },
+);
+ovlcmd(
+  {
+    nom_cmd: "uptime",
+    classe: "Outils",
+    react: "⏱️",
+    desc: "Affiche le temps de fonctionnement du bot.",
+    alias: ["upt"],
+  },
+  async (dest, ovl, ctx) => {
+    const v1 = process.uptime();
+    const v2 = Math.floor(v1 / 86400);
+    const v3 = Math.floor((v1 / 3600) % 24);
+    const v4 = Math.floor((v1 % 3600) / 60);
+    const v5 = Math.floor(v1 % 60);
+    let v6 = "";
+    if (v2 > 0) {
+      v6 += v2 + "J ";
+    }
+    if (v3 > 0) {
+      v6 += v3 + "H ";
+    }
+    if (v4 > 0) {
+      v6 += v4 + "M ";
+    }
+    if (v5 > 0) {
+      v6 += v5 + "S";
+    }
+    await ovl.sendMessage(
+      dest,
+      {
+        text: "⏳ Temps de fonctionnement : " + v6,
+      },
+      {
+        quoted: ctx.ms,
+      },
+    );
+  },
+);
+ovlcmd(
+  {
+    nom_cmd: "translate",
+    classe: "Outils",
+    react: "🌍",
+    desc: "Traduit un texte dans la langue spécifiée.",
+    alias: ["trt"],
+  },
+  async (dest, ovl, ctx) => {
+    const { arg, ms, msg_Repondu } = ctx;
+    let v1;
+    let v2;
+    if (msg_Repondu && arg.length === 1) {
+      v1 = arg[0];
+      v2 = msg_Repondu.conversation || msg_Repondu.extendedTextMessage?.text;
+    } else if (arg.length >= 2) {
+      v1 = arg[0];
+      v2 = arg.slice(1).join(" ");
+    } else {
+      return await ovl.sendMessage(
+        dest,
+        {
+          text:
+            "Utilisation : " +
+            prefixe +
+            "translate <langue> <texte> ou répondre à un message avec : " +
+            prefixe +
+            "translate <langue>",
+        },
+        {
+          quoted: ms,
+        },
+      );
+    }
+    try {
+      const v12 = await translate(v2, {
+        to: v1,
+      });
+      await ovl.sendMessage(
+        dest,
+        {
+          text: "🌐Traduction (" + v1 + ") :\n" + v12.text,
+        },
+        {
+          quoted: ms,
+        },
+      );
+    } catch (e) {
+      console.error("Erreur lors de la traduction:", e);
+      await ovl.sendMessage(
+        dest,
+        {
+          text: "Erreur lors de la traduction. Vérifiez la langue et le texte fournis.",
+        },
+        {
+          quoted: ms,
+        },
+      );
+    }
+  },
+);
+ovlcmd(
+  {
+    nom_cmd: "capture",
+    classe: "Outils",
+    react: "📸",
+    desc: "Prend une capture d'écran d'un site web.",
+  },
+  async (dest, ovl, { arg, ms }) => {
+    if (!arg[0]) {
+      return ovl.sendMessage(
+        dest,
+        {
+          text: "Entrez un lien",
+        },
+        {
+          quoted: ms,
+        },
+      );
+    }
+    const v1 = arg[0];
+    try {
+      const v12 = await axios.get("https://eliteprotech-apis.zone.id/ssweb?url=" + encodeURIComponent(v1), {
+        responseType: "arraybuffer",
+      });
+      await ovl.sendMessage(
+        dest,
+        {
+          image: v12.data,
+          caption: "Voici la capture d'écran de: " + v1,
+        },
+        {
+          quoted: ms,
+        },
+      );
+    } catch (e) {
+      console.error("Erreur lors de la capture de l'écran:", e.message);
+      await ovl.sendMessage(
+        dest,
+        {
+          text: "Une erreur est survenue lors de la capture du site. Veuillez réessayer plus tard.",
+        },
+        {
+          quoted: ms,
+        },
+      );
+    }
+  },
+);
+ovlcmd(
+  {
+    nom_cmd: "system_status",
+    classe: "Outils",
+    react: "🖥️",
+    desc: "Affiche les informations du système en temps réel",
+  },
+  async (dest, ovl, ctx) => {
+    const v1 = os.platform();
+    const v2 = os.arch();
+    const v3 = os.cpus();
+    const v4 = (os.totalmem() / 1073741824).toFixed(2);
+    const v5 = (os.freemem() / 1073741824).toFixed(2);
+    const v6 = os.hostname();
+    const v7 = os.loadavg();
+    const v8 = os.uptime();
+    const v9 = Math.floor(v8 / 86400);
+    const v10 = Math.floor((v8 / 3600) % 24);
+    const v11 = Math.floor((v8 % 3600) / 60);
+    const v12 = Math.floor(v8 % 60);
+    let v13 = "";
+    if (v9 > 0) {
+      v13 += v9 + "J ";
+    }
+    if (v10 > 0) {
+      v13 += v10 + "H ";
+    }
+    if (v11 > 0) {
+      v13 += v11 + "M ";
+    }
+    if (v12 > 0) {
+      v13 += v12 + "S";
+    }
+    const v14 = v3
+      .map(v16 => {
+        let v22 = 0;
+        for (type in v16.times) {
+          v22 += v16.times[type];
+        }
+        const v32 = (100 - (v16.times.idle / v22) * 100).toFixed(2);
+        return v32 + "%";
+      })
+      .join(", ");
+    const v15 = (100 - (v7[0] * 100) / v3.length).toFixed(2);
+    await ovl.sendMessage(
+      dest,
+      {
+        text:
+          "🖥️ *ÉTAT DU SYSTÈME*\n\n" +
+          ("⚡ *Vitesse du serveur*: " + v15 + " %\n") +
+          ("🖧 *Charge Moyenne*: " + v7.map(v16 => v16.toFixed(2)).join(", ") + "\n") +
+          ("⏳ *Uptime*: " + v13.trim() + "\n") +
+          ("💻 *Plateforme*: " + v1 + "\n") +
+          ("🔧 *Architecture*: " + v2 + "\n") +
+          ("🖧 *Processeur*: " + v3.length + " Cœur(s) (" + v14 + ")\n") +
+          ("💾 *Mémoire Totale*: " + v4 + " GB\n") +
+          ("🆓 *Mémoire Libre*: " + v5 + " GB\n") +
+          ("🌐 *Nom de l'Hôte*: " + v6 + "\n") +
+          ("🎉 *Version*: OVL-MD " + pkg.version),
+      },
+      {
+        quoted: ctx.ms,
+      },
+    );
+  },
+);
+ovlcmd(
+  {
+    nom_cmd: "tempmail",
+    classe: "Outils",
+    react: "📧",
+    desc: "Crée un email temporaire.",
+  },
+  async (dest, ovl, ctx) => {
+    const { ms } = ctx;
+    try {
+      const v1 = new TempMail();
+      const v2 = await v1.createInbox();
+      const v3 =
+        "Voici votre adresse email temporaire : " +
+        v2.address +
+        "\n\nVotre token est : " +
+        v2.token +
+        "\n\nPour récupérer vos messages, utilisez <tempinbox votre-token>.";
+      await ovl.sendMessage(
+        dest,
+        {
+          text: v3,
+        },
+        {
+          quoted: ms,
+        },
+      );
+    } catch (e) {
+      console.error(e);
+      return ovl.sendMessage(
+        dest,
+        {
+          text: "Une erreur s'est produite lors de la création de l'email temporaire.",
+        },
+        {
+          quoted: ms,
+        },
+      );
+    }
+  },
+);
+ovlcmd(
+  {
+    nom_cmd: "tempinbox",
+    classe: "Outils",
+    react: "📩",
+    desc: "Récupère les messages d'un email temporaire.",
+  },
+  async (dest, ovl, ctx) => {
+    const { arg, ms } = ctx;
+    if (!arg[0]) {
+      return ovl.sendMessage(dest, {
+        text: "Pour récupérer les messages de votre email temporaire, fournissez le token qui a été émis.",
+      });
+    }
+    try {
+      const v1 = new TempMail();
+      const v2 = await v1.checkInbox(arg[0]);
+      if (!v2 || v2.length === 0) {
+        return ovl.sendMessage(
+          dest,
+          {
+            text: "Aucun message trouvé pour ce token.",
+          },
+          {
+            quoted: ms,
+          },
+        );
+      }
+      for (let v12 = 0; v12 < v2.length; v12++) {
+        const v13 = v2[v12];
+        const v22 = v13.sender;
+        const v3 = v13.subject;
+        const v4 = new Date(v13.date).toLocaleString();
+        const v5 = v13.body;
+        const v6 =
+          "👥 Expéditeur : " + v22 + "\n📝 Sujet : " + v3 + "\n🕜 Date : " + v4 + "\n📩 Message : " + v5;
+        await ovl.sendMessage(
+          dest,
+          {
+            text: v6,
+          },
+          {
+            quoted: ms,
+          },
+        );
+      }
+    } catch (e) {
+      console.error(e);
+      return ovl.sendMessage(
+        dest,
+        {
+          text: "Une erreur est survenue lors de la récupération des messages de l'email temporaire.",
+        },
+        {
+          quoted: ms,
+        },
+      );
+    }
+  },
+);
+ovlcmd(
+  {
+    nom_cmd: "obfuscate",
+    classe: "Outils",
+    react: "📥",
+    desc: "Obfusque du code JavaScript",
+    alias: ["obf"],
+  },
+  async (dest, ovl, ctx) => {
+    const { arg, repondre, ms } = ctx;
+    if (!arg || arg.length === 0) {
+      return repondre("Veuillez fournir le code JavaScript à obfusquer.");
+    }
+    const v1 = arg.join(" ");
+    try {
+      repondre("🔄obfucation en cours...");
+      const v12 = JavaScriptObfuscator.obfuscate(v1, {
+        compact: true,
+        controlFlowFlattening: true,
+      }).getObfuscatedCode();
+      const v2 = path.join(__dirname, "obfuscate.js");
+      fs.writeFileSync(v2, v12);
+      await ovl.sendMessage(
+        dest,
+        {
+          document: {
+            url: v2,
+          },
+          mimetype: "application/javascript",
+          fileName: "obfuscate.js",
+        },
+        {
+          quoted: ms,
+        },
+      );
+      fs.unlinkSync(v2);
+    } catch (e) {
+      console.error(e);
+      repondre("Une erreur est survenue lors de l'obfuscation du code.");
+    }
+  },
+);
+ovlcmd(
+  {
+    nom_cmd: "qr",
+    classe: "Outils",
+    desc: "Génère un QR code pour obtenir une session_id.",
+  },
+  async (dest, ovl, { ms }) => {
+    try {
+      const v1 = await axios.get("https://ovl-web.koyeb.app/qr");
+      const v2 = v1.data.qr;
+      const v3 = path.join(__dirname, "qr_code.png");
+      fs.writeFile(v3, v2, "base64", async v12 => {
+        if (v12) {
+          await ovl.sendMessage(
+            dest,
+            {
+              text: "❌ Une erreur est survenue lors de la génération du QR code.",
+            },
+            {
+              quoted: ms,
+            },
+          );
+        } else {
+          const v13 = await ovl.sendMessage(dest, {
+            image: {
+              url: v3,
+            },
+          });
+          await ovl.sendMessage(
+            dest,
+            {
+              text: "✅ Scannez ce QR code dans *WhatsApp > Appareils connectés > Connecter un appareil*.",
+            },
+            {
+              quoted: v13,
+            },
+          );
+        }
+      });
+    } catch (e) {
+      await ovl.sendMessage(
+        dest,
+        {
+          text: "❌ Une erreur est survenue lors de la génération du QR code.",
+        },
+        {
+          quoted: ms,
+        },
+      );
+    }
+  },
+);
+ovlcmd(
+  {
+    nom_cmd: "pair",
+    classe: "Outils",
+    desc: "Génère un pair_code pour obtenir une session_id",
+  },
+  async (dest, ovl, { arg, ms }) => {
+    if (!arg.length) {
+      return await ovl.sendMessage(
+        dest,
+        {
+          text: "❌ Veuillez entrer un numéro de téléphone. Exemple :\n\n`pair 226XXXXXXXX`",
+        },
+        {
+          quoted: ms,
+        },
+      );
+    }
+    const v1 = arg.join(" ");
+    try {
+      const v12 = await axios.get("https://ovl-web.koyeb.app/code?number=" + v1);
+      const v2 = v12.data.code || "indisponible";
+      const v3 = await ovl.sendMessage(dest, {
+        text: v2,
+      });
+      await ovl.sendMessage(
+        dest,
+        {
+          text: "✅ Entrez ce code dans *WhatsApp > Appareils connectés > Connecter un appareil > Appairer avec un code*.",
+        },
+        {
+          quoted: v3,
+        },
+      );
+    } catch (e) {
+      await ovl.sendMessage(
+        dest,
+        {
+          text: "❌ Une erreur est survenue lors de la génération du code.",
+        },
+        {
+          quoted: ms,
+        },
+      );
+    }
+  },
+);
+ovlcmd(
+  {
+    nom_cmd: "gitclone",
+    classe: "Outils",
+    react: "📥",
+    desc: "clone un repo Git",
+    alias: ["gcl"],
+  },
+  async (dest, ovl, ctx) => {
+    const { arg, repondre, ms } = ctx;
+    if (!arg || arg.length < 1) {
+      return repondre("Veuillez fournir l'URL du dépôt Git à cloner.");
+    }
+    const v1 = arg[0];
+    const v2 = v1 + ".git";
+    const v3 = arg[1] ? arg[1] : path.basename(v2, ".git");
+    const v4 = v3 + ".zip";
+    const v5 = /^(https?:\/\/|git@)([\w.@:\/-]+)(\.git)(\/?)$/;
+    if (!v5.test(v2)) {
+      return repondre("URL de dépôt Git invalide.");
+    }
+    try {
+      repondre("🔄Clonage du dépôt en cours...");
+      exec("git clone " + v2 + " " + v3, (v12, v22, v32) => {
+        if (v12) {
+          return repondre("Erreur lors du clonage du dépôt : " + v12.message);
+        }
+        try {
+          const v13 = new AdmZip();
+          v13.addLocalFolder(v3);
+          v13.writeZip(v4);
+          const v23 = {
+            document: fs.readFileSync(v4),
+            mimetype: "application/zip",
+            fileName: v3 + ".zip",
+          };
+          ovl.sendMessage(dest, v23, {
+            quoted: ms,
+          });
+          fs.rmSync(v3, {
+            recursive: true,
+            force: true,
+          });
+          fs.unlinkSync(v4);
+        } catch (e) {
+          repondre("Erreur lors de la compression en zip : " + e.message);
+        }
+      });
+    } catch (e) {
+      console.error(e);
+      repondre("Une erreur est survenue lors du clonage du dépôt.");
+    }
+  },
+);
+ovlcmd(
+  {
+    nom_cmd: "owner",
+    classe: "Outils",
+    react: "🔅",
+    desc: "Numero du propriétaire du bot",
+  },
+  async (dest, ovl, ctx) => {
+    const v1 =
+      "BEGIN:VCARD\nVERSION:3.0\nFN:" +
+      config.NOM_OWNER +
+      "\nORG:undefined;\nTEL;type=CELL;type=VOICE;waid=" +
+      config.NUMERO_OWNER +
+      ":+" +
+      config.NUMERO_OWNER +
+      "\nEND:VCARD";
+    ovl.sendMessage(
+      dest,
+      {
+        contacts: {
+          displayName: config.NOM_OWNER,
+          contacts: [
+            {
+              vcard: v1,
+            },
+          ],
+        },
+      },
+      {
+        quoted: ctx.ms,
+      },
+    );
+  },
+);
+ovlcmd(
+  {
+    nom_cmd: "developpeur",
+    classe: "Outils",
+    react: "🔅",
+    desc: "Contact du propriétaire de ce bot",
+    alias: ["dev"],
+  },
+  async (dest, ovl, ctx) => {
+    const v1 = config.NUMERO_OWNER;
+    const v2 = config.NOM_OWNER;
+    if (!v1) {
+      return ctx.repondre(
+        "ℹ️ Aucun contact configuré : renseignez NUMERO_OWNER et NOM_OWNER dans le fichier .env.",
+      );
+    }
+    const v3 =
+      "BEGIN:VCARD\nVERSION:3.0\nFN:" +
+      v2 +
+      "\nORG:undefined;\nTEL;type=CELL;type=VOICE;waid=" +
+      v1 +
+      ":+" +
+      v1 +
+      "\nEND:VCARD";
+    ovl.sendMessage(
+      dest,
+      {
+        contacts: {
+          displayName: v2,
+          contacts: [
+            {
+              vcard: v3,
+            },
+          ],
+        },
+      },
+      {
+        quoted: ctx.ms,
+      },
+    );
+  },
+);
+ovlcmd(
+  {
+    nom_cmd: "support",
+    classe: "Outils",
+    react: "📩",
+    desc: "Lien vers les groupes de support du bot",
+  },
+  async (dest, ovl, ctx) => {
+    const { verif_Groupe, repondre, auteur_Message, ms } = ctx;
+    const v1 = [
+      "https://chat.whatsapp.com/HzhikAmOuYhFXGLmcyMo62",
+      "https://chat.whatsapp.com/BP1oOMh0QvR7H3vvO9bRYK",
+    ];
+    const v2 =
+      "📩 *OVL-MD SUPPORT*\nVoici les liens pour rejoindre les groupes de support:\n\n" +
+      v1.map(v12 => "🔗 " + v12).join("\n\n");
+    if (verif_Groupe) {
+      await repondre("📩 Les liens d'invitation ont été envoyés en message privé.");
+      await ovl.sendMessage(
+        auteur_Message,
+        {
+          text: v2,
+        },
+        {
+          quoted: ms,
+        },
+      );
+    } else {
+      await ovl.sendMessage(
+        dest,
+        {
+          text: v2,
+        },
+        {
+          quoted: ms,
+        },
+      );
+    }
+  },
+);
+ovlcmd(
+  {
+    nom_cmd: "repo",
+    alias: ["sc", "script", "code_source", "repository"],
+    classe: "Outils",
+    react: "📦",
+    desc: "Affiche les informations et le lien du repository du bot",
+  },
+  async (dest, ovl, { ms, repondre }) => {
+    const v1 = "https://github.com/Ainz-devs/OVL-MD-V2";
+    let v2;
+    try {
+      const { data } = await axios.get("https://api.github.com/repos/Ainz-devs/OVL-MD-V2");
+      v2 =
+        "\n╭───⟪ 📦 OVL-MD-V2 ⟫───╮\n│ ⇨ ⭐ Stars       : " +
+        data.stargazers_count +
+        "\n│ ⇨ 🍴 Forks       : " +
+        data.forks_count +
+        "\n│ ⇨ 🔄 Dernière MAJ : " +
+        new Date(data.pushed_at).toLocaleDateString("fr-FR") +
+        "\n│ ⇨ 🔗 Repo        : " +
+        data.html_url +
+        "\n╰───────────────────╯\n> ©2025 ᴏᴠʟ-ᴍᴅ-ᴠ2 ʙʏ *ᴀɪɴᴢ*";
+    } catch (e) {
+      console.error("Erreur récupération API :", e);
+      v2 =
+        "\n╭───⟪ 📦 OVL-MD-V2 ⟫───╮\n│ 🔗 Repo : " +
+        v1 +
+        "\n╰───────────────────╯\n> ©2025 ᴏᴠʟ-ᴍᴅ-ᴠ2 ʙʏ *ᴀɪɴᴢ*";
+    }
+    try {
+      await ovl.sendMessage(
+        dest,
+        {
+          image: {
+            url: "https://files.catbox.moe/lojrxz.jpg",
+          },
+          caption: v2,
+          contextInfo,
+        },
+        {
+          quoted: ms,
+        },
+      );
+    } catch (e) {
+      console.error("Erreur envoi avec image :", e);
+      await ovl.sendMessage(
+        dest,
+        {
+          text: v2,
+          contextInfo,
+        },
+        {
+          quoted: ms,
+        },
+      );
+    }
+  },
+);

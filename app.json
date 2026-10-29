@@ -1,9 +1,15 @@
 {
   "name": "OVL-MD-V2",
   "description": "Bot WhatsApp Multi-Device basé sur Baileys",
-  "keywords": ["Ainz", "OVL-MD-V2", "Whatsapp", "Baileys", "Muti-device"],
+  "keywords": [
+    "Ainz",
+    "OVL-MD-V2",
+    "Whatsapp",
+    "Baileys",
+    "Muti-device"
+  ],
   "logo": "https://files.catbox.moe/lojrxz.jpg",
-  "repository": "https://github.com/Ainz-devs/OVL-MD-V2",
+  "repository": "https://github.com/neltolofon-dot/OVL-MD-V2",
   "success_url": "/",
   "stack": "container",
   "env": {
@@ -13,13 +19,13 @@
       "required": false
     },
     "NOM_OWNER": {
-      "description": "Nom de l'Owner du bot",
-      "value": "Ainz",
+      "description": "Nom affiché comme propriétaire du bot",
+      "value": "Owner",
       "required": false
     },
     "NUMERO_OWNER": {
-      "description": "Numéro WhatsApp de l'Owner (au format international)",
-      "value": "226xxxxxxxx",
+      "description": "Votre numéro WhatsApp, format international sans + ni espaces",
+      "value": "",
       "required": true
     },
     "MODE": {
@@ -39,12 +45,22 @@
     },
     "STICKER_PACK_NAME": {
       "description": "Nom du pack de stickers",
-      "value": "ᴏᴠʟ-ᴍᴅ-ᴠ𝟸",
+      "value": "OVL-MD-V2",
       "required": false
     },
     "STICKER_AUTHOR_NAME": {
-      "description": "Auteur du sticker",
-      "value": "ᴀɪɴᴢ🔅✨",
+      "description": "Auteur affiché sur les stickers",
+      "value": "OVL-MD",
+      "required": false
+    },
+    "DATABASE": {
+      "description": "URL PostgreSQL. OBLIGATOIRE sur Heroku : le disque est effacé à chaque redémarrage, sans elle vous perdez sudo, bans, niveaux et réglages.",
+      "value": "",
+      "required": true
+    },
+    "GEMINI_API_KEY": {
+      "description": "Clé API Google Gemini pour les commandes d'IA (optionnel)",
+      "value": "",
       "required": false
     }
   },

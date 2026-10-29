@@ -1,1 +1,27 @@
-const _0x34ceaf=_0x2195;(function(_0x4846d8,_0xa5b709){const _0x178031=_0x2195,_0x322211=_0x4846d8();while(!![]){try{const _0x43c44c=parseInt(_0x178031(0xc3))/0x1*(-parseInt(_0x178031(0xd1))/0x2)+parseInt(_0x178031(0xcd))/0x3*(-parseInt(_0x178031(0xc0))/0x4)+-parseInt(_0x178031(0xbe))/0x5*(-parseInt(_0x178031(0xcc))/0x6)+-parseInt(_0x178031(0xbc))/0x7+-parseInt(_0x178031(0xcf))/0x8*(parseInt(_0x178031(0xd4))/0x9)+parseInt(_0x178031(0xc2))/0xa+parseInt(_0x178031(0xc9))/0xb;if(_0x43c44c===_0xa5b709)break;else _0x322211['push'](_0x322211['shift']());}catch(_0x32fa2f){_0x322211['push'](_0x322211['shift']());}}}(_0x2554,0xef48e));const _0x59fec1=(function(){let _0x9411cb=!![];return function(_0x55d3f8,_0x248b5c){const _0x2eab37=_0x9411cb?function(){if(_0x248b5c){const _0x5b1086=_0x248b5c['apply'](_0x55d3f8,arguments);return _0x248b5c=null,_0x5b1086;}}:function(){};return _0x9411cb=![],_0x2eab37;};}()),_0x5c22ba=_0x59fec1(this,function(){const _0x2cd1a6=_0x2195,_0x3df82c={'dlgpL':'(((.+)+)+)+$'};return _0x5c22ba[_0x2cd1a6(0xd0)]()[_0x2cd1a6(0xd6)](_0x3df82c['dlgpL'])['toString']()[_0x2cd1a6(0xd5)](_0x5c22ba)[_0x2cd1a6(0xd6)](_0x3df82c['dlgpL']);});function _0x2554(){const _0x326120=['8j+KLIbpvKWTtuqGqK9uifyY','nte1mZCWmePntLDgEG','mJa4A21Sq01d','y29UzMLN','4BsaYARjTog0OVcFLixINkG','r0vnsu5jx0fqsv9lrvK','u0vtu0LptL9jra','ChvIBgLJ','ndiWndmWnZHkDvjgtMK','mJi2nte0nJmYmdm','tK9nx0jpva','mtjytKHyCeS','mZnMCgjVDfq','qwLUEG','odbcBejst2O','Dg9tDhjPBMC','mtm0mtHKthb3quK','ufjfrKLyrq','u1rjq0TfuL9qqunlx05btuu','mJa0ntqZExbiC2nY','y29UC3rYDwn0B3i','C2vHCMnO','refuqujbu0u','nJqZodC0n3LsBLzMAq','zw52','mte0nJCXnuv6AeLiCG','zxHWB3j0CW','ndyZmdG0B3vct2L3'];_0x2554=function(){return _0x326120;};return _0x2554();}function _0x2195(_0x189019,_0x735a1d){const _0x53275e=_0x2554();return _0x2195=function(_0x5c22ba,_0x59fec1){_0x5c22ba=_0x5c22ba-0xbb;let _0x2554a2=_0x53275e[_0x5c22ba];if(_0x2195['bQVYww']===undefined){var _0x2195e8=function(_0x562b04){const _0xb6c67f='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x2f698a='',_0x5186a4='',_0x20f9bf=_0x2f698a+_0x2195e8;for(let _0x109330=0x0,_0x2f1560,_0xaf74a2,_0x29d6e0=0x0;_0xaf74a2=_0x562b04['charAt'](_0x29d6e0++);~_0xaf74a2&&(_0x2f1560=_0x109330%0x4?_0x2f1560*0x40+_0xaf74a2:_0xaf74a2,_0x109330++%0x4)?_0x2f698a+=_0x20f9bf['charCodeAt'](_0x29d6e0+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x2f1560>>(-0x2*_0x109330&0x6)):_0x109330:0x0){_0xaf74a2=_0xb6c67f['indexOf'](_0xaf74a2);}for(let _0x2929ee=0x0,_0x253bfe=_0x2f698a['length'];_0x2929ee<_0x253bfe;_0x2929ee++){_0x5186a4+='%'+('00'+_0x2f698a['charCodeAt'](_0x2929ee)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x5186a4);};_0x2195['raqEXO']=_0x2195e8,_0x189019=arguments,_0x2195['bQVYww']=!![];}const _0x4ea5ab=_0x53275e[0x0],_0x2842d9=_0x5c22ba+_0x4ea5ab,_0x5e8b7e=_0x189019[_0x2842d9];if(!_0x5e8b7e){const _0x3babec=function(_0x77e5cd){this['WGbtXV']=_0x77e5cd,this['BOqomY']=[0x1,0x0,0x0],this['xJfDnn']=function(){return'newState';},this['KlhhXv']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['fEraCA']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x3babec['prototype']['XhVvNc']=function(){const _0x4183e4=new RegExp(this['KlhhXv']+this['fEraCA']),_0x26573d=_0x4183e4['test'](this['xJfDnn']['toString']())?--this['BOqomY'][0x1]:--this['BOqomY'][0x0];return this['zjyWis'](_0x26573d);},_0x3babec['prototype']['zjyWis']=function(_0x3e6a0e){if(!Boolean(~_0x3e6a0e))return _0x3e6a0e;return this['zEYBRd'](this['WGbtXV']);},_0x3babec['prototype']['zEYBRd']=function(_0xa66e7){for(let _0x1602f5=0x0,_0x440532=this['BOqomY']['length'];_0x1602f5<_0x440532;_0x1602f5++){this['BOqomY']['push'](Math['round'](Math['random']())),_0x440532=this['BOqomY']['length'];}return _0xa66e7(this['BOqomY'][0x0]);},new _0x3babec(_0x2195)['XhVvNc'](),_0x2554a2=_0x2195['raqEXO'](_0x2554a2),_0x189019[_0x2842d9]=_0x2554a2;}else _0x2554a2=_0x5e8b7e;return _0x2554a2;},_0x2195(_0x189019,_0x735a1d);}_0x5c22ba();const dotenv=require('dotenv');dotenv[_0x34ceaf(0xc4)]({'override':!![]}),module[_0x34ceaf(0xbf)]={'PREFIXE':process[_0x34ceaf(0xbd)][_0x34ceaf(0xd2)]||'','NOM_OWNER':process[_0x34ceaf(0xbd)]['NOM_OWNER']||_0x34ceaf(0xce),'NUMERO_OWNER':process['env']['NUMERO_OWNER']||_0x34ceaf(0xca),'MODE':process[_0x34ceaf(0xbd)]['MODE']||_0x34ceaf(0xc8),'SESSION_ID':process[_0x34ceaf(0xbd)][_0x34ceaf(0xc7)]||'ovl','STICKER_PACK_NAME':process[_0x34ceaf(0xbd)][_0x34ceaf(0xd3)]||_0x34ceaf(0xc5),'STICKER_AUTHOR_NAME':process[_0x34ceaf(0xbd)]['STICKER_AUTHOR_NAME']||'ᴏᴠʟ-ᴍᴅ-ᴠ𝟸','DATABASE':process[_0x34ceaf(0xbd)][_0x34ceaf(0xbb)],'NOM_BOT':process[_0x34ceaf(0xbd)][_0x34ceaf(0xcb)]||_0x34ceaf(0xc1),'GEMINI_API_KEY':process[_0x34ceaf(0xbd)][_0x34ceaf(0xc6)]};
+const dotenv = require("dotenv");
+
+dotenv.config({ override: true, quiet: true });
+
+const config = {
+  // Un préfixe vide ferait traiter tout message comme une commande.
+  PREFIXE: process.env.PREFIXE || ".",
+  NOM_OWNER: process.env.NOM_OWNER || "Owner",
+  NUMERO_OWNER: (process.env.NUMERO_OWNER || "").replace(/[^0-9]/g, ""),
+  MODE: process.env.MODE === "private" ? "private" : "public",
+  SESSION_ID: (process.env.SESSION_ID || "").trim(),
+  STICKER_PACK_NAME: process.env.STICKER_PACK_NAME || "OVL-MD-V2",
+  STICKER_AUTHOR_NAME: process.env.STICKER_AUTHOR_NAME || "OVL-MD",
+  DATABASE: process.env.DATABASE,
+  NOM_BOT: process.env.NOM_BOT || "🤖 OVL-MD BOT V2",
+  GEMINI_API_KEY: process.env.GEMINI_API_KEY,
+};
+
+// Avertissements au démarrage plutôt qu'un échec silencieux plus tard.
+if (!config.NUMERO_OWNER) {
+  console.warn(
+    "⚠️  NUMERO_OWNER n'est pas défini : personne ne pourra utiliser les commandes " +
+      "réservées au propriétaire. Renseignez-le dans .env (format international, sans +).",
+  );
+}
+
+module.exports = config;

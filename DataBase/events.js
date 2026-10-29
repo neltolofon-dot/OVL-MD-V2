@@ -1,1 +1,70 @@
-const _0x53bc8d=_0x35b1;(function(_0x1f568d,_0x1b26ce){const _0x433e8b=_0x35b1,_0x400da9=_0x1f568d();while(!![]){try{const _0x262000=-parseInt(_0x433e8b(0x179))/0x1+parseInt(_0x433e8b(0x18d))/0x2+parseInt(_0x433e8b(0x17e))/0x3*(-parseInt(_0x433e8b(0x178))/0x4)+parseInt(_0x433e8b(0x18c))/0x5*(parseInt(_0x433e8b(0x192))/0x6)+parseInt(_0x433e8b(0x185))/0x7*(parseInt(_0x433e8b(0x17b))/0x8)+-parseInt(_0x433e8b(0x193))/0x9*(parseInt(_0x433e8b(0x184))/0xa)+parseInt(_0x433e8b(0x17d))/0xb;if(_0x262000===_0x1b26ce)break;else _0x400da9['push'](_0x400da9['shift']());}catch(_0x4f09a7){_0x400da9['push'](_0x400da9['shift']());}}}(_0x1ffb,0x7d48a));const _0x6e20de=(function(){let _0xb14fb1=!![];return function(_0xb09458,_0x2b0c71){const _0x25bf27=_0xb14fb1?function(){const _0x58b488=_0x35b1;if(_0x2b0c71){const _0x4b466e=_0x2b0c71[_0x58b488(0x190)](_0xb09458,arguments);return _0x2b0c71=null,_0x4b466e;}}:function(){};return _0xb14fb1=![],_0x25bf27;};}()),_0x4df912=_0x6e20de(this,function(){const _0x375ddd=_0x35b1,_0x417b11={'XAlmj':_0x375ddd(0x18e)};return _0x4df912[_0x375ddd(0x188)]()[_0x375ddd(0x17f)](_0x417b11[_0x375ddd(0x17c)])[_0x375ddd(0x188)]()[_0x375ddd(0x182)](_0x4df912)['search'](_0x375ddd(0x18e));});_0x4df912();const {Sequelize,DataTypes}=require('sequelize'),config=require('../set'),db=config[_0x53bc8d(0x18b)];function _0x35b1(_0x39b0aa,_0x289c06){const _0x384056=_0x1ffb();return _0x35b1=function(_0x4df912,_0x6e20de){_0x4df912=_0x4df912-0x177;let _0x1ffb82=_0x384056[_0x4df912];if(_0x35b1['HxEVlQ']===undefined){var _0x35b1ff=function(_0x4c185e){const _0x258cd7='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x59ad0b='',_0x3054f2='',_0x3f0c4d=_0x59ad0b+_0x35b1ff;for(let _0x246fc8=0x0,_0x13d4c4,_0x4267b0,_0xb5526b=0x0;_0x4267b0=_0x4c185e['charAt'](_0xb5526b++);~_0x4267b0&&(_0x13d4c4=_0x246fc8%0x4?_0x13d4c4*0x40+_0x4267b0:_0x4267b0,_0x246fc8++%0x4)?_0x59ad0b+=_0x3f0c4d['charCodeAt'](_0xb5526b+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x13d4c4>>(-0x2*_0x246fc8&0x6)):_0x246fc8:0x0){_0x4267b0=_0x258cd7['indexOf'](_0x4267b0);}for(let _0x3e84b7=0x0,_0x3e6683=_0x59ad0b['length'];_0x3e84b7<_0x3e6683;_0x3e84b7++){_0x3054f2+='%'+('00'+_0x59ad0b['charCodeAt'](_0x3e84b7)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x3054f2);};_0x35b1['ryuhzK']=_0x35b1ff,_0x39b0aa=arguments,_0x35b1['HxEVlQ']=!![];}const _0x3c09f4=_0x384056[0x0],_0x40f3b4=_0x4df912+_0x3c09f4,_0x25ff10=_0x39b0aa[_0x40f3b4];if(!_0x25ff10){const _0xa587e=function(_0x34a363){this['XhSuTQ']=_0x34a363,this['RYQQRV']=[0x1,0x0,0x0],this['YXlOxg']=function(){return'newState';},this['yGBYxd']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['QVyDZS']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0xa587e['prototype']['UFTTaQ']=function(){const _0x25be4a=new RegExp(this['yGBYxd']+this['QVyDZS']),_0xeedd28=_0x25be4a['test'](this['YXlOxg']['toString']())?--this['RYQQRV'][0x1]:--this['RYQQRV'][0x0];return this['vWLLWE'](_0xeedd28);},_0xa587e['prototype']['vWLLWE']=function(_0x4f1824){if(!Boolean(~_0x4f1824))return _0x4f1824;return this['wBntZC'](this['XhSuTQ']);},_0xa587e['prototype']['wBntZC']=function(_0x4f122b){for(let _0x21d3d1=0x0,_0xa702b3=this['RYQQRV']['length'];_0x21d3d1<_0xa702b3;_0x21d3d1++){this['RYQQRV']['push'](Math['round'](Math['random']())),_0xa702b3=this['RYQQRV']['length'];}return _0x4f122b(this['RYQQRV'][0x0]);},new _0xa587e(_0x35b1)['UFTTaQ'](),_0x1ffb82=_0x35b1['ryuhzK'](_0x1ffb82),_0x39b0aa[_0x40f3b4]=_0x1ffb82;}else _0x1ffb82=_0x25ff10;return _0x1ffb82;},_0x35b1(_0x39b0aa,_0x289c06);}let sequelize;!db?sequelize=new Sequelize({'dialect':_0x53bc8d(0x183),'storage':_0x53bc8d(0x186),'logging':![]}):sequelize=new Sequelize(db,{'dialect':_0x53bc8d(0x18f),'ssl':!![],'protocol':_0x53bc8d(0x18f),'dialectOptions':{'native':!![],'ssl':{'require':!![],'rejectUnauthorized':![]}},'logging':![]});const GroupSettings=sequelize['define'](_0x53bc8d(0x189),{'id':{'type':DataTypes[_0x53bc8d(0x180)],'primaryKey':!![]},'welcome':{'type':DataTypes['STRING'],'defaultValue':_0x53bc8d(0x191)},'goodbye':{'type':DataTypes[_0x53bc8d(0x180)],'defaultValue':_0x53bc8d(0x191)},'antipromote':{'type':DataTypes[_0x53bc8d(0x180)],'defaultValue':_0x53bc8d(0x191)},'antidemote':{'type':DataTypes['STRING'],'defaultValue':_0x53bc8d(0x191)}},{'tableName':_0x53bc8d(0x181),'timestamps':![]}),Events2=sequelize[_0x53bc8d(0x177)](_0x53bc8d(0x18a),{'id':{'type':DataTypes[_0x53bc8d(0x180)],'primaryKey':!![]},'welcome_msg':{'type':DataTypes['TEXT'],'allowNull':!![]},'goodbye_msg':{'type':DataTypes[_0x53bc8d(0x17a)],'allowNull':!![]},'promoteAlert':{'type':DataTypes[_0x53bc8d(0x17a)],'defaultValue':_0x53bc8d(0x191)},'demoteAlert':{'type':DataTypes[_0x53bc8d(0x17a)],'defaultValue':'non'}},{'tableName':'events2','timestamps':![]});((async()=>{const _0x258d8d=_0x53bc8d;await GroupSettings['sync'](),await Events2[_0x258d8d(0x187)]();})()),module[_0x53bc8d(0x194)]={'GroupSettings':GroupSettings,'Events2':Events2};function _0x1ffb(){const _0x3cec62=['C3fSAxrL','otmZmZu1meDdrvn6rW','mtG5zKfLCuDI','lI9KyxrHyMfZzs5KyG','C3LUyW','Dg9tDhjPBMC','r3jVDxbtzxr0Aw5NCW','rxzLBNrZmG','refuqujbu0u','nw5fzK11DG','mtC4odeXnMnoAMDitq','kcGOlISPkYKRksSK','Cg9ZDgDYzxm','yxbWBhK','BM9U','mtKZotK4nMnyuefrta','ovnvsePmwG','zxHWB3j0CW','zgvMAw5L','mtC4nJa0veTfvhPc','ndqZmtu4EK1cC3rs','vevyva','mJqXnJa4sgPVCgvg','wefSBwO','ndGXmdu0mKrhzhDdvG','mZLltK5TuKC','C2vHCMnO','u1rssu5h','z3jVDxbFC2v0DgLUz3m','y29UC3rYDwn0B3i'];_0x1ffb=function(){return _0x3cec62;};return _0x1ffb();}
+const { DataTypes } = require("sequelize");
+const sequelize = require("./db");
+const GroupSettings = sequelize.define(
+  "GroupSettings",
+  {
+    id: {
+      type: DataTypes.STRING,
+      primaryKey: true,
+    },
+    welcome: {
+      type: DataTypes.STRING,
+      defaultValue: "non",
+    },
+    goodbye: {
+      type: DataTypes.STRING,
+      defaultValue: "non",
+    },
+    antipromote: {
+      type: DataTypes.STRING,
+      defaultValue: "non",
+    },
+    antidemote: {
+      type: DataTypes.STRING,
+      defaultValue: "non",
+    },
+  },
+  {
+    tableName: "group_settings",
+    timestamps: false,
+  },
+);
+const Events2 = sequelize.define(
+  "Events2",
+  {
+    id: {
+      type: DataTypes.STRING,
+      primaryKey: true,
+    },
+    welcome_msg: {
+      type: DataTypes.TEXT,
+      allowNull: true,
+    },
+    goodbye_msg: {
+      type: DataTypes.TEXT,
+      allowNull: true,
+    },
+    promoteAlert: {
+      type: DataTypes.TEXT,
+      defaultValue: "non",
+    },
+    demoteAlert: {
+      type: DataTypes.TEXT,
+      defaultValue: "non",
+    },
+  },
+  {
+    tableName: "events2",
+    timestamps: false,
+  },
+);
+(async () => {
+  await GroupSettings.sync();
+  await Events2.sync();
+})().catch(e =>
+  console.error("❌ Synchronisation de la base impossible (events.js) :", e.message),
+);
+module.exports = {
+  GroupSettings,
+  Events2,
+};
