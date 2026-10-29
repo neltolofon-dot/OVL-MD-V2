@@ -7,6 +7,10 @@ const config = require("../set");
 // connexions et fait échouer les requêtes au hasard.
 const url = config.DATABASE;
 
+// Chemin du fichier SQLite. Configurable pour pouvoir le placer sur un volume
+// persistant (Docker, VPS) plutôt que dans le dossier de travail.
+const cheminSqlite = process.env.SQLITE_PATH || "./database.db";
+
 const sequelize = url
   ? new Sequelize(url, {
       dialect: "postgres",
@@ -19,12 +23,12 @@ const sequelize = url
     })
   : new Sequelize({
       dialect: "sqlite",
-      storage: "./database.db",
+      storage: cheminSqlite,
       logging: false,
     });
 
 if (!url) {
-  console.log("🗄️  Base de données : SQLite locale (./database.db).");
+  console.log(`🗄️  Base de données : SQLite locale (${cheminSqlite}).`);
 } else {
   console.log("🗄️  Base de données : PostgreSQL.");
 }

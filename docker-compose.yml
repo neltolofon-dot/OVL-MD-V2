@@ -1,0 +1,31 @@
+services:
+  ovl-md:
+    build: .
+    container_name: ovl-md
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      # La base SQLite va sur un volume, pas dans la couche de l'image.
+      SQLITE_PATH: /ovl_bot/data/database.db
+    ports:
+      - "${PORT:-3000}:3000"
+    volumes:
+      # La session WhatsApp et la base doivent survivre aux redémarrages et
+      # aux reconstructions de l'image.
+      - ovl-auth:/ovl_bot/auth
+      - ovl-data:/ovl_bot/data
+    healthcheck:
+      test: ["CMD-SHELL", "node -e \"fetch('http://localhost:3000/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))\""]
+      interval: 60s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+volumes:
+  ovl-auth:
+  ovl-data:

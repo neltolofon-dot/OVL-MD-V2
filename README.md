@@ -120,80 +120,122 @@ sessions, le nombre de commandes chargées et l'uptime.
 | Situation                                                     | Configuration                         |
 | ------------------------------------------------------------- | ------------------------------------- |
 | VPS, panel, Termux, machine locale (disque persistant)        | Laissez `DATABASE` vide → SQLite      |
-| Heroku, Koyeb, Render, GitHub Actions (disque éphémère)       | `DATABASE=postgresql://...` requis    |
+| Heroku, Render, Docker sans volume (disque éphémère)          | `DATABASE=postgresql://...` requis    |
 
 Sans PostgreSQL sur un hébergeur éphémère, vous perdez à chaque redémarrage les
 sudo, bans, niveaux, économie et réglages anti-spam. Offres gratuites
 adaptées : [Supabase](https://supabase.com), [Neon](https://neon.tech).
 
 ---
+## Hébergement
 
-## Déploiement
+Un bot WhatsApp a trois besoins que la plupart des offres gratuites ne
+satisfont plus : **un processus qui tourne en permanence**, **un disque
+persistant** pour `auth/`, et **pas de mise en veille**. État vérifié en
+octobre 2026 :
 
-<details>
-  <summary>Heroku / Render / Koyeb</summary>
+| Solution | Coût | Verdict |
+| --- | --- | --- |
+| **Vieux téléphone Android + Termux** | gratuit | ✅ Le meilleur choix gratuit. Disque persistant, pas de carte bancaire, pas de quota. |
+| **Petit VPS** (Hetzner, Contabo, hébergeur local) | ~4–7 €/mois | ✅ Le choix « on installe et on oublie ». SQLite suffit, pas besoin de PostgreSQL. |
+| **Oracle Cloud Always Free** | gratuit | ⚠️ Possible, mais Oracle **arrête** les instances inactives (CPU < 20 % sur 7 jours) : un bot WhatsApp est précisément inactif. Allocation ARM réduite à 2 OCPU / 12 Go en 2026. |
+| **Render** (offre gratuite) | gratuit | ⚠️ Fragile : veille après 15 min sans trafic, **aucun disque persistant**, 750 h/mois partagées. Exige `SESSION_ID` + PostgreSQL. Render déconseille l'offre gratuite en production. |
+| **Koyeb** | — | ❌ L'offre gratuite est **fermée aux nouveaux comptes** depuis février 2026. |
+| **Heroku** | ~5–7 €/mois | ⚠️ Plus aucune offre gratuite depuis 2022. Disque éphémère : exige `SESSION_ID` + PostgreSQL. |
+| **GitHub Actions** | gratuit | ❌ **À éviter.** 5 h maximum par exécution, et l'usage d'Actions comme hébergement permanent est contraire à la politique d'usage acceptable de GitHub : risque de suspension du compte. |
 
-Le dépôt fournit un `Dockerfile`, un `heroku.yml` et un `app.json`.
+### Option recommandée 1 — vieux téléphone Android (Termux)
 
-- **Heroku** : [déployer](https://dashboard.heroku.com/new?template=https://github.com/neltolofon-dot/OVL-MD-V2)
-- **Render** : [nouveau service web](https://dashboard.render.com/web/new), environnement Docker
-- **Koyeb** : [nouveau service](https://app.koyeb.com/deploy), builder Dockerfile
+Installez [Termux depuis F-Droid](https://f-droid.org/packages/com.termux/)
+(la version du Play Store n'est plus maintenue), puis :
 
-Renseignez les variables d'environnement de `.env.example` dans l'interface de
-l'hébergeur, et n'oubliez pas `DATABASE`.
-
-> Le `Dockerfile` clone le dépôt d'origine `Ainz-devs/OVL-MD-V2`. Si vous
-> déployez votre propre fork, modifiez l'URL du `git clone` dans le
-> `Dockerfile`, sinon vos modifications seront ignorées.
-
-</details>
-
-<details>
-  <summary>Panel (Pterodactyl, etc.)</summary>
-
-Fichier de démarrage : `Ovl.js`. Déposez votre `.env` à la racine, lancez
-`npm install`, puis démarrez. Le bot installe lui-même les dépendances
-manquantes au premier lancement (désactivable avec `AUTO_INSTALL=off`).
-
-</details>
-
-<details>
-  <summary>GitHub Actions</summary>
-
-`.github/workflows/deploy.yml` :
-
-```yaml
-name: OVL-MD Bot CI
-
-on:
-  push:
-    branches: [main]
-  schedule:
-    - cron: "0 */5 * * *"
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20.x
-      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
-      - run: npm ci
-      - run: timeout 18300s node Ovl.js
-        env:
-          SESSION_ID: ${{ secrets.SESSION_ID }}
-          NUMERO_OWNER: ${{ secrets.NUMERO_OWNER }}
-          DATABASE: ${{ secrets.DATABASE }}
+```bash
+pkg update && pkg install nodejs-lts git ffmpeg
 ```
 
-Passez les valeurs par les *secrets* du dépôt, jamais en clair dans le
-workflow. `DATABASE` est obligatoire ici : le disque est détruit à chaque run.
+```bash
+git clone https://github.com/neltolofon-dot/OVL-MD-V2.git && cd OVL-MD-V2 && npm install
+```
 
-</details>
+Ensuite `npm run pair -- 226XXXXXXXX` (le mode code à 8 chiffres est plus
+pratique que le QR sur téléphone), configurez `.env`, puis `npm start`.
 
----
+Deux réglages indispensables pour que le bot survive :
+
+```bash
+termux-wake-lock
+```
+
+Et dans les paramètres Android : **Batterie → Termux → Sans restriction**.
+Laissez le téléphone branché.
+
+### Option recommandée 2 — VPS avec systemd
+
+Sur un VPS Debian/Ubuntu, en tant qu'utilisateur non-root :
+
+```bash
+sudo apt update && sudo apt install -y nodejs npm git ffmpeg
+```
+
+```bash
+git clone https://github.com/neltolofon-dot/OVL-MD-V2.git && cd OVL-MD-V2 && npm install
+```
+
+Appairez (`npm run pair`), remplissez `.env`, vérifiez que ça démarre
+(`npm run dev`), puis installez le service pour un démarrage automatique au
+boot et un redémarrage en cas de plantage :
+
+```bash
+sudo cp deploy/ovl-md.service /etc/systemd/system/
+```
+
+Ajustez `User`, `WorkingDirectory` et le chemin de `node` dans le fichier, puis :
+
+```bash
+sudo systemctl daemon-reload && sudo systemctl enable --now ovl-md
+```
+
+```bash
+journalctl -u ovl-md -f
+```
+
+### Option 3 — Docker Compose
+
+Pour un VPS avec Docker. Les volumes `ovl-auth` et `ovl-data` conservent la
+session et la base entre les redémarrages.
+
+```bash
+cp .env.example .env    # remplissez-le
+```
+
+```bash
+docker compose up -d --build
+```
+
+```bash
+docker compose logs -f
+```
+
+L'appairage se fait dans le conteneur, en interactif :
+
+```bash
+docker compose run --rm ovl-md node pair.js
+```
+
+### Option 4 — Heroku / Render (disque éphémère)
+
+Ces plateformes effacent le disque à chaque redémarrage. Il faut donc :
+
+1. Appairer **en local** (`npm run pair`), puis coller le contenu de
+   `auth/principale/creds.json` dans la variable `SESSION_ID` — le code
+   accepte le JSON brut ou en base64.
+2. Renseigner `DATABASE` avec une URL PostgreSQL, sinon vous perdez sudo,
+   bans, niveaux, économie et réglages à chaque redémarrage.
+
+Le dépôt fournit `Dockerfile`, `heroku.yml` et `app.json`.
+
+> Les URL de déploiement en un clic pointent vers ce dépôt. Si vous
+> travaillez sur votre propre fork, remplacez-les.
 
 ## Commandes
 
@@ -234,9 +276,11 @@ Tapez `.menu` pour la liste complète. 17 catégories :
 | Stickers / conversions / audio en échec       | `ffmpeg` absent. Installez-le.                                                                            |
 | `Synchronisation de la base impossible`       | `DATABASE` incorrect ou base injoignable. Testez l'URL, ou videz la variable pour repasser en SQLite.     |
 | Erreurs PostgreSQL aléatoires                 | Limite de connexions atteinte. Le bot n'ouvre qu'un pool de 5 ; fermez les autres clients connectés.      |
+| Le bot s'arrête quand je ferme le terminal    | Utilisez `npm start` (pm2), le service systemd ou Docker Compose — pas `npm run dev`.                     |
+| Sur Termux, le bot meurt au bout de quelques minutes | `termux-wake-lock`, et passez Termux en « Sans restriction » dans les réglages de batterie Android. |
 
-Pour diagnostiquer, lancez toujours `npm run dev` : pm2 masque une partie des
-messages de démarrage.
+Pour diagnostiquer, lancez toujours `npm run dev` : pm2 et systemd masquent une
+partie des messages de démarrage.
 
 ---
 
