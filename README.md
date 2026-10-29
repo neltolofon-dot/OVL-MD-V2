@@ -41,16 +41,47 @@ git clone https://github.com/neltolofon-dot/OVL-MD-V2.git
 cd OVL-MD-V2 && npm install
 ```
 
-### 2. Générer une SESSION_ID
+### 2. Connecter votre WhatsApp
 
-Rendez-vous sur **https://ovl-web.koyeb.app/** et appairez votre numéro.
+Deux méthodes. **La première est recommandée** : vos identifiants restent sur
+votre machine.
 
-> ⚠️ Vos identifiants WhatsApp transitent par ce service tiers et donnent un
-> accès complet à votre compte. Pour éviter cela, générez vos identifiants
-> vous-même avec Baileys et déposez le fichier obtenu dans
-> `auth/principale/creds.json` : le bot l'utilisera directement et ne contactera
-> aucun service externe. Vous pouvez aussi faire pointer `SESSION_API` vers
-> votre propre instance.
+#### Méthode A — appairage local (recommandée)
+
+```bash
+npm run pair
+```
+
+Un QR code s'affiche dans le terminal. Sur votre téléphone :
+**WhatsApp → Paramètres → Appareils connectés → Connecter un appareil**, puis
+scannez.
+
+Si vous ne pouvez pas scanner (serveur distant, SSH, Termux), utilisez un code
+à 8 chiffres en passant votre numéro :
+
+```bash
+npm run pair -- 226XXXXXXXX
+```
+
+Puis sur le téléphone : **Connecter un appareil → Connecter avec un numéro de
+téléphone**, et saisissez le code affiché.
+
+Dans les deux cas, les identifiants sont écrits dans `auth/principale/`.
+**Laissez `SESSION_ID` vide** dans `.env` : le bot détecte ce dossier et
+n'appelle aucun service externe.
+
+#### Méthode B — SESSION_ID via service tiers
+
+Rendez-vous sur **https://ovl-web.koyeb.app/**, appairez votre numéro, et
+collez la valeur obtenue dans `SESSION_ID`.
+
+> ⚠️ Vos identifiants WhatsApp transitent alors par ce service, qui ne vous
+> appartient pas, et ils donnent un accès complet à votre compte. Utile si vous
+> déployez sur un hébergeur où vous ne pouvez pas lancer `npm run pair`.
+> `SESSION_API` permet de pointer vers votre propre instance.
+
+> **Ne partagez jamais le dossier `auth/` ni votre `SESSION_ID`**, et ne les
+> committez pas (déjà couverts par `.gitignore`).
 
 ### 3. Configurer
 
@@ -58,12 +89,12 @@ Rendez-vous sur **https://ovl-web.koyeb.app/** et appairez votre numéro.
 cp .env.example .env
 ```
 
-Puis éditez `.env`. Deux valeurs sont indispensables :
+Puis éditez `.env` :
 
-| Variable       | Rôle                                                       |
-| -------------- | ---------------------------------------------------------- |
-| `SESSION_ID`   | La session générée à l'étape 2                             |
-| `NUMERO_OWNER` | Votre numéro, format international, sans `+` ni espace     |
+| Variable       | Rôle                                                                        |
+| -------------- | --------------------------------------------------------------------------- |
+| `NUMERO_OWNER` | **Obligatoire.** Votre numéro, format international, sans `+` ni espace      |
+| `SESSION_ID`   | À remplir **uniquement** avec la méthode B. Laissez vide après `npm run pair` |
 
 `.env.example` documente toutes les autres options (préfixe, mode, base de
 données, clés d'API…).
@@ -194,7 +225,9 @@ Tapez `.menu` pour la liste complète. 17 catégories :
 | Symptôme                                      | Cause et solution                                                                                         |
 | --------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
 | Le bot démarre mais ne répond à rien          | `NUMERO_OWNER` absent, ou `MODE=private`. Vérifiez votre `.env`.                                          |
-| `⛔ Aucune session`                            | `SESSION_ID` vide et pas de `auth/principale/creds.json`. Reprenez l'étape 2.                             |
+| `⛔ Aucune session`                            | `SESSION_ID` vide et pas de `auth/principale/creds.json`. Lancez `npm run pair`.                          |
+| `npm run pair` reste bloqué puis code 408      | Réseau sortant bloqué vers `web.whatsapp.com`. Vérifiez pare-feu, VPN ou proxy.                           |
+| Code d'appairage refusé                        | Numéro au mauvais format. Indicatif pays sans `+` ni `00`, ex. `226XXXXXXXX`.                             |
 | `❌ Session "principale" introuvable`          | SESSION_ID expiré ou service injoignable. Régénérez-la.                                                   |
 | `⛔ Déconnecté : appareil délié`               | Session fermée depuis WhatsApp. Supprimez `auth/` et régénérez une SESSION_ID.                            |
 | Réglages perdus à chaque redémarrage          | Hébergeur à disque éphémère sans PostgreSQL. Renseignez `DATABASE`.                                       |
