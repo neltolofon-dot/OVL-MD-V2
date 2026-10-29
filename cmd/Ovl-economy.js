@@ -1,1 +1,563 @@
-const _0x336c53=_0x5aef;(function(_0x224a15,_0x506690){const _0x2d6d6f=_0x5aef,_0x583510=_0x224a15();while(!![]){try{const _0x270851=parseInt(_0x2d6d6f(0x13d))/0x1+-parseInt(_0x2d6d6f(0x12f))/0x2+parseInt(_0x2d6d6f(0x16a))/0x3+parseInt(_0x2d6d6f(0x14b))/0x4+-parseInt(_0x2d6d6f(0x19d))/0x5+parseInt(_0x2d6d6f(0x1ae))/0x6+-parseInt(_0x2d6d6f(0x10d))/0x7;if(_0x270851===_0x506690)break;else _0x583510['push'](_0x583510['shift']());}catch(_0x2e8dc3){_0x583510['push'](_0x583510['shift']());}}}(_0x5e0a,0x5073a));const _0x5e9642=(function(){let _0x412de5=!![];return function(_0x184b7f,_0x4b32fc){const _0x589caa=_0x412de5?function(){const _0x3adc42=_0x5aef;if(_0x4b32fc){const _0x42e9e0=_0x4b32fc[_0x3adc42(0x139)](_0x184b7f,arguments);return _0x4b32fc=null,_0x42e9e0;}}:function(){};return _0x412de5=![],_0x589caa;};}()),_0x2c4254=_0x5e9642(this,function(){const _0x35e16d=_0x5aef,_0x55bc0a={'rvRhE':_0x35e16d(0x195)};return _0x2c4254[_0x35e16d(0x1c5)]()[_0x35e16d(0x157)](_0x55bc0a['rvRhE'])[_0x35e16d(0x1c5)]()[_0x35e16d(0x185)](_0x2c4254)[_0x35e16d(0x157)](_0x55bc0a[_0x35e16d(0x186)]);});_0x2c4254();const {ovlcmd}=require('../lib/ovlcmd'),{modifierSolde,getInfosUtilisateur,resetEconomie,mettreAJourCapaciteBanque,ECONOMIE,TopBanque}=require(_0x336c53(0x105)),crypto=require(_0x336c53(0xee));function generateUserId(_0x228a5c){const _0x3f23c5=_0x336c53,_0x4184a5={'Ckzta':'md5','EmTyp':'hex'},_0x2a4ee0=crypto['createHash'](_0x4184a5[_0x3f23c5(0x1cb)])['update'](_0x228a5c)[_0x3f23c5(0x1a9)](_0x4184a5[_0x3f23c5(0x18d)]);return _0x3f23c5(0x173)+_0x2a4ee0['slice'](0x0,0x6);}function generateTransactionId(){const _0x2114e3=_0x336c53,_0x1ed5f4={'tNtli':_0x2114e3(0x1c3)};return crypto[_0x2114e3(0x196)](0x4)[_0x2114e3(0x1c5)](_0x1ed5f4[_0x2114e3(0xf4)])['toUpperCase']();}ovlcmd({'nom_cmd':'myecon','desc':_0x336c53(0x120),'react':'💰','classe':_0x336c53(0x1ca)},async(_0xfa88f5,_0x3db915,{ms:_0x391b7f,getJid:_0x27c3e5,arg:_0xc3f9c,auteur_Message:_0x3ad562,auteur_Msg_Repondu:_0x10ee9d,repondre:_0x6858ef})=>{const _0x58fa7e=_0x336c53,_0x392501={'UHrkQ':function(_0xc18496,_0x1a512c){return _0xc18496(_0x1a512c);},'ySlNh':_0x58fa7e(0x18a),'PHoce':_0x58fa7e(0xdc),'DaFRp':_0x58fa7e(0xe3),'PmUgA':function(_0x4930bd,_0x14f8bb){return _0x4930bd(_0x14f8bb);},'jjmrL':_0x58fa7e(0x1c6),'qCyKh':_0x58fa7e(0x117),'yvegW':function(_0x3ea400,_0x17359e){return _0x3ea400(_0x17359e);},'pLfed':_0x58fa7e(0x179),'HPWXE':_0x58fa7e(0x1a2)};try{const _0x206bc7=_0xc3f9c[0x0]?.['includes']('@')&&_0xc3f9c[0x0][_0x58fa7e(0x152)]('@','')+_0x58fa7e(0x11d)||_0x10ee9d||_0x3ad562,_0x3a7d24=await _0x27c3e5(_0x206bc7,_0xfa88f5,_0x3db915);if(!_0x3a7d24)return await _0x392501[_0x58fa7e(0x199)](_0x6858ef,_0x392501[_0x58fa7e(0x13e)]);let _0x173e35=_0x392501['PHoce'];try{_0x173e35=await _0x3db915['profilePictureUrl'](_0x3a7d24,_0x392501[_0x58fa7e(0xf9)]);}catch{}const _0x7c61a2=await getInfosUtilisateur(_0x3a7d24);if(!_0x7c61a2)return await _0x392501[_0x58fa7e(0x128)](_0x6858ef,_0x392501[_0x58fa7e(0x13f)]);const _0x1c84d7=_0x7c61a2[_0x58fa7e(0x178)]||_0x392501[_0x58fa7e(0x13c)],_0x55edbd=_0x7c61a2[_0x58fa7e(0x170)]??0x0,_0x2a1c53=_0x7c61a2[_0x58fa7e(0x123)]??0x0,_0x272ecd=_0x7c61a2[_0x58fa7e(0x189)]??0x2710,_0x26a10b=_0x392501['yvegW'](generateUserId,_0x3a7d24),_0x17e0ba=_0x58fa7e(0x130)+_0x1c84d7+_0x58fa7e(0x1bd)+_0x26a10b+_0x58fa7e(0x161)+_0x55edbd+_0x58fa7e(0x17a)+_0x2a1c53+_0x58fa7e(0xff)+_0x272ecd+_0x58fa7e(0x1af);await _0x3db915['sendMessage'](_0xfa88f5,{'image':{'url':_0x173e35},'caption':_0x17e0ba},{'quoted':_0x391b7f});}catch(_0x199317){console[_0x58fa7e(0x15f)](_0x392501[_0x58fa7e(0xfe)],_0x199317),await _0x6858ef(_0x392501['HPWXE']);}}),ovlcmd({'nom_cmd':'transfer','desc':'Transférer\x20de\x20l\x27argent\x20de\x20votre\x20banque\x20vers\x20la\x20banque\x20d\x27un\x20autre\x20utilisateur','react':'💸','classe':'OVL-ECON--y'},async(_0x477dfa,_0x4debee,_0x39dc1d)=>{const _0x1c060d=_0x336c53,_0x3fc97b={'wlSsb':function(_0x28b5ec,_0x15acce){return _0x28b5ec<_0x15acce;},'rFUIg':function(_0x46bbae,_0x2c8d0b){return _0x46bbae(_0x2c8d0b);},'oyTCG':_0x1c060d(0x14e),'jsIFl':function(_0x2af77a,_0x5746aa){return _0x2af77a===_0x5746aa;},'mEEOy':function(_0x43ce88,_0x5c8f61){return _0x43ce88(_0x5c8f61);},'GgakQ':function(_0x45bc4f,_0x405df5){return _0x45bc4f<=_0x405df5;},'nSYdn':function(_0xc8d2a8,_0x372b5d){return _0xc8d2a8(_0x372b5d);},'AdVWc':'Le\x20montant\x20doit\x20être\x20un\x20nombre\x20entier\x20positif.','LMmvs':function(_0x335c49,_0x4332a0){return _0x335c49(_0x4332a0);},'qGklx':_0x1c060d(0x10b),'WRYgP':function(_0x53332b,_0x283532){return _0x53332b(_0x283532);},'aXyhu':_0x1c060d(0x14a),'DrrPZ':function(_0x5e176d,_0x26a03e){return _0x5e176d<_0x26a03e;},'GUHvY':function(_0x3b9b00,_0x142fbe){return _0x3b9b00(_0x142fbe);},'CTZTH':_0x1c060d(0x15c),'ghZcg':function(_0x428f08,_0x444030){return _0x428f08*_0x444030;},'ikXas':_0x1c060d(0x123),'qNiKF':function(_0x2d691b,_0x4f4342,_0x479b4b,_0x3fa0f8){return _0x2d691b(_0x4f4342,_0x479b4b,_0x3fa0f8);},'tDKvo':function(_0x154473){return _0x154473();},'GAKpN':'Inconnu','vUKkI':function(_0x3a57c7,_0x55e46f){return _0x3a57c7-_0x55e46f;},'gDmdG':_0x1c060d(0x127),'imygX':_0x1c060d(0x1cc)},{ms:_0x2b87ea,arg:_0x3076c4,auteur_Message:_0x6683ef,repondre:_0x50a207,getJid:_0xaf943a}=_0x39dc1d;if(_0x3fc97b['wlSsb'](_0x3076c4['length'],0x2))return _0x3fc97b[_0x1c060d(0x11b)](_0x50a207,_0x3fc97b[_0x1c060d(0x103)]);const _0x41a78d=_0x3076c4[0x0][_0x1c060d(0x1a7)]('@')?_0x3076c4[0x0][_0x1c060d(0x152)]('@','')+_0x1c060d(0x11d):null,_0x250e95=await _0xaf943a(_0x41a78d,_0x477dfa,_0x4debee);if(!_0x250e95)return _0x3fc97b[_0x1c060d(0x11b)](_0x50a207,_0x1c060d(0xe5));if(_0x3fc97b[_0x1c060d(0x11a)](_0x250e95,_0x6683ef))return _0x3fc97b[_0x1c060d(0x1b1)](_0x50a207,_0x1c060d(0xd3));const _0x541330=_0x3fc97b[_0x1c060d(0x11b)](parseInt,_0x3076c4[0x1]);if(_0x3fc97b['rFUIg'](isNaN,_0x541330)||_0x3fc97b[_0x1c060d(0x19b)](_0x541330,0x0))return _0x3fc97b['nSYdn'](_0x50a207,_0x3fc97b[_0x1c060d(0x193)]);try{const _0xb72ffe=await getInfosUtilisateur(_0x6683ef),_0x49625e=await _0x3fc97b[_0x1c060d(0x1c4)](getInfosUtilisateur,_0x250e95);if(!_0xb72ffe)return _0x3fc97b[_0x1c060d(0x1c4)](_0x50a207,_0x3fc97b[_0x1c060d(0x153)]);if(!_0x49625e)return _0x3fc97b[_0x1c060d(0x133)](_0x50a207,_0x3fc97b[_0x1c060d(0x102)]);if(_0x3fc97b[_0x1c060d(0x150)](_0xb72ffe[_0x1c060d(0x123)],_0x541330))return _0x3fc97b['GUHvY'](_0x50a207,_0x3fc97b[_0x1c060d(0x17e)]);const _0x430026=Math['floor'](_0x3fc97b[_0x1c060d(0x110)](_0x541330,0.99));if(_0x49625e[_0x1c060d(0x123)]+_0x430026>_0x49625e['capacite_banque'])return _0x50a207(_0x1c060d(0xcf)+_0x49625e['capacite_banque']+_0x1c060d(0x169));await modifierSolde(_0x6683ef,_0x3fc97b[_0x1c060d(0x11e)],-_0x541330),await _0x3fc97b[_0x1c060d(0x111)](modifierSolde,_0x250e95,_0x1c060d(0x123),_0x430026);const _0x23f2a4=_0x3fc97b['tDKvo'](generateTransactionId),_0x2e00b4=_0x1c060d(0x1a8)+_0x23f2a4+_0x1c060d(0x160)+(_0xb72ffe['pseudo']||_0x3fc97b[_0x1c060d(0x1b7)])+'\x0a┃\x20👥\x20*Destinataire\x20:*\x20'+(_0x49625e[_0x1c060d(0x178)]||_0x3fc97b[_0x1c060d(0x1b7)])+_0x1c060d(0x112)+_0x541330+_0x1c060d(0x121)+_0x3fc97b['vUKkI'](_0x541330,_0x430026)+'\x20🪙\x0a┃\x20📥\x20*Montant\x20reçu\x20:*\x20'+_0x430026+_0x1c060d(0xf3)+new Date()['toLocaleString']()+'\x0a╰─────────────────────────╯';return _0x3fc97b[_0x1c060d(0x11b)](_0x50a207,_0x2e00b4);}catch(_0x4a9093){return console[_0x1c060d(0x15f)](_0x3fc97b[_0x1c060d(0xeb)],_0x4a9093),_0x3fc97b['rFUIg'](_0x50a207,_0x3fc97b['imygX']);}}),ovlcmd({'nom_cmd':_0x336c53(0x1b8),'classe':_0x336c53(0x1ca),'react':'♻️','desc':_0x336c53(0x12c)},async(_0x23d1a9,_0x29c6c6,{arg:_0x5847a0,prenium_id:_0x55cc08,getJid:_0xd7e045,auteur_Msg_Repondu:_0x3a227f})=>{const _0x4f6ae0=_0x336c53,_0x8deb52={'oCHAK':function(_0xdb9c9e,_0x5c61d3){return _0xdb9c9e(_0x5c61d3);},'iOoUU':_0x4f6ae0(0x1b6),'eKvys':function(_0x4d6daf,_0x276e45,_0x4dedcf,_0x18232a){return _0x4d6daf(_0x276e45,_0x4dedcf,_0x18232a);},'ZWshs':function(_0x12b115,_0x3f5b85,_0x4a41d0){return _0x12b115(_0x3f5b85,_0x4a41d0);},'aFoCx':_0x4f6ae0(0x1b9),'FAQAG':function(_0x3d5a65,_0x4d0a4c){return _0x3d5a65(_0x4d0a4c);},'OXfAM':_0x4f6ae0(0x117)};if(!_0x55cc08)return _0x8deb52[_0x4f6ae0(0x155)](repondre,_0x8deb52['iOoUU']);const _0xd14de7=_0x5847a0[0x0]?.[_0x4f6ae0(0x1a7)]('@')&&_0x5847a0[0x0]['replace']('@','')+_0x4f6ae0(0x11d)||_0x3a227f,_0x4c2f86=await _0x8deb52[_0x4f6ae0(0x15a)](_0xd7e045,_0xd14de7,_0x23d1a9,_0x29c6c6);!_0x4c2f86&&_0x8deb52[_0x4f6ae0(0x155)](repondre,_0x4f6ae0(0xe6));const _0x283b75=await _0x8deb52[_0x4f6ae0(0x137)](resetEconomie,_0x4c2f86,{'wallet':!![],'banque':!![],'capacite':!![]});if(!_0x283b75)return repondre(_0x8deb52[_0x4f6ae0(0x158)]);const _0x4f6fb3=_0x8deb52['FAQAG'](generateUserId,_0x4c2f86),_0x1054bb=_0x4f6ae0(0x11c)+(_0x283b75[_0x4f6ae0(0x178)]||_0x8deb52[_0x4f6ae0(0x190)])+'\x0a┃\x20🆔\x20ID\x20:\x20'+_0x4f6fb3+'\x0a┃\x20💰\x20Portefeuille\x20:\x20'+_0x283b75[_0x4f6ae0(0x170)]+_0x4f6ae0(0xf5)+_0x283b75[_0x4f6ae0(0x123)]+_0x4f6ae0(0x145)+_0x283b75[_0x4f6ae0(0x189)]+'\x0a╰──────────────────────╯';await repondre(_0x1054bb);});const prixCapacite={0x1:{'montant':0x2710,'capacite':0x186a0},0x2:{'montant':0x186a0,'capacite':0xf4240},0x3:{'montant':0xf4240,'capacite':0x989680},0x4:{'montant':0x989680,'capacite':0x5f5e100},0x5:{'montant':0x5f5e100,'capacite':0x3b9aca00}};function _0x5aef(_0x21660f,_0x2326c0){const _0x17f14b=_0x5e0a();return _0x5aef=function(_0x2c4254,_0x5e9642){_0x2c4254=_0x2c4254-0xce;let _0x5e0a43=_0x17f14b[_0x2c4254];if(_0x5aef['KZJOqO']===undefined){var _0x5aef5d=function(_0x33411e){const _0x423541='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0xb82a4f='',_0x14e84f='',_0x3329f4=_0xb82a4f+_0x5aef5d;for(let _0x4fe7f2=0x0,_0x101ff0,_0x48cd43,_0x18051f=0x0;_0x48cd43=_0x33411e['charAt'](_0x18051f++);~_0x48cd43&&(_0x101ff0=_0x4fe7f2%0x4?_0x101ff0*0x40+_0x48cd43:_0x48cd43,_0x4fe7f2++%0x4)?_0xb82a4f+=_0x3329f4['charCodeAt'](_0x18051f+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x101ff0>>(-0x2*_0x4fe7f2&0x6)):_0x4fe7f2:0x0){_0x48cd43=_0x423541['indexOf'](_0x48cd43);}for(let _0x5a6395=0x0,_0x8b73d4=_0xb82a4f['length'];_0x5a6395<_0x8b73d4;_0x5a6395++){_0x14e84f+='%'+('00'+_0xb82a4f['charCodeAt'](_0x5a6395)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x14e84f);};_0x5aef['QeFFso']=_0x5aef5d,_0x21660f=arguments,_0x5aef['KZJOqO']=!![];}const _0x51ce71=_0x17f14b[0x0],_0x198604=_0x2c4254+_0x51ce71,_0x5cc1f0=_0x21660f[_0x198604];if(!_0x5cc1f0){const _0x2d8132=function(_0x4351d6){this['zrqlmS']=_0x4351d6,this['GLMGCg']=[0x1,0x0,0x0],this['MjFZUn']=function(){return'newState';},this['qdEKEE']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['grsrjH']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x2d8132['prototype']['FIOhwU']=function(){const _0x52afa1=new RegExp(this['qdEKEE']+this['grsrjH']),_0x537367=_0x52afa1['test'](this['MjFZUn']['toString']())?--this['GLMGCg'][0x1]:--this['GLMGCg'][0x0];return this['oWywEH'](_0x537367);},_0x2d8132['prototype']['oWywEH']=function(_0x528139){if(!Boolean(~_0x528139))return _0x528139;return this['VeHMaa'](this['zrqlmS']);},_0x2d8132['prototype']['VeHMaa']=function(_0x11bb2a){for(let _0xea157e=0x0,_0x451e2c=this['GLMGCg']['length'];_0xea157e<_0x451e2c;_0xea157e++){this['GLMGCg']['push'](Math['round'](Math['random']())),_0x451e2c=this['GLMGCg']['length'];}return _0x11bb2a(this['GLMGCg'][0x0]);},new _0x2d8132(_0x5aef)['FIOhwU'](),_0x5e0a43=_0x5aef['QeFFso'](_0x5e0a43),_0x21660f[_0x198604]=_0x5e0a43;}else _0x5e0a43=_0x5cc1f0;return _0x5e0a43;},_0x5aef(_0x21660f,_0x2326c0);}ovlcmd({'nom_cmd':_0x336c53(0x13b),'classe':_0x336c53(0x1ca),'react':'📦','desc':_0x336c53(0xda)},async(_0x4bfa78,_0x12cf79,{arg:_0x1fbbe4,auteur_Message:_0x3415e5,repondre:_0x2462fc})=>{const _0x199894=_0x336c53,_0xd655a={'KVtNS':function(_0x3d32f5,_0x6998b2){return _0x3d32f5(_0x6998b2);},'QhpWN':function(_0x44c53f,_0x28b99c){return _0x44c53f(_0x28b99c);},'TiMWM':function(_0x208ae7,_0x11378d){return _0x208ae7<_0x11378d;},'hKcpH':function(_0x38972f,_0x566e7e,_0x5337ee,_0x72970b){return _0x38972f(_0x566e7e,_0x5337ee,_0x72970b);},'oaUqc':_0x199894(0x170),'ZBddb':function(_0x5666a0,_0x17cc7d,_0x210e91){return _0x5666a0(_0x17cc7d,_0x210e91);},'vfkvh':function(_0x529809,_0x1a824c){return _0x529809(_0x1a824c);}},_0x3a32c0=parseInt(_0x1fbbe4[0x0]);if(!_0x3a32c0||!prixCapacite[_0x3a32c0]){let _0x1045dc=_0x199894(0x182);for(const [_0x202e62,{montant:_0x35a4a0,capacite:_0x46d04e}]of Object[_0x199894(0x1bf)](prixCapacite)){_0x1045dc+=_0x199894(0x1a3)+_0x202e62+_0x199894(0x108)+_0x35a4a0+'\x20🪙\x20→\x20📈\x20Capacité\x20:\x20'+_0x46d04e+_0x199894(0x18f);}return _0xd655a['KVtNS'](_0x2462fc,_0x1045dc);}const _0x2ee726=await _0xd655a['QhpWN'](getInfosUtilisateur,_0x3415e5),{portefeuille:_0x5a128a}=_0x2ee726,{montant:_0x210d63,capacite:_0x3c1522}=prixCapacite[_0x3a32c0];if(_0xd655a[_0x199894(0x164)](_0x5a128a,_0x210d63))return _0x2462fc(_0x199894(0x1ad)+_0x210d63+_0x199894(0xe8));await _0xd655a[_0x199894(0x192)](modifierSolde,_0x3415e5,_0xd655a[_0x199894(0x183)],-_0x210d63),await _0xd655a[_0x199894(0xe0)](mettreAJourCapaciteBanque,_0x3415e5,_0x3c1522),_0xd655a[_0x199894(0x197)](_0x2462fc,_0x199894(0x1b3)+_0x3a32c0+'*\x0a📦\x20*Nouvelle\x20capacité\x20:*\x20'+_0x3c1522+_0x199894(0x17d)+_0x210d63+_0x199894(0x18f));}),ovlcmd({'nom_cmd':_0x336c53(0x119),'classe':_0x336c53(0x1ca),'react':'🏦','desc':_0x336c53(0xde)},async(_0x56b51a,_0x309bdc,{arg:_0x4c4b51,auteur_Message:_0x2fa486,repondre:_0x4b8cb6})=>{const _0x31d975=_0x336c53,_0x3645ac={'PVFKO':function(_0x3dfe8f,_0x263ac7){return _0x3dfe8f<=_0x263ac7;},'QKYzI':function(_0x1f942c,_0x3f5838){return _0x1f942c(_0x3f5838);},'qIAKZ':_0x31d975(0x1a0),'ffjVC':function(_0x452491,_0x5dd621){return _0x452491<_0x5dd621;},'oNAvS':_0x31d975(0x15d),'fboJY':function(_0x494332,_0x39ca44){return _0x494332>_0x39ca44;},'HZLXD':function(_0x52f246,_0x256507,_0x1e6f21,_0x47fa28){return _0x52f246(_0x256507,_0x1e6f21,_0x47fa28);},'HShkc':function(_0x56b1b8,_0x232d75,_0x35dce5,_0x2935d9){return _0x56b1b8(_0x232d75,_0x35dce5,_0x2935d9);},'QizbH':'banque','GqLdn':function(_0x2825ca,_0x470f8e){return _0x2825ca(_0x470f8e);},'rwItK':function(_0x58cab7,_0x93c97){return _0x58cab7+_0x93c97;}},_0x2de777=parseInt(_0x4c4b51[0x0]);if(!_0x2de777||_0x3645ac[_0x31d975(0x187)](_0x2de777,0x0))return _0x3645ac[_0x31d975(0x142)](_0x4b8cb6,_0x3645ac['qIAKZ']);const _0x39804a=await _0x3645ac['QKYzI'](getInfosUtilisateur,_0x2fa486),{portefeuille:_0x186bfc,banque:_0x42fa30,capacite_banque:_0x1ea529}=_0x39804a;if(_0x3645ac[_0x31d975(0x125)](_0x186bfc,_0x2de777))return _0x4b8cb6(_0x3645ac[_0x31d975(0x1aa)]);if(_0x3645ac[_0x31d975(0x191)](_0x42fa30+_0x2de777,_0x1ea529))return _0x3645ac['QKYzI'](_0x4b8cb6,_0x31d975(0x1c9)+_0x1ea529+_0x31d975(0x169));await _0x3645ac['HZLXD'](modifierSolde,_0x2fa486,_0x31d975(0x170),-_0x2de777),await _0x3645ac[_0x31d975(0x109)](modifierSolde,_0x2fa486,_0x3645ac[_0x31d975(0x188)],_0x2de777),_0x3645ac['GqLdn'](_0x4b8cb6,_0x31d975(0x18e)+_0x2de777+_0x31d975(0x12a)+_0x3645ac[_0x31d975(0xf1)](_0x42fa30,_0x2de777)+_0x31d975(0x19a)+_0x1ea529+_0x31d975(0x18f));}),ovlcmd({'nom_cmd':_0x336c53(0x12b),'classe':'OVL-ECON--y','react':'💼','desc':_0x336c53(0x144)},async(_0x1c65dd,_0x5da814,{arg:_0x5d2aac,auteur_Message:_0x5afae2,repondre:_0x8b6348})=>{const _0x274a45=_0x336c53,_0x4ae483={'xeaOc':function(_0x206f17,_0x5967ec){return _0x206f17(_0x5967ec);},'gArbK':'Fonds\x20insuffisants\x20dans\x20la\x20banque.','wfZbg':function(_0x1ad250,_0x29ebba){return _0x1ad250*_0x29ebba;},'kiTYf':function(_0x20bb08,_0x29445f){return _0x20bb08-_0x29445f;},'TtxgE':function(_0x2f2f5d,_0x30e2a4,_0x68ed02,_0x4e31e8){return _0x2f2f5d(_0x30e2a4,_0x68ed02,_0x4e31e8);},'bPMPu':function(_0xd7b782,_0x4725ff,_0x5418de,_0x186794){return _0xd7b782(_0x4725ff,_0x5418de,_0x186794);},'FeJFG':_0x274a45(0x170),'jobys':function(_0x49f7cc,_0x485856){return _0x49f7cc(_0x485856);},'xsiwY':function(_0x4ffab7,_0x17c83f){return _0x4ffab7+_0x17c83f;}},_0x2ff878=_0x4ae483[_0x274a45(0x143)](parseInt,_0x5d2aac[0x0]);if(!_0x2ff878||_0x2ff878<=0x0)return _0x8b6348('Veuillez\x20entrer\x20un\x20montant\x20valide\x20à\x20retirer.\x0aEx:\x20retrait\x201000');const _0x8dab18=await getInfosUtilisateur(_0x5afae2),{portefeuille:_0x1c735d,banque:_0x476ef2}=_0x8dab18;if(_0x476ef2<_0x2ff878)return _0x4ae483['xeaOc'](_0x8b6348,_0x4ae483[_0x274a45(0x171)]);const _0x20b454=Math[_0x274a45(0x124)](_0x4ae483[_0x274a45(0x1b5)](_0x2ff878,0.99)),_0x5e17a3=_0x4ae483[_0x274a45(0x181)](_0x2ff878,_0x20b454);await _0x4ae483['TtxgE'](modifierSolde,_0x5afae2,_0x274a45(0x123),-_0x2ff878),await _0x4ae483[_0x274a45(0x10a)](modifierSolde,_0x5afae2,_0x4ae483[_0x274a45(0xfa)],_0x20b454),_0x4ae483[_0x274a45(0x16d)](_0x8b6348,'💼\x20*Retrait\x20effectué\x20avec\x20succès\x20!*\x0a💰\x20*Montant\x20demandé\x20:*\x20'+_0x2ff878+_0x274a45(0x18c)+_0x5e17a3+_0x274a45(0x19e)+_0x20b454+'\x20🪙\x0a👛\x20*Portefeuille\x20actuel\x20:*\x20'+_0x4ae483[_0x274a45(0x1d0)](_0x1c735d,_0x20b454)+_0x274a45(0x18f));}),ovlcmd({'nom_cmd':'vol','desc':_0x336c53(0xef),'react':_0x336c53(0xd8),'classe':_0x336c53(0x1ca)},async(_0x430653,_0xb13a8e,{repondre:_0xabc8ad,auteur_Msg_Repondu:_0x137cae,getJid:_0x4add04,auteur_Message:_0x51a4ab,arg:_0x178bae,ms:_0x4a96dc})=>{const _0x446c04=_0x336c53,_0x44139e={'kYpkK':function(_0x40c09b,_0x3c2240,_0x324b5c,_0x24946e){return _0x40c09b(_0x3c2240,_0x324b5c,_0x24946e);},'LOxPi':function(_0x42fbb3,_0xea4064){return _0x42fbb3(_0xea4064);},'MlOCb':function(_0x5a3d11,_0x3fadda){return _0x5a3d11===_0x3fadda;},'Qnkbt':function(_0x4f20b3,_0x2ca8af){return _0x4f20b3(_0x2ca8af);},'jRywp':'Tu\x20ne\x20peux\x20pas\x20te\x20voler\x20toi-même,\x20voleur\x20paresseux\x20😒.','oPQCf':function(_0x4cf11b,_0x41f3e5){return _0x4cf11b(_0x41f3e5);},'JbVgZ':function(_0x5e1073,_0xc55202){return _0x5e1073(_0xc55202);},'aactJ':_0x446c04(0xdd),'vYkqV':function(_0xe6b620,_0x6ef484){return _0xe6b620<_0x6ef484;},'rpMJH':_0x446c04(0xd7),'wSfsy':_0x446c04(0x13a),'nRTDx':_0x446c04(0x1a6),'TghmD':_0x446c04(0x114),'rOpKU':function(_0x376e7b,_0x215aca){return _0x376e7b(_0x215aca);},'rnhin':'😬\x20Ta\x20victime\x20s\x27est\x20échappée\x20!\x20Sois\x20plus\x20intimidant\x20la\x20prochaine\x20fois.','FWHyq':function(_0x52852f,_0x149446){return _0x52852f*_0x149446;},'IrnRG':_0x446c04(0x170),'VtnlX':_0x446c04(0x140)};let _0x19e4ab=null;if(_0x137cae)_0x19e4ab=_0x137cae;else _0x178bae[0x0]?.[_0x446c04(0x1a7)]('@')&&(victimeIdl=_0x178bae[0x0][_0x446c04(0x152)]('@','')+_0x446c04(0x11d),_0x19e4ab=await _0x44139e[_0x446c04(0x15b)](_0x4add04,victimeIdl,_0x430653,_0xb13a8e));if(!_0x19e4ab)return _0x44139e['LOxPi'](_0xabc8ad,_0x446c04(0x1bc));if(_0x44139e[_0x446c04(0x116)](_0x19e4ab,_0x51a4ab))return _0x44139e[_0x446c04(0x168)](_0xabc8ad,_0x44139e[_0x446c04(0x104)]);const _0x335f11=await _0x44139e[_0x446c04(0x14d)](getInfosUtilisateur,_0x51a4ab),_0x54c53c=await _0x44139e[_0x446c04(0x14d)](getInfosUtilisateur,_0x19e4ab);if(!_0x335f11||!_0x54c53c)return _0x44139e[_0x446c04(0xe4)](_0xabc8ad,_0x44139e[_0x446c04(0x1c8)]);if(_0x44139e[_0x446c04(0x1c1)](_0x335f11[_0x446c04(0x170)],0x3e8))return _0x44139e['Qnkbt'](_0xabc8ad,_0x44139e[_0x446c04(0x1a1)]);if(_0x54c53c[_0x446c04(0x170)]<0x3e8)return _0x44139e[_0x446c04(0xe4)](_0xabc8ad,_0x44139e[_0x446c04(0x1c7)]);const _0x51f65d=[_0x44139e[_0x446c04(0x16e)],_0x446c04(0x147),_0x44139e[_0x446c04(0x1ba)]],_0x186fd6=_0x51f65d[Math[_0x446c04(0x124)](Math[_0x446c04(0x19c)]()*_0x51f65d[_0x446c04(0x174)])];switch(_0x186fd6){case _0x44139e['nRTDx']:return _0x44139e['rOpKU'](_0xabc8ad,_0x44139e[_0x446c04(0xf8)]);case _0x446c04(0x147):{const _0xcd504c=Math[_0x446c04(0x124)](_0x44139e[_0x446c04(0x1be)](Math[_0x446c04(0x19c)](),0x3e8))+0x64;return await _0x44139e[_0x446c04(0x15b)](modifierSolde,_0x19e4ab,_0x446c04(0x170),-_0xcd504c),await modifierSolde(_0x51a4ab,_0x44139e[_0x446c04(0x16c)],_0xcd504c),_0xabc8ad('🤑\x20Vol\x20réussi\x20!\x20Tu\x20as\x20volé\x20*'+_0xcd504c+'\x20🪙*\x20à\x20ta\x20victime.');}case'attrape':{const _0x465283=Math[_0x446c04(0x124)](Math[_0x446c04(0x19c)]()*0x3e8)+0x64;return await modifierSolde(_0x51a4ab,_0x44139e[_0x446c04(0x16c)],-_0x465283),_0xabc8ad(_0x446c04(0x159)+_0x465283+_0x446c04(0x198));}default:return _0x44139e['LOxPi'](_0xabc8ad,_0x44139e[_0x446c04(0x135)]);}}),ovlcmd({'nom_cmd':_0x336c53(0xce),'desc':_0x336c53(0xd9),'react':'🎲','classe':_0x336c53(0x1ca)},async(_0x546190,_0x429d4b,{repondre:_0x166c95,auteur_Message:_0x623e74,arg:_0x18176c,ms:_0x540934})=>{const _0x2974d4=_0x336c53,_0x226c95={'pelMl':function(_0xc0b718,_0x1d55c3){return _0xc0b718(_0x1d55c3);},'WYlFP':_0x2974d4(0x14f),'isdEF':'bas','WBOQJ':_0x2974d4(0xdf),'crGVc':'droite','hZJHq':function(_0x2a0c63,_0x5341f6){return _0x2a0c63<_0x5341f6;},'UHGUj':_0x2974d4(0x154),'jUQDP':_0x2974d4(0x136),'cKCJB':function(_0x118fd9,_0x9daa33){return _0x118fd9<_0x9daa33;},'GMOmY':function(_0x3ef786,_0x1a07bf){return _0x3ef786(_0x1a07bf);},'mKuaF':'💸\x20Fonds\x20insuffisants\x20dans\x20ton\x20portefeuille.','znIfe':function(_0x7b42d3,_0x409f61){return _0x7b42d3*_0x409f61;},'BZtaw':'https://files.catbox.moe/j0wmsd.jpg','alcxX':_0x2974d4(0xd6),'ahTMi':'https://files.catbox.moe/lj7xmc.jpg','veFhi':_0x2974d4(0x132),'sXxDK':function(_0xb02c08,_0x4cee7f,_0x26cec6,_0x58eb00){return _0xb02c08(_0x4cee7f,_0x26cec6,_0x58eb00);},'OPdsM':_0x2974d4(0x170),'LfZxR':function(_0x2fa910,_0x4c7e6c){return _0x2fa910(_0x4c7e6c);},'PZetD':function(_0x524518,_0x1d4a59){return _0x524518(_0x1d4a59);}},_0x2aae16=_0x226c95[_0x2974d4(0x10e)](parseInt,_0x18176c[0x0]),_0x4852d1=_0x18176c[0x1]?.[_0x2974d4(0x11f)](),_0x1f689b=[_0x226c95[_0x2974d4(0x141)],_0x226c95[_0x2974d4(0x100)],_0x226c95['WBOQJ'],_0x226c95[_0x2974d4(0x177)]];if(!_0x2aae16||_0x226c95['hZJHq'](_0x2aae16,0x32))return _0x226c95[_0x2974d4(0x10e)](_0x166c95,_0x226c95['UHGUj']);if(!_0x4852d1||!_0x1f689b[_0x2974d4(0x1a7)](_0x4852d1))return _0x166c95(_0x226c95[_0x2974d4(0x1cd)]);const _0x5da965=await _0x226c95[_0x2974d4(0x10e)](getInfosUtilisateur,_0x623e74);if(_0x226c95['cKCJB'](_0x5da965['portefeuille'],_0x2aae16))return _0x226c95[_0x2974d4(0x176)](_0x166c95,_0x226c95[_0x2974d4(0x16f)]);const _0xb76839=_0x1f689b[Math['floor'](_0x226c95['znIfe'](Math['random'](),_0x1f689b[_0x2974d4(0x174)]))],_0xe7f8b4=_0xb76839,_0x21a2e7={'haut':_0x226c95[_0x2974d4(0xf6)],'bas':_0x226c95[_0x2974d4(0x1b0)],'gauche':_0x226c95[_0x2974d4(0x18b)],'droite':_0x226c95[_0x2974d4(0xd5)]};await _0x429d4b['sendMessage'](_0x546190,{'image':{'url':_0x21a2e7[_0xe7f8b4]},'caption':''},{'quoted':_0x540934});if(_0x4852d1===_0xb76839){const _0x295e60=_0x2aae16*0x2;return await _0x226c95[_0x2974d4(0x118)](modifierSolde,_0x623e74,_0x226c95[_0x2974d4(0x129)],_0x295e60),_0x226c95[_0x2974d4(0x15e)](_0x166c95,_0x2974d4(0xe9)+_0xb76839+_0x2974d4(0x17c)+_0x295e60+_0x2974d4(0xf7));}else return await _0x226c95['sXxDK'](modifierSolde,_0x623e74,_0x226c95[_0x2974d4(0x129)],-_0x2aae16),_0x226c95[_0x2974d4(0x180)](_0x166c95,_0x2974d4(0xea)+_0xb76839+_0x2974d4(0x138)+_0x2aae16+_0x2974d4(0x198));}),ovlcmd({'nom_cmd':'slot','desc':_0x336c53(0xf0),'react':'🎰','classe':'OVL-ECON--y'},async(_0x31d18d,_0x329058,{auteur_Message:_0x5db0a1,repondre:_0x55c3e4})=>{const _0x23b9dc=_0x336c53,_0x3d2fd3={'hTjGN':function(_0x5d34cb,_0x2682a6){return _0x5d34cb(_0x2682a6);},'uEtAh':_0x23b9dc(0xe2),'wfNDv':function(_0x5d745a,_0x80ff91,_0x22f806,_0x3ff34c){return _0x5d745a(_0x80ff91,_0x22f806,_0x3ff34c);},'xPIyd':function(_0xc38463,_0x24f756,_0x358aa1,_0x4a9ff5){return _0xc38463(_0x24f756,_0x358aa1,_0x4a9ff5);},'hQZoJ':function(_0x1a740f,_0x15e41b,_0xed5d7e,_0x5ae87a){return _0x1a740f(_0x15e41b,_0xed5d7e,_0x5ae87a);},'sEGyt':function(_0x32dfaa,_0x4d6063){return _0x32dfaa*_0x4d6063;},'PwUiK':function(_0x5e83c7,_0x11781d,_0x30cc68,_0x212fcc){return _0x5e83c7(_0x11781d,_0x30cc68,_0x212fcc);},'pApUl':_0x23b9dc(0x170),'oxgHt':function(_0x192c2f,_0x3f043b){return _0x192c2f*_0x3f043b;},'dDQsj':function(_0xb5f9ca,_0x299951){return _0xb5f9ca(_0x299951);},'HMrzg':function(_0x4fe6d3,_0x319103){return _0x4fe6d3*_0x319103;}},{portefeuille:_0x1cdb97}=await _0x3d2fd3[_0x23b9dc(0x1b2)](getInfosUtilisateur,_0x5db0a1);if(_0x1cdb97<0x64)return _0x3d2fd3['hTjGN'](_0x55c3e4,_0x3d2fd3[_0x23b9dc(0x163)]);const _0x3e21cd=['🔴','🔵','🟣','🟢','🟡','⚪️','⚫️'],_0x17e0b3=Array[_0x23b9dc(0x19f)]({'length':0x3},()=>Array['from']({'length':0x3},()=>Math[_0x23b9dc(0x124)](Math[_0x23b9dc(0x19c)]()*_0x3e21cd[_0x23b9dc(0x174)]))),_0x30c9f2=_0x17e0b3[_0x23b9dc(0x167)](_0x41d1aa=>_0x41d1aa[_0x23b9dc(0x167)](_0x4defc5=>_0x3e21cd[_0x4defc5])),_0x4b0050=_0x30c9f2[_0x23b9dc(0x167)](_0x219c04=>_0x219c04[_0x23b9dc(0x1b4)]('\x20\x20\x20'))[_0x23b9dc(0x1b4)]('\x0a'),_0x2e6df5=(_0xe7d57b,_0x58f18e,_0x4a7415)=>_0xe7d57b===_0x58f18e&&_0x58f18e===_0x4a7415,_0x49ca6a=_0x3d2fd3[_0x23b9dc(0x122)](_0x2e6df5,_0x30c9f2[0x0][0x0],_0x30c9f2[0x0][0x1],_0x30c9f2[0x0][0x2])||_0x2e6df5(_0x30c9f2[0x1][0x0],_0x30c9f2[0x1][0x1],_0x30c9f2[0x1][0x2])||_0x3d2fd3[_0x23b9dc(0x156)](_0x2e6df5,_0x30c9f2[0x2][0x0],_0x30c9f2[0x2][0x1],_0x30c9f2[0x2][0x2])||_0x3d2fd3[_0x23b9dc(0x122)](_0x2e6df5,_0x30c9f2[0x0][0x0],_0x30c9f2[0x1][0x0],_0x30c9f2[0x2][0x0])||_0x3d2fd3['xPIyd'](_0x2e6df5,_0x30c9f2[0x0][0x1],_0x30c9f2[0x1][0x1],_0x30c9f2[0x2][0x1])||_0x3d2fd3[_0x23b9dc(0xe1)](_0x2e6df5,_0x30c9f2[0x0][0x2],_0x30c9f2[0x1][0x2],_0x30c9f2[0x2][0x2])||_0x3d2fd3['hQZoJ'](_0x2e6df5,_0x30c9f2[0x0][0x0],_0x30c9f2[0x1][0x1],_0x30c9f2[0x2][0x2])||_0x3d2fd3['xPIyd'](_0x2e6df5,_0x30c9f2[0x0][0x2],_0x30c9f2[0x1][0x1],_0x30c9f2[0x2][0x0]);if(_0x49ca6a){const _0x2d27e1=Math['floor'](_0x3d2fd3[_0x23b9dc(0x1c0)](Math['random'](),0x1388));return await _0x3d2fd3[_0x23b9dc(0x1ac)](modifierSolde,_0x5db0a1,_0x3d2fd3['pApUl'],_0x3d2fd3['oxgHt'](_0x2d27e1,0x2)),_0x3d2fd3[_0x23b9dc(0x1bb)](_0x55c3e4,_0x23b9dc(0x162)+_0x4b0050+_0x23b9dc(0xfb)+_0x3d2fd3[_0x23b9dc(0x113)](_0x2d27e1,0x2)+_0x23b9dc(0xfd));}else{const _0x1d6818=Math[_0x23b9dc(0x124)](_0x3d2fd3[_0x23b9dc(0x1c0)](Math['random'](),0x12c));return await _0x3d2fd3['PwUiK'](modifierSolde,_0x5db0a1,_0x3d2fd3[_0x23b9dc(0x148)],-_0x1d6818),_0x3d2fd3[_0x23b9dc(0x1bb)](_0x55c3e4,_0x23b9dc(0x162)+_0x4b0050+_0x23b9dc(0xe7)+_0x1d6818+_0x23b9dc(0x107));}}),ovlcmd({'nom_cmd':_0x336c53(0xd0),'classe':_0x336c53(0x1ca),'react':'🎁','desc':_0x336c53(0x175)},async(_0x5bde90,_0x2b7fdd,{auteur_Message:_0x18ff6b,repondre:_0x2cacb9})=>{const _0x6aab3e=_0x336c53,_0x38a561={'nKEMO':function(_0x5189bd,_0x34b28d){return _0x5189bd(_0x34b28d);},'NCjfa':function(_0x11d50e,_0x53eeff){return _0x11d50e*_0x53eeff;},'BkJiS':function(_0x36ff36,_0x2e9098){return _0x36ff36*_0x2e9098;},'Cmatl':function(_0x2a374a,_0x185490){return _0x2a374a-_0x185490;},'lvklG':function(_0x48e488,_0x2e4997){return _0x48e488-_0x2e4997;},'aBjfS':function(_0x482588,_0x2093a9){return _0x482588/_0x2093a9;},'mICvs':function(_0x254349,_0x3c27a0){return _0x254349%_0x3c27a0;},'DYQjF':function(_0x5616a8,_0x4e7286){return _0x5616a8/_0x4e7286;},'gdReJ':function(_0x461520,_0x357cbf){return _0x461520%_0x357cbf;},'flfbG':_0x6aab3e(0xec),'PqmlW':function(_0x257f17,_0x96293b){return _0x257f17>_0x96293b;},'xsfxR':function(_0x43c7cc,_0x30bbf8){return _0x43c7cc>_0x30bbf8;},'rGiDP':function(_0x4078be,_0x4c6321){return _0x4078be===_0x4c6321;},'cUXoy':function(_0x3bdf41,_0x2a4f0c){return _0x3bdf41+_0x2a4f0c;},'MpVKl':'\x20avant\x20de\x20réclamer\x20ton\x20prochain\x20bonus.','QvKHe':_0x6aab3e(0x170),'uFybb':_0x6aab3e(0xd1)},_0x2bc773=await ECONOMIE[_0x6aab3e(0x12d)]({'where':{'id':_0x18ff6b}}),_0x16a5e1=await _0x38a561['nKEMO'](getInfosUtilisateur,_0x18ff6b),_0x547c4d=Date[_0x6aab3e(0x101)](),_0x1e380a=_0x38a561[_0x6aab3e(0x134)](_0x38a561[_0x6aab3e(0x151)](0x2,0x3c),0x3c)*0x3e8;!_0x16a5e1['last_bonus']&&(_0x16a5e1[_0x6aab3e(0x172)]=0x0);const _0x5375d5=_0x38a561[_0x6aab3e(0xdb)](_0x547c4d,_0x16a5e1['last_bonus']);if(_0x5375d5<_0x1e380a){const _0x3bb8b7=_0x38a561[_0x6aab3e(0xd4)](_0x1e380a,_0x5375d5),_0x4a73ed=Math['floor'](_0x38a561[_0x6aab3e(0xed)](_0x3bb8b7,0x36ee80)),_0x3d53a3=Math['floor'](_0x38a561['aBjfS'](_0x38a561['mICvs'](_0x3bb8b7,0x36ee80),0xea60)),_0x2095e9=Math[_0x6aab3e(0x124)](_0x38a561[_0x6aab3e(0x126)](_0x38a561[_0x6aab3e(0x1a4)](_0x3bb8b7,0xea60),0x3e8));let _0x34e86a=_0x38a561['flfbG'];if(_0x38a561[_0x6aab3e(0x115)](_0x4a73ed,0x0))_0x34e86a+=_0x4a73ed+'\x20h\x20';if(_0x38a561['xsfxR'](_0x3d53a3,0x0))_0x34e86a+=_0x3d53a3+'\x20min\x20';if(_0x38a561[_0x6aab3e(0x115)](_0x2095e9,0x0)||_0x38a561[_0x6aab3e(0x149)](_0x4a73ed,0x0)&&_0x3d53a3===0x0)_0x34e86a+=_0x2095e9+_0x6aab3e(0x165);return _0x2cacb9(_0x38a561[_0x6aab3e(0x17b)](_0x34e86a['trim'](),_0x38a561['MpVKl']));}await modifierSolde(_0x18ff6b,_0x38a561[_0x6aab3e(0x1ce)],0x3e8),_0x2bc773['last_bonus']=_0x547c4d,await _0x2bc773[_0x6aab3e(0xfc)](),_0x38a561[_0x6aab3e(0x1ab)](_0x2cacb9,_0x38a561[_0x6aab3e(0x10f)]);}),ovlcmd({'nom_cmd':'don','classe':_0x336c53(0x1ca),'react':'🤝','desc':_0x336c53(0x106)},async(_0x2704d7,_0x3c355d,{arg:_0x3362c0,auteur_Message:_0x5d4b33,getJid:_0x390425,auteur_Msg_Repondu:_0x403df6,ms:_0x32aefd,repondre:_0x1f302d,prenium_id:_0x17aa22,dev_id:_0x3b7b9a})=>{const _0x136df4=_0x336c53,_0x3e139f={'WajTU':function(_0x5c28bc,_0x46617a){return _0x5c28bc(_0x46617a);},'WiYlm':function(_0x4876c2,_0x5b884d){return _0x4876c2(_0x5b884d);},'vyKUr':function(_0x1b1d38,_0x1f6cce,_0x3e068b,_0x6a4e36){return _0x1b1d38(_0x1f6cce,_0x3e068b,_0x6a4e36);},'USVMA':_0x136df4(0x12e),'ceYJj':function(_0x511ffe,_0x20d015){return _0x511ffe>_0x20d015;},'CulIY':_0x136df4(0x1a5),'mfEKe':function(_0x5eb67f,_0x425bf2,_0x5cb4e4,_0x1a3823){return _0x5eb67f(_0x425bf2,_0x5cb4e4,_0x1a3823);},'shMcV':_0x136df4(0x170)},_0x181db7=await _0x3e139f[_0x136df4(0x184)](getInfosUtilisateur,_0x5d4b33);if(!_0x17aa22)return _0x3e139f['WiYlm'](_0x1f302d,'Cette\x20commande\x20est\x20réservée\x20aux\x20utilisateurs\x20Premium.');let _0x2542d8=null;if(_0x403df6)_0x2542d8=_0x403df6;else _0x3362c0[0x0]?.[_0x136df4(0x1a7)]('@')&&(destinatairl=_0x3362c0[0x0][_0x136df4(0x152)]('@','')+'@lid',_0x2542d8=await _0x3e139f[_0x136df4(0x17f)](_0x390425,destinatairl,_0x2704d7,_0x3c355d));if(!_0x2542d8)return _0x1f302d(_0x3e139f['USVMA']);const _0x53bea6=parseInt(_0x403df6?_0x3362c0[0x0]:_0x3362c0[0x1]);if(!_0x53bea6||_0x53bea6<=0x0)return _0x3e139f[_0x136df4(0x1cf)](_0x1f302d,_0x136df4(0x1c2));const _0x1e1594=0xc350;if(_0x3e139f[_0x136df4(0x166)](_0x53bea6,_0x1e1594)&&!_0x3b7b9a)return _0x1f302d(_0x136df4(0xd2)+_0x1e1594+_0x136df4(0x10c));const _0x44159b=await ECONOMIE[_0x136df4(0x12d)]({'where':{'id':_0x2542d8}});if(!_0x44159b)return _0x3e139f[_0x136df4(0x184)](_0x1f302d,_0x3e139f[_0x136df4(0xf2)]);await _0x3e139f[_0x136df4(0x14c)](modifierSolde,_0x2542d8,_0x3e139f[_0x136df4(0x146)],_0x53bea6),await _0x3c355d[_0x136df4(0x16b)](_0x2704d7,{'text':_0x136df4(0x131)+_0x53bea6+_0x136df4(0x194)+_0x2542d8['split']('@')[0x0]+'\x20💸','mentions':[_0x2542d8]},{'quoted':_0x32aefd});});function _0x5e0a(){const _0x2e8548=['ipcFQPKk4PsdipcFK4KGkKzYywLZicGXjsKGoIOG','D2zorhy','yMfUCxvL','zMXVB3i','zMzQvKm','rfLrAKy','rxjYzxvYigXVCNmGzhuGDhjHBNnMzxj0idO','ug1vz0e','t1bKC00','ipcFQPKk8j+tPIaQqMfUCxvLigfJDhvLBgXLidOQia','CMv0CMfPDa','uSoPAw5PDgLHBgLZzsbSzsbJB21WDguGW6LJB25VBwLLigqNDw4GDxrPBgLZyxrLDxi','zMLUze9Uzq','twvUDgLVBM5LihvUihv0AwXPC2f0zxvYicPVDsOGCSoPCg9UzhmGW6aGC29Uig1LC3nHz2uGCg91CIbSDwKGzMfPCMuGDw4Gzg9UlG','mJaWmtyYwuvkq01t','4PwT4Psa4Psa4Psa4Psa8j+oKIaQt1zmluvdt04TlvKQipcFJPlILidILidILidILidILA4k4PsdipcFKAqGkLbZzxvKBYa6kIa','4PYfifr1igfZigrVBM7dQsaQ','Ahr0Chm6lY9MAwXLCY5JyxrIB3GUBw9Ll2rZzMjOBc5QCgC','v1jzz1a','tKnQzMe','vNrUBfG','8j+NRsbdAg9PC2LZihvUzsbKAxjLy3rPB24GDMfSAwrLidOGkMHHDxqSigjHCYWGz2f1y2HLig91igrYB2L0zsOUcKv4zw1WBguGoIbGCgfYAsaYmdaGz2f1y2HLya','wLDZAhm','kI4k4P2mifr1ihbLCMrZicO','yxbWBhK','8j+KT/cFJ73IGi3IMylVUi8GvgeGDMLJDgLTzsbLC3qGDhjVCcbWyxv2CMuUlI4GvhjVDxzLlxrVAsb1BMuGBwvPBgXLDxjLignPyMXLlG','y2fWywnPDgu','Cun5s2G','nJq3mZq1AMnVsMDt','EvnStMG','AMPTCKW','vw5LigvYCMv1CIbLC3qGC3vYDMvUDwuUievZC2fPzsbLBMnVCMuU','v1LSrLa','uuTzEKK','EgvHt2m','vhjHBNnMW6LYzxiGzgvZigzVBMrZigrLigXHigjHBNf1zsb2zxjZigXLihbVCNrLzMv1AwXSzq','ipcFQPKk4PsdipcFK6yGq2fWywnPDmoPidOG','C2Hny1y','CMv1C3nP','CefWvwW','CKDPrfa','uhjVzMLSigr1igrLC3rPBMf0ywLYzsbPBNrYB3v2ywjSzs4','mtmYmZe5nKnbue1xrG','Bwzfs2u','B1brq2y','vxnHz2uGoIb0CMfUC2zLCIbaDxrPBgLZyxrLDxiGBw9UDgfUDa','Agf1Da','rhjYufO','qMTkAvm','CMvWBgfJzq','CuDRBhG','vhuGzg9PCYbTAxnLCIbHDsbTB2LUCYa1mcdWN6QzlG','B0niquS','EfbjEwq','C2vHCMnO','yuzVq3G','8j+AKYbpDxbZiceGvhuGDcDLCYbMywL0igf0DhjHCgvYihbHCIbSysbWB2XPy2uUiefTzw5Kzsa6icO','zuT2Exm','A1LWA0S','rM9UzhmGAw5ZDwzMAxnHBNrZigrHBNmGDM90CMuGyMfUCxvLlG','rM9UzhmGAw5ZDwzMAxnHBNrZigrHBNmGBguGCg9YDgvMzxvPBgXLlG','tgzAEfi','zxjYB3i','cUkuGYdWN5gKicPfEhddQwrPDgv1CIa6kIa','cUkuGYdWN5k8icPqB3j0zwzLDwLSBguGoIOG','8j+oScaQuSoPC3vSDgf0kGO','Duv0qwG','vgLnv00','ihnLyW','y2vzsMO','BwfW','uw5RyNq','ipcFQPKPlG','nZi2otK5ze1mzxPg','C2vUze1LC3nHz2u','sxjUuKC','AM9IExm','BLjurhG','BuT1yuy','Cg9YDgvMzxvPBgXL','z0fYyKS','BgfZDf9IB251CW','vxnLCI0','BgvUz3rO','uSoPy2XHBwuGDw4GyM9UDxmGDg91DgvZigXLCYaYigHLDxjLCW','r01pBvK','y3jhvMm','ChnLDwrV','rxjYzxvYigrHBNmGBxLVDMXFzwnVBJO','ipcFKRGk4PsdipcFJ6yGkKjHBNf1zsa6kIa','y1vyB3K','kI4k4PYfifr1igDHz25LCYaQ','ipcFQPKk8j+sScaQq2/dU3qGoIOG','q1rAveG','DNLlvxi','ufPLDeq','A2Luwwy','4P2micPoAxzLyxuGAw52ywXPzguUkGOk8j+tPIaQtML2zwf1EcbKAxnWB25PyMXLCYaOrxG6ignHCgfJAxrLidePoIOk','B2fvCwm','v2fQvfu','y29UC3rYDwn0B3i','CNzsAeu','ufzgs08','uwL6yKG','y2fWywnPDgvFyMfUCxvL','4P2mieLTCg9ZC2LIBguGzguGDhjVDxzLCIbSj3v0AwXPC2f0zxvYlG','ywHutwK','ipcFQPKk8j+tIsaQrNjHAxmGkdeLksa6kIa','rw1uExa','8j+pPIaQrmoPCmo0DcbLzMzLy3r1W6KGyxzLyYbZDwnJW6HZiceQcVcFKRaGkK1VBNrHBNqGzmoPCg9ZW6KGoIOG','ipcFQPK','t1HMqu0','zMjVsLK','AeTJCeG','qwrwv2m','ihbPW6HJzxmQimoGiea','kcGOlISPkYKRksSK','CMfUzg9TqNL0zxm','DMzRDMG','ipcFQPKQlG','vuHYA1e','ic8G','r2DHA1e','CMfUzg9T','mtKXnte3nwX1zvneDW','ipcFQPKk8j+sTsaQtw9UDgfUDcbYzCoNDsa6kIa','zNjVBq','vMv1AwXSzxOGzw50CMvYihvUig1VBNrHBNqGDMfSAwrLimoGigtdQxbVC2vYlGPfEdOGzgvWB3qGmtaWma','CNbnsKG','4P2mifvUzsbLCNjLDxiGzxn0ihn1CNzLBNvLigXVCNmGzguGBgeGCSoPy3vWW6LYyxrPB24GzgvZigLUzM9YBwf0Aw9UCYddQwnVBM9TAxf1zxmU','cVcFLlKGtML2zwf1ia','z2rszuO','tcD1DgLSAxnHDgv1CIbTzw50Aw9UBSoPig4Nzxn0ihbHCYbLBNjLz2LZDhldQsbKyw5ZigXLihn5C3tdQg1LlG','zwnOB3vL','Aw5JBhvKzxm','4PwT4Psa4PsaipcFKRGGkLjfW4Dvierfifrsqu5trKvsvcOG8j+sUcdILidILidILA4k4PsdipcFLieGkLrYyw5ZzMvYDcbKzsbIyw5XDwuGW6aGyMfUCxvLkGRILimG8j+gLcaQvhjHBNnHy3rPB24GsuqGoIOG','zgLNzxn0','B05bDLm','BKTftu8','uhDvAuS','8j+sUcbgB25KCYbPBNn1zMzPC2fUDhmUieLSigzHDxqGkG','mtq0mdy5nKnNAMHbsa','ipcFP7ek4PwW4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4PwV','ywXJEfG','Buvft3K','AfrQr04','4PYficPdyxbHy2L0W6KGyw3dQwXPB3ldQwuGyxuGBML2zwf1ia','AM9PBG','D2zAyMC','vM91CYbUj2f2zxOGCgfZigWNyxv0B3jPC2f0Aw9UigqNzxJdQwn1DgvYignLDhrLignVBw1HBMrLlG','r0flCe4','CMvZzxrHy2nVDw50','vxrPBgLZyxrLDxiGAw50CM91DMfIBguGzgfUCYbSysbIyxnLigrLigrVBM7dQwvZlG','vgDOBuq','zerrC2O','twvUDgLVBM5LihvUihv0AwXPC2f0zxvYihzHBgLKzsbVDsbYW6LWB25KCYddOcbZB24GBwvZC2fNzs4krxGGoIaQDM9Sieb1C2vYkIbVDsaQDM9SkIbLBIbYW6LWB25ZzsddOcb1BIbTzxnZywDLlG','cUkuGYdWN4AuicPjzgvUDgLMAwfUDca6kIa','rLDiExe','zw50CMLLCW','C0vhExq','DLLRCvy','tw9UDgfUDcbPBNzHBgLKzs4','Agv4','te1TDNm','Dg9tDhjPBMC','4PQG77Ipief1y3vUzsbPBMzVCM1HDgLVBIb0CM91DSoPzsbWB3vYignLDcb1DgLSAxnHDgv1CI4','D1nMC3K','ywfJDeO','q2uGzmoPCmo0DcbKW6LWyxnZzxjHAxqGBgeGy2fWywnPDmoPigrLihzVDhjLigjHBNf1zsaO','t1zmluvdt04TlxK','q2T6Dge','vw5LigvYCMv1CIbLC3qGC3vYDMvUDwuUifldQwvZC2f5zxOGCgX1CYb0yxjKlG','ALvrrfa','uxzlsgu','v2LzBg0','EhnPD1K','CgfYAq','q2uGDhjHBNnMzxj0igtdQxbHC3nLCMfPDcbSysbJyxbHy2L0W6KGzhuGzgvZDgLUyxrHAxjLicG','yM9UDxm','8j+oIsbuDsbHCYbYzCoNDsaQmtaWmcbWACoOy2vZkIaHifjLDMLLBNmGzgfUCYaYAcbWB3vYihvUigf1DhjLigjVBNvZlG','vhuGBMuGCgv1EcbWyxmGzg9UBMvYihbSDxmGzguGkG','vM91CYbUzsbWB3v2zxOGCgfZihzVDxmGDhjHBNnMW6LYzxiGzguGBcDHCMDLBNqGW6aGDM91CY1TW6PTzs4','BhzRBeC','DMvgAgK','Ahr0Chm6lY9MAwXLCY5JyxrIB3GUBw9Ll3fPENv4AY5QCgC','8j+sUcbuDsbKB2LZigf2B2LYigf1ig1VAw5ZideWmdaG8j+QMsbWB3vYihrLBNrLCIb1BIb2B2WGkgf1ignHCYbVW7KGDhuGDguGzMfPCYbHDhrYyxbLCIKU','8j+vTU+4JW','ugfYAwvYigrLigWNyxjNzw50igvUigrLDMLUyw50ihvUzsbKAxjLy3rPB24','qxvNBwvUDgvYigXHignHCgfJAxrLigrLigXHigjHBNf1zq','q21HDgW','Ahr0Chm6lY93ywXSCgfWzxjJyxzLlMnVBs91D3aVDxDWndGYmdy5nc5QCgvN','sw1WB3nZAwjSzsbKzsb0CM91DMvYigXLCYbWCM9MAwXZigrLCYb1DgLSAxnHDgv1CNmU','vhjHBNnMW6LYzxiGzgvZigzVBMrZigr1ihbVCNrLzMv1AwXSzsb2zxjZigXHigjHBNf1zq','z2f1y2HL','wKjKzgi','AffAB0O','8j+sScbuDsbHCYbIzxnVAw4GzcDHDsbTB2LUCYaXmdaG8j+QMsbWB3vYigPVDwvYlG','Aw1Hz2u','sMjwz1O','twvYy2KGzguGBwvUDgLVBM5LCIb1BIb1DgLSAxnHDgv1CIb2ywXPzguGkebUDw3dQxjVks4','vMv1AwXSzxOGBwvUDgLVBM5LCIb1BIb1DgLSAxnHDgv1CIbVDsbYW6LWB25KCMuGW6aGC29Uig1LC3nHz2uUcKv4oIbYzxnLDgfJy291BNqGqhvZzxi','cGRWN5ojicPuDsbWzxjKCYa','ipcFQPKQigrHBNmGBguGCg9YDgvMzxvPBgXLlG','8j+oIsaQqNjHDM8GisOGtgeGzgLYzwn0Aw9UimoPDgfPDcaQ','8j+yKYaQuMf0W6KGisOGtgeGzgLYzwn0Aw9UignVCNjLy3rLimoPDgfPDcaQ','z0rTzeC','4O+Zifr1igrVAxmGyxr0zw5KCMuGzw5JB3jLia','yujQzLm','y3j5ChrV','vgvUDgvYigrLihzVBgvYihvUigf1DhjLihv0AwXPC2f0zxvY','sM91zxiGW6aGBgeGBwfJAgLUzsddOcbZB3vZ','CNDjDeS','q3vSsvK','ipcFQPKk4PsdipcFK4uGkKrHDguGoIOG','De50BgK','ipcFQPKk4PsdipcFJ6yGqMfUCxvLidOG','qLP0yxC','ipcFQPKQice','CM5OAw4','rgfguNa','rMvkrKC','cGRWN46jicPkywnRCg90iceGvhuGz2fNBMvZia','C2f2zq','ipcFQPKQ','CeXMzwq','ipcFQPKk4PsdipcFK4GGkKnHCgfJAxtdQsbcyw5XDwuGoIOG','AxnKruy','BM93','yvH5Ahu','B3Luq0C','ALj5D3a','lI4Vrgf0yujHC2uVzwnVBM9TAwu','ugvYBwv0imoGihvUifbYzw1PDw0GzguGzg9UBMvYigrLCYbWACoOy2vZimoGihvUigf1DhjLihv0AwXPC2f0zxvY','ipcFQPKUlI4Q','iokgKIdWN5kWia','sfnOA2m','yLbnuhu','uhjVzMLSigrLigWNzxHWW6LKAxrLDxiGAw50CM91DMfIBguU','ihbPW6HJzxmQlG','nduZntyYoxL6rfPiCa','CgvStwW','Duz5yMi','z2HAy2C','Cu5Ps0y','cUkuGYdWN5kWicPnB250yw50igvUDM95W6KGoIOG','se1YEMC','yxr0CMfWzq','uhfTBfC','twXpq2i','sw5JB25UDq','C1H4reS','zgvWB3q','ANnjrMW','CKzvswC','4PYfieXLignVBxb0zsddQwnVBM9TAwuGzguGBcD1DgLSAxnHDgv1CIbHigjPzw4GW6L0W6KGCSoPAw5PDgLHBgLZW6KGoGRILA3ILidILiaG8j+sVcaQuKvtrvqGrunptK9nsuuQiokuGokuGokvRGRILimG8j+rPcbvDgLSAxnHDgv1CIa6ia','qgXPza','AwTyyxm','Dg9mB3DLCKnHC2u','qwzMAwnOzxiGDM90CMuGCg9YDgvMzxvPBgXLigv0igjHBNf1zq'];_0x5e0a=function(){return _0x2e8548;};return _0x5e0a();}
+const { ovlcmd } = require("../lib/ovlcmd");
+const {
+  modifierSolde,
+  getInfosUtilisateur,
+  resetEconomie,
+  mettreAJourCapaciteBanque,
+  ECONOMIE,
+  TopBanque,
+} = require("../DataBase/economie");
+const crypto = require("crypto");
+function generateUserId(v1) {
+  const v2 = crypto.createHash("md5").update(v1).digest("hex");
+  return "User-" + v2.slice(0, 6);
+}
+function generateTransactionId() {
+  return crypto.randomBytes(4).toString("hex").toUpperCase();
+}
+ovlcmd(
+  {
+    nom_cmd: "myecon",
+    desc: "Afficher votre portefeuille et banque",
+    react: "💰",
+    classe: "OVL-ECON--y",
+  },
+  async (dest, ovl, { ms, getJid, arg, auteur_Message, auteur_Msg_Repondu, repondre: repondre2 }) => {
+    try {
+      const v1 =
+        (arg[0]?.includes("@") && arg[0].replace("@", "") + "@lid") || auteur_Msg_Repondu || auteur_Message;
+      const v2 = await getJid(v1, dest, ovl);
+      if (!v2) {
+        return await repondre2("❌ Impossible de trouver l'utilisateur.");
+      }
+      let v3 = "https://wallpapercave.com/uwp/uwp4820694.jpeg";
+      try {
+        v3 = await ovl.profilePictureUrl(v2, "image");
+      } catch {}
+      const v4 = await getInfosUtilisateur(v2);
+      if (!v4) {
+        return await repondre2("⚠️ Aucune information trouvée pour cet utilisateur.");
+      }
+      const v5 = v4.pseudo || "Inconnu";
+      const v6 = v4.portefeuille ?? 0;
+      const v7 = v4.banque ?? 0;
+      const v8 = v4.capacite_banque ?? 10000;
+      const v9 = generateUserId(v2);
+      const v10 =
+        "╭────🎒 *OVL-ECON--Y* 🎒────╮\n┃ 👤 *Pseudo :* " +
+        v5 +
+        "\n┃ 🆔 *Identifiant :* " +
+        v9 +
+        "\n┃ 💼 *Portefeuille :* " +
+        v6 +
+        " 💸\n┃ 🏦 *Banque :* " +
+        v7 +
+        " 🪙\n┃ 📈 *Capacité Banque :* " +
+        v8 +
+        " 🧱\n╰─────────────────────╯";
+      await ovl.sendMessage(
+        dest,
+        {
+          image: {
+            url: v3,
+          },
+          caption: v10,
+        },
+        {
+          quoted: ms,
+        },
+      );
+    } catch (e) {
+      console.error("Erreur dans myovl_econ:", e);
+      await repondre2("❌ Une erreur est survenue lors de la récupération des informations économiques.");
+    }
+  },
+);
+ovlcmd(
+  {
+    nom_cmd: "transfer",
+    desc: "Transférer de l'argent de votre banque vers la banque d'un autre utilisateur",
+    react: "💸",
+    classe: "OVL-ECON--y",
+  },
+  async (dest, ovl, ctx) => {
+    const { ms, arg, auteur_Message, repondre: repondre2, getJid } = ctx;
+    if (arg.length < 2) {
+      return repondre2("Usage : transfer @utilisateur montant");
+    }
+    const v1 = arg[0].includes("@") ? arg[0].replace("@", "") + "@lid" : null;
+    const v2 = await getJid(v1, dest, ovl);
+    if (!v2) {
+      return repondre2("Merci de mentionner un utilisateur valide (@numéro).");
+    }
+    if (v2 === auteur_Message) {
+      return repondre2("Vous ne pouvez pas vous transférer de l'argent à vous-même.");
+    }
+    const v3 = parseInt(arg[1]);
+    if (isNaN(v3) || v3 <= 0) {
+      return repondre2("Le montant doit être un nombre entier positif.");
+    }
+    try {
+      const v12 = await getInfosUtilisateur(auteur_Message);
+      const v22 = await getInfosUtilisateur(v2);
+      if (!v12) {
+        return repondre2("Profil de l'expéditeur introuvable.");
+      }
+      if (!v22) {
+        return repondre2("Profil du destinataire introuvable.");
+      }
+      if (v12.banque < v3) {
+        return repondre2("Fonds insuffisants dans votre banque.");
+      }
+      const v32 = Math.floor(v3 * 0.99);
+      if (v22.banque + v32 > v22.capacite_banque) {
+        return repondre2(
+          "Ce transfert dépasserait la capacité du destinataire (" + v22.capacite_banque + " 🪙).",
+        );
+      }
+      await modifierSolde(auteur_Message, "banque", -v3);
+      await modifierSolde(v2, "banque", v32);
+      const v4 = generateTransactionId();
+      const v5 =
+        "╭── 💸 *REÇU DE TRANSFERT* 💸 ──╮\n┃ 🔁 *Transfert de banque à banque*\n┃ 🆔 *Transaction ID :* " +
+        v4 +
+        "\n┃ 👤 *Expéditeur :* " +
+        (v12.pseudo || "Inconnu") +
+        "\n┃ 👥 *Destinataire :* " +
+        (v22.pseudo || "Inconnu") +
+        "\n┃ 💰 *Montant envoyé :* " +
+        v3 +
+        " 🪙\n┃ 📉 *Frais (1%) :* " +
+        (v3 - v32) +
+        " 🪙\n┃ 📥 *Montant reçu :* " +
+        v32 +
+        " 🪙\n┃ 📅 *Date :* " +
+        new Date().toLocaleString() +
+        "\n╰─────────────────────────╯";
+      return repondre2(v5);
+    } catch (e) {
+      console.error("Erreur lors du transfert :", e);
+      return repondre2("Une erreur est survenue. Réessayez plus tard.");
+    }
+  },
+);
+ovlcmd(
+  {
+    nom_cmd: "resetaccount",
+    classe: "OVL-ECON--y",
+    react: "♻️",
+    desc: "Réinitialise le compte économie d'un utilisateur",
+  },
+  async (dest, ovl, { arg, prenium_id, getJid, auteur_Msg_Repondu }) => {
+    if (!prenium_id) {
+      return repondre("Vous n'avez pas l'autorisation d'exécuter cette commande.");
+    }
+    const v1 = (arg[0]?.includes("@") && arg[0].replace("@", "") + "@lid") || auteur_Msg_Repondu;
+    const v2 = await getJid(v1, dest, ovl);
+    if (!v2) {
+      repondre("Veuillez mentionner un utilisateur ou répondre à son message.\nEx: resetaccount @user");
+    }
+    const v3 = await resetEconomie(v2, {
+      wallet: true,
+      banque: true,
+      capacite: true,
+    });
+    if (!v3) {
+      return repondre("Utilisateur introuvable dans la base de données.");
+    }
+    const v4 = generateUserId(v2);
+    const v5 =
+      "✅ Le compte économie de l'utilisateur a bien été réinitialisé :\n╭── 💼 *RESET ECONOMIE* ──╮\n┃ 👤 Utilisateur : " +
+      (v3.pseudo || "Inconnu") +
+      "\n┃ 🆔 ID : " +
+      v4 +
+      "\n┃ 💰 Portefeuille : " +
+      v3.portefeuille +
+      " 🪙\n┃ 🏦 Banque : " +
+      v3.banque +
+      " 🪙\n┃ 📦 Capacité : " +
+      v3.capacite_banque +
+      "\n╰──────────────────────╯";
+    await repondre(v5);
+  },
+);
+const prixCapacite = {
+  1: {
+    montant: 10000,
+    capacite: 100000,
+  },
+  2: {
+    montant: 100000,
+    capacite: 1000000,
+  },
+  3: {
+    montant: 1000000,
+    capacite: 10000000,
+  },
+  4: {
+    montant: 10000000,
+    capacite: 100000000,
+  },
+  5: {
+    montant: 100000000,
+    capacite: 1000000000,
+  },
+};
+ovlcmd(
+  {
+    nom_cmd: "capacite",
+    classe: "OVL-ECON--y",
+    react: "📦",
+    desc: "Augmenter la capacite de la banque",
+  },
+  async (dest, ovl, { arg, auteur_Message, repondre: repondre2 }) => {
+    const v1 = parseInt(arg[0]);
+    if (!v1 || !prixCapacite[v1]) {
+      let v12 = "❌ *Niveau invalide.*\n\n📦 *Niveaux disponibles (Ex: capacite 1):*\n";
+      for (const [v13, { montant, capacite }] of Object.entries(prixCapacite)) {
+        v12 += "\n🔹 Niveau " + v13 + " → 💰 " + montant + " 🪙 → 📈 Capacité : " + capacite + " 🪙";
+      }
+      return repondre2(v12);
+    }
+    const v2 = await getInfosUtilisateur(auteur_Message);
+    const { portefeuille } = v2;
+    const { montant, capacite } = prixCapacite[v1];
+    if (portefeuille < montant) {
+      return repondre2("💸 Fonds insuffisants. Il faut *" + montant + " 🪙* dans le portefeuille.");
+    }
+    await modifierSolde(auteur_Message, "portefeuille", -montant);
+    await mettreAJourCapaciteBanque(auteur_Message, capacite);
+    repondre2(
+      "✅ *Capacité améliorée au niveau " +
+        v1 +
+        "*\n📦 *Nouvelle capacité :* " +
+        capacite +
+        " 🪙\n💰 *Coût :* " +
+        montant +
+        " 🪙",
+    );
+  },
+);
+ovlcmd(
+  {
+    nom_cmd: "depot",
+    classe: "OVL-ECON--y",
+    react: "🏦",
+    desc: "Transférer des fonds du portefeuille vers la banque",
+  },
+  async (dest, ovl, { arg, auteur_Message, repondre: repondre2 }) => {
+    const v1 = parseInt(arg[0]);
+    if (!v1 || v1 <= 0) {
+      return repondre2("Veuillez entrer un montant valide à déposer.\nEx: depot 1000");
+    }
+    const v2 = await getInfosUtilisateur(auteur_Message);
+    const { portefeuille, banque, capacite_banque } = v2;
+    if (portefeuille < v1) {
+      return repondre2("Fonds insuffisants dans le portefeuille.");
+    }
+    if (banque + v1 > capacite_banque) {
+      return repondre2("Ce dépôt dépasserait la capacité de votre banque (" + capacite_banque + " 🪙).");
+    }
+    await modifierSolde(auteur_Message, "portefeuille", -v1);
+    await modifierSolde(auteur_Message, "banque", v1);
+    repondre2(
+      "🏦 *Dépôt effectué avec succès !*\n💰 *Montant déposé :* " +
+        v1 +
+        " 🪙\n📦 *Banque actuelle :* " +
+        (banque + v1) +
+        " / " +
+        capacite_banque +
+        " 🪙",
+    );
+  },
+);
+ovlcmd(
+  {
+    nom_cmd: "retrait",
+    classe: "OVL-ECON--y",
+    react: "💼",
+    desc: "Transférer des fonds de la banque vers le portefeuille",
+  },
+  async (dest, ovl, { arg, auteur_Message, repondre: repondre2 }) => {
+    const v1 = parseInt(arg[0]);
+    if (!v1 || v1 <= 0) {
+      return repondre2("Veuillez entrer un montant valide à retirer.\nEx: retrait 1000");
+    }
+    const v2 = await getInfosUtilisateur(auteur_Message);
+    const { portefeuille, banque } = v2;
+    if (banque < v1) {
+      return repondre2("Fonds insuffisants dans la banque.");
+    }
+    const v3 = Math.floor(v1 * 0.99);
+    const v4 = v1 - v3;
+    await modifierSolde(auteur_Message, "banque", -v1);
+    await modifierSolde(auteur_Message, "portefeuille", v3);
+    repondre2(
+      "💼 *Retrait effectué avec succès !*\n💰 *Montant demandé :* " +
+        v1 +
+        " 🪙\n📉 *Frais (1%) :* " +
+        v4 +
+        " 🪙\n💵 *Montant reçu :* " +
+        v3 +
+        " 🪙\n👛 *Portefeuille actuel :* " +
+        (portefeuille + v3) +
+        " 🪙",
+    );
+  },
+);
+ovlcmd(
+  {
+    nom_cmd: "vol",
+    desc: "Tenter de voler un autre utilisateur",
+    react: "🕶️",
+    classe: "OVL-ECON--y",
+  },
+  async (dest, ovl, { repondre: repondre2, auteur_Msg_Repondu, getJid, auteur_Message, arg, ms }) => {
+    let v1 = null;
+    if (auteur_Msg_Repondu) {
+      v1 = auteur_Msg_Repondu;
+    } else if (arg[0]?.includes("@")) {
+      victimeIdl = arg[0].replace("@", "") + "@lid";
+      v1 = await getJid(victimeIdl, dest, ovl);
+    }
+    if (!v1) {
+      return repondre2(
+        "Mentionne un utilisateur valide ou réponds à son message.\nEx : *vol @user* ou *vol* en réponse à un message.",
+      );
+    }
+    if (v1 === auteur_Message) {
+      return repondre2("Tu ne peux pas te voler toi-même, voleur paresseux 😒.");
+    }
+    const v2 = await getInfosUtilisateur(auteur_Message);
+    const v3 = await getInfosUtilisateur(v1);
+    if (!v2 || !v3) {
+      return repondre2("Impossible de trouver les profils des utilisateurs.");
+    }
+    if (v2.portefeuille < 1000) {
+      return repondre2(
+        "💸 Tu dois avoir au moins 1000 🪙 pour tenter un vol (au cas où tu te fais attraper).",
+      );
+    }
+    if (v3.portefeuille < 1000) {
+      return repondre2("🤷🏽‍♂️ Ta victime est trop pauvre... Trouve-toi une meilleure cible.");
+    }
+    const v4 = ["echoue", "reussi", "attrape"];
+    const v5 = v4[Math.floor(Math.random() * v4.length)];
+    switch (v5) {
+      case "echoue":
+        return repondre2("😬 Ta victime s'est échappée ! Sois plus intimidant la prochaine fois.");
+      case "reussi": {
+        const v12 = Math.floor(Math.random() * 1000) + 100;
+        await modifierSolde(v1, "portefeuille", -v12);
+        await modifierSolde(auteur_Message, "portefeuille", v12);
+        return repondre2("🤑 Vol réussi ! Tu as volé *" + v12 + " 🪙* à ta victime.");
+      }
+      case "attrape": {
+        const v12 = Math.floor(Math.random() * 1000) + 100;
+        await modifierSolde(auteur_Message, "portefeuille", -v12);
+        return repondre2("🚓 Oups ! Tu t'es fait attraper par la police. Amende : *" + v12 + " 🪙*.");
+      }
+      default:
+        return repondre2("Une erreur est survenue. Essaie encore.");
+    }
+  },
+);
+ovlcmd(
+  {
+    nom_cmd: "pari",
+    desc: "Parier de l'argent en devinant une direction",
+    react: "🎲",
+    classe: "OVL-ECON--y",
+  },
+  async (dest, ovl, { repondre: repondre2, auteur_Message, arg, ms }) => {
+    const v1 = parseInt(arg[0]);
+    const v2 = arg[1]?.toLowerCase();
+    const v3 = ["haut", "bas", "gauche", "droite"];
+    if (!v1 || v1 < 50) {
+      return repondre2("Tu dois miser au moins 50 🪙.");
+    }
+    if (!v2 || !v3.includes(v2)) {
+      return repondre2(
+        "🧭 Choisis une direction valide : *haut, bas, gauche ou droite*.\nExemple : `pari 200 gauche`",
+      );
+    }
+    const v4 = await getInfosUtilisateur(auteur_Message);
+    if (v4.portefeuille < v1) {
+      return repondre2("💸 Fonds insuffisants dans ton portefeuille.");
+    }
+    const v5 = v3[Math.floor(Math.random() * v3.length)];
+    const v6 = v5;
+    const v7 = {
+      haut: "https://files.catbox.moe/j0wmsd.jpg",
+      bas: "https://files.catbox.moe/qizuxk.jpg",
+      gauche: "https://files.catbox.moe/lj7xmc.jpg",
+      droite: "https://files.catbox.moe/dsfbhl.jpg",
+    };
+    await ovl.sendMessage(
+      dest,
+      {
+        image: {
+          url: v7[v6],
+        },
+        caption: "",
+      },
+      {
+        quoted: ms,
+      },
+    );
+    if (v2 === v5) {
+      const v12 = v1 * 2;
+      await modifierSolde(auteur_Message, "portefeuille", v12);
+      return repondre2("🎉 *Bravo !* La direction était *" + v5 + "*.\n✅ Tu gagnes *" + v12 + " 🪙* !");
+    } else {
+      await modifierSolde(auteur_Message, "portefeuille", -v1);
+      return repondre2("😓 *Raté !* La direction correcte était *" + v5 + "*.\n❌ Tu perds *" + v1 + " 🪙*.");
+    }
+  },
+);
+ovlcmd(
+  {
+    nom_cmd: "slot",
+    desc: "Jouer à la machine à sous",
+    react: "🎰",
+    classe: "OVL-ECON--y",
+  },
+  async (dest, ovl, { auteur_Message, repondre: repondre2 }) => {
+    const { portefeuille } = await getInfosUtilisateur(auteur_Message);
+    if (portefeuille < 100) {
+      return repondre2("💰 Tu as besoin d'au moins 100 🪙 pour jouer.");
+    }
+    const v1 = ["🔴", "🔵", "🟣", "🟢", "🟡", "⚪️", "⚫️"];
+    const v2 = Array.from(
+      {
+        length: 3,
+      },
+      () =>
+        Array.from(
+          {
+            length: 3,
+          },
+          () => Math.floor(Math.random() * v1.length),
+        ),
+    );
+    const v3 = v2.map(v12 => v12.map(v13 => v1[v13]));
+    const v4 = v3.map(v12 => v12.join("   ")).join("\n");
+    const v5 = (v12, v22, v32) => v12 === v22 && v22 === v32;
+    const v6 =
+      v5(v3[0][0], v3[0][1], v3[0][2]) ||
+      v5(v3[1][0], v3[1][1], v3[1][2]) ||
+      v5(v3[2][0], v3[2][1], v3[2][2]) ||
+      v5(v3[0][0], v3[1][0], v3[2][0]) ||
+      v5(v3[0][1], v3[1][1], v3[2][1]) ||
+      v5(v3[0][2], v3[1][2], v3[2][2]) ||
+      v5(v3[0][0], v3[1][1], v3[2][2]) ||
+      v5(v3[0][2], v3[1][1], v3[2][0]);
+    if (v6) {
+      const v12 = Math.floor(Math.random() * 5000);
+      await modifierSolde(auteur_Message, "portefeuille", v12 * 2);
+      return repondre2("🎰 *Résultat*\n" + v4 + "\n\n🎉 *Jackpot ! Tu gagnes " + v12 * 2 + " 🪙*");
+    } else {
+      const v12 = Math.floor(Math.random() * 300);
+      await modifierSolde(auteur_Message, "portefeuille", -v12);
+      return repondre2("🎰 *Résultat*\n" + v4 + "\n\n📉 *Tu perds " + v12 + " 🪙...*");
+    }
+  },
+);
+ovlcmd(
+  {
+    nom_cmd: "bonus",
+    classe: "OVL-ECON--y",
+    react: "🎁",
+    desc: "Réclame un bonus toutes les 2 heures",
+  },
+  async (dest, ovl, { auteur_Message, repondre: repondre2 }) => {
+    const v1 = await ECONOMIE.findOne({
+      where: {
+        id: auteur_Message,
+      },
+    });
+    const v2 = await getInfosUtilisateur(auteur_Message);
+    const v3 = Date.now();
+    const v4 = 7200000;
+    if (!v2.last_bonus) {
+      v2.last_bonus = 0;
+    }
+    const v5 = v3 - v2.last_bonus;
+    if (v5 < v4) {
+      const v12 = v4 - v5;
+      const v22 = Math.floor(v12 / 3600000);
+      const v32 = Math.floor((v12 % 3600000) / 60000);
+      const v42 = Math.floor((v12 % 60000) / 1000);
+      let v52 = "⏳ Tu dois attendre encore ";
+      if (v22 > 0) {
+        v52 += v22 + " h ";
+      }
+      if (v32 > 0) {
+        v52 += v32 + " min ";
+      }
+      if (v42 > 0 || (v22 === 0 && v32 === 0)) {
+        v52 += v42 + " sec";
+      }
+      return repondre2(v52.trim() + " avant de réclamer ton prochain bonus.");
+    }
+    await modifierSolde(auteur_Message, "portefeuille", 1000);
+    v1.last_bonus = v3;
+    await v1.save();
+    repondre2("🎉 Tu as reçu *1000 pièces* ! Reviens dans 2h pour un autre bonus.");
+  },
+);
+ovlcmd(
+  {
+    nom_cmd: "don",
+    classe: "OVL-ECON--y",
+    react: "🤝",
+    desc: "Permet à un Premium de donner des pièces à un autre utilisateur",
+  },
+  async (
+    dest,
+    ovl,
+    { arg, auteur_Message, getJid, auteur_Msg_Repondu, ms, repondre: repondre2, prenium_id, dev_id },
+  ) => {
+    const v1 = await getInfosUtilisateur(auteur_Message);
+    if (!prenium_id) {
+      return repondre2("Cette commande est réservée aux utilisateurs Premium.");
+    }
+    let v2 = null;
+    if (auteur_Msg_Repondu) {
+      v2 = auteur_Msg_Repondu;
+    } else if (arg[0]?.includes("@")) {
+      destinatairl = arg[0].replace("@", "") + "@lid";
+      v2 = await getJid(destinatairl, dest, ovl);
+    }
+    if (!v2) {
+      return repondre2("Mentionne un utilisateur *ou* réponds à son message pour lui faire un don.");
+    }
+    const v3 = parseInt(auteur_Msg_Repondu ? arg[0] : arg[1]);
+    if (!v3 || v3 <= 0) {
+      return repondre2("Montant invalide.");
+    }
+    const v4 = 50000;
+    if (v3 > v4 && !dev_id) {
+      return repondre2("Tu ne peux pas donner plus de *" + v4 + " pièces*.");
+    }
+    const v5 = await ECONOMIE.findOne({
+      where: {
+        id: v2,
+      },
+    });
+    if (!v5) {
+      return repondre2("L'utilisateur mentionné n'est pas enregistré dans le système.");
+    }
+    await modifierSolde(v2, "portefeuille", v3);
+    await ovl.sendMessage(
+      dest,
+      {
+        text: "✅ Tu as donné *" + v3 + " pièces* à @" + v2.split("@")[0] + " 💸",
+        mentions: [v2],
+      },
+      {
+        quoted: ms,
+      },
+    );
+  },
+);

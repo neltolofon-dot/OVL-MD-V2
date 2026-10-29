@@ -1,1 +1,103 @@
-const _0x2fd258=_0x3eed;(function(_0xac7d95,_0x34feb8){const _0x25c4b0=_0x3eed,_0x1dea28=_0xac7d95();while(!![]){try{const _0x4ed031=parseInt(_0x25c4b0(0x102))/0x1+parseInt(_0x25c4b0(0x128))/0x2+parseInt(_0x25c4b0(0x11b))/0x3*(-parseInt(_0x25c4b0(0x10a))/0x4)+parseInt(_0x25c4b0(0xf1))/0x5+-parseInt(_0x25c4b0(0xf4))/0x6+-parseInt(_0x25c4b0(0xfe))/0x7+parseInt(_0x25c4b0(0x11e))/0x8*(parseInt(_0x25c4b0(0xee))/0x9);if(_0x4ed031===_0x34feb8)break;else _0x1dea28['push'](_0x1dea28['shift']());}catch(_0x26a088){_0x1dea28['push'](_0x1dea28['shift']());}}}(_0xb6c6,0x5afd4));const _0x423cb1=(function(){let _0x25a1ce=!![];return function(_0x53b2ae,_0x1cb1f4){const _0x5d961a=_0x25a1ce?function(){if(_0x1cb1f4){const _0x4dd1d6=_0x1cb1f4['apply'](_0x53b2ae,arguments);return _0x1cb1f4=null,_0x4dd1d6;}}:function(){};return _0x25a1ce=![],_0x5d961a;};}()),_0x5607e0=_0x423cb1(this,function(){const _0x476b0d=_0x3eed,_0x5b072c={'vCtsf':_0x476b0d(0xfb)};return _0x5607e0[_0x476b0d(0x108)]()[_0x476b0d(0x10f)](_0x5b072c[_0x476b0d(0xf0)])['toString']()[_0x476b0d(0x118)](_0x5607e0)[_0x476b0d(0x10f)](_0x476b0d(0xfb));});_0x5607e0();const fs=require('fs'),path=require(_0x2fd258(0xf5)),{delay,DisconnectReason,jidDecode}=require(_0x2fd258(0x11d)),{execSync}=require('child_process');function _0xb6c6(){const _0x2e3845=['AM9PBG','mtiWmZyZmZCXmJGYntC3odq3qg5LD3nSzxr0zxi','y2XVC2u','nJG0mZq4BvrlExzo','DxnLCG','Bg9Nz2vKt3v0','lI4VBgLIl3bSDwDPBG','lI4VBgLIl21HBMfNzv9LBNy','nJm1otm1nxr5rNLirW','vhPNvgm','DKn0C2y','mJm4ndK4mgfbywrtEq','4PwT4Psa4Psa4Psa44cuipcFPjyG8j2zIVcDMzhWNzMhipcDMl3WNzMk8j2zJYdJGjxILidILidILidIRkmk4Pscin+3icPfDgf0kIaGicaGicdINPWGq29UBMvJDmoPiokCHqRILiiG37CGkLbYW6LMAxHLkIaGicdINPWG','4PYfifzHCMLHyMXLCYbZEw5JAhjVBMLZW6LLCY4','mZmYnZy2mhvpyMzpAa','Cgf0Aa','AxDKvhq','BgvUz3rO','C2vUze1LC3nHz2u','u3zSwKy','ANPVEva','kcGOlISPkYKRksSK','s3vYAMC','Aw5OzxjPDa','mtG2nJqXsvz6yvnx','y29UBMvJDgLUzW','BwvZC2fNzq','wKDxu24','mta3ndaXCMXXq3nR','zef2rKG','8j+mJsbdB25UzxHPB24Gzw4Gy291CNmUlI4','B3v0Chv0','lI4VCgfJA2fNzq','u2zXD2y','Dg9tDhjPBMC','C3rHDhvZq29Kzq','nhHxsNjLtW','vxLos3e','8j+uHcbtEw5JAhjVBMLZyxrPB24GzgvZihzHCMLHyMXLCYbKj2vUDMLYB25Uzw1LBNqUlI4','C2vYDMvY','4PQG77IpienVBM5LEgLVBIbWzxjKDwuSihjLy29UBMv4Aw9UlI4U','C2vHCMnO','A2v5CW','4P2mievYCMv1CIbPBNn0ywXSyxrPB24GBNbTidO','zxjYB3i','CwDnA1u','cUkuGIdFTYaQtw9KzsOGicaGicaG4P6Cia','cUkuGIdFTYaQrmoPDMvSB3bWzxvYkUkENcbbAw56cUkvSokuGokuGokuGokuGokuGokuGokuGokuGokuGokuGokuGokuGokuGokuGokSOW','4PYfietdQxbLBMrHBMnLCYbPBNn0ywXSW6LLCY4','CMvZB2X2zq','y29UC3rYDwn0B3i','q3b4B3u','z0zewuy','mJaZnZyWm1PVEw5ZyW','t2H6Cg0','qhDOAxnRzxLZB2nRzxrZl2jHAwXLExm','oe91wwPzrG','Bg9N','lI4VBgLIl292BgnTza','y21K','cUkuGIdFTYaQvMvYC2LVBIOGicaG4P6Cia','lI4VCgfJA2fNzs5QC29U','zgv2rgvWzw5Kzw5JAwvZ'];_0xb6c6=function(){return _0x2e3845;};return _0xb6c6();}let evt=require(_0x2fd258(0x120));const pkg=require(_0x2fd258(0x106)),config=require('../set'),{manage_env}=require(_0x2fd258(0x12c)),{installpg,reloadCommands}=require(_0x2fd258(0x12b)),decodeJid=_0x386d11=>{const _0x48a1ba=_0x2fd258,_0x3d2f83={'Ohzpm':function(_0x46bde1,_0x2d50d3){return _0x46bde1(_0x2d50d3);}};if(!_0x386d11)return _0x386d11;if(/:\d+@/gi['test'](_0x386d11)){const _0x337ace=_0x3d2f83[_0x48a1ba(0x11c)](jidDecode,_0x386d11)||{};return _0x337ace[_0x48a1ba(0x129)]&&_0x337ace[_0x48a1ba(0x10d)]&&_0x337ace[_0x48a1ba(0x129)]+'@'+_0x337ace[_0x48a1ba(0x10d)]||_0x386d11;}return _0x386d11;};async function installMissingDependencies(){const _0x22bdb3=_0x2fd258,_0xb13ff2={'jzoyP':function(_0x326b91,_0x51f19b){return _0x326b91(_0x51f19b);},'dAvFH':_0x22bdb3(0x123),'gFDYF':function(_0x36ccab,_0x40a883){return _0x36ccab||_0x40a883;},'TzgTc':_0x22bdb3(0x111)},_0x4ba828=_0xb13ff2[_0x22bdb3(0xfa)](require,_0xb13ff2[_0x22bdb3(0x103)]),_0x411bee={..._0x4ba828['dependencies'],..._0x4ba828[_0x22bdb3(0x124)]},_0x1b5595=[];for(const _0x24681f of Object[_0x22bdb3(0x110)](_0xb13ff2[_0x22bdb3(0x11a)](_0x411bee,{}))){try{require[_0x22bdb3(0x117)](_0x24681f);}catch{_0x1b5595['push'](_0x24681f+'@'+_0x411bee[_0x24681f]);}}if(!_0x1b5595[_0x22bdb3(0xf7)])return;console['log']('⚙️\x20Installation\x20des\x20dépendances\x20manquantes\x20:\x20'+_0x1b5595[_0x22bdb3(0x125)](',\x20'));try{execSync('npm\x20install\x20'+_0x1b5595['join']('\x20'),{'stdio':_0x22bdb3(0xfd)}),console[_0x22bdb3(0x11f)](_0x22bdb3(0x116));}catch(_0x418fbd){console[_0x22bdb3(0x112)](_0xb13ff2[_0x22bdb3(0xef)],_0x418fbd[_0x22bdb3(0x100)]);}}async function connection_update(_0x44c0d7,_0x2f8887,_0x25f5af,_0x10c885=null){const _0x13e3e3=_0x2fd258,_0x3fd1e9={'Cpxou':'open','qvLOq':_0x13e3e3(0x10c),'expYV':function(_0x3c735d){return _0x3c735d();},'qgMkU':_0x13e3e3(0xf3),'UyNKq':function(_0x5be284){return _0x5be284();},'SvlZF':function(_0x524e3e,_0x1d3d8f){return _0x524e3e(_0x1d3d8f);},'iwdTt':function(_0x4518d3,_0x4edccf){return _0x4518d3(_0x4edccf);},'Sfqwf':_0x13e3e3(0x126),'ZGWSn':_0x13e3e3(0x127),'Kurjg':'⛔\x20Déconnecté\x20:\x20Session\x20terminée.','iSATl':_0x13e3e3(0x10e)},{connection:_0x565fb2,lastDisconnect:_0x281f94}=_0x44c0d7;switch(_0x565fb2){case _0x13e3e3(0xff):console[_0x13e3e3(0x11f)](_0x13e3e3(0x104));break;case _0x3fd1e9[_0x13e3e3(0x119)]:console['log']('\x0a╭─────────────────╮\x0a│\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a│\x20\x20\x20🎉\x20OVL\x20BOT\x20ONLINE\x20🎉\x20\x20\x0a│\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a╰─────────────────╯\x0a'),console['log'](_0x3fd1e9['qvLOq']),await _0x3fd1e9['expYV'](manage_env),console[_0x13e3e3(0x11f)](_0x3fd1e9[_0x13e3e3(0x113)]),await _0x3fd1e9['UyNKq'](installpg),await _0x3fd1e9[_0x13e3e3(0x10b)](installMissingDependencies),await reloadCommands(),await _0x3fd1e9[_0x13e3e3(0xf9)](delay,0x3e8);const _0x47aae6=_0x13e3e3(0xf2)+config['PREFIXE']+_0x13e3e3(0x114)+config['MODE']+'\x0a│\x20߷\x20*Commandes*\x20\x20➜\x20'+evt[_0x13e3e3(0x121)][_0x13e3e3(0xf7)]+_0x13e3e3(0x122)+pkg['version']+_0x13e3e3(0x115);console[_0x13e3e3(0x11f)](_0x47aae6),await _0x2f8887[_0x13e3e3(0xf8)](_0x3fd1e9[_0x13e3e3(0xf6)](decodeJid,_0x2f8887[_0x13e3e3(0x129)]['id']),{'text':_0x47aae6,'contextInfo':{'forwardingScore':0x1,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x3fd1e9[_0x13e3e3(0x107)],'newsletterName':'OVL-MD'}}}),await delay(0x2710);if(_0x10c885)await _0x10c885();break;case _0x3fd1e9[_0x13e3e3(0x101)]:const _0x465cab=_0x281f94?.[_0x13e3e3(0x112)]?.[_0x13e3e3(0x105)]?.[_0x13e3e3(0x109)];_0x465cab===DisconnectReason[_0x13e3e3(0x12a)]?console[_0x13e3e3(0x11f)](_0x3fd1e9[_0x13e3e3(0xfc)]):(console['log'](_0x3fd1e9['iSATl']),await _0x3fd1e9[_0x13e3e3(0xf6)](delay,0x1388),_0x25f5af());break;}}function _0x3eed(_0x5d470a,_0x39ae9b){const _0xe66b19=_0xb6c6();return _0x3eed=function(_0x5607e0,_0x423cb1){_0x5607e0=_0x5607e0-0xee;let _0xb6c6d5=_0xe66b19[_0x5607e0];if(_0x3eed['JIqpjq']===undefined){var _0x3eed92=function(_0x124239){const _0x500d22='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x2406e1='',_0x244a3b='',_0x2e334d=_0x2406e1+_0x3eed92;for(let _0x44bc4e=0x0,_0x5b5650,_0x4daeb3,_0x39d7df=0x0;_0x4daeb3=_0x124239['charAt'](_0x39d7df++);~_0x4daeb3&&(_0x5b5650=_0x44bc4e%0x4?_0x5b5650*0x40+_0x4daeb3:_0x4daeb3,_0x44bc4e++%0x4)?_0x2406e1+=_0x2e334d['charCodeAt'](_0x39d7df+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x5b5650>>(-0x2*_0x44bc4e&0x6)):_0x44bc4e:0x0){_0x4daeb3=_0x500d22['indexOf'](_0x4daeb3);}for(let _0x857322=0x0,_0x4810b9=_0x2406e1['length'];_0x857322<_0x4810b9;_0x857322++){_0x244a3b+='%'+('00'+_0x2406e1['charCodeAt'](_0x857322)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x244a3b);};_0x3eed['JCnJhw']=_0x3eed92,_0x5d470a=arguments,_0x3eed['JIqpjq']=!![];}const _0x1c6be9=_0xe66b19[0x0],_0x241718=_0x5607e0+_0x1c6be9,_0x4f3087=_0x5d470a[_0x241718];if(!_0x4f3087){const _0x5adf1f=function(_0x1a4288){this['XaKYnC']=_0x1a4288,this['dCLdJx']=[0x1,0x0,0x0],this['UOvYiv']=function(){return'newState';},this['OZlIKC']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['PHeVDL']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x5adf1f['prototype']['NkDVzg']=function(){const _0x68de96=new RegExp(this['OZlIKC']+this['PHeVDL']),_0x2c95cd=_0x68de96['test'](this['UOvYiv']['toString']())?--this['dCLdJx'][0x1]:--this['dCLdJx'][0x0];return this['vmDAez'](_0x2c95cd);},_0x5adf1f['prototype']['vmDAez']=function(_0x336e42){if(!Boolean(~_0x336e42))return _0x336e42;return this['USJdJR'](this['XaKYnC']);},_0x5adf1f['prototype']['USJdJR']=function(_0xafe2f2){for(let _0x1ac83f=0x0,_0x46dd5b=this['dCLdJx']['length'];_0x1ac83f<_0x46dd5b;_0x1ac83f++){this['dCLdJx']['push'](Math['round'](Math['random']())),_0x46dd5b=this['dCLdJx']['length'];}return _0xafe2f2(this['dCLdJx'][0x0]);},new _0x5adf1f(_0x3eed)['NkDVzg'](),_0xb6c6d5=_0x3eed['JCnJhw'](_0xb6c6d5),_0x5d470a[_0x241718]=_0xb6c6d5;}else _0xb6c6d5=_0x4f3087;return _0xb6c6d5;},_0x3eed(_0x5d470a,_0x39ae9b);}module['exports']=connection_update;
+const fs = require("fs");
+const path = require("path");
+const { delay, DisconnectReason, jidDecode } = require("@whiskeysockets/baileys");
+const { execSync } = require("child_process");
+let evt = require("../lib/ovlcmd");
+const pkg = require("../package");
+const config = require("../set");
+const { manage_env } = require("../lib/manage_env");
+const { installpg, reloadCommands } = require("../lib/plugin");
+const decodeJid = v1 => {
+  if (!v1) {
+    return v1;
+  }
+  if (/:\d+@/gi.test(v1)) {
+    const v12 = jidDecode(v1) || {};
+    return (v12.user && v12.server && v12.user + "@" + v12.server) || v1;
+  }
+  return v1;
+};
+async function installMissingDependencies() {
+  const package = require("../package.json");
+  const v1 = {
+    ...package.dependencies,
+    ...package.devDependencies,
+  };
+  const v2 = [];
+  for (const v12 of Object.keys(v1 || {})) {
+    try {
+      require.resolve(v12);
+    } catch {
+      v2.push(v12 + "@" + v1[v12]);
+    }
+  }
+  if (!v2.length) {
+    return;
+  }
+  console.log("⚙️ Installation des dépendances manquantes : " + v2.join(", "));
+  try {
+    execSync("npm install " + v2.join(" "), {
+      stdio: "inherit",
+    });
+    console.log("✅ Dépendances installées.");
+  } catch (e) {
+    console.error("❌ Erreur installation npm :", e.message);
+  }
+}
+async function connection_update(v1, v2, v3, v4 = null) {
+  const { connection, lastDisconnect } = v1;
+  switch (connection) {
+    case "connecting":
+      console.log("🌍 Connexion en cours...");
+      break;
+    case "open":
+      console.log(
+        "\n╭─────────────────╮\n│                  \n│   🎉 OVL BOT ONLINE 🎉  \n│                  \n╰─────────────────╯\n",
+      );
+      console.log("🔄 Synchronisation des variables d'environnement...");
+      await manage_env();
+      console.log("✅ Variables synchronisées.");
+      await installpg();
+      await installMissingDependencies();
+      await reloadCommands();
+      await delay(1000);
+      const v12 =
+        "╭───〔 🤖 𝙊𝙑𝙇 𝘽𝙊𝙏 〕───⬣\n│ ߷ *Etat*       ➜ Connecté ✅\n│ ߷ *Préfixe*    ➜ " +
+        config.PREFIXE +
+        "\n│ ߷ *Mode*       ➜ " +
+        config.MODE +
+        "\n│ ߷ *Commandes*  ➜ " +
+        evt.cmd.length +
+        "\n│ ߷ *Version*    ➜ " +
+        pkg.version +
+        "\n│ ߷ *Développeur*➜ Ainz\n╰──────────────⬣";
+      console.log(v12);
+      await v2.sendMessage(decodeJid(v2.user.id), {
+        text: v12,
+        contextInfo: {
+          forwardingScore: 1,
+          isForwarded: true,
+          forwardedNewsletterMessageInfo: {
+            newsletterJid: "120363371282577847@newsletter",
+            newsletterName: "OVL-MD",
+          },
+        },
+      });
+      await delay(10000);
+      if (v4) {
+        await v4();
+      }
+      break;
+    case "close":
+      const v22 = lastDisconnect?.error?.output?.statusCode;
+      if (v22 === DisconnectReason.loggedOut) {
+        console.log("⛔ Déconnecté : Session terminée.");
+      } else {
+        console.log("⚠️ Connexion perdue, reconnexion...");
+        await delay(5000);
+        v3();
+      }
+      break;
+  }
+}
+module.exports = connection_update;

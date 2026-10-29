@@ -1,1 +1,108 @@
-const _0xd87cb0=_0x2cc7;function _0x570b(){const _0x58e9fe=['mZq4mZK2m0fAqwfLzW','C2f2zq','lI9KyxrHyMfZzs5KyG','Dg9tDhjPBMC','C3LUyW','kcGOlISPkYKRksSK','y3jLyxrL','mLfWqwXWzW','zgvMAw5L','nJa1mdiZnxreEefSvW','v2fYBG','D2fYBG','zMLUze9Yq3jLyxrL','zMLUze9Uzq','BgLTAxq','mZm2uKDqu3DS','mZeZnJGXmKPQD0nJqq','su5uruDfuG','Cg9ZDgDYzxm','y29UC3rYDwn0B3i','lI4VC2v0','mZm0nZi5nMTmuwT6Ca','C3fSAxrL','mJa3nZqXnJbMAKDLy3K','zxHWB3j0CW','refuqujbu0u','ueXeq1e','C2vXDwvSAxPL','mtzXEurLu2W','D2fYBL9JB25MAwC','mZi3mda4vwDJCNHm','odaYogTSrfDYuW'];_0x570b=function(){return _0x58e9fe;};return _0x570b();}(function(_0x459581,_0x12dc39){const _0x2e3fa2=_0x2cc7,_0x1d624c=_0x459581();while(!![]){try{const _0x7e8dd2=parseInt(_0x2e3fa2(0x19f))/0x1+-parseInt(_0x2e3fa2(0x1a8))/0x2*(-parseInt(_0x2e3fa2(0x1b1))/0x3)+parseInt(_0x2e3fa2(0x1b6))/0x4+parseInt(_0x2e3fa2(0x1aa))/0x5+-parseInt(_0x2e3fa2(0x1a0))/0x6*(-parseInt(_0x2e3fa2(0x1b0))/0x7)+parseInt(_0x2e3fa2(0x19d))/0x8*(-parseInt(_0x2e3fa2(0x1a1))/0x9)+-parseInt(_0x2e3fa2(0x1b8))/0xa;if(_0x7e8dd2===_0x12dc39)break;else _0x1d624c['push'](_0x1d624c['shift']());}catch(_0x3042af){_0x1d624c['push'](_0x1d624c['shift']());}}}(_0x570b,0x9a50d));const _0xef81b7=(function(){let _0x5327ea=!![];return function(_0x5f3ed1,_0x3e8f89){const _0x27c8f1=_0x5327ea?function(){if(_0x3e8f89){const _0x376e45=_0x3e8f89['apply'](_0x5f3ed1,arguments);return _0x3e8f89=null,_0x376e45;}}:function(){};return _0x5327ea=![],_0x27c8f1;};}()),_0xbf7d8b=_0xef81b7(this,function(){const _0x2696dd=_0x2cc7,_0x48ff35={'PLDCQ':_0x2696dd(0x1a6)};return _0xbf7d8b[_0x2696dd(0x1a4)]()['search'](_0x2696dd(0x1a6))['toString']()[_0x2696dd(0x1b4)](_0xbf7d8b)['search'](_0x48ff35[_0x2696dd(0x19b)]);});_0xbf7d8b();function _0x2cc7(_0x137ce3,_0x10cda5){const _0x563967=_0x570b();return _0x2cc7=function(_0xbf7d8b,_0xef81b7){_0xbf7d8b=_0xbf7d8b-0x19b;let _0x570bb0=_0x563967[_0xbf7d8b];if(_0x2cc7['lpzRvi']===undefined){var _0x2cc743=function(_0x74baa8){const _0x32d90c='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x283f00='',_0x12e61a='',_0x7bd23c=_0x283f00+_0x2cc743;for(let _0x5e4cde=0x0,_0x286ac2,_0x4a92ef,_0x21ec1b=0x0;_0x4a92ef=_0x74baa8['charAt'](_0x21ec1b++);~_0x4a92ef&&(_0x286ac2=_0x5e4cde%0x4?_0x286ac2*0x40+_0x4a92ef:_0x4a92ef,_0x5e4cde++%0x4)?_0x283f00+=_0x7bd23c['charCodeAt'](_0x21ec1b+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x286ac2>>(-0x2*_0x5e4cde&0x6)):_0x5e4cde:0x0){_0x4a92ef=_0x32d90c['indexOf'](_0x4a92ef);}for(let _0x58957c=0x0,_0x41fe9f=_0x283f00['length'];_0x58957c<_0x41fe9f;_0x58957c++){_0x12e61a+='%'+('00'+_0x283f00['charCodeAt'](_0x58957c)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x12e61a);};_0x2cc7['MNyXsK']=_0x2cc743,_0x137ce3=arguments,_0x2cc7['lpzRvi']=!![];}const _0x6b59e8=_0x563967[0x0],_0x304795=_0xbf7d8b+_0x6b59e8,_0x3284e0=_0x137ce3[_0x304795];if(!_0x3284e0){const _0x1c0a9a=function(_0x182a03){this['ayGDyE']=_0x182a03,this['djbxZq']=[0x1,0x0,0x0],this['NofDEy']=function(){return'newState';},this['UvWuCr']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['xYfIeW']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x1c0a9a['prototype']['nnNUeZ']=function(){const _0xe4f968=new RegExp(this['UvWuCr']+this['xYfIeW']),_0x409dc3=_0xe4f968['test'](this['NofDEy']['toString']())?--this['djbxZq'][0x1]:--this['djbxZq'][0x0];return this['DuKbvC'](_0x409dc3);},_0x1c0a9a['prototype']['DuKbvC']=function(_0x35b684){if(!Boolean(~_0x35b684))return _0x35b684;return this['CIVvAs'](this['ayGDyE']);},_0x1c0a9a['prototype']['CIVvAs']=function(_0x3719a7){for(let _0x3fe6b2=0x0,_0x5d1895=this['djbxZq']['length'];_0x3fe6b2<_0x5d1895;_0x3fe6b2++){this['djbxZq']['push'](Math['round'](Math['random']())),_0x5d1895=this['djbxZq']['length'];}return _0x3719a7(this['djbxZq'][0x0]);},new _0x1c0a9a(_0x2cc7)['nnNUeZ'](),_0x570bb0=_0x2cc7['MNyXsK'](_0x570bb0),_0x137ce3[_0x304795]=_0x570bb0;}else _0x570bb0=_0x3284e0;return _0x570bb0;},_0x2cc7(_0x137ce3,_0x10cda5);}const {Sequelize,DataTypes}=require(_0xd87cb0(0x19c)),config=require(_0xd87cb0(0x1b5)),db=config[_0xd87cb0(0x1ba)];let sequelize;!db?sequelize=new Sequelize({'dialect':_0xd87cb0(0x1b7),'storage':_0xd87cb0(0x1a3),'logging':![]}):sequelize=new Sequelize(db,{'dialect':'postgres','ssl':!![],'protocol':_0xd87cb0(0x1b3),'dialectOptions':{'native':!![],'ssl':{'require':!![],'rejectUnauthorized':![]}},'logging':![]});const Warn=sequelize[_0xd87cb0(0x1a9)](_0xd87cb0(0x1ab),{'userId':{'type':DataTypes['STRING'],'primaryKey':!![]},'count':{'type':DataTypes[_0xd87cb0(0x1b2)],'defaultValue':0x0,'allowNull':![]}},{'tableName':_0xd87cb0(0x1ac),'timestamps':![]}),WarnConfig=sequelize[_0xd87cb0(0x1a9)]('WarnConfig',{'limit':{'type':DataTypes[_0xd87cb0(0x1b2)],'defaultValue':0x3,'allowNull':![]}},{'tableName':_0xd87cb0(0x19e),'timestamps':![]});((async()=>{const _0xdf4add=_0xd87cb0;await Warn[_0xdf4add(0x1a5)](),await WarnConfig['sync']();})());async function delWarn(_0x3ed905){return await Warn['destroy']({'where':{'userId':_0x3ed905}});}async function getLimit(){const _0x18152d=_0xd87cb0,_0x42121a=await WarnConfig[_0x18152d(0x1ae)]();return _0x42121a?_0x42121a['limit']:0x3;}async function setLimit(_0x30f4ff){const _0x4bd74c=_0xd87cb0,_0x3f03ac=await WarnConfig[_0x4bd74c(0x1ae)]();_0x3f03ac?(_0x3f03ac[_0x4bd74c(0x1af)]=_0x30f4ff,await _0x3f03ac[_0x4bd74c(0x1a2)]()):await WarnConfig[_0x4bd74c(0x1a7)]({'limit':_0x30f4ff});}async function setWarn(_0x178a70){const _0xc37b2a=_0xd87cb0,[_0x5813f4,_0x285fb9]=await Warn[_0xc37b2a(0x1ad)]({'where':{'userId':_0x178a70},'defaults':{'count':0x1}});return!_0x285fb9&&(_0x5813f4['count']+=0x1,await _0x5813f4[_0xc37b2a(0x1a2)]()),_0x5813f4;}module[_0xd87cb0(0x1b9)]={'delWarn':delWarn,'setWarn':setWarn,'getLimit':getLimit,'setLimit':setLimit};
+const { Sequelize, DataTypes } = require("sequelize");
+const config = require("../set");
+const db = config.DATABASE;
+let sequelize;
+if (!db) {
+  sequelize = new Sequelize({
+    dialect: "sqlite",
+    storage: "./database.db",
+    logging: false,
+  });
+} else {
+  sequelize = new Sequelize(db, {
+    dialect: "postgres",
+    ssl: true,
+    protocol: "postgres",
+    dialectOptions: {
+      native: true,
+      ssl: {
+        require: true,
+        rejectUnauthorized: false,
+      },
+    },
+    logging: false,
+  });
+}
+const Warn = sequelize.define(
+  "Warn",
+  {
+    userId: {
+      type: DataTypes.STRING,
+      primaryKey: true,
+    },
+    count: {
+      type: DataTypes.INTEGER,
+      defaultValue: 0,
+      allowNull: false,
+    },
+  },
+  {
+    tableName: "warn",
+    timestamps: false,
+  },
+);
+const WarnConfig = sequelize.define(
+  "WarnConfig",
+  {
+    limit: {
+      type: DataTypes.INTEGER,
+      defaultValue: 3,
+      allowNull: false,
+    },
+  },
+  {
+    tableName: "warn_config",
+    timestamps: false,
+  },
+);
+(async () => {
+  await Warn.sync();
+  await WarnConfig.sync();
+})();
+async function delWarn(v1) {
+  return await Warn.destroy({
+    where: {
+      userId: v1,
+    },
+  });
+}
+async function getLimit() {
+  const v1 = await WarnConfig.findOne();
+  if (v1) {
+    return v1.limit;
+  } else {
+    return 3;
+  }
+}
+async function setLimit(v1) {
+  const v2 = await WarnConfig.findOne();
+  if (v2) {
+    v2.limit = v1;
+    await v2.save();
+  } else {
+    await WarnConfig.create({
+      limit: v1,
+    });
+  }
+}
+async function setWarn(v1) {
+  const [v2, v3] = await Warn.findOrCreate({
+    where: {
+      userId: v1,
+    },
+    defaults: {
+      count: 1,
+    },
+  });
+  if (!v3) {
+    v2.count += 1;
+    await v2.save();
+  }
+  return v2;
+}
+module.exports = {
+  delWarn,
+  setWarn,
+  getLimit,
+  setLimit,
+};

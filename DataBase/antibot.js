@@ -1,1 +1,75 @@
-function _0x597a(_0x2cd8bc,_0x35e595){const _0x35bdd5=_0x4885();return _0x597a=function(_0x4f1576,_0x2ce21d){_0x4f1576=_0x4f1576-0x198;let _0x4885bb=_0x35bdd5[_0x4f1576];if(_0x597a['gdtsQa']===undefined){var _0x597a36=function(_0x591c3f){const _0x2bd083='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x4d52cc='',_0x518f11='',_0x54d100=_0x4d52cc+_0x597a36;for(let _0x1ac7ea=0x0,_0x29faad,_0x59906d,_0x1acb96=0x0;_0x59906d=_0x591c3f['charAt'](_0x1acb96++);~_0x59906d&&(_0x29faad=_0x1ac7ea%0x4?_0x29faad*0x40+_0x59906d:_0x59906d,_0x1ac7ea++%0x4)?_0x4d52cc+=_0x54d100['charCodeAt'](_0x1acb96+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x29faad>>(-0x2*_0x1ac7ea&0x6)):_0x1ac7ea:0x0){_0x59906d=_0x2bd083['indexOf'](_0x59906d);}for(let _0x45901d=0x0,_0x2213a7=_0x4d52cc['length'];_0x45901d<_0x2213a7;_0x45901d++){_0x518f11+='%'+('00'+_0x4d52cc['charCodeAt'](_0x45901d)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x518f11);};_0x597a['KEuorL']=_0x597a36,_0x2cd8bc=arguments,_0x597a['gdtsQa']=!![];}const _0x4765f6=_0x35bdd5[0x0],_0x9375a8=_0x4f1576+_0x4765f6,_0x112486=_0x2cd8bc[_0x9375a8];if(!_0x112486){const _0x347cc6=function(_0x2396cc){this['cfZlfb']=_0x2396cc,this['EvPYOf']=[0x1,0x0,0x0],this['ovDaPh']=function(){return'newState';},this['ApcGIT']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['MZDjVw']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x347cc6['prototype']['XMynEL']=function(){const _0x2d09c1=new RegExp(this['ApcGIT']+this['MZDjVw']),_0xcd022c=_0x2d09c1['test'](this['ovDaPh']['toString']())?--this['EvPYOf'][0x1]:--this['EvPYOf'][0x0];return this['PxllrY'](_0xcd022c);},_0x347cc6['prototype']['PxllrY']=function(_0x5be8d7){if(!Boolean(~_0x5be8d7))return _0x5be8d7;return this['dXRWDY'](this['cfZlfb']);},_0x347cc6['prototype']['dXRWDY']=function(_0xf3aa1a){for(let _0x466dfa=0x0,_0x443670=this['EvPYOf']['length'];_0x466dfa<_0x443670;_0x466dfa++){this['EvPYOf']['push'](Math['round'](Math['random']())),_0x443670=this['EvPYOf']['length'];}return _0xf3aa1a(this['EvPYOf'][0x0]);},new _0x347cc6(_0x597a)['XMynEL'](),_0x4885bb=_0x597a['KEuorL'](_0x4885bb),_0x2cd8bc[_0x9375a8]=_0x4885bb;}else _0x4885bb=_0x112486;return _0x4885bb;},_0x597a(_0x2cd8bc,_0x35e595);}const _0xfb2501=_0x597a;(function(_0x33de7c,_0x4de38f){const _0x289cd8=_0x597a,_0x484b7b=_0x33de7c();while(!![]){try{const _0x266652=-parseInt(_0x289cd8(0x1b2))/0x1*(-parseInt(_0x289cd8(0x19d))/0x2)+parseInt(_0x289cd8(0x1b8))/0x3+-parseInt(_0x289cd8(0x19c))/0x4*(parseInt(_0x289cd8(0x1b0))/0x5)+-parseInt(_0x289cd8(0x1a5))/0x6*(-parseInt(_0x289cd8(0x1ba))/0x7)+-parseInt(_0x289cd8(0x1b5))/0x8*(parseInt(_0x289cd8(0x19e))/0x9)+-parseInt(_0x289cd8(0x1b4))/0xa+parseInt(_0x289cd8(0x1a2))/0xb*(parseInt(_0x289cd8(0x1a9))/0xc);if(_0x266652===_0x4de38f)break;else _0x484b7b['push'](_0x484b7b['shift']());}catch(_0x26829b){_0x484b7b['push'](_0x484b7b['shift']());}}}(_0x4885,0xcb360));const _0x2ce21d=(function(){let _0x32d933=!![];return function(_0xc9c970,_0x53909d){const _0xb6ef69=_0x32d933?function(){const _0x185de0=_0x597a;if(_0x53909d){const _0x152875=_0x53909d[_0x185de0(0x1ad)](_0xc9c970,arguments);return _0x53909d=null,_0x152875;}}:function(){};return _0x32d933=![],_0xb6ef69;};}()),_0x4f1576=_0x2ce21d(this,function(){const _0x21c8e4=_0x597a,_0x2088fc={'kMnFz':'(((.+)+)+)+$'};return _0x4f1576[_0x21c8e4(0x1b9)]()[_0x21c8e4(0x1a3)](_0x2088fc[_0x21c8e4(0x19f)])[_0x21c8e4(0x1b9)]()[_0x21c8e4(0x1b7)](_0x4f1576)[_0x21c8e4(0x1a3)](_0x2088fc[_0x21c8e4(0x19f)]);});_0x4f1576();const {Sequelize,DataTypes}=require(_0xfb2501(0x1af)),config=require(_0xfb2501(0x1ab)),db=config[_0xfb2501(0x1a0)];let sequelize;!db?sequelize=new Sequelize({'dialect':_0xfb2501(0x198),'storage':_0xfb2501(0x1b6),'logging':![]}):sequelize=new Sequelize(db,{'dialect':_0xfb2501(0x1a8),'ssl':!![],'protocol':_0xfb2501(0x1a8),'dialectOptions':{'native':!![],'ssl':{'require':!![],'rejectUnauthorized':![]}},'logging':![]});const Antibot=sequelize['define'](_0xfb2501(0x1a4),{'id':{'type':DataTypes[_0xfb2501(0x1ae)],'primaryKey':!![]},'mode':{'type':DataTypes[_0xfb2501(0x1ae)],'defaultValue':_0xfb2501(0x1a1)},'type':{'type':DataTypes[_0xfb2501(0x1b3)](_0xfb2501(0x199),_0xfb2501(0x1b1),'kick'),'defaultValue':_0xfb2501(0x199)}},{'tableName':_0xfb2501(0x1a6),'timestamps':![]}),AntibotWarnings=sequelize[_0xfb2501(0x19b)](_0xfb2501(0x1aa),{'groupId':{'type':DataTypes[_0xfb2501(0x1ae)],'allowNull':![]},'userId':{'type':DataTypes[_0xfb2501(0x1ae)],'allowNull':![]},'count':{'type':DataTypes[_0xfb2501(0x19a)],'defaultValue':0x1}},{'tableName':'antibot_warnings','timestamps':![]});((async()=>{const _0x6502fa=_0xfb2501;await Antibot[_0x6502fa(0x1ac)](),await AntibotWarnings['sync']();})()),module[_0xfb2501(0x1a7)]={'Antibot':Antibot,'AntibotWarnings':AntibotWarnings};function _0x4885(){const _0x4ffa4c=['zgvMAw5L','mJC2sgzdBuH4','mta2ndC4vuPou2fg','nJaXmteYn2XowNLxCa','A01UrNO','refuqujbu0u','BM9U','odG5owvPvhLOsa','C2vHCMnO','qw50AwjVDa','mtmWnZrwt093AgO','yw50AwjVDa','zxHWB3j0CW','Cg9ZDgDYzxm','odqZnKjfvM5dDq','qw50AwjVDfDHCM5PBMDZ','lI4VC2v0','C3LUyW','yxbWBhK','u1rssu5h','C2vXDwvSAxPL','otiYmtb4weTIwLG','D2fYBG','mtbstK5etwW','ru5vtq','otiYmteWDuvAte5e','oerjufDPwa','lI9KyxrHyMfZzs5KyG','y29UC3rYDwn0B3i','odm5odq0u3rRuuDP','Dg9tDhjPBMC','ndC2n0vyzwnmyW','C3fSAxrL','C3vWCa','su5uruDfuG'];_0x4885=function(){return _0x4ffa4c;};return _0x4885();}
+const { Sequelize, DataTypes } = require("sequelize");
+const config = require("../set");
+const db = config.DATABASE;
+let sequelize;
+if (!db) {
+  sequelize = new Sequelize({
+    dialect: "sqlite",
+    storage: "./database.db",
+    logging: false,
+  });
+} else {
+  sequelize = new Sequelize(db, {
+    dialect: "postgres",
+    ssl: true,
+    protocol: "postgres",
+    dialectOptions: {
+      native: true,
+      ssl: {
+        require: true,
+        rejectUnauthorized: false,
+      },
+    },
+    logging: false,
+  });
+}
+const Antibot = sequelize.define(
+  "Antibot",
+  {
+    id: {
+      type: DataTypes.STRING,
+      primaryKey: true,
+    },
+    mode: {
+      type: DataTypes.STRING,
+      defaultValue: "non",
+    },
+    type: {
+      type: DataTypes.ENUM("supp", "warn", "kick"),
+      defaultValue: "supp",
+    },
+  },
+  {
+    tableName: "antibot",
+    timestamps: false,
+  },
+);
+const AntibotWarnings = sequelize.define(
+  "AntibotWarnings",
+  {
+    groupId: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    userId: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    count: {
+      type: DataTypes.INTEGER,
+      defaultValue: 1,
+    },
+  },
+  {
+    tableName: "antibot_warnings",
+    timestamps: false,
+  },
+);
+(async () => {
+  await Antibot.sync();
+  await AntibotWarnings.sync();
+})();
+module.exports = {
+  Antibot,
+  AntibotWarnings,
+};

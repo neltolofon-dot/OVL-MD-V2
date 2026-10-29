@@ -1,1 +1,130 @@
-const _0x2b78de=_0x3654;(function(_0x3227de,_0x497228){const _0x48f6bd=_0x3654,_0x266e74=_0x3227de();while(!![]){try{const _0x48a75b=parseInt(_0x48f6bd(0x113))/0x1+parseInt(_0x48f6bd(0xfe))/0x2*(parseInt(_0x48f6bd(0xfd))/0x3)+-parseInt(_0x48f6bd(0x105))/0x4*(-parseInt(_0x48f6bd(0x10c))/0x5)+parseInt(_0x48f6bd(0x103))/0x6+-parseInt(_0x48f6bd(0xfb))/0x7*(parseInt(_0x48f6bd(0x10a))/0x8)+-parseInt(_0x48f6bd(0x10b))/0x9*(-parseInt(_0x48f6bd(0x108))/0xa)+-parseInt(_0x48f6bd(0x11b))/0xb;if(_0x48a75b===_0x497228)break;else _0x266e74['push'](_0x266e74['shift']());}catch(_0x393a6d){_0x266e74['push'](_0x266e74['shift']());}}}(_0x50db,0x20402));function _0x50db(){const _0x1532be=['u3zAChm','BgvUz3rO','lZmGCg91CIbHDM9PCIbTzw50Aw9UBSoPihbSDxmGzguGmZaGBwvTyNjLCY4','y29UC3rYDwn0B3i','ndK0odK2nLzYEhvXvG','wvfnq2C','zxHWB3j0CW','A2LJAW','vfjdAey','y3jLyxrL','C3vWCa','DhLWzq','lcbHDMvYDgLZC2vTzw50ia','lcbSj2vUDM9PigrLihrHz3mGBxvSDgLWBgvZigvZDcbPBNrLCMrPDcbKyw5ZignLigDYB3vWzs4','y291BNq','BwvUDgLVBMvKsMLK','nJu2nZG5txPJA0jo','C2vHCMnO','ndC3odeZEg1ZCwni','mKPAww1kBa','C2vUze1LC3nHz2u','zxjYB3i','zgvZDhjVEq','igeGW6L0W6KGCMv0AxldQsbKDsbNCM91CguGyxbYW6HZidmGyxzLCNrPC3nLBwvUDhmU','odq2mZm2zwDYD1DL','AMjdvvy','mtjVDgzHrwW','lcb2B3vZigf2zxOGCMxdP3uGDw4GyxzLCNrPC3nLBwvUDcaOms8ZksbWB3vYigf2B2LYig1LBNrPB25UW6KGCgX1CYbKzsaZmcbTzw1ICMvZlG','zvPMy08','nZK0mZGWwwfZuMTx','B3vP','mtzKB2zVvfe','mtHuCvngqNK','mtaZntG1whzXzwrx','Dg9tDhjPBMC','vuLjyMq','z3jVDxbqyxj0AwnPCgfUDhnvCgrHDgu','C2f2zq','CMvTB3zL','zMLUze9Uzq','mJq4mZa0sMj6BvLK','kcGOlISPkYKRksSK','rxjYzxvYigrHBNmGBguGC3LZDmoOBwuGqw50AxrHzYa6','qwn0Aw9UigLUy29UBNvLidOG'];_0x50db=function(){return _0x1532be;};return _0x50db();}const _0x362de5=(function(){let _0x13f6cb=!![];return function(_0x23200c,_0x24893a){const _0x4d2c08=_0x13f6cb?function(){if(_0x24893a){const _0x379a8b=_0x24893a['apply'](_0x23200c,arguments);return _0x24893a=null,_0x379a8b;}}:function(){};return _0x13f6cb=![],_0x4d2c08;};}()),_0x2621ac=_0x362de5(this,function(){const _0x1f7b80=_0x3654,_0x177aec={'SvZps':_0x1f7b80(0x114)};return _0x2621ac[_0x1f7b80(0x10d)]()[_0x1f7b80(0xfc)](_0x177aec[_0x1f7b80(0x117)])[_0x1f7b80(0x10d)]()[_0x1f7b80(0x11a)](_0x2621ac)[_0x1f7b80(0xfc)](_0x177aec[_0x1f7b80(0x117)]);});function _0x3654(_0x37113b,_0x2bafca){const _0x5da3b1=_0x50db();return _0x3654=function(_0x2621ac,_0x362de5){_0x2621ac=_0x2621ac-0xf5;let _0x50dbc8=_0x5da3b1[_0x2621ac];if(_0x3654['PXZlKb']===undefined){var _0x365484=function(_0x3d7557){const _0x5386ce='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x26e6ec='',_0x302f0a='',_0x4ba2d2=_0x26e6ec+_0x365484;for(let _0x37f3cc=0x0,_0x198570,_0x2434da,_0x541924=0x0;_0x2434da=_0x3d7557['charAt'](_0x541924++);~_0x2434da&&(_0x198570=_0x37f3cc%0x4?_0x198570*0x40+_0x2434da:_0x2434da,_0x37f3cc++%0x4)?_0x26e6ec+=_0x4ba2d2['charCodeAt'](_0x541924+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x198570>>(-0x2*_0x37f3cc&0x6)):_0x37f3cc:0x0){_0x2434da=_0x5386ce['indexOf'](_0x2434da);}for(let _0x5a22c5=0x0,_0x2ba572=_0x26e6ec['length'];_0x5a22c5<_0x2ba572;_0x5a22c5++){_0x302f0a+='%'+('00'+_0x26e6ec['charCodeAt'](_0x5a22c5)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x302f0a);};_0x3654['HQIbRc']=_0x365484,_0x37113b=arguments,_0x3654['PXZlKb']=!![];}const _0x3054ed=_0x5da3b1[0x0],_0x3f51d9=_0x2621ac+_0x3054ed,_0x583324=_0x37113b[_0x3f51d9];if(!_0x583324){const _0x440d07=function(_0x494d33){this['KRvGuj']=_0x494d33,this['YHDwTq']=[0x1,0x0,0x0],this['ohUymI']=function(){return'newState';},this['iOjPab']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['tkMubr']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x440d07['prototype']['fQbzYG']=function(){const _0x262cb5=new RegExp(this['iOjPab']+this['tkMubr']),_0x58c837=_0x262cb5['test'](this['ohUymI']['toString']())?--this['YHDwTq'][0x1]:--this['YHDwTq'][0x0];return this['AwGhfH'](_0x58c837);},_0x440d07['prototype']['AwGhfH']=function(_0x274835){if(!Boolean(~_0x274835))return _0x274835;return this['BcTYoI'](this['KRvGuj']);},_0x440d07['prototype']['BcTYoI']=function(_0x496b0b){for(let _0x4e173d=0x0,_0x3e0977=this['YHDwTq']['length'];_0x4e173d<_0x3e0977;_0x4e173d++){this['YHDwTq']['push'](Math['round'](Math['random']())),_0x3e0977=this['YHDwTq']['length'];}return _0x496b0b(this['YHDwTq'][0x0]);},new _0x440d07(_0x3654)['fQbzYG'](),_0x50dbc8=_0x3654['HQIbRc'](_0x50dbc8),_0x37113b[_0x3f51d9]=_0x50dbc8;}else _0x50dbc8=_0x583324;return _0x50dbc8;},_0x3654(_0x37113b,_0x2bafca);}_0x2621ac();const {Antitag,Antitag_warnings}=require('../../DataBase/antitag');async function antitag(_0x3a0674,_0x30973b,_0x52095e,_0x3c5b7e,_0x47962e,_0x325d5d,_0x582e6b,_0xb8cdd2){const _0x2cc55d=_0x3654,_0x554a8c={'nRcDC':function(_0x15335a,_0x1bfc75){return _0x15335a>_0x1bfc75;},'TRChF':function(_0x149bf8,_0x469aaa){return _0x149bf8&&_0x469aaa;},'eZfcO':_0x2cc55d(0x109),'plHhS':_0x2cc55d(0xf5),'ETRYi':_0x2cc55d(0x11e),'UIIbd':'warn','YQMCg':function(_0x33bd73,_0x3399a3){return _0x33bd73>=_0x3399a3;},'jbCUV':_0x2cc55d(0x115)};if(_0x554a8c['nRcDC'](_0x30973b['message']?.[_0x3c5b7e]?.['contextInfo']?.[_0x2cc55d(0xfa)]?.[_0x2cc55d(0x118)],0x1e))try{const _0x36ab25=await Antitag['findOne']({'where':{'id':_0x52095e}});if(_0x554a8c[_0x2cc55d(0x11f)](_0x47962e,_0x36ab25)&&_0x36ab25['mode']===_0x554a8c[_0x2cc55d(0x107)]){if(!_0x582e6b&&_0x325d5d){const _0x26af00=_0xb8cdd2['split']('@')[0x0],_0x146659={'remoteJid':_0x52095e,'fromMe':![],'id':_0x30973b['key']['id'],'participant':_0xb8cdd2};switch(_0x36ab25[_0x2cc55d(0xf6)]){case _0x554a8c['plHhS']:await _0x3a0674[_0x2cc55d(0xff)](_0x52095e,{'text':'@'+_0x26af00+_0x2cc55d(0xf8),'mentions':[_0xb8cdd2]},{'quoted':_0x30973b}),await _0x3a0674[_0x2cc55d(0xff)](_0x52095e,{'delete':_0x146659});break;case _0x554a8c['ETRYi']:await _0x3a0674[_0x2cc55d(0xff)](_0x52095e,{'text':'@'+_0x26af00+'\x20a\x20été\x20retiré\x20du\x20groupe\x20pour\x20avoir\x20mentionné\x20plus\x20de\x2030\x20membres.','mentions':[_0xb8cdd2]},{'quoted':_0x30973b}),await _0x3a0674[_0x2cc55d(0xff)](_0x52095e,{'delete':_0x146659}),await _0x3a0674[_0x2cc55d(0x10f)](_0x52095e,[_0xb8cdd2],_0x2cc55d(0x111));break;case _0x554a8c[_0x2cc55d(0x10e)]:let _0x43d6b7=await Antitag_warnings[_0x2cc55d(0x112)]({'where':{'groupId':_0x52095e,'userId':_0xb8cdd2}});!_0x43d6b7?(await Antitag_warnings[_0x2cc55d(0x120)]({'groupId':_0x52095e,'userId':_0xb8cdd2}),await _0x3a0674[_0x2cc55d(0xff)](_0x52095e,{'text':'@'+_0x26af00+_0x2cc55d(0x106),'mentions':[_0xb8cdd2]},{'quoted':_0x30973b}),await _0x3a0674[_0x2cc55d(0xff)](_0x52095e,{'delete':_0x146659})):(_0x43d6b7[_0x2cc55d(0xf9)]+=0x1,await _0x43d6b7[_0x2cc55d(0x110)](),_0x554a8c[_0x2cc55d(0x11c)](_0x43d6b7['count'],0x3)?(await _0x3a0674[_0x2cc55d(0xff)](_0x52095e,{'text':'@'+_0x26af00+_0x2cc55d(0x102),'mentions':[_0xb8cdd2]},{'quoted':_0x30973b}),await _0x3a0674[_0x2cc55d(0xff)](_0x52095e,{'delete':_0x146659}),await _0x3a0674[_0x2cc55d(0x10f)](_0x52095e,[_0xb8cdd2],_0x2cc55d(0x111)),await _0x43d6b7[_0x2cc55d(0x101)]()):(await _0x3a0674[_0x2cc55d(0xff)](_0x52095e,{'text':'@'+_0x26af00+_0x2cc55d(0xf7)+_0x43d6b7[_0x2cc55d(0xf9)]+_0x2cc55d(0x119),'mentions':[_0xb8cdd2]},{'quoted':_0x30973b}),await _0x3a0674[_0x2cc55d(0xff)](_0x52095e,{'delete':_0x146659})));break;default:console[_0x2cc55d(0x100)](_0x2cc55d(0x116)+_0x36ab25['type']);}}}}catch(_0x2a014e){console['error'](_0x554a8c[_0x2cc55d(0x104)],_0x2a014e);}}module[_0x2b78de(0x11d)]=antitag;
+const { Antitag, Antitag_warnings } = require("../../DataBase/antitag");
+async function antitag(v1, v2, v3, v4, v5, v6, v7, v8) {
+  if (v2.message?.[v4]?.contextInfo?.mentionedJid?.length > 30) {
+    try {
+      const v12 = await Antitag.findOne({
+        where: {
+          id: v3,
+        },
+      });
+      if (v5 && v12 && v12.mode === "oui") {
+        if (!v7 && v6) {
+          const v13 = v8.split("@")[0];
+          const v22 = {
+            remoteJid: v3,
+            fromMe: false,
+            id: v2.key.id,
+            participant: v8,
+          };
+          switch (v12.type) {
+            case "supp":
+              await v1.sendMessage(
+                v3,
+                {
+                  text: "@" + v13 + ", l'envoi de tags multiples est interdit dans ce groupe.",
+                  mentions: [v8],
+                },
+                {
+                  quoted: v2,
+                },
+              );
+              await v1.sendMessage(v3, {
+                delete: v22,
+              });
+              break;
+            case "kick":
+              await v1.sendMessage(
+                v3,
+                {
+                  text: "@" + v13 + " a été retiré du groupe pour avoir mentionné plus de 30 membres.",
+                  mentions: [v8],
+                },
+                {
+                  quoted: v2,
+                },
+              );
+              await v1.sendMessage(v3, {
+                delete: v22,
+              });
+              await v1.groupParticipantsUpdate(v3, [v8], "remove");
+              break;
+            case "warn":
+              let v14 = await Antitag_warnings.findOne({
+                where: {
+                  groupId: v3,
+                  userId: v8,
+                },
+              });
+              if (!v14) {
+                await Antitag_warnings.create({
+                  groupId: v3,
+                  userId: v8,
+                });
+                await v1.sendMessage(
+                  v3,
+                  {
+                    text:
+                      "@" +
+                      v13 +
+                      ", vous avez reçu un avertissement (1/3) pour avoir mentionné plus de 30 membres.",
+                    mentions: [v8],
+                  },
+                  {
+                    quoted: v2,
+                  },
+                );
+                await v1.sendMessage(v3, {
+                  delete: v22,
+                });
+              } else {
+                v14.count += 1;
+                await v14.save();
+                if (v14.count >= 3) {
+                  await v1.sendMessage(
+                    v3,
+                    {
+                      text: "@" + v13 + " a été retiré du groupe après 3 avertissements.",
+                      mentions: [v8],
+                    },
+                    {
+                      quoted: v2,
+                    },
+                  );
+                  await v1.sendMessage(v3, {
+                    delete: v22,
+                  });
+                  await v1.groupParticipantsUpdate(v3, [v8], "remove");
+                  await v14.destroy();
+                } else {
+                  await v1.sendMessage(
+                    v3,
+                    {
+                      text:
+                        "@" +
+                        v13 +
+                        ", avertissement " +
+                        v14.count +
+                        "/3 pour avoir mentionné plus de 30 membres.",
+                      mentions: [v8],
+                    },
+                    {
+                      quoted: v2,
+                    },
+                  );
+                  await v1.sendMessage(v3, {
+                    delete: v22,
+                  });
+                }
+              }
+              break;
+            default:
+              console.error("Action inconnue : " + v12.type);
+          }
+        }
+      }
+    } catch (e) {
+      console.error("Erreur dans le système Antitag :", e);
+    }
+  }
+}
+module.exports = antitag;

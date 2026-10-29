@@ -1,1 +1,63 @@
-const _0x2a3b9e=_0x1f3d;(function(_0x5595a4,_0x2a6780){const _0x3be9d5=_0x1f3d,_0x55d83e=_0x5595a4();while(!![]){try{const _0x4fa3a0=parseInt(_0x3be9d5(0x10c))/0x1+parseInt(_0x3be9d5(0x107))/0x2*(-parseInt(_0x3be9d5(0x101))/0x3)+parseInt(_0x3be9d5(0xff))/0x4+parseInt(_0x3be9d5(0x10b))/0x5+parseInt(_0x3be9d5(0xf9))/0x6*(parseInt(_0x3be9d5(0x113))/0x7)+parseInt(_0x3be9d5(0xf6))/0x8*(parseInt(_0x3be9d5(0xfe))/0x9)+parseInt(_0x3be9d5(0x110))/0xa;if(_0x4fa3a0===_0x2a6780)break;else _0x55d83e['push'](_0x55d83e['shift']());}catch(_0x44e80f){_0x55d83e['push'](_0x55d83e['shift']());}}}(_0x3b9c,0xca757));const _0x5890c6=(function(){let _0xa99c34=!![];return function(_0x5e3105,_0x2a082d){const _0x478b45=_0xa99c34?function(){const _0x25004e=_0x1f3d;if(_0x2a082d){const _0x3df475=_0x2a082d[_0x25004e(0x10f)](_0x5e3105,arguments);return _0x2a082d=null,_0x3df475;}}:function(){};return _0xa99c34=![],_0x478b45;};}()),_0x9ad31d=_0x5890c6(this,function(){const _0x2354bd=_0x1f3d,_0x16ef35={'FEbNg':'(((.+)+)+)+$'};return _0x9ad31d['toString']()[_0x2354bd(0x104)](_0x2354bd(0x108))[_0x2354bd(0xfc)]()[_0x2354bd(0x112)](_0x9ad31d)[_0x2354bd(0x104)](_0x16ef35[_0x2354bd(0x106)]);});_0x9ad31d();function _0x3b9c(){const _0x115e2b=['C3LUyW','zgvMAw5L','Dg9tDhjPBMC','lI9KyxrHyMfZzs5KyG','ntGZnZG1CMjrwLjO','mJyYnZi4A3fnDNjg','C3fSAxrL','nJLnufnOvK0','u1rssu5h','lI4VC2v0','C2vHCMnO','Cg9ZDgDYzxm','rKvItMC','mtm5odiYz1nkDLjV','kcGOlISPkYKRksSK','ru5vtq','C2vXDwvSAxPL','nZKZmdu1rKH4qxvR','mtuWmtq5mwv5CgHbtW','t25SEufKBwLUCW','z3jVDxa','yxbWBhK','mZCWmdm3meL4Ee1fwG','yMfUCW','y29UC3rYDwn0B3i','nte4wfjKB3Lf','ohberLbsyq','qMfUCW','refuqujbu0u','mJi0mJjbrLzWB1a'];_0x3b9c=function(){return _0x115e2b;};return _0x3b9c();}const {Sequelize,DataTypes}=require(_0x2a3b9e(0x10a)),config=require(_0x2a3b9e(0x103)),db=config[_0x2a3b9e(0xf8)];let sequelize;!db?sequelize=new Sequelize({'dialect':_0x2a3b9e(0x100),'storage':_0x2a3b9e(0xfd),'logging':![]}):sequelize=new Sequelize(db,{'dialect':_0x2a3b9e(0x105),'ssl':!![],'protocol':_0x2a3b9e(0x105),'dialectOptions':{'native':!![],'ssl':{'require':!![],'rejectUnauthorized':![]}},'logging':![]});function _0x1f3d(_0x229ea2,_0x48736c){const _0x1d88e7=_0x3b9c();return _0x1f3d=function(_0x9ad31d,_0x5890c6){_0x9ad31d=_0x9ad31d-0xf6;let _0x3b9c0c=_0x1d88e7[_0x9ad31d];if(_0x1f3d['sqbVcL']===undefined){var _0x1f3d90=function(_0x1ddf44){const _0x328d66='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x31f502='',_0x302cbd='',_0x3e951c=_0x31f502+_0x1f3d90;for(let _0x22b00f=0x0,_0x5c92fa,_0x31ac23,_0x338136=0x0;_0x31ac23=_0x1ddf44['charAt'](_0x338136++);~_0x31ac23&&(_0x5c92fa=_0x22b00f%0x4?_0x5c92fa*0x40+_0x31ac23:_0x31ac23,_0x22b00f++%0x4)?_0x31f502+=_0x3e951c['charCodeAt'](_0x338136+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x5c92fa>>(-0x2*_0x22b00f&0x6)):_0x22b00f:0x0){_0x31ac23=_0x328d66['indexOf'](_0x31ac23);}for(let _0x1f02ac=0x0,_0x4d899f=_0x31f502['length'];_0x1f02ac<_0x4d899f;_0x1f02ac++){_0x302cbd+='%'+('00'+_0x31f502['charCodeAt'](_0x1f02ac)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x302cbd);};_0x1f3d['VxcHVX']=_0x1f3d90,_0x229ea2=arguments,_0x1f3d['sqbVcL']=!![];}const _0x5cd89d=_0x1d88e7[0x0],_0x671a61=_0x9ad31d+_0x5cd89d,_0x2ee271=_0x229ea2[_0x671a61];if(!_0x2ee271){const _0x1e5e94=function(_0x558a45){this['kyJyeG']=_0x558a45,this['QJcUoG']=[0x1,0x0,0x0],this['mAnCpd']=function(){return'newState';},this['tqAXYl']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['DRBWGd']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x1e5e94['prototype']['cIJcje']=function(){const _0x82e7a9=new RegExp(this['tqAXYl']+this['DRBWGd']),_0xa6de86=_0x82e7a9['test'](this['mAnCpd']['toString']())?--this['QJcUoG'][0x1]:--this['QJcUoG'][0x0];return this['ElrtIo'](_0xa6de86);},_0x1e5e94['prototype']['ElrtIo']=function(_0xf163fb){if(!Boolean(~_0xf163fb))return _0xf163fb;return this['sHcEPc'](this['kyJyeG']);},_0x1e5e94['prototype']['sHcEPc']=function(_0x3dd9e5){for(let _0x11bcb1=0x0,_0x5c4114=this['QJcUoG']['length'];_0x11bcb1<_0x5c4114;_0x11bcb1++){this['QJcUoG']['push'](Math['round'](Math['random']())),_0x5c4114=this['QJcUoG']['length'];}return _0x3dd9e5(this['QJcUoG'][0x0]);},new _0x1e5e94(_0x1f3d)['cIJcje'](),_0x3b9c0c=_0x1f3d['VxcHVX'](_0x3b9c0c),_0x229ea2[_0x671a61]=_0x3b9c0c;}else _0x3b9c0c=_0x2ee271;return _0x3b9c0c;},_0x1f3d(_0x229ea2,_0x48736c);}const Bans=sequelize[_0x2a3b9e(0xfb)](_0x2a3b9e(0xf7),{'id':{'type':DataTypes[_0x2a3b9e(0x102)],'primaryKey':!![]},'type':{'type':DataTypes[_0x2a3b9e(0x109)]('user',_0x2a3b9e(0x10e)),'allowNull':![]}},{'tableName':_0x2a3b9e(0x111),'timestamps':![]}),OnlyAdmins=sequelize[_0x2a3b9e(0xfb)](_0x2a3b9e(0x10d),{'id':{'type':DataTypes['STRING'],'primaryKey':!![]}},{'tableName':'onlyadmins','timestamps':![]});((async()=>{const _0x5813b6=_0x2a3b9e;await Bans['sync'](),await OnlyAdmins[_0x5813b6(0xfa)]();})()),module['exports']={'Bans':Bans,'OnlyAdmins':OnlyAdmins};
+const { Sequelize, DataTypes } = require("sequelize");
+const config = require("../set");
+const db = config.DATABASE;
+let sequelize;
+if (!db) {
+  sequelize = new Sequelize({
+    dialect: "sqlite",
+    storage: "./database.db",
+    logging: false,
+  });
+} else {
+  sequelize = new Sequelize(db, {
+    dialect: "postgres",
+    ssl: true,
+    protocol: "postgres",
+    dialectOptions: {
+      native: true,
+      ssl: {
+        require: true,
+        rejectUnauthorized: false,
+      },
+    },
+    logging: false,
+  });
+}
+const Bans = sequelize.define(
+  "Bans",
+  {
+    id: {
+      type: DataTypes.STRING,
+      primaryKey: true,
+    },
+    type: {
+      type: DataTypes.ENUM("user", "group"),
+      allowNull: false,
+    },
+  },
+  {
+    tableName: "bans",
+    timestamps: false,
+  },
+);
+const OnlyAdmins = sequelize.define(
+  "OnlyAdmins",
+  {
+    id: {
+      type: DataTypes.STRING,
+      primaryKey: true,
+    },
+  },
+  {
+    tableName: "onlyadmins",
+    timestamps: false,
+  },
+);
+(async () => {
+  await Bans.sync();
+  await OnlyAdmins.sync();
+})();
+module.exports = {
+  Bans,
+  OnlyAdmins,
+};
