@@ -1502,12 +1502,17 @@ ovlcmd(
     nom_cmd: "developpeur",
     classe: "Outils",
     react: "🔅",
-    desc: "Numero du créateur du bot",
+    desc: "Contact du propriétaire de ce bot",
     alias: ["dev"],
   },
   async (dest, ovl, ctx) => {
-    const v1 = "22651463203";
-    const v2 = "Ainz";
+    const v1 = config.NUMERO_OWNER;
+    const v2 = config.NOM_OWNER;
+    if (!v1) {
+      return ctx.repondre(
+        "ℹ️ Aucun contact configuré : renseignez NUMERO_OWNER et NOM_OWNER dans le fichier .env.",
+      );
+    }
     const v3 =
       "BEGIN:VCARD\nVERSION:3.0\nFN:" +
       v2 +

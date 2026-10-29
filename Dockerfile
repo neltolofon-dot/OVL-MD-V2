@@ -1,16 +1,23 @@
 FROM node:20-bullseye-slim
 
-RUN apt-get update && apt-get install -y \
+RUN apt-get update && apt-get install -y --no-install-recommends \
     ffmpeg \
     git \
+    ca-certificates \
     && rm -rf /var/lib/apt/lists/*
-
-RUN git clone https://github.com/Ainz-devs/OVL-MD-V2.git /ovl_bot
 
 WORKDIR /ovl_bot
 
-RUN npm install
+# Les dépendances d'abord : cette couche est mise en cache tant que
+# package.json ne change pas.
+COPY package.json ./
+RUN npm install --omit=dev --no-audit --no-fund
 
-EXPOSE 8000
+# Puis le code du dépôt courant. L'image précédente faisait un `git clone` du
+# dépôt d'origine, ce qui ignorait silencieusement toute modification locale.
+COPY . .
 
-CMD ["npm", "start"]
+ENV NODE_ENV=production
+EXPOSE 3000
+
+CMD ["node", "Ovl.js"]

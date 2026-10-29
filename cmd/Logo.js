@@ -1,12 +1,15 @@
 const { ovlcmd } = require("../lib/ovlcmd");
 const textmaker = require("../lib/textmaker");
-function addTextproCommand(v1, v2, v3) {
+// Attention : un nom déjà pris par une autre catégorie (les effets audio de
+// Fx_audio.js se chargent avant ce fichier) rendrait la commande inaccessible.
+function addTextproCommand(v1, v2, v3, alias = []) {
   ovlcmd(
     {
       nom_cmd: v1,
       classe: "Logo",
       react: "✨",
       desc: "Effet de texte avec Ephoto360",
+      alias,
     },
     async (dest, ovl, ctx) => {
       const { arg, ms } = ctx;
@@ -122,7 +125,7 @@ addTextproCommand(
   1,
 );
 addTextproCommand("galaxy", "https://en.ephoto360.com/text-light-galaxy-effectt-345.html", 1);
-addTextproCommand("vintage", "https://en.ephoto360.com/write-text-on-vintage-television-online-670.html", 1);
+addTextproCommand("vintagetv", "https://en.ephoto360.com/write-text-on-vintage-television-online-670.html", 1);
 addTextproCommand("gold1", "https://en.ephoto360.com/gold-text-effect-158.html", 1);
 addTextproCommand("graffiti2", "https://en.ephoto360.com/graffiti-text-5-180.html", 1);
 addTextproCommand("hacker", "https://en.ephoto360.com/create-anonymous-hacker-avatars-cyan-neon-677.html", 1);
@@ -149,7 +152,7 @@ addTextproCommand(
 addTextproCommand("sand", "https://en.ephoto360.com/realistic-3d-sand-text-effect-online-580.html", 1);
 addTextproCommand("plasma", "https://en.ephoto360.com/plasma-text-effects-online-71.html", 1);
 addTextproCommand("avengers", "https://en.ephoto360.com/create-logo-3d-style-avengers-online-427.html", 2);
-addTextproCommand("underwater", "https://en.ephoto360.com/3d-underwater-text-effect-online-682.html", 1);
+addTextproCommand("underwater3d", "https://en.ephoto360.com/3d-underwater-text-effect-online-682.html", 1);
 addTextproCommand("glass", "https://en.ephoto360.com/write-text-on-wet-glass-online-589.html", 1);
 addTextproCommand("graffiti3", "https://en.ephoto360.com/cover-graffiti-181.html", 1);
 addTextproCommand(
@@ -174,7 +177,7 @@ addTextproCommand(
 );
 addTextproCommand("cloud2", "https://en.ephoto360.com/create-a-cloud-text-effect-in-the-sky-618.html", 1);
 addTextproCommand("neon3", "https://en.ephoto360.com/neon-text-effect-171.html", 1);
-addTextproCommand("space", "https://en.ephoto360.com/latest-space-3d-text-effect-online-559.html", 2);
+addTextproCommand("space3d", "https://en.ephoto360.com/latest-space-3d-text-effect-online-559.html", 2);
 addTextproCommand("boobs", "https://en.ephoto360.com/music-equalizer-text-effect-259.html", 1);
 addTextproCommand(
   "blackpink3",

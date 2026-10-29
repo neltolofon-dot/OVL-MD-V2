@@ -1,103 +1,140 @@
-const fs = require("fs");
-const path = require("path");
 const { delay, DisconnectReason, jidDecode } = require("@whiskeysockets/baileys");
 const { execSync } = require("child_process");
 let evt = require("../lib/ovlcmd");
-const pkg = require("../package");
+const pkg = require("../package.json");
 const config = require("../set");
 const { manage_env } = require("../lib/manage_env");
 const { installpg, reloadCommands } = require("../lib/plugin");
-const decodeJid = v1 => {
-  if (!v1) {
-    return v1;
+
+const decodeJid = jid => {
+  if (!jid) return jid;
+  if (/:\d+@/gi.test(jid)) {
+    const decoded = jidDecode(jid) || {};
+    return (decoded.user && decoded.server && decoded.user + "@" + decoded.server) || jid;
   }
-  if (/:\d+@/gi.test(v1)) {
-    const v12 = jidDecode(v1) || {};
-    return (v12.user && v12.server && v12.user + "@" + v12.server) || v1;
-  }
-  return v1;
+  return jid;
 };
+
+// Tentatives de reconnexion : délai croissant pour ne pas marteler les
+// serveurs WhatsApp (et se faire bloquer) quand la panne dure.
+let tentativesReconnexion = 0;
+const DELAI_RECONNEXION_MAX_MS = 60000;
+
+// `npm install` ne doit tourner qu'une fois par processus : auparavant il était
+// relancé à chaque reconnexion, ce qui pouvait bloquer le bot plusieurs minutes.
+let dependancesVerifiees = false;
+
 async function installMissingDependencies() {
-  const package = require("../package.json");
-  const v1 = {
-    ...package.dependencies,
-    ...package.devDependencies,
-  };
-  const v2 = [];
-  for (const v12 of Object.keys(v1 || {})) {
+  if (dependancesVerifiees || process.env.AUTO_INSTALL === "off") return;
+  dependancesVerifiees = true;
+
+  const manifeste = { ...pkg.dependencies, ...pkg.devDependencies };
+  const manquantes = [];
+  for (const nom of Object.keys(manifeste || {})) {
     try {
-      require.resolve(v12);
+      require.resolve(nom);
     } catch {
-      v2.push(v12 + "@" + v1[v12]);
+      manquantes.push(nom + "@" + manifeste[nom]);
     }
   }
-  if (!v2.length) {
-    return;
-  }
-  console.log("⚙️ Installation des dépendances manquantes : " + v2.join(", "));
+  if (!manquantes.length) return;
+
+  console.log("⚙️ Installation des dépendances manquantes : " + manquantes.join(", "));
   try {
-    execSync("npm install " + v2.join(" "), {
-      stdio: "inherit",
-    });
+    execSync("npm install " + manquantes.join(" "), { stdio: "inherit" });
     console.log("✅ Dépendances installées.");
   } catch (e) {
     console.error("❌ Erreur installation npm :", e.message);
+    console.error("   Lancez `npm install` manuellement puis redémarrez le bot.");
   }
 }
-async function connection_update(v1, v2, v3, v4 = null) {
-  const { connection, lastDisconnect } = v1;
+
+function resumeDemarrage() {
+  return (
+    "╭───〔 🤖 OVL BOT 〕───⬣\n" +
+    "│ ߷ *Etat*       ➜ Connecté ✅\n" +
+    `│ ߷ *Préfixe*    ➜ ${config.PREFIXE}\n` +
+    `│ ߷ *Mode*       ➜ ${config.MODE}\n` +
+    `│ ߷ *Commandes*  ➜ ${evt.cmd.length}\n` +
+    `│ ߷ *Version*    ➜ ${pkg.version}\n` +
+    `│ ߷ *Owner*      ➜ ${config.NOM_OWNER}\n` +
+    "│ ߷ *Base*       ➜ OVL-MD-V2 (Ainz)\n" +
+    "╰──────────────⬣"
+  );
+}
+
+async function connection_update(update, ovl, reconnecter, onPret = null) {
+  const { connection, lastDisconnect } = update;
+
   switch (connection) {
     case "connecting":
       console.log("🌍 Connexion en cours...");
       break;
-    case "open":
-      console.log(
-        "\n╭─────────────────╮\n│                  \n│   🎉 OVL BOT ONLINE 🎉  \n│                  \n╰─────────────────╯\n",
-      );
-      console.log("🔄 Synchronisation des variables d'environnement...");
-      await manage_env();
-      console.log("✅ Variables synchronisées.");
-      await installpg();
+
+    case "open": {
+      tentativesReconnexion = 0;
+      console.log("\n╭─────────────────────╮\n│  🎉 OVL BOT ONLINE 🎉  │\n╰─────────────────────╯\n");
+
+      try {
+        console.log("🔄 Synchronisation des variables d'environnement...");
+        await manage_env();
+        console.log("✅ Variables synchronisées.");
+      } catch (e) {
+        console.error("⚠️ Synchronisation des variables échouée :", e.message);
+      }
+
+      try {
+        await installpg();
+      } catch (e) {
+        console.error("⚠️ Chargement des plugins distants échoué :", e.message);
+      }
+
       await installMissingDependencies();
-      await reloadCommands();
+
+      try {
+        await reloadCommands();
+      } catch (e) {
+        console.error("⚠️ Chargement des commandes échoué :", e.message);
+      }
+
       await delay(1000);
-      const v12 =
-        "╭───〔 🤖 𝙊𝙑𝙇 𝘽𝙊𝙏 〕───⬣\n│ ߷ *Etat*       ➜ Connecté ✅\n│ ߷ *Préfixe*    ➜ " +
-        config.PREFIXE +
-        "\n│ ߷ *Mode*       ➜ " +
-        config.MODE +
-        "\n│ ߷ *Commandes*  ➜ " +
-        evt.cmd.length +
-        "\n│ ߷ *Version*    ➜ " +
-        pkg.version +
-        "\n│ ߷ *Développeur*➜ Ainz\n╰──────────────⬣";
-      console.log(v12);
-      await v2.sendMessage(decodeJid(v2.user.id), {
-        text: v12,
-        contextInfo: {
-          forwardingScore: 1,
-          isForwarded: true,
-          forwardedNewsletterMessageInfo: {
-            newsletterJid: "120363371282577847@newsletter",
-            newsletterName: "OVL-MD",
-          },
-        },
-      });
-      await delay(10000);
-      if (v4) {
-        await v4();
+      const resume = resumeDemarrage();
+      console.log(resume);
+
+      try {
+        await ovl.sendMessage(decodeJid(ovl.user.id), { text: resume });
+      } catch (e) {
+        console.error("⚠️ Message de démarrage non envoyé :", e.message);
       }
+
+      await delay(5000);
+      if (onPret) await onPret();
       break;
-    case "close":
-      const v22 = lastDisconnect?.error?.output?.statusCode;
-      if (v22 === DisconnectReason.loggedOut) {
-        console.log("⛔ Déconnecté : Session terminée.");
-      } else {
-        console.log("⚠️ Connexion perdue, reconnexion...");
-        await delay(5000);
-        v3();
+    }
+
+    case "close": {
+      const code = lastDisconnect?.error?.output?.statusCode;
+
+      if (code === DisconnectReason.loggedOut) {
+        console.error(
+          "⛔ Déconnecté : la session a été fermée depuis WhatsApp (appareil délié).\n" +
+            "   Supprimez le dossier auth/ et générez un nouveau SESSION_ID.",
+        );
+        return;
       }
+
+      tentativesReconnexion += 1;
+      const attente = Math.min(5000 * tentativesReconnexion, DELAI_RECONNEXION_MAX_MS);
+      console.warn(
+        `⚠️ Connexion perdue (code ${code ?? "inconnu"}), ` +
+          `reconnexion dans ${Math.round(attente / 1000)}s ` +
+          `(tentative ${tentativesReconnexion})...`,
+      );
+      await delay(attente);
+      reconnecter();
       break;
+    }
   }
 }
+
 module.exports = connection_update;

@@ -111,7 +111,12 @@ const emojis = [
   "🦺",
   "👔",
 ];
-const BLOCKED_REACT_JIDS = ["120363314687943170@g.us", "120363404635307998@g.us", "120363398500341783@g.us"];
+// Discussions où l'auto-réaction ne doit pas s'appliquer.
+// Configurable : NO_AUTOREACT_JIDS="1203...@g.us,1203...@g.us"
+const BLOCKED_REACT_JIDS = (process.env.NO_AUTOREACT_JIDS || "")
+  .split(",")
+  .map(jid => jid.trim())
+  .filter(Boolean);
 function getRandomEmoji() {
   return emojis[Math.floor(Math.random() * emojis.length)];
 }

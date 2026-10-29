@@ -1,28 +1,5 @@
-const { Sequelize, DataTypes } = require("sequelize");
-const config = require("../set");
-const db = config.DATABASE;
-let sequelize;
-if (!db) {
-  sequelize = new Sequelize({
-    dialect: "sqlite",
-    storage: "./database.db",
-    logging: false,
-  });
-} else {
-  sequelize = new Sequelize(db, {
-    dialect: "postgres",
-    ssl: true,
-    protocol: "postgres",
-    dialectOptions: {
-      native: true,
-      ssl: {
-        require: true,
-        rejectUnauthorized: false,
-      },
-    },
-    logging: false,
-  });
-}
+const { DataTypes } = require("sequelize");
+const sequelize = require("./db");
 const Antimention = sequelize.define(
   "Antimention",
   {
@@ -68,7 +45,9 @@ const Antimention_warnings = sequelize.define(
 (async () => {
   await Antimention.sync();
   await Antimention_warnings.sync();
-})();
+})().catch(e =>
+  console.error("❌ Synchronisation de la base impossible (antimention.js) :", e.message),
+);
 module.exports = {
   Antimention,
   Antimention_warnings,

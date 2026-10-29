@@ -1,28 +1,5 @@
-const { Sequelize, DataTypes } = require("sequelize");
-const config = require("../set");
-const db = config.DATABASE;
-let sequelize;
-if (!db) {
-  sequelize = new Sequelize({
-    dialect: "sqlite",
-    storage: "./database.db",
-    logging: false,
-  });
-} else {
-  sequelize = new Sequelize(db, {
-    dialect: "postgres",
-    ssl: true,
-    protocol: "postgres",
-    dialectOptions: {
-      native: true,
-      ssl: {
-        require: true,
-        rejectUnauthorized: false,
-      },
-    },
-    logging: false,
-  });
-}
+const { DataTypes } = require("sequelize");
+const sequelize = require("./db");
 const GroupSettings = sequelize.define(
   "GroupSettings",
   {
@@ -84,7 +61,9 @@ const Events2 = sequelize.define(
 (async () => {
   await GroupSettings.sync();
   await Events2.sync();
-})();
+})().catch(e =>
+  console.error("❌ Synchronisation de la base impossible (events.js) :", e.message),
+);
 module.exports = {
   GroupSettings,
   Events2,

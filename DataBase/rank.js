@@ -1,28 +1,5 @@
-const { Sequelize, DataTypes } = require("sequelize");
-const config = require("../set");
-const db = config.DATABASE;
-let sequelize;
-if (!db) {
-  sequelize = new Sequelize({
-    dialect: "sqlite",
-    storage: "./database.db",
-    logging: false,
-  });
-} else {
-  sequelize = new Sequelize(db, {
-    dialect: "postgres",
-    ssl: true,
-    protocol: "postgres",
-    dialectOptions: {
-      native: true,
-      ssl: {
-        require: true,
-        rejectUnauthorized: false,
-      },
-    },
-    logging: false,
-  });
-}
+const { DataTypes } = require("sequelize");
+const sequelize = require("./db");
 const Ranks = sequelize.define(
   "Ranks",
   {
@@ -74,7 +51,9 @@ const Levelup = sequelize.define(
 (async () => {
   await Ranks.sync();
   await Levelup.sync();
-})();
+})().catch(e =>
+  console.error("❌ Synchronisation de la base impossible (rank.js) :", e.message),
+);
 module.exports = {
   Ranks,
   Levelup,

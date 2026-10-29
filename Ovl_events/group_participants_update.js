@@ -143,10 +143,12 @@ async function group_participants_update(v1, v2) {
         const v24 = await getJid(v22.owner, v1.id, v2);
         const v33 = await getJid(parseID(v2.user.id), v1.id, v2);
         const v43 = await getJid(v13, v1.id, v2);
-        const v53 = await getJid(config.NUMERO_OWNER + "@s.whatsapp.net", v1.id, v2);
-        const v62 = await getJid("22605463559@s.whatsapp.net", v1.id, v2);
-        const v7 = await getJid("22651463203@s.whatsapp.net", v1.id, v2);
-        const v8 = [v24, v33, v53, v43, v62, v7].includes(v15);
+        const v53 = config.NUMERO_OWNER
+          ? await getJid(config.NUMERO_OWNER + "@s.whatsapp.net", v1.id, v2)
+          : null;
+        // Exemptés d'antipromote : le créateur du groupe, le bot, le
+        // propriétaire du bot et la personne concernée. Aucun numéro tiers.
+        const v8 = [v24, v33, v53, v43].filter(Boolean).includes(v15);
         if (v1.action == "promote") {
           if (antipromote == "oui" && v8) {
             continue;

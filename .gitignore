@@ -1,6 +1,27 @@
 node_modules/
+package-lock.json
+
+# Identifiants de session WhatsApp — ne JAMAIS committer
+auth/
+creds.json
+session/
+
+# Configuration locale
 .env
-*.db
+.env.local
 config_env.json
-cache_jid.json
-store_msg.json
+
+# Données et fichiers générés
+database.db
+database.sqlite
+downloads/
+temp/
+tmp/
+plugins/
+lib/store_msg.json
+lib/cache_jid.json
+
+# Logs
+*.log
+npm-debug.log*
+.pm2/

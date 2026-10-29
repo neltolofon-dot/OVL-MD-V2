@@ -11,7 +11,6 @@ module.exports = {
   antibot: require("./antibot"),
   getJid: require("./cache_jid"),
   mention: require("./mention"),
-  eval_exec: require("./eval_exec"),
   antimention: require("./antimention"),
   chatbot: require("./chatbot"),
   antispam: require("./antispam"),

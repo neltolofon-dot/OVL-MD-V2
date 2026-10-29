@@ -1,28 +1,5 @@
-const { Sequelize, DataTypes } = require("sequelize");
-const config = require("../set");
-const db = config.DATABASE;
-let sequelize;
-if (!db) {
-  sequelize = new Sequelize({
-    dialect: "sqlite",
-    storage: "./database.db",
-    logging: false,
-  });
-} else {
-  sequelize = new Sequelize(db, {
-    dialect: "postgres",
-    ssl: true,
-    protocol: "postgres",
-    dialectOptions: {
-      native: true,
-      ssl: {
-        require: true,
-        rejectUnauthorized: false,
-      },
-    },
-    logging: false,
-  });
-}
+const { DataTypes } = require("sequelize");
+const sequelize = require("./db");
 const StickCmds = sequelize.define(
   "StickCmds",
   {
@@ -42,7 +19,9 @@ const StickCmds = sequelize.define(
 );
 (async () => {
   await StickCmds.sync();
-})();
+})().catch(e =>
+  console.error("❌ Synchronisation de la base impossible (stick_cmd.js) :", e.message),
+);
 async function set_stick_cmd(v1, v2) {
   if (!v1 || !v2) {
     throw new Error("Commande ou URL manquante");

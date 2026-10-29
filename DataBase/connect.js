@@ -1,29 +1,6 @@
-const { Sequelize, DataTypes } = require("sequelize");
-const config = require("../set");
+const { DataTypes } = require("sequelize");
+const sequelize = require("./db");
 const { get_session } = require("./session");
-const db = config.DATABASE;
-let sequelize;
-if (!db) {
-  sequelize = new Sequelize({
-    dialect: "sqlite",
-    storage: "./database.db",
-    logging: false,
-  });
-} else {
-  sequelize = new Sequelize(db, {
-    dialect: "postgres",
-    ssl: true,
-    protocol: "postgres",
-    dialectOptions: {
-      native: true,
-      ssl: {
-        require: true,
-        rejectUnauthorized: false,
-      },
-    },
-    logging: false,
-  });
-}
 const Connect = sequelize.define(
   "Connect",
   {
@@ -43,61 +20,59 @@ const Connect = sequelize.define(
 );
 (async () => {
   await Connect.sync();
-})();
-async function saveSecondSession(v1) {
-  let v2 = await get_session(v1);
-  let v3 = v2.creds;
-  if (!v3) {
-    console.error("❌ Session invalide pour l’ID : " + v1);
+})().catch(e =>
+  console.error("❌ Synchronisation de la base impossible (connect.js) :", e.message),
+);
+async function saveSecondSession(sessionId) {
+  let session;
+  try {
+    session = await get_session(sessionId);
+  } catch (e) {
+    console.error("❌ Récupération de la session impossible :", e.message);
     return false;
   }
-  let v4;
+  if (!session?.creds) {
+    console.error("❌ Session invalide ou introuvable pour l’ID : " + sessionId);
+    return false;
+  }
+
+  let creds;
   try {
-    v4 = typeof v3 === "string" ? JSON.parse(v3) : v3;
+    creds = typeof session.creds === "string" ? JSON.parse(session.creds) : session.creds;
   } catch (e) {
     console.error("❌ Erreur de parsing JSON :", e.message);
     return false;
   }
-  if (!v4?.me?.id) {
+  if (!creds?.me?.id) {
     console.error("❌ Numéro introuvable dans les creds");
     return false;
   }
-  const v5 = v4.me.id.split(":")[0];
+
+  const numero = creds.me.id.split(":")[0];
   try {
-    await Connect.upsert({
-      numero: v5,
-      session_id: v1,
-    });
-    console.log("✅ Session enregistrée : " + v5 + " ➜ " + v1);
+    await Connect.upsert({ numero, session_id: sessionId });
+    console.log(`✅ Session enregistrée : ${numero} ➜ ${sessionId}`);
     return true;
   } catch (e) {
     console.error("❌ Erreur lors de l'enregistrement :", e.message);
     return false;
   }
 }
-async function getSecondSession(v1) {
-  const v2 = await Connect.findByPk(v1);
-  if (!v2) {
-    return null;
-  }
-  const v3 = await get_session(v2.session_id);
-  return v3 || null;
+
+async function getSecondSession(numero) {
+  const ligne = await Connect.findByPk(numero);
+  if (!ligne) return null;
+  const session = await get_session(ligne.session_id);
+  return session || null;
 }
+
 async function getSecondAllSessions() {
-  const v1 = await Connect.findAll({
-    attributes: ["numero", "session_id"],
-  });
-  return v1.map(v12 => ({
-    numero: v12.numero,
-    session_id: v12.session_id,
-  }));
+  const lignes = await Connect.findAll({ attributes: ["numero", "session_id"] });
+  return lignes.map(l => ({ numero: l.numero, session_id: l.session_id }));
 }
-async function deleteSecondSession(v1) {
-  return await Connect.destroy({
-    where: {
-      numero: v1,
-    },
-  });
+
+async function deleteSecondSession(numero) {
+  return await Connect.destroy({ where: { numero } });
 }
 module.exports = {
   saveSecondSession,
